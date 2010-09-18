@@ -5,7 +5,7 @@ styling and transitions) rather than a big canvas/svg/plugin.
 
 Play with a [demo][].
 
-[demo]: fixme
+[demo]: http://martine.github.com/webtreemap/demo/demo.html
 
 ## Creating your own
 
@@ -13,7 +13,7 @@ Play with a [demo][].
    your treemap.
 2. Add the treemap to the node via something like
 
-        Treemap.create(document.getElementById('mynode'), mydata);
+        appendTreemap(document.getElementById('mynode'), mydata);
 3. Style the treemap using CSS.
 
 ### Input format
@@ -30,7 +30,7 @@ root) should contain data in the following format.
       children: (list of child tree nodes)
     }
 
-(This strange format for data comes from the the [JavaScrivt InfoVis
+(This strange format for data comes from the the [JavaScript InfoVis
 Toolkit][thejit].  I might change it in the future.)
 
 The `$area` of a node should be the sum of the `$area` of all of its
@@ -56,3 +56,8 @@ the caption on a per-level basis, use a CSS selector like
 Your best bet is to modify the included `webtreemap.css`, which
 contains comments about required and optional CSS attributes.
 
+## Related projects
+
+* [JavaScript InfoVis Toolkit][thejit]
+
+[thejit]: http://thejit.org/
