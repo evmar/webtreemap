@@ -198,7 +198,7 @@ function layout(tree, level, width, height) {
 }
 
 function appendTreemap(dom, data) {
-  var style = getComputedStyle(dom);
+  var style = getComputedStyle(dom, null);
   var width = parseInt(style.width);
   var height = parseInt(style.height);
   makeDom(data, 0);
