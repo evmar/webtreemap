@@ -201,7 +201,8 @@ function appendTreemap(dom, data) {
   var style = getComputedStyle(dom, null);
   var width = parseInt(style.width);
   var height = parseInt(style.height);
-  makeDom(data, 0);
+  if (!data.dom)
+    makeDom(data, 0);
   dom.appendChild(data.dom);
   position(data.dom, 0, 0, width, height);
   layout(data, 0, width, height);
