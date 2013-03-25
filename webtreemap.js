@@ -40,6 +40,15 @@ function makeDom(tree, level) {
   var dom = document.createElement('div');
   dom.style.zIndex = 1;
   dom.className = 'webtreemap-node webtreemap-level' + Math.min(level, 4);
+  if (tree.data['$symbol']) {
+    dom.className += (' webtreemap-symbol-' +
+	tree.data['$symbol'].replace(' ', '_'));
+  }
+  if (tree.data['$dominant_symbol']) {
+    dom.className += (' webtreemap-symbol-' +
+	tree.data['$dominant_symbol'].replace(' ', '_'));
+    dom.className += (' webtreemap-aggregate');
+  }
 
   dom.onmousedown = function(e) {
     if (e.button == 0) {
