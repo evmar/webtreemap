@@ -15,6 +15,8 @@
 // Size of border around nodes.
 // We could support arbitrary borders using getComputedStyle(), but I am
 // skeptical the extra complexity (and performance hit) is worth it.
+
+;(function() {
 var kBorderWidth = 1;
 
 // Padding around contents.
@@ -230,3 +232,6 @@ function appendTreemap(dom, data) {
   position(data.dom, 0, 0, width, height);
   layout(data, 0, width, height);
 }
+
+window.appendTreemap = appendTreemap;
+})(window);
