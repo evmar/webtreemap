@@ -154,15 +154,6 @@ function layout(tree, level, width, height) {
 
   var pixels_to_units = Math.sqrt(total / ((x2 - x1) * (y2 - y1)));
 
-  // The algorithm does best at laying out items from largest to smallest.
-  // Sort them to ensure this.
-  if (!tree.children.sorted) {
-    tree.children.sort(function (a, b) {
-      return b.data['$area'] - a.data['$area'];
-    });
-    tree.children.sorted = true;
-  }
-
   for (var start = 0, child; child = tree.children[start]; ++start) {
     if (x2 - x1 < 60 || y2 - y1 < 40) {
       if (child.dom) {
@@ -232,10 +223,27 @@ function layout(tree, level, width, height) {
   }
 }
 
-function appendTreemap(dom, data) {
+// The algorithm does best at laying out items from largest to smallest.
+// Recursively sort the tree to ensure this.
+function treeSort(tree) {
+  tree.children.sort(function (a, b) {
+    return b.data['$area'] - a.data['$area'];
+  });
+  for (var i = 0; i < tree.children.length; ++i) {
+    var child = tree.children[i];
+    if ('children' in child) {
+      treeSort(child);
+    }
+  }
+}
+
+function appendTreemap(dom, data, options) {
   var style = getComputedStyle(dom, null);
   var width = parseInt(style.width);
   var height = parseInt(style.height);
+  if (options === undefined || options.sort !== false) {
+    treeSort(data);
+  }
   if (!data.dom)
     makeDom(data, 0);
   dom.appendChild(data.dom);

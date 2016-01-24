@@ -40,6 +40,12 @@ The `$area` of a node should be the sum of the `$area` of all of its
 attributes, `parent` and `dom`; this is only worth pointing out so
 that you don't accidentally conflict with them.)
 
+By default, appendTreemap will sort the tree's children from largest
+to smallest before placement. To retain the input order, pass an options
+argument to appendTreemap:
+
+        appendTreemap(document.getElementById('mynode'), mydata, {sort: false})
+
 ### CSS styling
 
 The treemap is constructed with one `div` per region with a separate
