@@ -23,6 +23,9 @@ var kBorderWidth = 1;
 // TODO: do this with a nested div to allow it to be CSS-styleable.
 var kPadding = 4;
 
+// x/y ratio to aim for -- wider rectangles are better for text display
+var kAspectRatio = 1.2;
+
 var focused = null;
 
 function focus(tree) {
@@ -108,7 +111,7 @@ function position(dom, x, y, width, height) {
 function selectSpan(nodes, space, start) {
   // Add rectangle one by one, stopping when aspect ratios begin to go
   // bad.  Result is [start,end) covering the best run for this span.
-  // http://scholar.google.com/scholar?cluster=5972512107845615474
+  // http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.6685
   var node = nodes[start];
   var rmin = node.data['$area'];  // Smallest seen child so far.
   var rmax = rmin;                // Largest child.
@@ -124,10 +127,10 @@ function selectSpan(nodes, space, start) {
 
     // This formula is from the paper, but you can easily prove to
     // yourself it's taking the larger of the x/y aspect ratio or the
-    // y/x aspect ratio.  The additional magic fudge constant of 5
-    // makes us prefer wider rectangles to taller ones.
-    var score = Math.max(5*space*space*rmax / (rsum*rsum),
-                         1*rsum*rsum / (space*space*rmin));
+    // y/x aspect ratio.  The additional magic fudge constant of kAspectRatio
+    // lets us prefer wider rectangles to taller ones.
+    var score = Math.max(space*space*rmax / (rsum*rsum),
+                         kAspectRatio*rsum*rsum / (space*space*rmin));
     if (last_score && score > last_score) {
       rsum -= size;  // Undo size addition from just above.
       break;
@@ -160,11 +163,8 @@ function layout(tree, level, width, height) {
       continue;
     }
 
-    // In theory we can dynamically decide whether to split in x or y based
-    // on aspect ratio.  In practice, changing split direction with this
-    // layout doesn't look very good.
-    //   var ysplit = (y2 - y1) > (x2 - x1);
-    var ysplit = true;
+    // Dynamically decide whether to split in x or y based on aspect ratio.
+    var ysplit = ((y2 - y1) / (x2 - x1)) > kAspectRatio;
 
     var space;  // Space available along layout axis.
     if (ysplit)
@@ -223,10 +223,27 @@ function layout(tree, level, width, height) {
   }
 }
 
-function appendTreemap(dom, data) {
+// The algorithm does best at laying out items from largest to smallest.
+// Recursively sort the tree to ensure this.
+function treeSort(tree) {
+  tree.children.sort(function (a, b) {
+    return b.data['$area'] - a.data['$area'];
+  });
+  for (var i = 0; i < tree.children.length; ++i) {
+    var child = tree.children[i];
+    if ('children' in child) {
+      treeSort(child);
+    }
+  }
+}
+
+function appendTreemap(dom, data, options) {
   var style = getComputedStyle(dom, null);
   var width = parseInt(style.width);
   var height = parseInt(style.height);
+  if (options === undefined || options.sort !== false) {
+    treeSort(data);
+  }
   if (!data.dom)
     makeDom(data, 0);
   dom.appendChild(data.dom);

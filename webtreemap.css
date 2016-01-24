@@ -6,10 +6,10 @@
   border: solid 1px black;  /* Calculations assume 1px border. */
 
   /* Optional: CSS animation. */
-  -webkit-transition: top    0.3s,
-                      left   0.3s,
-                      width  0.3s,
-                      height 0.3s;
+  transition: top    0.3s,
+              left   0.3s,
+              width  0.3s,
+              height 0.3s;
 }
 
 /* Optional: highlight nodes on mouseover. */
