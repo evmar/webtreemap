@@ -1,0 +1,23 @@
+{
+  "name": "webtreemap",
+  "version": "1.0.0",
+  "description": "A simple treemap implementation using web technologies",
+  "main": "webtreemap.js",
+  "files": [
+    "webtreemap.css",
+    "webtreemap.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martine/webtreemap.git"
+  },
+  "keywords": [
+    "treemap"
+  ],
+  "author": "Evan Martin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/martine/webtreemap/issues"
+  },
+  "homepage": "https://github.com/martine/webtreemap#readme"
+}

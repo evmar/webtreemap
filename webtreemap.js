@@ -12,11 +12,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+;(function(root, factory) {
+  if (typeof define === 'function' && define.amd)
+    define([], factory);
+  else if (typeof module === 'object' && module.exports)
+    module.exports = factory();
+  else
+    root.appendTreemap = factory();
+}(this, function() {
 // Size of border around nodes.
 // We could support arbitrary borders using getComputedStyle(), but I am
 // skeptical the extra complexity (and performance hit) is worth it.
-
-;(function() {
 var kBorderWidth = 1;
 
 // Padding around contents.
@@ -251,5 +257,5 @@ function appendTreemap(dom, data, options) {
   layout(data, 0, width, height);
 }
 
-window.appendTreemap = appendTreemap;
-})(window);
+return appendTreemap;
+}));
