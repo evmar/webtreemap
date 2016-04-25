@@ -75,6 +75,12 @@ function makeDom(tree, level) {
     dom.className += (' webtreemap-aggregate');
   }
 
+  for(key in tree.data){
+    if(key != '$area'){
+      dom.setAttribute('data-' + key, tree.data[key]);
+    }
+  }
+
   dom.onmousedown = function(e) {
     if (e.button == 0) {
       if (focused && tree == focused && focused.parent) {
