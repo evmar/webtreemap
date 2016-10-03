@@ -5,7 +5,7 @@ styling and transitions) rather than a big canvas/svg/plugin.
 
 Play with a [demo][].
 
-[demo]: http://martine.github.com/webtreemap/demo/demo.html
+[demo]: http://evmar.github.io/webtreemap/demo/demo.html
 
 ## Creating your own
 
