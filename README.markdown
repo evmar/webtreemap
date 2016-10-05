@@ -24,6 +24,7 @@ root) should contain data in the following format.
 
     {
       name: (HTML that is displayed via .innerHTML on the caption),
+      title: (text that is displayed on hover, fallback to "name"),
       data: {
         "$area": (a number, in arbitrary units)
       },

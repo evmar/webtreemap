@@ -13,12 +13,13 @@
 // limitations under the License.
 
 ;(function(root, factory) {
-  if (typeof define === 'function' && define.amd)
+  if (typeof define === 'function' && define.amd) {
     define([], factory);
-  else if (typeof module === 'object' && module.exports)
+  } else if (typeof module === 'object' && module.exports) {
     module.exports = factory();
-  else
+  } else {
     root.appendTreemap = factory();
+  }
 }(this, function() {
 // Size of border around nodes.
 // We could support arbitrary borders using getComputedStyle(), but I am
@@ -44,8 +45,9 @@ function focus(tree) {
     root = root.parent;
     level += 1;
     for (var i = 0, sibling; sibling = root.children[i]; ++i) {
-      if (sibling.dom)
+      if (sibling.dom) {
         sibling.dom.style.zIndex = 0;
+      }
     }
   }
   var width = root.dom.offsetWidth;
@@ -67,16 +69,16 @@ function makeDom(tree, level) {
   dom.className = 'webtreemap-node webtreemap-level' + Math.min(level, 4);
   if (tree.data['$symbol']) {
     dom.className += (' webtreemap-symbol-' +
-	tree.data['$symbol'].replace(' ', '_'));
+    tree.data['$symbol'].replace(' ', '_'));
   }
   if (tree.data['$dominant_symbol']) {
     dom.className += (' webtreemap-symbol-' +
-	tree.data['$dominant_symbol'].replace(' ', '_'));
+    tree.data['$dominant_symbol'].replace(' ', '_'));
     dom.className += (' webtreemap-aggregate');
   }
 
-  for(key in tree.data){
-    if(key != '$area'){
+  for(var key in tree.data) {
+    if(key != '$area') {
       dom.setAttribute('data-' + key, tree.data[key]);
     }
   }
@@ -97,7 +99,7 @@ function makeDom(tree, level) {
   caption.className = 'webtreemap-caption';
   caption.innerHTML = tree.name;
   dom.appendChild(caption);
-  dom.title = tree.name;
+  dom.title = tree.title || tree.name;
 
   tree.dom = dom;
   return dom;
@@ -153,8 +155,9 @@ function selectSpan(nodes, space, start) {
 }
 
 function layout(tree, level, width, height) {
-  if (!('children' in tree))
+  if (!('children' in tree)) {
     return;
+  }
 
   var total = tree.data['$area'];
 
@@ -179,10 +182,11 @@ function layout(tree, level, width, height) {
     var ysplit = ((y2 - y1) / (x2 - x1)) > kAspectRatio;
 
     var space;  // Space available along layout axis.
-    if (ysplit)
+    if (ysplit) {
       space = (y2 - y1) * pixels_to_units;
-    else
+    } else {
       space = (x2 - x1) * pixels_to_units;
+    }
 
     var span = selectSpan(tree.children, space, start);
     var end = span[0], rsum = span[1];
@@ -200,7 +204,6 @@ function layout(tree, level, width, height) {
         child.dom.style.zIndex = 1;
       }
       var size = child.data['$area'];
-      var frac = size / rsum;
       if (ysplit) {
         width = rsum / space;
         height = size / width;
@@ -216,17 +219,19 @@ function layout(tree, level, width, height) {
       if ('children' in child) {
         layout(child, level + 1, width, height);
       }
-      if (ysplit)
+      if (ysplit) {
         y += height;
-      else
+      } else {
         x += width;
+      }
     }
 
     // Shrink our available space based on the amount we used.
-    if (ysplit)
+    if (ysplit) {
       x1 += Math.round((rsum / space) / pixels_to_units);
-    else
+    } else {
       y1 += Math.round((rsum / space) / pixels_to_units);
+    }
 
     // end points one past where we ended, which is where we want to
     // begin the next iteration, but subtract one to balance the ++ in
@@ -256,8 +261,9 @@ function appendTreemap(dom, data, options) {
   if (options === undefined || options.sort !== false) {
     treeSort(data);
   }
-  if (!data.dom)
+  if (!data.dom) {
     makeDom(data, 0);
+  }
   dom.appendChild(data.dom);
   position(data.dom, 0, 0, width, height);
   layout(data, 0, width, height);
