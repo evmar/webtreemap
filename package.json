@@ -1,0 +1,26 @@
+{
+  "name": "webtreemap",
+  "version": "0.1.0",
+  "description": "treemap visualization",
+  "main": "treemap.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "clang-format --style=google -i *.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martine/webtreemap.git"
+  },
+  "keywords": [
+    "treemap",
+    "visualization"
+  ],
+  "author": "Evan Martin <evan.martin@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/martine/webtreemap/issues"
+  },
+  "homepage": "https://github.com/martine/webtreemap#readme"
+}
