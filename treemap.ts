@@ -1,26 +1,67 @@
+/**
+ * Data is the expected shape of input data.
+ */
+export interface Data {
+  /** size should be >= the sum of the children's size. */ 
+  size: number;
+  /** children should be sorted by size in descending order. */
+  children?: Data[];
+  /** caption is optional but can be used to caption each node. */
+  caption?: string;
+}
+
 export interface Options {
   getPadding(): [number, number, number, number];
+  createNode(data: Data): HTMLElement;
 }
 
 export function newOptions(): Options {
   return {
     getPadding() {
       return [0, 0, 0, 0];
+    },
+    createNode(data: Data) {
+      const dom = document.createElement('div');
+      dom.className = 'webtreemap-node';
+      return dom;
     }
   };
 }
 
-interface Data {
+export function newCaptionOptions(): Options {
+  const options = newOptions();
+  const createNode = options.createNode;
+  options.getPadding = () => [14, 0, 0, 0];
+  options.createNode = (data) => {
+    const dom = createNode(data);
+    const caption = document.createElement('div');
+    caption.className = 'webtreemap-caption';
+    caption.innerText = data.caption;
+    dom.appendChild(caption);
+    return dom;
+  };
+  return options;
+}
+
+interface OldData {
   data: {
     '$area': number,
   };
   name: string;
-  children: Data[];
+  children?: OldData[];
+}
+
+function transform(old: OldData): Data {
+  return {
+    size: old.data['$area'],
+    caption: old.name,
+    children: old.children ? old.children.map(transform) : undefined,
+  };
 }
 
 export class TreeMap {
-  options: Options;
-  construtor(options = newOptions()) { }
+  constructor(private options = newOptions()) {
+  }
 
   /**
    * Given a list of sizes, the 1-d space available
@@ -83,13 +124,17 @@ export class TreeMap {
   }
 
   layout(container: HTMLElement, data: Data, width: number, height: number) {
-    const total: number = data.data['$area'];
+    const total: number = data.size;
     const children = data.children;
     if (!children) return;
-    const sizes = children.map(c => c.data['$area']);
+    const sizes = children.map(c => c.size);
 
     let x1 = 0, y1 = 0, x2 = width, y2 = height;
-    y1 += 14;
+
+    const padding = this.options.getPadding();
+    y1 += padding[0]; x2 -= padding[1];
+    y2 -= padding[2]; x1 += padding[3];
+
     if ((x2 - x1) < 40) return;
     if ((y2 - y1) < 100) return;
     const scale = Math.sqrt(total / ((x2 - x1) * (y2 - y1)));
@@ -107,18 +152,12 @@ export class TreeMap {
       for (let i = start; i < end; i++) {
         const size = sizes[i];
         width = size / height;
-        const dom = document.createElement('div');
-        dom.className = 'webtreemap-node';
+        const dom = this.options.createNode(children[i]);
         dom.style.left = px(x);
         dom.style.width = px(width / scale);
         dom.style.top = px(y);
         dom.style.height = px(height / scale);
         container.appendChild(dom);
-
-        const caption = document.createElement('div');
-        caption.className = 'webtreemap-caption';
-        caption.innerText = children[i].name;
-        dom.appendChild(caption);
 
         this.layout(dom, children[i], width / scale, height / scale);
 
@@ -130,7 +169,11 @@ export class TreeMap {
   }
 }
 
-export function render(container: HTMLElement, data: any) {
-  const treemap = new TreeMap();
-  treemap.layout(container, data, container.offsetWidth, container.offsetHeight);
+/**
+ * render implements the backward-compatible API.
+ */
+export function render(container: HTMLElement, data: OldData) {
+  const options = newCaptionOptions();
+  const treemap = new TreeMap(options);
+  treemap.layout(container, transform(data), container.offsetWidth, container.offsetHeight);
 }
