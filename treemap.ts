@@ -72,17 +72,17 @@ export class TreeMap {
    * 2-d sum of the rectangles' areas.
    */
   private selectSpan(
-    sizes: number[], space: number, start: number): { end: number, sum: number } {
+    children: Data[], space: number, start: number): { end: number, sum: number } {
     // Add rectangles one by one, stopping when aspect ratios begin to go
     // bad.  Result is [start,end) covering the best run for this span.
     // http://scholar.google.com/scholar?cluster=5972512107845615474
-    let smin = sizes[start];  // Smallest seen child so far.
-    let smax = smin;          // Largest child.
-    let sum = 0;              // Sum of children in this span.
-    let lastScore = 0;        // Best score yet found.
+    let smin = children[start].size;  // Smallest seen child so far.
+    let smax = smin;                  // Largest child.
+    let sum = 0;                      // Sum of children in this span.
+    let lastScore = 0;                // Best score yet found.
     let end = start;
-    for (; end < sizes.length; end++) {
-      const size = sizes[end];
+    for (; end < children.length; end++) {
+      const size = children[end].size;
       if (size < smin) smin = size;
       if (size > smax) smax = size;
 
@@ -98,7 +98,7 @@ export class TreeMap {
       // Its width and width/height ratio is:
       //   width = smax / height
       //   width/height = (smax / (sum/space)) / (sum/space)
-      //                = smax * space * space / (sum * sum)
+      //                = (smax * space * space) / (sum * sum)
       //
       // The smallest rectangle potentially will be too narrow.
       // Its width and height/width ratio is:
@@ -109,9 +109,8 @@ export class TreeMap {
       // Take the larger of these two ratios as the measure of the
       // worst non-squarenesss.
       const score = Math.max(
-        1 * smax * space * space / (nextSum * nextSum),
-        1 * nextSum * nextSum / (smin * space * space));
-      // console.log('end', end, 'score', score);
+        smax * space * space / (nextSum * nextSum),
+        nextSum * nextSum / (smin * space * space));
       if (lastScore && score > lastScore) {
         // Including this additional rectangle produces worse squareness than
         // without it.  We're done.
@@ -127,7 +126,6 @@ export class TreeMap {
     const total: number = data.size;
     const children = data.children;
     if (!children) return;
-    const sizes = children.map(c => c.size);
 
     let x1 = 0, y1 = 0, x2 = width, y2 = height;
 
@@ -146,11 +144,11 @@ export class TreeMap {
     for (let start = 0; start < children.length;) {
       x = x1;
       const space = scale * (x2 - x1);
-      const {end, sum} = this.selectSpan(sizes, space, start);
+      const {end, sum} = this.selectSpan(children, space, start);
       if (sum / total < 0.1) break;
       height = sum / space;
       for (let i = start; i < end; i++) {
-        const size = sizes[i];
+        const size = children[i].size;
         width = size / height;
         const dom = this.options.createNode(children[i]);
         dom.style.left = px(x);
