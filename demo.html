@@ -1,35 +1,39 @@
 <!doctype html>
 <style>
-    body {
-        font-family: sans-serif;
-    }
-    .webtreemap-node {
-        position: absolute;
-        border: solid 1px black;
-        box-sizing: border-box;
-        overflow: hidden;
-        background: white;
-    }
-    .webtreemap-node:hover {
-        background: #ddd;
-    }
-    .webtreemap-caption {
-        font-size: 10px;
-        text-align: center;
-    }
-    #tree {
-        width: 800px;
-        height: 600px;
-        position: relative;
-    }
-    </style>
+	body {
+		font-family: sans-serif;
+	}
+	
+	.webtreemap-node {
+		position: absolute;
+		border: solid 1px black;
+		box-sizing: border-box;
+		overflow: hidden;
+		background: white;
+	}
+	
+	.webtreemap-node:hover {
+		background: #ddd;
+	}
+	
+	.webtreemap-caption {
+		font-size: 10px;
+		text-align: center;
+	}
+	
+	#tree {
+		width: 600px;
+		height: 600px;
+		position: relative;
+	}
+</style>
 <div id='tree'></div>
 
-    <script src='old/demo/demo.json'></script>
+<script src='old/demo/demo.json'></script>
 <script>
     var exports = {};    </script>
-    <script src='treemap.js'></script>
-    <script>
+<script src='treemap.js'></script>
+<script>
 var dom = document.getElementById('tree');
 exports.render(dom, kTree);
         </script>
