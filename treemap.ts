@@ -12,13 +12,17 @@ export interface Data {
 
 export interface Options {
   getPadding(): [number, number, number, number];
+  getSpacing(): number;
   createNode(data: Data): HTMLElement;
 }
 
 export function newOptions(): Options {
   return {
     getPadding() {
-      return [0, 0, 0, 0];
+      return [0,0,0,0];
+    },
+    getSpacing() {
+      return 0;
     },
     createNode(data: Data) {
       const dom = document.createElement('div');
@@ -129,6 +133,7 @@ export class TreeMap {
 
     let x1 = 0, y1 = 0, x2 = width, y2 = height;
 
+    const spacing = this.options.getSpacing();
     const padding = this.options.getPadding();
     y1 += padding[0]; x2 -= padding[1];
     y2 -= padding[2]; x1 += padding[3];
@@ -137,7 +142,9 @@ export class TreeMap {
     if ((y2 - y1) < 100) return;
     const scale = Math.sqrt(total / ((x2 - x1) * (y2 - y1)));
     function px(x: number) {
-      // Rounding here makes the box edges touch better than letting the browser do it.
+    // Rounding when computing pixel coordinates makes the box edges touch better
+    // than letting the browser do it, because the browser has lots of heuristics
+    // around handling non-integer pixel coordinates.
       return Math.round(x) + 'px';
     }
     var x = x1, y = y1;
@@ -146,22 +153,25 @@ export class TreeMap {
       const space = scale * (x2 - x1);
       const {end, sum} = this.selectSpan(children, space, start);
       if (sum / total < 0.1) break;
-      height = sum / space;
+      const height = sum / space;
+      const heightPx = height / scale;
       for (let i = start; i < end; i++) {
         const size = children[i].size;
-        width = size / height;
+        const width = size / height;
+        const widthPx = width / scale;
         const dom = this.options.createNode(children[i]);
         dom.style.left = px(x);
-        dom.style.width = px(width / scale);
+        dom.style.width = px(widthPx - spacing);
         dom.style.top = px(y);
-        dom.style.height = px(height / scale);
+        dom.style.height = px(heightPx - spacing);
         container.appendChild(dom);
 
-        this.layout(dom, children[i], width / scale, height / scale);
+        // We lose 2px due to the border.
+        this.layout(dom, children[i], widthPx-2, heightPx-2);
 
-        x += width / scale;
+        x += widthPx;
       }
-      y += height / scale;
+      y += heightPx;
       start = end;
     }
   }
