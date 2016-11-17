@@ -47,7 +47,7 @@ export function newCaptionOptions(): Options {
   return options;
 }
 
-interface OldData {
+export interface OldData {
   data: {
     '$area': number,
   };

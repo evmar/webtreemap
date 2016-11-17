@@ -48,19 +48,4 @@
 	</div>
 </main>
 
-<script src='old/demo/demo.json'></script>
-<script>
-    var exports = {};    </script>
-<script src='treemap.js'></script>
-<script>
-function update() {
-    var checked = document.getElementById('captions').checked;
-    console.log(checked);
-    var dom = document.getElementById('tree');
-    exports.render(dom, kTree);
-}
-for (const control of document.getElementsByClassName('control')) {
-    control.onchange = update;
-}
-update();
-</script>
+<script src='bundle.js'></script>
