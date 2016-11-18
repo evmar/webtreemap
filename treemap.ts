@@ -182,9 +182,14 @@ export class TreeMap {
  * render implements the backward-compatible API.
  */
 export function render(
-    container: HTMLElement, data: OldData, options = newCaptionOptions()) {
+    container: HTMLElement, oldData: OldData, options = newCaptionOptions()) {
+  const data = transform(oldData);
+  const dom = options.createNode(data);
+  const width = container.offsetWidth;
+  const height = container.offsetHeight;
+  dom.style.width = width + 'px';
+  dom.style.height = height + 'px';
+  container.appendChild(dom);
   const treemap = new TreeMap(options);
-  treemap.layout(
-      container, transform(data), container.offsetWidth,
-      container.offsetHeight);
+  treemap.layout(dom, data, width, height);
 }
