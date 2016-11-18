@@ -1,9 +1,10 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "es6",
         "target": "es5",
         "noImplicitAny": true,
-        "sourceMap": false
+        "sourceMap": false,
+        "outDir": "build"
     },
     "exclude": [
         "node_modules"

@@ -45,22 +45,6 @@ export function newCaptionOptions(): Options {
   return options;
 }
 
-export interface OldData {
-  data: {
-    '$area': number,
-  };
-  name: string;
-  children?: OldData[];
-}
-
-function transform(old: OldData): Data {
-  return {
-    size: old.data['$area'],
-    caption: old.name,
-    children: old.children ? old.children.map(transform) : undefined,
-  };
-}
-
 export class TreeMap {
   constructor(private options = newOptions()) {}
 
@@ -123,7 +107,8 @@ export class TreeMap {
     return {end, sum};
   }
 
-  layout(container: HTMLElement, data: Data, width: number, height: number) {
+  private layout(
+      container: HTMLElement, data: Data, width: number, height: number) {
     const total: number = data.size;
     const children = data.children;
     if (!children) return;
@@ -176,20 +161,14 @@ export class TreeMap {
       start = end;
     }
   }
-}
 
-/**
- * render implements the backward-compatible API.
- */
-export function render(
-    container: HTMLElement, oldData: OldData, options = newCaptionOptions()) {
-  const data = transform(oldData);
-  const dom = options.createNode(data);
-  const width = container.offsetWidth;
-  const height = container.offsetHeight;
-  dom.style.width = width + 'px';
-  dom.style.height = height + 'px';
-  container.appendChild(dom);
-  const treemap = new TreeMap(options);
-  treemap.layout(dom, data, width, height);
+  render(container: HTMLElement, data: Data) {
+    const dom = this.options.createNode(data);
+    const width = container.offsetWidth;
+    const height = container.offsetHeight;
+    dom.style.width = width + 'px';
+    dom.style.height = height + 'px';
+    container.appendChild(dom);
+    this.layout(dom, data, width, height);
+  }
 }

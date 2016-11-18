@@ -6,9 +6,9 @@ function update() {
       (document.getElementById('captions') as HTMLInputElement).checked;
   let dom = document.getElementById('tree');
   dom.innerHTML = '';
-  treemap.render(
-      dom, demoData,
+  let tm = new treemap.TreeMap(
       captions ? treemap.newCaptionOptions() : treemap.newOptions());
+  tm.render(dom, demoData);
 }
 
 const controls =
