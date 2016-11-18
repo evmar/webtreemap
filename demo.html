@@ -48,4 +48,20 @@
 	</div>
 </main>
 
+<script>
+// minimal system.js loader.
+var System = {
+    mods: {},
+    register: function(module, deps, init) {
+        System.mods[module] = {};
+        var res = init(function(name, val) {
+            System.mods[module][name] = val;
+        });
+        for (var i = 0; i < deps.length; i++) {
+            res.setters[i](System.mods[deps[i]]);
+        }
+        res.execute();
+    }
+};
+</script>
 <script src='bundle.js'></script>

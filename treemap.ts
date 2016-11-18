@@ -2,7 +2,7 @@
  * Data is the expected shape of input data.
  */
 export interface Data {
-  /** size should be >= the sum of the children's size. */ 
+  /** size should be >= the sum of the children's size. */
   size: number;
   /** children should be sorted by size in descending order. */
   children?: Data[];
@@ -19,11 +19,9 @@ export interface Options {
 export function newOptions(): Options {
   return {
     getPadding() {
-      return [0,0,0,0];
+      return [0, 0, 0, 0];
     },
-    getSpacing() {
-      return 0;
-    },
+    getSpacing() { return 0; },
     createNode(data: Data) {
       const dom = document.createElement('div');
       dom.className = 'webtreemap-node';
@@ -64,8 +62,7 @@ function transform(old: OldData): Data {
 }
 
 export class TreeMap {
-  constructor(private options = newOptions()) {
-  }
+  constructor(private options = newOptions()) {}
 
   /**
    * Given a list of sizes, the 1-d space available
@@ -75,8 +72,8 @@ export class TreeMap {
    * Returns [end, sum], where end is one past the last rectangle and sum is the
    * 2-d sum of the rectangles' areas.
    */
-  private selectSpan(
-    children: Data[], space: number, start: number): { end: number, sum: number } {
+  private selectSpan(children: Data[], space: number, start: number):
+      {end: number, sum: number} {
     // Add rectangles one by one, stopping when aspect ratios begin to go
     // bad.  Result is [start,end) covering the best run for this span.
     // http://scholar.google.com/scholar?cluster=5972512107845615474
@@ -108,13 +105,13 @@ export class TreeMap {
       // Its width and height/width ratio is:
       //   width = smin / height
       //   height/width = (sum/space) / (smin / (sum/space))
-      //                = (sum * sum) / (smin * space * space) 
+      //                = (sum * sum) / (smin * space * space)
       //
       // Take the larger of these two ratios as the measure of the
       // worst non-squarenesss.
       const score = Math.max(
-        smax * space * space / (nextSum * nextSum),
-        nextSum * nextSum / (smin * space * space));
+          smax * space * space / (nextSum * nextSum),
+          nextSum * nextSum / (smin * space * space));
       if (lastScore && score > lastScore) {
         // Including this additional rectangle produces worse squareness than
         // without it.  We're done.
@@ -123,7 +120,7 @@ export class TreeMap {
       lastScore = score;
       sum = nextSum;
     }
-    return { end, sum };
+    return {end, sum};
   }
 
   layout(container: HTMLElement, data: Data, width: number, height: number) {
@@ -135,16 +132,20 @@ export class TreeMap {
 
     const spacing = this.options.getSpacing();
     const padding = this.options.getPadding();
-    y1 += padding[0]; x2 -= padding[1];
-    y2 -= padding[2]; x1 += padding[3];
+    y1 += padding[0];
+    x2 -= padding[1];
+    y2 -= padding[2];
+    x1 += padding[3];
 
     if ((x2 - x1) < 40) return;
     if ((y2 - y1) < 100) return;
     const scale = Math.sqrt(total / ((x2 - x1) * (y2 - y1)));
     function px(x: number) {
-    // Rounding when computing pixel coordinates makes the box edges touch better
-    // than letting the browser do it, because the browser has lots of heuristics
-    // around handling non-integer pixel coordinates.
+      // Rounding when computing pixel coordinates makes the box edges touch
+      // better
+      // than letting the browser do it, because the browser has lots of
+      // heuristics
+      // around handling non-integer pixel coordinates.
       return Math.round(x) + 'px';
     }
     var x = x1, y = y1;
@@ -167,7 +168,7 @@ export class TreeMap {
         container.appendChild(dom);
 
         // We lose 2px due to the border.
-        this.layout(dom, children[i], widthPx-2, heightPx-2);
+        this.layout(dom, children[i], widthPx - 2, heightPx - 2);
 
         x += widthPx;
       }
@@ -180,7 +181,10 @@ export class TreeMap {
 /**
  * render implements the backward-compatible API.
  */
-export function render(container: HTMLElement, data: OldData, options = newCaptionOptions()) {
+export function render(
+    container: HTMLElement, data: OldData, options = newCaptionOptions()) {
   const treemap = new TreeMap(options);
-  treemap.layout(container, transform(data), container.offsetWidth, container.offsetHeight);
+  treemap.layout(
+      container, transform(data), container.offsetWidth,
+      container.offsetHeight);
 }

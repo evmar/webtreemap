@@ -1,14 +1,19 @@
 import * as treemap from './treemap';
-
-declare var kTree: treemap.OldData;
+import demoData from './demo-data';
 
 function update() {
-    let captions = (document.getElementById('captions') as HTMLInputElement).checked;
-    let dom = document.getElementById('tree');
-    dom.innerHTML = '';
-    treemap.render(dom, kTree, captions ? treemap.newCaptionOptions() : treemap.newOptions());
+  let captions =
+      (document.getElementById('captions') as HTMLInputElement).checked;
+  let dom = document.getElementById('tree');
+  dom.innerHTML = '';
+  treemap.render(
+      dom, demoData,
+      captions ? treemap.newCaptionOptions() : treemap.newOptions());
 }
-for (const control of document.getElementsByClassName('control') as any as HTMLElement[]) {
-    control.onchange = update;
+
+const controls =
+    document.getElementsByClassName('control') as any as HTMLElement[];
+for (const control of controls) {
+  control.onchange = update;
 }
 update();

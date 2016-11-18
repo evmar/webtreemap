@@ -7,7 +7,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fmt": "clang-format --style=google -i *.ts"
+    "fmt": "clang-format --style=google -i *.ts",
+    "dev": "tsc --watch --module system --outFile demo.js demo.ts"
   },
   "repository": {
     "type": "git",
