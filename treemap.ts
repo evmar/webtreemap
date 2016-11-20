@@ -45,8 +45,21 @@ export function newCaptionOptions(): Options {
   return options;
 }
 
+/**
+ * get the index of this node in its parent's children list.
+ * O(n) but we expect n to be small.
+ */
+function getNodeIndex(node: Element): number {
+  let index = 0;
+  while (node = node.previousElementSibling) {
+    if (node.classList.contains('webtreemap-node'))
+    index++;
+  }
+  return index;
+}
+
 export class TreeMap {
-  constructor(private options = newOptions()) {}
+  constructor(private data: Data, private options = newOptions()) {}
 
   /**
    * Given a list of sizes, the 1-d space available
@@ -162,13 +175,30 @@ export class TreeMap {
     }
   }
 
-  render(container: HTMLElement, data: Data) {
-    const dom = this.options.createNode(data);
+  render(container: HTMLElement) {
+    const dom = this.options.createNode(this.data);
     const width = container.offsetWidth;
     const height = container.offsetHeight;
     dom.style.width = width + 'px';
     dom.style.height = height + 'px';
     container.appendChild(dom);
-    this.layout(dom, data, width, height);
+    this.layout(dom, this.data, width, height);
+  }
+
+  getAddress(node: HTMLElement): Data[] {
+    let indexes: number[] = [];
+    while (node && node.classList.contains('webtreemap-node')) {
+      indexes.unshift(getNodeIndex(node));
+      node = node.parentElement;
+    }
+    indexes.shift();
+
+    let data = this.data;
+    let address: Data[] = [data];
+    for (let i of indexes) {
+      data = data.children[i];
+      address.push(data);
+    }
+    return address;
   }
 }

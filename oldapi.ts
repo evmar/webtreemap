@@ -27,6 +27,6 @@ export function transform(old: OldData): treemap.Data {
 export function render(
     container: HTMLElement, oldData: OldData,
     options = treemap.newCaptionOptions()) {
-  const tm = new treemap.TreeMap(options);
-  tm.render(container, transform(oldData));
+  const tm = new treemap.TreeMap(transform(oldData), options);
+  tm.render(container);
 }
