@@ -5,7 +5,8 @@ let tm: treemap.TreeMap;
 
 function hover(this: HTMLElement, e: MouseEvent) {
   let breadcrumbsDiv = document.getElementById('breadcrumbs');
-  breadcrumbsDiv.innerText = tm.getAddress(this).map(d => d.caption).join(' > ');
+  breadcrumbsDiv.innerText =
+      tm.getAddress(this).map(d => d.caption).join(' > ');
   e.stopPropagation();
 }
 
@@ -21,8 +22,7 @@ function update() {
     dom.onmouseover = hover;
     return dom;
   };
-  tm = new treemap.TreeMap(
-      demoData, options);
+  tm = new treemap.TreeMap(demoData, options);
   tm.render(dom);
 }
 

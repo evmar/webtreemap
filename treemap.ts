@@ -58,8 +58,7 @@ export function newCaptionOptions(): Options {
 function getNodeIndex(node: Element): number {
   let index = 0;
   while (node = node.previousElementSibling) {
-    if (node.classList.contains(NODE_CSS_CLASS))
-    index++;
+    if (node.classList.contains(NODE_CSS_CLASS)) index++;
   }
   return index;
 }
@@ -127,7 +126,8 @@ export class TreeMap {
   }
 
   private layout(
-      container: HTMLElement, data: Data, level: number, width: number, height: number) {
+      container: HTMLElement, data: Data, level: number, width: number,
+      height: number) {
     const total: number = data.size;
     const children = data.children;
     if (!children) return;
@@ -164,7 +164,7 @@ export class TreeMap {
         const size = children[i].size;
         const width = size / height;
         const widthPx = width / scale;
-        const dom = this.options.createNode(children[i], level+1);
+        const dom = this.options.createNode(children[i], level + 1);
         dom.style.left = px(x);
         dom.style.width = px(widthPx - spacing);
         dom.style.top = px(y);
@@ -172,7 +172,7 @@ export class TreeMap {
         container.appendChild(dom);
 
         // We lose 2px due to the border.
-        this.layout(dom, children[i], level+1, widthPx - 2, heightPx - 2);
+        this.layout(dom, children[i], level + 1, widthPx - 2, heightPx - 2);
 
         x += widthPx;
       }
