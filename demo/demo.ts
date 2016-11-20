@@ -1,4 +1,4 @@
-import * as treemap from './treemap';
+import * as treemap from '../treemap';
 import demoData from './demo-data';
 
 let tm: treemap.TreeMap;
