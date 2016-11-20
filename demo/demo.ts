@@ -16,8 +16,8 @@ function update() {
   dom.innerHTML = '';
   let options = captions ? treemap.newCaptionOptions() : treemap.newOptions();
   let createNode = options.createNode;
-  options.createNode = (data: treemap.Data) => {
-    let dom = createNode(data);
+  options.createNode = (data: treemap.Data, level: number) => {
+    let dom = createNode(data, level);
     dom.onmouseover = hover;
     return dom;
   };

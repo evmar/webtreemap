@@ -13,8 +13,14 @@ export interface Data {
 export interface Options {
   getPadding(): [number, number, number, number];
   getSpacing(): number;
-  createNode(data: Data): HTMLElement;
+  createNode(data: Data, level: number): HTMLElement;
 }
+
+/**
+ * NODE_CSS_CLASS is the CSS class name that
+ * must be applied to nodes created by createNode.
+ */
+export const NODE_CSS_CLASS = 'webtreemap-node';
 
 export function newOptions(): Options {
   return {
@@ -24,7 +30,7 @@ export function newOptions(): Options {
     getSpacing() { return 0; },
     createNode(data: Data) {
       const dom = document.createElement('div');
-      dom.className = 'webtreemap-node';
+      dom.className = NODE_CSS_CLASS;
       return dom;
     }
   };
@@ -34,8 +40,8 @@ export function newCaptionOptions(): Options {
   const options = newOptions();
   const createNode = options.createNode;
   options.getPadding = () => [14, 0, 0, 0];
-  options.createNode = (data) => {
-    const dom = createNode(data);
+  options.createNode = (data, level) => {
+    const dom = createNode(data, level);
     const caption = document.createElement('div');
     caption.className = 'webtreemap-caption';
     caption.innerText = data.caption;
@@ -52,7 +58,7 @@ export function newCaptionOptions(): Options {
 function getNodeIndex(node: Element): number {
   let index = 0;
   while (node = node.previousElementSibling) {
-    if (node.classList.contains('webtreemap-node'))
+    if (node.classList.contains(NODE_CSS_CLASS))
     index++;
   }
   return index;
@@ -121,7 +127,7 @@ export class TreeMap {
   }
 
   private layout(
-      container: HTMLElement, data: Data, width: number, height: number) {
+      container: HTMLElement, data: Data, level: number, width: number, height: number) {
     const total: number = data.size;
     const children = data.children;
     if (!children) return;
@@ -158,7 +164,7 @@ export class TreeMap {
         const size = children[i].size;
         const width = size / height;
         const widthPx = width / scale;
-        const dom = this.options.createNode(children[i]);
+        const dom = this.options.createNode(children[i], level+1);
         dom.style.left = px(x);
         dom.style.width = px(widthPx - spacing);
         dom.style.top = px(y);
@@ -166,7 +172,7 @@ export class TreeMap {
         container.appendChild(dom);
 
         // We lose 2px due to the border.
-        this.layout(dom, children[i], widthPx - 2, heightPx - 2);
+        this.layout(dom, children[i], level+1, widthPx - 2, heightPx - 2);
 
         x += widthPx;
       }
@@ -176,22 +182,22 @@ export class TreeMap {
   }
 
   render(container: HTMLElement) {
-    const dom = this.options.createNode(this.data);
+    const dom = this.options.createNode(this.data, 0);
     const width = container.offsetWidth;
     const height = container.offsetHeight;
     dom.style.width = width + 'px';
     dom.style.height = height + 'px';
     container.appendChild(dom);
-    this.layout(dom, this.data, width, height);
+    this.layout(dom, this.data, 0, width, height);
   }
 
   getAddress(node: HTMLElement): Data[] {
     let indexes: number[] = [];
-    while (node && node.classList.contains('webtreemap-node')) {
+    while (node && node.classList.contains(NODE_CSS_CLASS)) {
       indexes.unshift(getNodeIndex(node));
       node = node.parentElement;
     }
-    indexes.shift();
+    indexes.shift();  // The first element will be the root, index 0.
 
     let data = this.data;
     let address: Data[] = [data];
