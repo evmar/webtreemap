@@ -10,6 +10,18 @@ export interface Data {
   caption?: string;
 }
 
+/**
+ * NODE_CSS_CLASS is the CSS class name that
+ * must be applied to nodes created by createNode.
+ */
+export const NODE_CSS_CLASS = 'webtreemap-node';
+
+/**
+ * Options is the set of user-provided webtreemap configuration.
+ * More options may be added in the future; to remain backwards-compatible,
+ * always start with the object returned by newOptions() and then customize
+ * from there.
+ */
 export interface Options {
   getPadding(): [number, number, number, number];
   getSpacing(): number;
@@ -17,11 +29,11 @@ export interface Options {
 }
 
 /**
- * NODE_CSS_CLASS is the CSS class name that
- * must be applied to nodes created by createNode.
+ * newOptions returns a new default Options.
+ * More options may be added in the future; to remain backwards-compatible,
+ * always start with the object returned by newOptions() and then customize
+ * from there.
  */
-export const NODE_CSS_CLASS = 'webtreemap-node';
-
 export function newOptions(): Options {
   return {
     getPadding() {
@@ -36,10 +48,16 @@ export function newOptions(): Options {
   };
 }
 
+/**
+ * newCaptionOptions returns an Options set up to add captions to the
+ * display.
+ */
 export function newCaptionOptions(): Options {
   const options = newOptions();
   const createNode = options.createNode;
+  // Add some padding to make space for the caption.
   options.getPadding = () => [14, 0, 0, 0];
+  // Override createNode to add a caption to each element.
   options.createNode = (data, level) => {
     const dom = createNode(data, level);
     const caption = document.createElement('div');
