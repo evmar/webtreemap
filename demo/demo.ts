@@ -5,8 +5,9 @@ let tm: treemap.TreeMap;
 
 function hover(this: HTMLElement, e: MouseEvent) {
   let breadcrumbsDiv = document.getElementById('breadcrumbs')!;
+  let address = tm.getAddress(this);
   breadcrumbsDiv.innerText =
-      tm.getAddress(this).map(d => d.caption).join(' > ');
+      tm.getDataByAddress(address).map(d => d.caption).join(' > ');
   e.stopPropagation();
 }
 

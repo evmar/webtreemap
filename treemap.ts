@@ -209,20 +209,27 @@ export class TreeMap {
     this.layout(dom, this.data, 0, width, height);
   }
 
-  getAddress(node: HTMLElement): Data[] {
-    let indexes: number[] = [];
+  getAddress(node: HTMLElement): number[] {
+    let address: number[] = [];
     while (node && node.classList.contains(NODE_CSS_CLASS)) {
-      indexes.unshift(getNodeIndex(node));
+      address.unshift(getNodeIndex(node));
       node = node.parentElement;
     }
-    indexes.shift();  // The first element will be the root, index 0.
-
-    let data = this.data;
-    let address: Data[] = [data];
-    for (let i of indexes) {
-      data = data.children![i];
-      address.push(data);
-    }
+    address.shift();  // The first element will be the root, index 0.
     return address;
+  }
+
+  getDataByAddress(address: number[]): Data[] {
+    let data = this.data;
+    let datas: Data[] = [data];
+    for (let i of address) {
+      data = data.children![i];
+      datas.push(data);
+    }
+    return datas;
+  }
+
+  zoom(address: number[]) {
+
   }
 }
