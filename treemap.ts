@@ -44,7 +44,7 @@ export function newCaptionOptions(): Options {
     const dom = createNode(data, level);
     const caption = document.createElement('div');
     caption.className = 'webtreemap-caption';
-    caption.innerText = data.caption;
+    caption.innerText = data.caption!;
     dom.appendChild(caption);
     return dom;
   };
@@ -202,7 +202,7 @@ export class TreeMap {
     let data = this.data;
     let address: Data[] = [data];
     for (let i of indexes) {
-      data = data.children[i];
+      data = data.children![i];
       address.push(data);
     }
     return address;
