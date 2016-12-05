@@ -8,6 +8,8 @@ export interface Data {
   children?: Data[];
   /** caption is optional but can be used to caption each node. */
   caption?: string;
+  /** dom node will be created and associated with the data. */
+  dom?: HTMLElement;
 }
 
 /**
@@ -15,6 +17,10 @@ export interface Data {
  * must be applied to nodes created by createNode.
  */
 export const NODE_CSS_CLASS = 'webtreemap-node';
+
+function isNode(e: Element): boolean {
+  return e.classList.contains(NODE_CSS_CLASS);
+}
 
 /**
  * Options is the set of user-provided webtreemap configuration.
@@ -62,7 +68,7 @@ export function newCaptionOptions(): Options {
     const dom = createNode(data, level);
     const caption = document.createElement('div');
     caption.className = 'webtreemap-caption';
-    caption.innerText = data.caption!;
+    caption.innerText = data.caption !;
     dom.appendChild(caption);
     return dom;
   };
@@ -76,9 +82,18 @@ export function newCaptionOptions(): Options {
 function getNodeIndex(node: Element): number {
   let index = 0;
   while (node = node.previousElementSibling) {
-    if (node.classList.contains(NODE_CSS_CLASS)) index++;
+    if (isNode(node)) index++;
   }
   return index;
+}
+
+function px(x: number) {
+  // Rounding when computing pixel coordinates makes the box edges touch
+  // better
+  // than letting the browser do it, because the browser has lots of
+  // heuristics
+  // around handling non-integer pixel coordinates.
+  return Math.round(x) + 'px';
 }
 
 export class TreeMap {
@@ -146,6 +161,7 @@ export class TreeMap {
   private layout(
       container: HTMLElement, data: Data, level: number, width: number,
       height: number) {
+    data.dom = container;
     const total: number = data.size;
     const children = data.children;
     if (!children) return;
@@ -162,14 +178,6 @@ export class TreeMap {
     if ((x2 - x1) < 40) return;
     if ((y2 - y1) < 100) return;
     const scale = Math.sqrt(total / ((x2 - x1) * (y2 - y1)));
-    function px(x: number) {
-      // Rounding when computing pixel coordinates makes the box edges touch
-      // better
-      // than letting the browser do it, because the browser has lots of
-      // heuristics
-      // around handling non-integer pixel coordinates.
-      return Math.round(x) + 'px';
-    }
     var x = x1, y = y1;
     for (let start = 0; start < children.length;) {
       x = x1;
@@ -203,6 +211,16 @@ export class TreeMap {
     const dom = this.options.createNode(this.data, 0);
     const width = container.offsetWidth;
     const height = container.offsetHeight;
+    dom.onclick = (e) => {
+      let node = e.target as HTMLElement;
+      while (!isNode(node)) {
+        node = node.parentElement;
+        if (!node) return;
+      }
+      let address = this.getAddress(node);
+      console.log(address);
+      this.zoom(address);
+    };
     dom.style.width = width + 'px';
     dom.style.height = height + 'px';
     container.appendChild(dom);
@@ -211,7 +229,7 @@ export class TreeMap {
 
   getAddress(node: HTMLElement): number[] {
     let address: number[] = [];
-    while (node && node.classList.contains(NODE_CSS_CLASS)) {
+    while (node && isNode(node)) {
       address.unshift(getNodeIndex(node));
       node = node.parentElement;
     }
@@ -223,13 +241,28 @@ export class TreeMap {
     let data = this.data;
     let datas: Data[] = [data];
     for (let i of address) {
-      data = data.children![i];
+      data = data.children ![i];
       datas.push(data);
     }
     return datas;
   }
 
   zoom(address: number[]) {
+    let data = this.data;
+    let x1 = 0, y1 = 0, x2 = data.dom !.offsetWidth,
+        y2 = data.dom !.offsetHeight;
+    for (let index of address) {
+      const padding = this.options.getPadding();
+      y1 += padding[0];
+      x2 -= padding[1];
+      y2 -= padding[2];
+      x1 += padding[3];
 
+      data = data.children ![index];
+      data.dom !.style.left = px(x1);
+      data.dom !.style.width = px(x2 - x1);
+      data.dom !.style.top = px(y1);
+      data.dom !.style.height = px(y2 - y1);
+    }
   }
 }

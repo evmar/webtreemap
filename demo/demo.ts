@@ -4,7 +4,7 @@ import demoData from './demo-data-states';
 let tm: treemap.TreeMap;
 
 function hover(this: HTMLElement, e: MouseEvent) {
-  let breadcrumbsDiv = document.getElementById('breadcrumbs')!;
+  let breadcrumbsDiv = document.getElementById('breadcrumbs') !;
   let address = tm.getAddress(this);
   breadcrumbsDiv.innerText =
       tm.getDataByAddress(address).map(d => d.caption).join(' > ');
@@ -14,7 +14,7 @@ function hover(this: HTMLElement, e: MouseEvent) {
 function update() {
   let captions =
       (document.getElementById('captions') as HTMLInputElement).checked;
-  let dom = document.getElementById('tree')!;
+  let dom = document.getElementById('tree') !;
   dom.innerHTML = '';
   let options = captions ? treemap.newCaptionOptions() : treemap.newOptions();
   let createNode = options.createNode;
