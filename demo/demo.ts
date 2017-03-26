@@ -1,5 +1,5 @@
 import * as treemap from '../treemap';
-import demoData from './demo-data-states';
+import demoData from './data/states';
 
 let tm: treemap.TreeMap;
 
