@@ -45,7 +45,9 @@ export function newOptions(): Options {
     getPadding() {
       return [0, 0, 0, 0];
     },
-    getSpacing() { return 0; },
+    getSpacing() {
+      return 0;
+    },
     createNode(data: Data) {
       const dom = document.createElement('div');
       dom.className = NODE_CSS_CLASS;
@@ -68,7 +70,7 @@ export function newCaptionOptions(): Options {
     const dom = createNode(data, level);
     const caption = document.createElement('div');
     caption.className = 'webtreemap-caption';
-    caption.innerText = data.caption !;
+    caption.innerText = data.caption!;
     dom.appendChild(caption);
     return dom;
   };
@@ -242,7 +244,7 @@ export class TreeMap {
     let data = this.data;
     let datas: Data[] = [data];
     for (let i of address) {
-      data = data.children ![i];
+      data = data.children![i];
       datas.push(data);
     }
     return datas;
@@ -250,8 +252,7 @@ export class TreeMap {
 
   zoom(address: number[]) {
     let data = this.data;
-    let x1 = 0, y1 = 0, x2 = data.dom !.offsetWidth,
-        y2 = data.dom !.offsetHeight;
+    let x1 = 0, y1 = 0, x2 = data.dom!.offsetWidth, y2 = data.dom!.offsetHeight;
     for (let index of address) {
       const padding = this.options.getPadding();
       y1 += padding[0];
@@ -259,11 +260,11 @@ export class TreeMap {
       y2 -= padding[2];
       x1 += padding[3];
 
-      data = data.children ![index];
-      data.dom !.style.left = px(x1);
-      data.dom !.style.width = px(x2 - x1);
-      data.dom !.style.top = px(y1);
-      data.dom !.style.height = px(y2 - y1);
+      data = data.children![index];
+      data.dom!.style.left = px(x1);
+      data.dom!.style.width = px(x2 - x1);
+      data.dom!.style.top = px(y1);
+      data.dom!.style.height = px(y2 - y1);
     }
   }
 }
