@@ -212,7 +212,7 @@ export class TreeMap {
     const width = container.offsetWidth;
     const height = container.offsetHeight;
     dom.onclick = (e) => {
-      let node = e.target as HTMLElement;
+      let node: HTMLElement|null = e.target as HTMLElement;
       while (!isNode(node)) {
         node = node.parentElement;
         if (!node) return;
@@ -229,9 +229,10 @@ export class TreeMap {
 
   getAddress(node: HTMLElement): number[] {
     let address: number[] = [];
-    while (node && isNode(node)) {
-      address.unshift(getNodeIndex(node));
-      node = node.parentElement;
+    let n: HTMLElement|null = node;
+    while (n && isNode(n)) {
+      address.unshift(getNodeIndex(n));
+      n = n.parentElement;
     }
     address.shift();  // The first element will be the root, index 0.
     return address;
