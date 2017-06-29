@@ -77,8 +77,8 @@ function makeDom(tree, level) {
     dom.className += (' webtreemap-aggregate');
   }
 
-  for(key in tree.data){
-    if(key != '$area'){
+  for (key in tree.data) {
+    if (!key.startsWith('$')) {
       dom.setAttribute('data-' + key, tree.data[key]);
     }
   }
