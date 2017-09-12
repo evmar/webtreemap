@@ -1,6 +1,6 @@
 {
   "name": "webtreemap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple treemap implementation using web technologies",
   "main": "webtreemap.js",
   "files": [
