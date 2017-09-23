@@ -6,6 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "rollup": "^0.36.3",
+    "typescript": "^2.5.2",
     "uglify-js": "^2.7.4"
   },
   "scripts": {

@@ -81,8 +81,9 @@ export function newCaptionOptions(): Options {
  * get the index of this node in its parent's children list.
  * O(n) but we expect n to be small.
  */
-function getNodeIndex(node: Element): number {
+function getNodeIndex(target: Element): number {
   let index = 0;
+  let node: Element|null = target;
   while (node = node.previousElementSibling) {
     if (isNode(node)) index++;
   }
