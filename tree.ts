@@ -2,7 +2,7 @@ import {Node} from './treemap';
 
 /**
  * treeify converts an array of [path, size] pairs into a tree.
- * Paths are /-delimited ids. 
+ * Paths are /-delimited ids.
  */
 export function treeify(data: Array<[string, number]>): Node {
   const tree: Node = {size: 0};
@@ -23,16 +23,15 @@ export function treeify(data: Array<[string, number]>): Node {
       }
       t = child;
     }
-    }
+  }
   return tree;
 }
 
 /**
  * rollup fills in the size attribute for nodes by summing their children.
- * 
+ *
  * Note that it's legal for input data to have a node with a size larger
  * than the sum of its children, perhaps because some data was left out.
- * This transformation 
  */
 export function rollup(n: Node) {
   if (!n.children) return;
