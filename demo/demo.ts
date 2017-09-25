@@ -7,7 +7,7 @@ function hover(this: HTMLElement, e: MouseEvent) {
   let breadcrumbsDiv = document.getElementById('breadcrumbs')!;
   let address = tm.getAddress(this);
   breadcrumbsDiv.innerText =
-      tm.getDataByAddress(address).map(d => d.caption).join(' > ');
+      tm.getDataByAddress(address).map(d => d.id).join(' > ');
   e.stopPropagation();
 }
 
@@ -17,9 +17,9 @@ function update() {
   let dom = document.getElementById('tree')!;
   dom.innerHTML = '';
   let options = captions ? treemap.newCaptionOptions() : treemap.newOptions();
-  let createNode = options.createNode;
-  options.createNode = (data: treemap.Data, level: number) => {
-    let dom = createNode(data, level);
+  let createDOM = options.createDOM;
+  options.createDOM = (data: treemap.Data, level: number) => {
+    let dom = createDOM(data, level);
     dom.onmouseover = hover;
     return dom;
   };
