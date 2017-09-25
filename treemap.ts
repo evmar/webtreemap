@@ -1,11 +1,11 @@
 /**
- * Data is the expected shape of input data.
+ * Node is the expected shape of input data.
  */
-export interface Data {
+export interface Node {
   /** size should be >= the sum of the children's size. */
   size: number;
   /** children should be sorted by size in descending order. */
-  children?: Data[];
+  children?: Node[];
   /** caption is optional but can be used to caption each node. */
   caption?: string;
   /** dom node will be created and associated with the data. */
@@ -31,7 +31,7 @@ function isNode(e: Element): boolean {
 export interface Options {
   getPadding(): [number, number, number, number];
   getSpacing(): number;
-  createNode(data: Data, level: number): HTMLElement;
+  createDOM(data: Node, level: number): HTMLElement;
 }
 
 /**
@@ -48,7 +48,7 @@ export function newOptions(): Options {
     getSpacing() {
       return 0;
     },
-    createNode(data: Data) {
+    createDOM(data: Node) {
       const dom = document.createElement('div');
       dom.className = NODE_CSS_CLASS;
       return dom;
@@ -62,12 +62,12 @@ export function newOptions(): Options {
  */
 export function newCaptionOptions(): Options {
   const options = newOptions();
-  const createNode = options.createNode;
+  const createDOM = options.createDOM;
   // Add some padding to make space for the caption.
   options.getPadding = () => [14, 0, 0, 0];
   // Override createNode to add a caption to each element.
-  options.createNode = (data, level) => {
-    const dom = createNode(data, level);
+  options.createDOM = (data, level) => {
+    const dom = createDOM(data, level);
     const caption = document.createElement('div');
     caption.className = 'webtreemap-caption';
     caption.innerText = data.caption!;
@@ -100,7 +100,7 @@ function px(x: number) {
 }
 
 export class TreeMap {
-  constructor(private data: Data, private options = newOptions()) {}
+  constructor(private data: Node, private options = newOptions()) {}
 
   /**
    * Given a list of sizes, the 1-d space available
@@ -110,7 +110,7 @@ export class TreeMap {
    * Returns [end, sum], where end is one past the last rectangle and sum is the
    * 2-d sum of the rectangles' areas.
    */
-  private selectSpan(children: Data[], space: number, start: number):
+  private selectSpan(children: Node[], space: number, start: number):
       {end: number, sum: number} {
     // Add rectangles one by one, stopping when aspect ratios begin to go
     // bad.  Result is [start,end) covering the best run for this span.
@@ -162,7 +162,7 @@ export class TreeMap {
   }
 
   private layout(
-      container: HTMLElement, data: Data, level: number, width: number,
+      container: HTMLElement, data: Node, level: number, width: number,
       height: number) {
     data.dom = container;
     const total: number = data.size;
@@ -193,7 +193,7 @@ export class TreeMap {
         const size = children[i].size;
         const width = size / height;
         const widthPx = width / scale;
-        const dom = this.options.createNode(children[i], level + 1);
+        const dom = this.options.createDOM(children[i], level + 1);
         dom.style.left = px(x);
         dom.style.width = px(widthPx - spacing);
         dom.style.top = px(y);
@@ -211,7 +211,7 @@ export class TreeMap {
   }
 
   render(container: HTMLElement) {
-    const dom = this.options.createNode(this.data, 0);
+    const dom = this.options.createDOM(this.data, 0);
     const width = container.offsetWidth;
     const height = container.offsetHeight;
     dom.onclick = (e) => {
@@ -241,9 +241,9 @@ export class TreeMap {
     return address;
   }
 
-  getDataByAddress(address: number[]): Data[] {
+  getDataByAddress(address: number[]): Node[] {
     let data = this.data;
-    let datas: Data[] = [data];
+    let datas: Node[] = [data];
     for (let i of address) {
       data = data.children![i];
       datas.push(data);
