@@ -2,12 +2,15 @@
  * Node is the expected shape of input data.
  */
 export interface Node {
+  /**
+   * id is optional but can be used to identify each node.
+   * It should be unique among nodes at the same level.
+   */
+  id?: string;
   /** size should be >= the sum of the children's size. */
   size: number;
   /** children should be sorted by size in descending order. */
   children?: Node[];
-  /** caption is optional but can be used to caption each node. */
-  caption?: string;
   /** dom node will be created and associated with the data. */
   dom?: HTMLElement;
 }
@@ -70,7 +73,7 @@ export function newCaptionOptions(): Options {
     const dom = createDOM(data, level);
     const caption = document.createElement('div');
     caption.className = 'webtreemap-caption';
-    caption.innerText = data.caption!;
+    caption.innerText = data.id!;
     dom.appendChild(caption);
     return dom;
   };

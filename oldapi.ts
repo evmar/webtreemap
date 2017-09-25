@@ -17,8 +17,8 @@ export interface OldData {
 /** transform transforms the old data format to the new one. */
 export function transform(old: OldData): treemap.Node {
   return {
+    id: old.name,
     size: old.data['$area'],
-    caption: old.name,
     children: old.children ? old.children.map(transform) : undefined,
   };
 }
