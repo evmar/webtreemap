@@ -8,7 +8,7 @@ import * as treemap from './treemap';
 /** OldData is the shape of the old data format. */
 export interface OldData {
   data: {
-    '$area': number,
+    $area: number;
   };
   name: string;
   children?: OldData[];
@@ -25,8 +25,10 @@ export function transform(old: OldData): treemap.Node {
 
 /** render implements the backward-compatible API. */
 export function render(
-    container: HTMLElement, oldData: OldData,
-    options = treemap.newCaptionOptions()) {
+  container: HTMLElement,
+  oldData: OldData,
+  options = treemap.newCaptionOptions()
+) {
   const tm = new treemap.TreeMap(transform(oldData), options);
   tm.render(container);
 }

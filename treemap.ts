@@ -36,8 +36,8 @@ export interface Options {
  */
 function getNodeIndex(target: Element): number {
   let index = 0;
-  let node: Element|null = target;
-  while (node = node.previousElementSibling) {
+  let node: Element | null = target;
+  while ((node = node.previousElementSibling)) {
     if (isDOMNode(node)) index++;
   }
   return index;
@@ -79,15 +79,18 @@ export class TreeMap {
    * Returns [end, sum], where end is one past the last rectangle and sum is the
    * 2-d sum of the rectangles' areas.
    */
-  private selectSpan(children: Node[], space: number, start: number):
-      {end: number, sum: number} {
+  private selectSpan(
+    children: Node[],
+    space: number,
+    start: number
+  ): {end: number; sum: number} {
     // Add rectangles one by one, stopping when aspect ratios begin to go
     // bad.  Result is [start,end) covering the best run for this span.
     // http://scholar.google.com/scholar?cluster=5972512107845615474
-    let smin = children[start].size;  // Smallest seen child so far.
-    let smax = smin;                  // Largest child.
-    let sum = 0;                      // Sum of children in this span.
-    let lastScore = 0;                // Best score yet found.
+    let smin = children[start].size; // Smallest seen child so far.
+    let smax = smin; // Largest child.
+    let sum = 0; // Sum of children in this span.
+    let lastScore = 0; // Best score yet found.
     let end = start;
     for (; end < children.length; end++) {
       const size = children[end].size;
@@ -117,8 +120,9 @@ export class TreeMap {
       // Take the larger of these two ratios as the measure of the
       // worst non-squarenesss.
       const score = Math.max(
-          smax * space * space / (nextSum * nextSum),
-          nextSum * nextSum / (smin * space * space));
+        smax * space * space / (nextSum * nextSum),
+        nextSum * nextSum / (smin * space * space)
+      );
       if (lastScore && score > lastScore) {
         // Including this additional rectangle produces worse squareness than
         // without it.  We're done.
@@ -131,27 +135,35 @@ export class TreeMap {
   }
 
   private layout(
-      container: HTMLElement, data: Node, level: number, width: number,
-      height: number) {
+    container: HTMLElement,
+    data: Node,
+    level: number,
+    width: number,
+    height: number
+  ) {
     data.dom = container;
     const total: number = data.size;
     const children = data.children;
     if (!children) return;
 
-    let x1 = 0, y1 = 0, x2 = width, y2 = height;
+    let x1 = 0,
+      y1 = 0,
+      x2 = width,
+      y2 = height;
 
-    const spacing = 0;  // TODO: this.options.spacing;
+    const spacing = 0; // TODO: this.options.spacing;
     const padding = this.options.padding;
     y1 += padding[0];
     x2 -= padding[1];
     y2 -= padding[2];
     x1 += padding[3];
 
-    if ((x2 - x1) < 40) return;
-    if ((y2 - y1) < 100) return;
+    if (x2 - x1 < 40) return;
+    if (y2 - y1 < 100) return;
     const scale = Math.sqrt(total / ((x2 - x1) * (y2 - y1)));
-    var x = x1, y = y1;
-    for (let start = 0; start < children.length;) {
+    var x = x1,
+      y = y1;
+    for (let start = 0; start < children.length; ) {
       x = x1;
       const space = scale * (x2 - x1);
       const {end, sum} = this.selectSpan(children, space, start);
@@ -183,8 +195,8 @@ export class TreeMap {
     const dom = this.createDOM(this.node);
     const width = container.offsetWidth;
     const height = container.offsetHeight;
-    dom.onclick = (e) => {
-      let node: HTMLElement|null = e.target as HTMLElement;
+    dom.onclick = e => {
+      let node: HTMLElement | null = e.target as HTMLElement;
       while (!isDOMNode(node)) {
         node = node.parentElement;
         if (!node) return;
@@ -201,12 +213,12 @@ export class TreeMap {
 
   getAddress(node: HTMLElement): number[] {
     let address: number[] = [];
-    let n: HTMLElement|null = node;
+    let n: HTMLElement | null = node;
     while (n && isDOMNode(n)) {
       address.unshift(getNodeIndex(n));
       n = n.parentElement;
     }
-    address.shift();  // The first element will be the root, index 0.
+    address.shift(); // The first element will be the root, index 0.
     return address;
   }
 
@@ -222,7 +234,10 @@ export class TreeMap {
 
   zoom(address: number[]) {
     let data = this.node;
-    let x1 = 0, y1 = 0, x2 = data.dom!.offsetWidth, y2 = data.dom!.offsetHeight;
+    let x1 = 0,
+      y1 = 0,
+      x2 = data.dom!.offsetWidth,
+      y2 = data.dom!.offsetHeight;
     for (const index of address) {
       const padding = this.options.padding;
       y1 += padding[0];

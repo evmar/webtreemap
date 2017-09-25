@@ -5,13 +5,14 @@
   "main": "treemap.js",
   "dependencies": {},
   "devDependencies": {
+    "prettier": "^1.7.0",
     "rollup": "^0.36.3",
     "typescript": "^2.5.2",
     "uglify-js": "^2.7.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fmt": "clang-format --style=google -i *.ts demo/*.ts",
+    "fmt": "prettier --write *.ts demo/*.ts",
     "dev": "tsc --watch --module system --outFile demo/demo.js demo/demo.ts",
     "build": "tsc && rollup -f iife build/oldapi-main.js | uglifyjs --screw-ie8 > build/webtreemap.js"
   },
@@ -28,5 +29,11 @@
   "bugs": {
     "url": "https://github.com/martine/webtreemap/issues"
   },
-  "homepage": "https://github.com/martine/webtreemap#readme"
+  "homepage": "https://github.com/martine/webtreemap#readme",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": false,
+    "parser": "typescript"
+  }
 }
