@@ -15,69 +15,19 @@ export interface Node {
   dom?: HTMLElement;
 }
 
-/**
- * NODE_CSS_CLASS is the CSS class name that
- * must be applied to nodes created by createNode.
- */
-export const NODE_CSS_CLASS = 'webtreemap-node';
+const CSS_PREFIX = 'webtreemap-';
+const NODE_CSS_CLASS = CSS_PREFIX + 'node';
 
-function isNode(e: Element): boolean {
+export function isDOMNode(e: Element): boolean {
   return e.classList.contains(NODE_CSS_CLASS);
 }
 
 /**
  * Options is the set of user-provided webtreemap configuration.
- * More options may be added in the future; to remain backwards-compatible,
- * always start with the object returned by newOptions() and then customize
- * from there.
  */
 export interface Options {
-  getPadding(): [number, number, number, number];
-  getSpacing(): number;
-  createDOM(data: Node, level: number): HTMLElement;
-}
-
-/**
- * newOptions returns a new default Options.
- * More options may be added in the future; to remain backwards-compatible,
- * always start with the object returned by newOptions() and then customize
- * from there.
- */
-export function newOptions(): Options {
-  return {
-    getPadding() {
-      return [0, 0, 0, 0];
-    },
-    getSpacing() {
-      return 0;
-    },
-    createDOM(data: Node) {
-      const dom = document.createElement('div');
-      dom.className = NODE_CSS_CLASS;
-      return dom;
-    }
-  };
-}
-
-/**
- * newCaptionOptions returns an Options set up to add captions to the
- * display.
- */
-export function newCaptionOptions(): Options {
-  const options = newOptions();
-  const createDOM = options.createDOM;
-  // Add some padding to make space for the caption.
-  options.getPadding = () => [14, 0, 0, 0];
-  // Override createNode to add a caption to each element.
-  options.createDOM = (data, level) => {
-    const dom = createDOM(data, level);
-    const caption = document.createElement('div');
-    caption.className = 'webtreemap-caption';
-    caption.innerText = data.id!;
-    dom.appendChild(caption);
-    return dom;
-  };
-  return options;
+  padding: [number, number, number, number];
+  caption?(data: Node): string;
 }
 
 /**
@@ -88,22 +38,38 @@ function getNodeIndex(target: Element): number {
   let index = 0;
   let node: Element|null = target;
   while (node = node.previousElementSibling) {
-    if (isNode(node)) index++;
+    if (isDOMNode(node)) index++;
   }
   return index;
 }
 
 function px(x: number) {
   // Rounding when computing pixel coordinates makes the box edges touch
-  // better
-  // than letting the browser do it, because the browser has lots of
-  // heuristics
-  // around handling non-integer pixel coordinates.
+  // better than letting the browser do it, because the browser has lots of
+  // heuristics around handling non-integer pixel coordinates.
   return Math.round(x) + 'px';
 }
 
 export class TreeMap {
-  constructor(private data: Node, private options = newOptions()) {}
+  private options: Options;
+  constructor(private node: Node, options: Partial<Options>) {
+    this.options = {
+      padding: options.padding || [options.caption ? 14 : 0, 0, 0, 0],
+      caption: options.caption,
+    };
+  }
+
+  createDOM(node: Node): HTMLElement {
+    const dom = document.createElement('div');
+    dom.className = NODE_CSS_CLASS;
+    if (this.options.caption) {
+      const caption = document.createElement('div');
+      caption.className = CSS_PREFIX + 'caption';
+      caption.innerText = this.options.caption(node);
+      dom.appendChild(caption);
+    }
+    return dom;
+  }
 
   /**
    * Given a list of sizes, the 1-d space available
@@ -174,8 +140,8 @@ export class TreeMap {
 
     let x1 = 0, y1 = 0, x2 = width, y2 = height;
 
-    const spacing = this.options.getSpacing();
-    const padding = this.options.getPadding();
+    const spacing = 0;  // TODO: this.options.spacing;
+    const padding = this.options.padding;
     y1 += padding[0];
     x2 -= padding[1];
     y2 -= padding[2];
@@ -196,7 +162,7 @@ export class TreeMap {
         const size = children[i].size;
         const width = size / height;
         const widthPx = width / scale;
-        const dom = this.options.createDOM(children[i], level + 1);
+        const dom = this.createDOM(children[i]);
         dom.style.left = px(x);
         dom.style.width = px(widthPx - spacing);
         dom.style.top = px(y);
@@ -214,12 +180,12 @@ export class TreeMap {
   }
 
   render(container: HTMLElement) {
-    const dom = this.options.createDOM(this.data, 0);
+    const dom = this.createDOM(this.node);
     const width = container.offsetWidth;
     const height = container.offsetHeight;
     dom.onclick = (e) => {
       let node: HTMLElement|null = e.target as HTMLElement;
-      while (!isNode(node)) {
+      while (!isDOMNode(node)) {
         node = node.parentElement;
         if (!node) return;
       }
@@ -230,13 +196,13 @@ export class TreeMap {
     dom.style.width = width + 'px';
     dom.style.height = height + 'px';
     container.appendChild(dom);
-    this.layout(dom, this.data, 0, width, height);
+    this.layout(dom, this.node, 0, width, height);
   }
 
   getAddress(node: HTMLElement): number[] {
     let address: number[] = [];
     let n: HTMLElement|null = node;
-    while (n && isNode(n)) {
+    while (n && isDOMNode(n)) {
       address.unshift(getNodeIndex(n));
       n = n.parentElement;
     }
@@ -244,10 +210,10 @@ export class TreeMap {
     return address;
   }
 
-  getDataByAddress(address: number[]): Node[] {
-    let data = this.data;
-    let datas: Node[] = [data];
-    for (let i of address) {
+  getNodeByAddress(address: number[]): Node[] {
+    let data = this.node;
+    const datas: Node[] = [data];
+    for (const i of address) {
       data = data.children![i];
       datas.push(data);
     }
@@ -255,10 +221,10 @@ export class TreeMap {
   }
 
   zoom(address: number[]) {
-    let data = this.data;
+    let data = this.node;
     let x1 = 0, y1 = 0, x2 = data.dom!.offsetWidth, y2 = data.dom!.offsetHeight;
-    for (let index of address) {
-      const padding = this.options.getPadding();
+    for (const index of address) {
+      const padding = this.options.padding;
       y1 += padding[0];
       x2 -= padding[1];
       y2 -= padding[2];
