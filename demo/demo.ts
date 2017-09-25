@@ -18,8 +18,8 @@ function update() {
   dom.innerHTML = '';
   let options = captions ? treemap.newCaptionOptions() : treemap.newOptions();
   let createDOM = options.createDOM;
-  options.createDOM = (data: treemap.Data, level: number) => {
-    let dom = createDOM(data, level);
+  options.createDOM = (node: treemap.Node, level: number) => {
+    let dom = createDOM(node, level);
     dom.onmouseover = hover;
     return dom;
   };

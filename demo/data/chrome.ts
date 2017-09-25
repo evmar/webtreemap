@@ -1,2278 +1,2278 @@
 export default {
   "size": 22271290,
-  "caption": "/ 22.3m",
+  "id": "/ 22.3m",
   "children": [
     {
       "size": 8414707,
-      "caption": "/third_party 8.4m",
+      "id": "/third_party 8.4m",
       "children": [
         {
           "size": 5050627,
-          "caption": "WebKit 5.1m",
+          "id": "WebKit 5.1m",
           "children": [
             {
               "size": 4655043,
-              "caption": "WebCore 4.7m",
+              "id": "WebCore 4.7m",
               "children": [
                 {
                   "size": 875268,
-                  "caption": "rendering 875.3k",
+                  "id": "rendering 875.3k",
                   "children": [
-                    {"size": 75001, "caption": "RenderBlock.cpp 75.0k"},
-                    {"size": 54088, "caption": "RenderLayer.cpp 54.1k"},
-                    {"size": 36462, "caption": "RenderBox.cpp 36.5k"},
+                    {"size": 75001, "id": "RenderBlock.cpp 75.0k"},
+                    {"size": 54088, "id": "RenderLayer.cpp 54.1k"},
+                    {"size": 36462, "id": "RenderBox.cpp 36.5k"},
                     {
                       "size": 34498,
-                      "caption": "style 34.5k",
+                      "id": "style 34.5k",
                       "children": [
-                        {"size": 16296, "caption": "RenderStyle.cpp 16.3k"},
-                        {"size": 3350, "caption": "SVGRenderStyle.cpp 3.4k"},
+                        {"size": 16296, "id": "RenderStyle.cpp 16.3k"},
+                        {"size": 3350, "id": "SVGRenderStyle.cpp 3.4k"},
                         {
                           "size": 2746,
-                          "caption": "StyleRareNonInheritedData.cpp 2.7k"
+                          "id": "StyleRareNonInheritedData.cpp 2.7k"
                         },
-                        {"size": 2467, "caption": "FillLayer.cpp 2.5k"},
+                        {"size": 2467, "id": "FillLayer.cpp 2.5k"},
                         {
                           "size": 2149,
-                          "caption": "SVGRenderStyleDefs.cpp 2.1k"
+                          "id": "SVGRenderStyleDefs.cpp 2.1k"
                         },
                         {
                           "size": 1347,
-                          "caption": "StyleRareInheritedData.cpp 1.3k"
+                          "id": "StyleRareInheritedData.cpp 1.3k"
                         },
-                        {"size": 1189, "caption": "StyleSurroundData.cpp 1.2k"},
-                        {"size": 921, "caption": "KeyframeList.cpp 921"},
-                        {"size": 518, "caption": "ContentData.cpp 518"},
-                        {"size": 479, "caption": "StyleInheritedData.cpp 479"},
-                        {"size": 462, "caption": "StyleTransformData.cpp 462"},
-                        {"size": 366, "caption": "StyleCachedImage.cpp 366"},
-                        {"size": 357, "caption": "StyleMultiColData.cpp 357"},
-                        {"size": 322, "caption": "StyleGeneratedImage.cpp 322"},
-                        {"size": 305, "caption": "StyleBackgroundData.cpp 305"},
-                        {"size": 269, "caption": "StyleBoxData.cpp 269"},
-                        {"size": 222, "caption": "ShadowData.cpp 222"},
+                        {"size": 1189, "id": "StyleSurroundData.cpp 1.2k"},
+                        {"size": 921, "id": "KeyframeList.cpp 921"},
+                        {"size": 518, "id": "ContentData.cpp 518"},
+                        {"size": 479, "id": "StyleInheritedData.cpp 479"},
+                        {"size": 462, "id": "StyleTransformData.cpp 462"},
+                        {"size": 366, "id": "StyleCachedImage.cpp 366"},
+                        {"size": 357, "id": "StyleMultiColData.cpp 357"},
+                        {"size": 322, "id": "StyleGeneratedImage.cpp 322"},
+                        {"size": 305, "id": "StyleBackgroundData.cpp 305"},
+                        {"size": 269, "id": "StyleBoxData.cpp 269"},
+                        {"size": 222, "id": "ShadowData.cpp 222"},
                         {
                           "size": 200,
-                          "caption": "StyleFlexibleBoxData.cpp 200"
+                          "id": "StyleFlexibleBoxData.cpp 200"
                         },
-                        {"size": 171, "caption": "StyleMarqueeData.cpp 171"},
-                        {"size": 142, "caption": "StyleVisualData.cpp 142"},
-                        {"size": 111, "caption": "NinePieceImage.cpp 111"},
-                        {"size": 63, "caption": "CounterDirectives.cpp 63"},
-                        {"size": 46, "caption": "BorderValue.h 46"}
+                        {"size": 171, "id": "StyleMarqueeData.cpp 171"},
+                        {"size": 142, "id": "StyleVisualData.cpp 142"},
+                        {"size": 111, "id": "NinePieceImage.cpp 111"},
+                        {"size": 63, "id": "CounterDirectives.cpp 63"},
+                        {"size": 46, "id": "BorderValue.h 46"}
                       ]
                     },
                     {
                       "size": 34000,
-                      "caption": "RenderBlockLineLayout.cpp 34.0k"
+                      "id": "RenderBlockLineLayout.cpp 34.0k"
                     },
                     {
                       "size": 29594,
-                      "caption": "RenderBoxModelObject.cpp 29.6k"
+                      "id": "RenderBoxModelObject.cpp 29.6k"
                     },
-                    {"size": 29534, "caption": "RenderObject.cpp 29.5k"},
-                    {"size": 22834, "caption": "RenderFlexibleBox.cpp 22.8k"},
-                    {"size": 18396, "caption": "RenderText.cpp 18.4k"},
-                    {"size": 16531, "caption": "RenderObject.h 16.5k"},
-                    {"size": 16492, "caption": "InlineTextBox.cpp 16.5k"},
-                    {"size": 16022, "caption": "RenderInline.cpp 16.0k"},
+                    {"size": 29534, "id": "RenderObject.cpp 29.5k"},
+                    {"size": 22834, "id": "RenderFlexibleBox.cpp 22.8k"},
+                    {"size": 18396, "id": "RenderText.cpp 18.4k"},
+                    {"size": 16531, "id": "RenderObject.h 16.5k"},
+                    {"size": 16492, "id": "InlineTextBox.cpp 16.5k"},
+                    {"size": 16022, "id": "RenderInline.cpp 16.0k"},
                     {
                       "size": 15956,
-                      "caption": "RenderTextControlSingleLine.cpp 16.0k"
+                      "id": "RenderTextControlSingleLine.cpp 16.0k"
                     },
-                    {"size": 15917, "caption": "InlineFlowBox.cpp 15.9k"},
-                    {"size": 15832, "caption": "RenderTableSection.cpp 15.8k"},
-                    {"size": 15458, "caption": "RenderTableCell.cpp 15.5k"},
-                    {"size": 14357, "caption": "RenderLayerBacking.cpp 14.4k"},
+                    {"size": 15917, "id": "InlineFlowBox.cpp 15.9k"},
+                    {"size": 15832, "id": "RenderTableSection.cpp 15.8k"},
+                    {"size": 15458, "id": "RenderTableCell.cpp 15.5k"},
+                    {"size": 14357, "id": "RenderLayerBacking.cpp 14.4k"},
                     {
                       "size": 13567,
-                      "caption": "RenderEmbeddedObject.cpp 13.6k"
+                      "id": "RenderEmbeddedObject.cpp 13.6k"
                     },
-                    {"size": 13147, "caption": "RenderTreeAsText.cpp 13.1k"},
-                    {"size": 12914, "caption": "SVGRenderTreeAsText.cpp 12.9k"},
-                    {"size": 12894, "caption": "RenderTable.cpp 12.9k"},
-                    {"size": 12072, "caption": "RenderListMarker.cpp 12.1k"},
-                    {"size": 12015, "caption": "RenderListBox.cpp 12.0k"},
-                    {"size": 11877, "caption": "RenderView.cpp 11.9k"},
-                    {"size": 11838, "caption": "RenderMedia.cpp 11.8k"},
+                    {"size": 13147, "id": "RenderTreeAsText.cpp 13.1k"},
+                    {"size": 12914, "id": "SVGRenderTreeAsText.cpp 12.9k"},
+                    {"size": 12894, "id": "RenderTable.cpp 12.9k"},
+                    {"size": 12072, "id": "RenderListMarker.cpp 12.1k"},
+                    {"size": 12015, "id": "RenderListBox.cpp 12.0k"},
+                    {"size": 11877, "id": "RenderView.cpp 11.9k"},
+                    {"size": 11838, "id": "RenderMedia.cpp 11.8k"},
                     {
                       "size": 11516,
-                      "caption": "RenderThemeChromiumSkia.cpp 11.5k"
+                      "id": "RenderThemeChromiumSkia.cpp 11.5k"
                     },
                     {
                       "size": 11387,
-                      "caption": "MediaControlElements.cpp 11.4k"
+                      "id": "MediaControlElements.cpp 11.4k"
                     },
                     {
                       "size": 11151,
-                      "caption": "RenderLayerCompositor.cpp 11.2k"
+                      "id": "RenderLayerCompositor.cpp 11.2k"
                     },
-                    {"size": 11047, "caption": "RenderFrameSet.cpp 11.0k"},
-                    {"size": 10418, "caption": "SVGInlineTextBox.cpp 10.4k"},
-                    {"size": 10158, "caption": "RenderTextControl.cpp 10.2k"},
-                    {"size": 9693, "caption": "RenderImage.cpp 9.7k"},
-                    {"size": 8911, "caption": "SVGResources.cpp 8.9k"},
-                    {"size": 8032, "caption": "AutoTableLayout.cpp 8.0k"},
-                    {"size": 7987, "caption": "RenderMenuList.cpp 8.0k"},
-                    {"size": 7411, "caption": "RenderCounter.cpp 7.4k"},
-                    {"size": 7364, "caption": "RenderTheme.cpp 7.4k"},
-                    {"size": 7165, "caption": "RenderSlider.cpp 7.2k"},
+                    {"size": 11047, "id": "RenderFrameSet.cpp 11.0k"},
+                    {"size": 10418, "id": "SVGInlineTextBox.cpp 10.4k"},
+                    {"size": 10158, "id": "RenderTextControl.cpp 10.2k"},
+                    {"size": 9693, "id": "RenderImage.cpp 9.7k"},
+                    {"size": 8911, "id": "SVGResources.cpp 8.9k"},
+                    {"size": 8032, "id": "AutoTableLayout.cpp 8.0k"},
+                    {"size": 7987, "id": "RenderMenuList.cpp 8.0k"},
+                    {"size": 7411, "id": "RenderCounter.cpp 7.4k"},
+                    {"size": 7364, "id": "RenderTheme.cpp 7.4k"},
+                    {"size": 7165, "id": "RenderSlider.cpp 7.2k"},
                     {
                       "size": 6142,
-                      "caption": "RenderSVGResourceClipper.cpp 6.1k"
+                      "id": "RenderSVGResourceClipper.cpp 6.1k"
                     },
                     {
                       "size": 5888,
-                      "caption": "TextControlInnerElements.cpp 5.9k"
+                      "id": "TextControlInnerElements.cpp 5.9k"
                     },
-                    {"size": 5662, "caption": "HitTestResult.cpp 5.7k"},
-                    {"size": 5463, "caption": "SVGRootInlineBox.cpp 5.5k"},
-                    {"size": 5422, "caption": "RenderScrollbar.cpp 5.4k"},
-                    {"size": 5184, "caption": "RenderObjectChildList.cpp 5.2k"},
+                    {"size": 5662, "id": "HitTestResult.cpp 5.7k"},
+                    {"size": 5463, "id": "SVGRootInlineBox.cpp 5.5k"},
+                    {"size": 5422, "id": "RenderScrollbar.cpp 5.4k"},
+                    {"size": 5184, "id": "RenderObjectChildList.cpp 5.2k"},
                     {
                       "size": 5078,
-                      "caption": "SVGCharacterLayoutInfo.cpp 5.1k"
+                      "id": "SVGCharacterLayoutInfo.cpp 5.1k"
                     },
-                    {"size": 4987, "caption": "RenderListItem.cpp 5.0k"},
-                    {"size": 4958, "caption": "RenderWidget.cpp 5.0k"},
+                    {"size": 4987, "id": "RenderListItem.cpp 5.0k"},
+                    {"size": 4958, "id": "RenderWidget.cpp 5.0k"},
                     {
                       "size": 4789,
-                      "caption": "RenderSVGResourcePattern.cpp 4.8k"
+                      "id": "RenderSVGResourcePattern.cpp 4.8k"
                     },
                     {
                       "size": 4635,
-                      "caption": "RenderSVGResourceFilter.cpp 4.6k"
+                      "id": "RenderSVGResourceFilter.cpp 4.6k"
                     },
-                    {"size": 4454, "caption": "RenderFieldset.cpp 4.5k"},
-                    {"size": 4411, "caption": "RenderReplaced.cpp 4.4k"},
-                    {"size": 4389, "caption": "RenderSVGRoot.cpp 4.4k"},
-                    {"size": 4260, "caption": "RootInlineBox.cpp 4.3k"},
+                    {"size": 4454, "id": "RenderFieldset.cpp 4.5k"},
+                    {"size": 4411, "id": "RenderReplaced.cpp 4.4k"},
+                    {"size": 4389, "id": "RenderSVGRoot.cpp 4.4k"},
+                    {"size": 4260, "id": "RootInlineBox.cpp 4.3k"},
                     {
                       "size": 4255,
-                      "caption": "RenderFileUploadControl.cpp 4.3k"
+                      "id": "RenderFileUploadControl.cpp 4.3k"
                     },
-                    {"size": 4105, "caption": "RenderPath.cpp 4.1k"},
+                    {"size": 4105, "id": "RenderPath.cpp 4.1k"},
                     {
                       "size": 4072,
-                      "caption": "SVGResourcesCycleSolver.cpp 4.1k"
+                      "id": "SVGResourcesCycleSolver.cpp 4.1k"
                     },
-                    {"size": 3969, "caption": "SVGRenderSupport.cpp 4.0k"},
+                    {"size": 3969, "id": "SVGRenderSupport.cpp 4.0k"},
                     {
                       "size": 3881,
-                      "caption": "SVGTextLayoutUtilities.cpp 3.9k"
+                      "id": "SVGTextLayoutUtilities.cpp 3.9k"
                     },
                     {
                       "size": 3744,
-                      "caption": "SVGTextChunkLayoutInfo.cpp 3.7k"
+                      "id": "SVGTextChunkLayoutInfo.cpp 3.7k"
                     },
                     {
                       "size": 3668,
-                      "caption": "RenderMediaControlsChromium.cpp 3.7k"
+                      "id": "RenderMediaControlsChromium.cpp 3.7k"
                     },
                     {
                       "size": 3511,
-                      "caption": "RenderSVGResourceMasker.cpp 3.5k"
+                      "id": "RenderSVGResourceMasker.cpp 3.5k"
                     },
-                    {"size": 3244, "caption": "RenderMarquee.cpp 3.2k"},
-                    {"size": 2962, "caption": "SVGTextQuery.cpp 3.0k"},
-                    {"size": 2936, "caption": "RenderSVGImage.cpp 2.9k"},
-                    {"size": 2835, "caption": "FixedTableLayout.cpp 2.8k"},
-                    {"size": 2832, "caption": "EllipsisBox.cpp 2.8k"},
+                    {"size": 3244, "id": "RenderMarquee.cpp 3.2k"},
+                    {"size": 2962, "id": "SVGTextQuery.cpp 3.0k"},
+                    {"size": 2936, "id": "RenderSVGImage.cpp 2.9k"},
+                    {"size": 2835, "id": "FixedTableLayout.cpp 2.8k"},
+                    {"size": 2832, "id": "EllipsisBox.cpp 2.8k"},
                     {
                       "size": 2798,
-                      "caption": "RenderSVGResourceGradient.cpp 2.8k"
+                      "id": "RenderSVGResourceGradient.cpp 2.8k"
                     },
-                    {"size": 2671, "caption": "RenderVideo.cpp 2.7k"},
-                    {"size": 2504, "caption": "RenderLineBoxList.cpp 2.5k"},
-                    {"size": 2390, "caption": "RenderButton.cpp 2.4k"},
-                    {"size": 2321, "caption": "RenderRubyBase.cpp 2.3k"},
+                    {"size": 2671, "id": "RenderVideo.cpp 2.7k"},
+                    {"size": 2504, "id": "RenderLineBoxList.cpp 2.5k"},
+                    {"size": 2390, "id": "RenderButton.cpp 2.4k"},
+                    {"size": 2321, "id": "RenderRubyBase.cpp 2.3k"},
                     {
                       "size": 2277,
-                      "caption": "RenderSVGResourceContainer.cpp 2.3k"
+                      "id": "RenderSVGResourceContainer.cpp 2.3k"
                     },
-                    {"size": 2116, "caption": "RenderSVGText.cpp 2.1k"},
-                    {"size": 2007, "caption": "SVGResourcesCache.cpp 2.0k"},
-                    {"size": 1991, "caption": "RenderMeter.cpp 2.0k"},
-                    {"size": 1890, "caption": "RenderScrollbarPart.cpp 1.9k"},
-                    {"size": 1888, "caption": "RenderForeignObject.cpp 1.9k"},
-                    {"size": 1887, "caption": "RenderTableRow.cpp 1.9k"},
-                    {"size": 1859, "caption": "RenderSVGContainer.cpp 1.9k"},
-                    {"size": 1856, "caption": "InlineBox.cpp 1.9k"},
-                    {"size": 1811, "caption": "RenderProgress.cpp 1.8k"},
+                    {"size": 2116, "id": "RenderSVGText.cpp 2.1k"},
+                    {"size": 2007, "id": "SVGResourcesCache.cpp 2.0k"},
+                    {"size": 1991, "id": "RenderMeter.cpp 2.0k"},
+                    {"size": 1890, "id": "RenderScrollbarPart.cpp 1.9k"},
+                    {"size": 1888, "id": "RenderForeignObject.cpp 1.9k"},
+                    {"size": 1887, "id": "RenderTableRow.cpp 1.9k"},
+                    {"size": 1859, "id": "RenderSVGContainer.cpp 1.9k"},
+                    {"size": 1856, "id": "InlineBox.cpp 1.9k"},
+                    {"size": 1811, "id": "RenderProgress.cpp 1.8k"},
                     {
                       "size": 1712,
-                      "caption": "RenderSVGResourceMarker.cpp 1.7k"
+                      "id": "RenderSVGResourceMarker.cpp 1.7k"
                     },
-                    {"size": 1709, "caption": "SVGMarkerLayoutInfo.cpp 1.7k"},
-                    {"size": 1673, "caption": "TransformState.cpp 1.7k"},
+                    {"size": 1709, "id": "SVGMarkerLayoutInfo.cpp 1.7k"},
+                    {"size": 1673, "id": "TransformState.cpp 1.7k"},
                     {
                       "size": 1659,
-                      "caption": "RenderThemeChromiumLinux.cpp 1.7k"
+                      "id": "RenderThemeChromiumLinux.cpp 1.7k"
                     },
-                    {"size": 1617, "caption": "RenderRubyRun.cpp 1.6k"},
+                    {"size": 1617, "id": "RenderRubyRun.cpp 1.6k"},
                     {
                       "size": 1611,
-                      "caption": "RenderTextControlMultiLine.cpp 1.6k"
+                      "id": "RenderTextControlMultiLine.cpp 1.6k"
                     },
-                    {"size": 1427, "caption": "RenderSVGResource.cpp 1.4k"},
-                    {"size": 1382, "caption": "SVGShadowTreeElements.cpp 1.4k"},
-                    {"size": 1342, "caption": "ShadowElement.cpp 1.3k"},
-                    {"size": 1314, "caption": "SVGImageBufferTools.cpp 1.3k"},
-                    {"size": 1184, "caption": "RenderSVGInline.cpp 1.2k"},
-                    {"size": 1113, "caption": "RenderScrollbarTheme.cpp 1.1k"},
-                    {"size": 1083, "caption": "RenderInputSpeech.cpp 1.1k"},
-                    {"size": 1052, "caption": "RenderIFrame.cpp 1.1k"},
-                    {"size": 1044, "caption": "RenderRuby.cpp 1.0k"},
-                    {"size": 1011, "caption": "RenderTableCol.cpp 1.0k"},
-                    {"size": 964, "caption": "RenderApplet.cpp 964"},
-                    {"size": 889, "caption": "LayoutState.cpp 889"},
-                    {"size": 812, "caption": "CounterNode.cpp 812"},
-                    {"size": 798, "caption": "RenderHTMLCanvas.cpp 798"},
-                    {"size": 786, "caption": "RenderTextFragment.cpp 786"},
-                    {"size": 775, "caption": "RenderSVGModelObject.cpp 775"},
+                    {"size": 1427, "id": "RenderSVGResource.cpp 1.4k"},
+                    {"size": 1382, "id": "SVGShadowTreeElements.cpp 1.4k"},
+                    {"size": 1342, "id": "ShadowElement.cpp 1.3k"},
+                    {"size": 1314, "id": "SVGImageBufferTools.cpp 1.3k"},
+                    {"size": 1184, "id": "RenderSVGInline.cpp 1.2k"},
+                    {"size": 1113, "id": "RenderScrollbarTheme.cpp 1.1k"},
+                    {"size": 1083, "id": "RenderInputSpeech.cpp 1.1k"},
+                    {"size": 1052, "id": "RenderIFrame.cpp 1.1k"},
+                    {"size": 1044, "id": "RenderRuby.cpp 1.0k"},
+                    {"size": 1011, "id": "RenderTableCol.cpp 1.0k"},
+                    {"size": 964, "id": "RenderApplet.cpp 964"},
+                    {"size": 889, "id": "LayoutState.cpp 889"},
+                    {"size": 812, "id": "CounterNode.cpp 812"},
+                    {"size": 798, "id": "RenderHTMLCanvas.cpp 798"},
+                    {"size": 786, "id": "RenderTextFragment.cpp 786"},
+                    {"size": 775, "id": "RenderSVGModelObject.cpp 775"},
                     {
                       "size": 735,
-                      "caption": "RenderSVGShadowTreeRootContainer.cpp 735"
+                      "id": "RenderSVGShadowTreeRootContainer.cpp 735"
                     },
-                    {"size": 727, "caption": "RenderBR.cpp 727"},
-                    {"size": 685, "caption": "RenderIndicator.cpp 685"},
+                    {"size": 727, "id": "RenderBR.cpp 727"},
+                    {"size": 685, "id": "RenderIndicator.cpp 685"},
                     {
                       "size": 659,
-                      "caption": "RenderSVGViewportContainer.cpp 659"
+                      "id": "RenderSVGViewportContainer.cpp 659"
                     },
-                    {"size": 637, "caption": "InlineIterator.h 637"},
+                    {"size": 637, "id": "InlineIterator.h 637"},
                     {
                       "size": 582,
-                      "caption": "RenderSVGResourceSolidColor.cpp 582"
+                      "id": "RenderSVGResourceSolidColor.cpp 582"
                     },
-                    {"size": 554, "caption": "RenderSVGTextPath.cpp 554"},
-                    {"size": 545, "caption": "RenderFrameBase.cpp 545"},
+                    {"size": 554, "id": "RenderSVGTextPath.cpp 554"},
+                    {"size": 545, "id": "RenderFrameBase.cpp 545"},
                     {
                       "size": 508,
-                      "caption": "RenderSVGResourceRadialGradient.cpp 508"
+                      "id": "RenderSVGResourceRadialGradient.cpp 508"
                     },
                     {
                       "size": 474,
-                      "caption": "RenderSVGResourceLinearGradient.cpp 474"
+                      "id": "RenderSVGResourceLinearGradient.cpp 474"
                     },
-                    {"size": 434, "caption": "break_lines.cpp 434"},
+                    {"size": 434, "id": "break_lines.cpp 434"},
                     {
                       "size": 428,
-                      "caption": "RenderSVGTransformableContainer.cpp 428"
+                      "id": "RenderSVGTransformableContainer.cpp 428"
                     },
-                    {"size": 417, "caption": "RenderReplica.cpp 417"},
-                    {"size": 339, "caption": "RenderSVGInlineText.cpp 339"},
-                    {"size": 329, "caption": "RenderSVGBlock.cpp 329"},
-                    {"size": 328, "caption": "RenderSVGGradientStop.cpp 328"},
-                    {"size": 322, "caption": "RenderFrame.cpp 322"},
+                    {"size": 417, "id": "RenderReplica.cpp 417"},
+                    {"size": 339, "id": "RenderSVGInlineText.cpp 339"},
+                    {"size": 329, "id": "RenderSVGBlock.cpp 329"},
+                    {"size": 328, "id": "RenderSVGGradientStop.cpp 328"},
+                    {"size": 322, "id": "RenderFrame.cpp 322"},
                     {
                       "size": 322,
-                      "caption": "RenderImageGeneratedContent.cpp 322"
+                      "id": "RenderImageGeneratedContent.cpp 322"
                     },
-                    {"size": 296, "caption": "RenderPart.cpp 296"},
-                    {"size": 249, "caption": "SVGInlineFlowBox.cpp 249"},
-                    {"size": 243, "caption": "SVGCharacterData.cpp 243"},
+                    {"size": 296, "id": "RenderPart.cpp 296"},
+                    {"size": 249, "id": "SVGInlineFlowBox.cpp 249"},
+                    {"size": 243, "id": "SVGCharacterData.cpp 243"},
                     {
                       "size": 222,
-                      "caption": "RenderSVGHiddenContainer.cpp 222"
+                      "id": "RenderSVGHiddenContainer.cpp 222"
                     },
-                    {"size": 204, "caption": "RenderArena.cpp 204"},
-                    {"size": 177, "caption": "PointerEventsHitRules.cpp 177"},
-                    {"size": 124, "caption": "RenderRubyText.cpp 124"},
-                    {"size": 120, "caption": "RenderWordBreak.cpp 120"},
-                    {"size": 76, "caption": "BidiRun.cpp 76"},
-                    {"size": 37, "caption": "RenderSVGTSpan.cpp 37"}
+                    {"size": 204, "id": "RenderArena.cpp 204"},
+                    {"size": 177, "id": "PointerEventsHitRules.cpp 177"},
+                    {"size": 124, "id": "RenderRubyText.cpp 124"},
+                    {"size": 120, "id": "RenderWordBreak.cpp 120"},
+                    {"size": 76, "id": "BidiRun.cpp 76"},
+                    {"size": 37, "id": "RenderSVGTSpan.cpp 37"}
                   ]
                 },
                 {
                   "size": 470396,
-                  "caption": "html 470.4k",
+                  "id": "html 470.4k",
                   "children": [
                     {
                       "size": 91426,
-                      "caption": "canvas 91.4k",
+                      "id": "canvas 91.4k",
                       "children": [
                         {
                           "size": 39887,
-                          "caption": "WebGLRenderingContext.cpp 39.9k"
+                          "id": "WebGLRenderingContext.cpp 39.9k"
                         },
                         {
                           "size": 29852,
-                          "caption": "CanvasRenderingContext2D.cpp 29.9k"
+                          "id": "CanvasRenderingContext2D.cpp 29.9k"
                         },
-                        {"size": 3061, "caption": "WebGLTexture.cpp 3.1k"},
-                        {"size": 2639, "caption": "WebGLGetInfo.cpp 2.6k"},
-                        {"size": 1759, "caption": "WebGLFramebuffer.cpp 1.8k"},
-                        {"size": 1481, "caption": "CanvasStyle.cpp 1.5k"},
-                        {"size": 1336, "caption": "WebGLBuffer.cpp 1.3k"},
-                        {"size": 1270, "caption": "Uint8Array.cpp 1.3k"},
-                        {"size": 1267, "caption": "Float32Array.cpp 1.3k"},
-                        {"size": 1263, "caption": "Int32Array.cpp 1.3k"},
-                        {"size": 1209, "caption": "WebGLProgram.cpp 1.2k"},
-                        {"size": 935, "caption": "Uint32Array.cpp 935"},
-                        {"size": 932, "caption": "Uint16Array.cpp 932"},
-                        {"size": 932, "caption": "Int16Array.cpp 932"},
-                        {"size": 925, "caption": "Int8Array.cpp 925"},
+                        {"size": 3061, "id": "WebGLTexture.cpp 3.1k"},
+                        {"size": 2639, "id": "WebGLGetInfo.cpp 2.6k"},
+                        {"size": 1759, "id": "WebGLFramebuffer.cpp 1.8k"},
+                        {"size": 1481, "id": "CanvasStyle.cpp 1.5k"},
+                        {"size": 1336, "id": "WebGLBuffer.cpp 1.3k"},
+                        {"size": 1270, "id": "Uint8Array.cpp 1.3k"},
+                        {"size": 1267, "id": "Float32Array.cpp 1.3k"},
+                        {"size": 1263, "id": "Int32Array.cpp 1.3k"},
+                        {"size": 1209, "id": "WebGLProgram.cpp 1.2k"},
+                        {"size": 935, "id": "Uint32Array.cpp 935"},
+                        {"size": 932, "id": "Uint16Array.cpp 932"},
+                        {"size": 932, "id": "Int16Array.cpp 932"},
+                        {"size": 925, "id": "Int8Array.cpp 925"},
                         {
                           "size": 473,
-                          "caption": "WebGLContextAttributes.cpp 473"
+                          "id": "WebGLContextAttributes.cpp 473"
                         },
-                        {"size": 380, "caption": "ArrayBufferView.cpp 380"},
-                        {"size": 328, "caption": "CanvasPattern.cpp 328"},
-                        {"size": 298, "caption": "CanvasGradient.cpp 298"},
-                        {"size": 283, "caption": "WebGLObject.cpp 283"},
-                        {"size": 202, "caption": "ArrayBuffer.cpp 202"},
-                        {"size": 178, "caption": "WebGLShader.cpp 178"},
-                        {"size": 170, "caption": "WebGLRenderbuffer.cpp 170"},
+                        {"size": 380, "id": "ArrayBufferView.cpp 380"},
+                        {"size": 328, "id": "CanvasPattern.cpp 328"},
+                        {"size": 298, "id": "CanvasGradient.cpp 298"},
+                        {"size": 283, "id": "WebGLObject.cpp 283"},
+                        {"size": 202, "id": "ArrayBuffer.cpp 202"},
+                        {"size": 178, "id": "WebGLShader.cpp 178"},
+                        {"size": 170, "id": "WebGLRenderbuffer.cpp 170"},
                         {
                           "size": 121,
-                          "caption": "CanvasRenderingContext.cpp 121"
+                          "id": "CanvasRenderingContext.cpp 121"
                         },
-                        {"size": 101, "caption": "CanvasPixelArray.cpp 101"},
+                        {"size": 101, "id": "CanvasPixelArray.cpp 101"},
                         {
                           "size": 73,
-                          "caption": "CanvasContextAttributes.cpp 73"
+                          "id": "CanvasContextAttributes.cpp 73"
                         },
                         {
                           "size": 71,
-                          "caption": "WebGLUniformLocation.cpp 71"
+                          "id": "WebGLUniformLocation.cpp 71"
                         }
                       ]
                     },
-                    {"size": 39444, "caption": "HTMLTokenizer.cpp 39.4k"},
-                    {"size": 34835, "caption": "HTMLInputElement.cpp 34.8k"},
-                    {"size": 29388, "caption": "HTMLTreeBuilder.cpp 29.4k"},
-                    {"size": 24658, "caption": "HTMLMediaElement.cpp 24.7k"},
-                    {"size": 14866, "caption": "HTMLElement.cpp 14.9k"},
-                    {"size": 13139, "caption": "HTMLDocumentParser.cpp 13.1k"},
-                    {"size": 10595, "caption": "HTMLAnchorElement.cpp 10.6k"},
-                    {"size": 10136, "caption": "HTMLTableElement.cpp 10.1k"},
+                    {"size": 39444, "id": "HTMLTokenizer.cpp 39.4k"},
+                    {"size": 34835, "id": "HTMLInputElement.cpp 34.8k"},
+                    {"size": 29388, "id": "HTMLTreeBuilder.cpp 29.4k"},
+                    {"size": 24658, "id": "HTMLMediaElement.cpp 24.7k"},
+                    {"size": 14866, "id": "HTMLElement.cpp 14.9k"},
+                    {"size": 13139, "id": "HTMLDocumentParser.cpp 13.1k"},
+                    {"size": 10595, "id": "HTMLAnchorElement.cpp 10.6k"},
+                    {"size": 10136, "id": "HTMLTableElement.cpp 10.1k"},
                     {
                       "size": 10125,
-                      "caption": "HTMLFormControlElement.cpp 10.1k"
+                      "id": "HTMLFormControlElement.cpp 10.1k"
                     },
-                    {"size": 9461, "caption": "HTMLFormElement.cpp 9.5k"},
+                    {"size": 9461, "id": "HTMLFormElement.cpp 9.5k"},
                     {
                       "size": 8616,
-                      "caption": "HTMLViewSourceDocument.cpp 8.6k"
+                      "id": "HTMLViewSourceDocument.cpp 8.6k"
                     },
-                    {"size": 6481, "caption": "HTMLLinkElement.cpp 6.5k"},
-                    {"size": 6140, "caption": "HTMLBodyElement.cpp 6.1k"},
-                    {"size": 6090, "caption": "HTMLScriptRunner.cpp 6.1k"},
-                    {"size": 6046, "caption": "DateComponents.cpp 6.0k"},
-                    {"size": 5935, "caption": "HTMLTextAreaElement.cpp 5.9k"},
-                    {"size": 5725, "caption": "HTMLElementStack.cpp 5.7k"},
-                    {"size": 5646, "caption": "HTMLImageElement.cpp 5.6k"},
-                    {"size": 5630, "caption": "FileReader.cpp 5.6k"},
-                    {"size": 5521, "caption": "HTMLConstructionSite.cpp 5.5k"},
-                    {"size": 5395, "caption": "HTMLDocument.cpp 5.4k"},
-                    {"size": 5047, "caption": "HTMLSelectElement.cpp 5.0k"},
-                    {"size": 4519, "caption": "HTMLCanvasElement.cpp 4.5k"},
-                    {"size": 4466, "caption": "HTMLCollection.cpp 4.5k"},
-                    {"size": 3978, "caption": "HTMLObjectElement.cpp 4.0k"},
-                    {"size": 3962, "caption": "HTMLViewSourceParser.cpp 4.0k"},
-                    {"size": 3846, "caption": "HTMLFormCollection.cpp 3.8k"},
-                    {"size": 3380, "caption": "HTMLFrameSetElement.cpp 3.4k"},
-                    {"size": 3214, "caption": "Blob.cpp 3.2k"},
-                    {"size": 3116, "caption": "HTMLFrameElementBase.cpp 3.1k"},
-                    {"size": 2833, "caption": "HTMLScriptElement.cpp 2.8k"},
-                    {"size": 2696, "caption": "HTMLEmbedElement.cpp 2.7k"},
-                    {"size": 2645, "caption": "HTMLAreaElement.cpp 2.6k"},
-                    {"size": 2629, "caption": "HTMLMeterElement.cpp 2.6k"},
-                    {"size": 2617, "caption": "FileStreamProxy.cpp 2.6k"},
-                    {"size": 2471, "caption": "HTMLOptionElement.cpp 2.5k"},
-                    {"size": 2419, "caption": "HTMLEntityParser.cpp 2.4k"},
-                    {"size": 2204, "caption": "HTMLButtonElement.cpp 2.2k"},
-                    {"size": 2187, "caption": "HTMLAppletElement.cpp 2.2k"},
-                    {"size": 1986, "caption": "HTMLPreloadScanner.cpp 2.0k"},
-                    {"size": 1841, "caption": "HTMLVideoElement.cpp 1.8k"},
-                    {"size": 1771, "caption": "HTMLMapElement.cpp 1.8k"},
-                    {"size": 1731, "caption": "HTMLNameCollection.cpp 1.7k"},
-                    {"size": 1674, "caption": "HTMLTableCellElement.cpp 1.7k"},
-                    {"size": 1672, "caption": "CSSPreloadScanner.cpp 1.7k"},
-                    {"size": 1593, "caption": "ValidityState.cpp 1.6k"},
-                    {"size": 1482, "caption": "HTMLHRElement.cpp 1.5k"},
-                    {"size": 1446, "caption": "HTMLTableRowElement.cpp 1.4k"},
-                    {"size": 1402, "caption": "HTMLMarqueeElement.cpp 1.4k"},
+                    {"size": 6481, "id": "HTMLLinkElement.cpp 6.5k"},
+                    {"size": 6140, "id": "HTMLBodyElement.cpp 6.1k"},
+                    {"size": 6090, "id": "HTMLScriptRunner.cpp 6.1k"},
+                    {"size": 6046, "id": "DateComponents.cpp 6.0k"},
+                    {"size": 5935, "id": "HTMLTextAreaElement.cpp 5.9k"},
+                    {"size": 5725, "id": "HTMLElementStack.cpp 5.7k"},
+                    {"size": 5646, "id": "HTMLImageElement.cpp 5.6k"},
+                    {"size": 5630, "id": "FileReader.cpp 5.6k"},
+                    {"size": 5521, "id": "HTMLConstructionSite.cpp 5.5k"},
+                    {"size": 5395, "id": "HTMLDocument.cpp 5.4k"},
+                    {"size": 5047, "id": "HTMLSelectElement.cpp 5.0k"},
+                    {"size": 4519, "id": "HTMLCanvasElement.cpp 4.5k"},
+                    {"size": 4466, "id": "HTMLCollection.cpp 4.5k"},
+                    {"size": 3978, "id": "HTMLObjectElement.cpp 4.0k"},
+                    {"size": 3962, "id": "HTMLViewSourceParser.cpp 4.0k"},
+                    {"size": 3846, "id": "HTMLFormCollection.cpp 3.8k"},
+                    {"size": 3380, "id": "HTMLFrameSetElement.cpp 3.4k"},
+                    {"size": 3214, "id": "Blob.cpp 3.2k"},
+                    {"size": 3116, "id": "HTMLFrameElementBase.cpp 3.1k"},
+                    {"size": 2833, "id": "HTMLScriptElement.cpp 2.8k"},
+                    {"size": 2696, "id": "HTMLEmbedElement.cpp 2.7k"},
+                    {"size": 2645, "id": "HTMLAreaElement.cpp 2.6k"},
+                    {"size": 2629, "id": "HTMLMeterElement.cpp 2.6k"},
+                    {"size": 2617, "id": "FileStreamProxy.cpp 2.6k"},
+                    {"size": 2471, "id": "HTMLOptionElement.cpp 2.5k"},
+                    {"size": 2419, "id": "HTMLEntityParser.cpp 2.4k"},
+                    {"size": 2204, "id": "HTMLButtonElement.cpp 2.2k"},
+                    {"size": 2187, "id": "HTMLAppletElement.cpp 2.2k"},
+                    {"size": 1986, "id": "HTMLPreloadScanner.cpp 2.0k"},
+                    {"size": 1841, "id": "HTMLVideoElement.cpp 1.8k"},
+                    {"size": 1771, "id": "HTMLMapElement.cpp 1.8k"},
+                    {"size": 1731, "id": "HTMLNameCollection.cpp 1.7k"},
+                    {"size": 1674, "id": "HTMLTableCellElement.cpp 1.7k"},
+                    {"size": 1672, "id": "CSSPreloadScanner.cpp 1.7k"},
+                    {"size": 1593, "id": "ValidityState.cpp 1.6k"},
+                    {"size": 1482, "id": "HTMLHRElement.cpp 1.5k"},
+                    {"size": 1446, "id": "HTMLTableRowElement.cpp 1.4k"},
+                    {"size": 1402, "id": "HTMLMarqueeElement.cpp 1.4k"},
                     {
                       "size": 1386,
-                      "caption": "HTMLTableRowsCollection.cpp 1.4k"
+                      "id": "HTMLTableRowsCollection.cpp 1.4k"
                     },
-                    {"size": 1335, "caption": "HTMLPlugInElement.cpp 1.3k"},
-                    {"size": 1232, "caption": "HTMLParamElement.cpp 1.2k"},
-                    {"size": 1217, "caption": "HTMLTitleElement.cpp 1.2k"},
-                    {"size": 1216, "caption": "HTMLProgressElement.cpp 1.2k"},
+                    {"size": 1335, "id": "HTMLPlugInElement.cpp 1.3k"},
+                    {"size": 1232, "id": "HTMLParamElement.cpp 1.2k"},
+                    {"size": 1217, "id": "HTMLTitleElement.cpp 1.2k"},
+                    {"size": 1216, "id": "HTMLProgressElement.cpp 1.2k"},
                     {
                       "size": 1203,
-                      "caption": "HTMLFormattingElementList.cpp 1.2k"
+                      "id": "HTMLFormattingElementList.cpp 1.2k"
                     },
-                    {"size": 1192, "caption": "HTMLIFrameElement.cpp 1.2k"},
-                    {"size": 1187, "caption": "HTMLOptGroupElement.cpp 1.2k"},
-                    {"size": 1181, "caption": "HTMLLabelElement.cpp 1.2k"},
-                    {"size": 1169, "caption": "BlobBuilder.cpp 1.2k"},
-                    {"size": 1087, "caption": "HTMLSourceElement.cpp 1.1k"},
-                    {"size": 1083, "caption": "HTMLTablePartElement.cpp 1.1k"},
-                    {"size": 1062, "caption": "HTMLKeygenElement.cpp 1.1k"},
-                    {"size": 1033, "caption": "FileThread.cpp 1.0k"},
-                    {"size": 1005, "caption": "HTMLLIElement.cpp 1.0k"},
-                    {"size": 984, "caption": "HTMLTableColElement.cpp 984"},
-                    {"size": 978, "caption": "HTMLStyleElement.cpp 978"},
-                    {"size": 947, "caption": "TimeRanges.cpp 947"},
-                    {"size": 925, "caption": "HTMLFontElement.cpp 925"},
-                    {"size": 925, "caption": "HTMLTableSectionElement.cpp 925"},
-                    {"size": 920, "caption": "CollectionCache.cpp 920"},
-                    {"size": 902, "caption": "HTMLOListElement.cpp 902"},
-                    {"size": 879, "caption": "ThreadableBlobRegistry.cpp 879"},
-                    {"size": 824, "caption": "HTMLBaseElement.cpp 824"},
-                    {"size": 812, "caption": "HTMLImageLoader.cpp 812"},
-                    {"size": 802, "caption": "HTMLDivElement.cpp 802"},
-                    {"size": 709, "caption": "FormDataList.cpp 709"},
-                    {"size": 654, "caption": "HTMLMetaElement.cpp 654"},
-                    {"size": 620, "caption": "File.cpp 620"},
-                    {"size": 610, "caption": "HTMLBRElement.cpp 610"},
-                    {"size": 602, "caption": "BlobURL.cpp 602"},
-                    {"size": 577, "caption": "HTMLHtmlElement.cpp 577"},
-                    {"size": 560, "caption": "HTMLEntitySearch.cpp 560"},
-                    {"size": 557, "caption": "HTMLParagraphElement.cpp 557"},
-                    {"size": 552, "caption": "HTMLFrameOwnerElement.cpp 552"},
-                    {"size": 535, "caption": "StepRange.cpp 535"},
-                    {"size": 517, "caption": "HTMLLegendElement.cpp 517"},
-                    {"size": 515, "caption": "HTMLPlugInImageElement.cpp 515"},
-                    {"size": 501, "caption": "HTMLOptionsCollection.cpp 501"},
-                    {"size": 396, "caption": "HTMLUListElement.cpp 396"},
-                    {"size": 379, "caption": "HTMLFrameElement.cpp 379"},
-                    {"size": 327, "caption": "HTMLPreElement.cpp 327"},
-                    {"size": 319, "caption": "HTMLTableCaptionElement.cpp 319"},
-                    {"size": 297, "caption": "HTMLAudioElement.cpp 297"},
-                    {"size": 296, "caption": "LabelsNodeList.cpp 296"},
-                    {"size": 293, "caption": "HTMLParserScheduler.cpp 293"},
-                    {"size": 287, "caption": "HTMLFieldSetElement.cpp 287"},
-                    {"size": 273, "caption": "HTMLBlockquoteElement.cpp 273"},
-                    {"size": 273, "caption": "HTMLHeadElement.cpp 273"},
-                    {"size": 237, "caption": "HTMLIsIndexElement.cpp 237"},
-                    {"size": 227, "caption": "HTMLAllCollection.cpp 227"},
-                    {"size": 208, "caption": "HTMLQuoteElement.cpp 208"},
-                    {"size": 201, "caption": "DOMFormData.cpp 201"},
-                    {"size": 180, "caption": "HTMLHeadingElement.cpp 180"},
-                    {"size": 180, "caption": "HTMLModElement.cpp 180"},
-                    {"size": 180, "caption": "HTMLDirectoryElement.cpp 180"},
-                    {"size": 180, "caption": "HTMLDListElement.cpp 180"},
-                    {"size": 180, "caption": "HTMLBaseFontElement.cpp 180"},
-                    {"size": 180, "caption": "HTMLMenuElement.cpp 180"},
-                    {"size": 124, "caption": "ImageData.cpp 124"},
-                    {"size": 59, "caption": "FileList.cpp 59"}
+                    {"size": 1192, "id": "HTMLIFrameElement.cpp 1.2k"},
+                    {"size": 1187, "id": "HTMLOptGroupElement.cpp 1.2k"},
+                    {"size": 1181, "id": "HTMLLabelElement.cpp 1.2k"},
+                    {"size": 1169, "id": "BlobBuilder.cpp 1.2k"},
+                    {"size": 1087, "id": "HTMLSourceElement.cpp 1.1k"},
+                    {"size": 1083, "id": "HTMLTablePartElement.cpp 1.1k"},
+                    {"size": 1062, "id": "HTMLKeygenElement.cpp 1.1k"},
+                    {"size": 1033, "id": "FileThread.cpp 1.0k"},
+                    {"size": 1005, "id": "HTMLLIElement.cpp 1.0k"},
+                    {"size": 984, "id": "HTMLTableColElement.cpp 984"},
+                    {"size": 978, "id": "HTMLStyleElement.cpp 978"},
+                    {"size": 947, "id": "TimeRanges.cpp 947"},
+                    {"size": 925, "id": "HTMLFontElement.cpp 925"},
+                    {"size": 925, "id": "HTMLTableSectionElement.cpp 925"},
+                    {"size": 920, "id": "CollectionCache.cpp 920"},
+                    {"size": 902, "id": "HTMLOListElement.cpp 902"},
+                    {"size": 879, "id": "ThreadableBlobRegistry.cpp 879"},
+                    {"size": 824, "id": "HTMLBaseElement.cpp 824"},
+                    {"size": 812, "id": "HTMLImageLoader.cpp 812"},
+                    {"size": 802, "id": "HTMLDivElement.cpp 802"},
+                    {"size": 709, "id": "FormDataList.cpp 709"},
+                    {"size": 654, "id": "HTMLMetaElement.cpp 654"},
+                    {"size": 620, "id": "File.cpp 620"},
+                    {"size": 610, "id": "HTMLBRElement.cpp 610"},
+                    {"size": 602, "id": "BlobURL.cpp 602"},
+                    {"size": 577, "id": "HTMLHtmlElement.cpp 577"},
+                    {"size": 560, "id": "HTMLEntitySearch.cpp 560"},
+                    {"size": 557, "id": "HTMLParagraphElement.cpp 557"},
+                    {"size": 552, "id": "HTMLFrameOwnerElement.cpp 552"},
+                    {"size": 535, "id": "StepRange.cpp 535"},
+                    {"size": 517, "id": "HTMLLegendElement.cpp 517"},
+                    {"size": 515, "id": "HTMLPlugInImageElement.cpp 515"},
+                    {"size": 501, "id": "HTMLOptionsCollection.cpp 501"},
+                    {"size": 396, "id": "HTMLUListElement.cpp 396"},
+                    {"size": 379, "id": "HTMLFrameElement.cpp 379"},
+                    {"size": 327, "id": "HTMLPreElement.cpp 327"},
+                    {"size": 319, "id": "HTMLTableCaptionElement.cpp 319"},
+                    {"size": 297, "id": "HTMLAudioElement.cpp 297"},
+                    {"size": 296, "id": "LabelsNodeList.cpp 296"},
+                    {"size": 293, "id": "HTMLParserScheduler.cpp 293"},
+                    {"size": 287, "id": "HTMLFieldSetElement.cpp 287"},
+                    {"size": 273, "id": "HTMLBlockquoteElement.cpp 273"},
+                    {"size": 273, "id": "HTMLHeadElement.cpp 273"},
+                    {"size": 237, "id": "HTMLIsIndexElement.cpp 237"},
+                    {"size": 227, "id": "HTMLAllCollection.cpp 227"},
+                    {"size": 208, "id": "HTMLQuoteElement.cpp 208"},
+                    {"size": 201, "id": "DOMFormData.cpp 201"},
+                    {"size": 180, "id": "HTMLHeadingElement.cpp 180"},
+                    {"size": 180, "id": "HTMLModElement.cpp 180"},
+                    {"size": 180, "id": "HTMLDirectoryElement.cpp 180"},
+                    {"size": 180, "id": "HTMLDListElement.cpp 180"},
+                    {"size": 180, "id": "HTMLBaseFontElement.cpp 180"},
+                    {"size": 180, "id": "HTMLMenuElement.cpp 180"},
+                    {"size": 124, "id": "ImageData.cpp 124"},
+                    {"size": 59, "id": "FileList.cpp 59"}
                   ]
                 },
                 {
                   "size": 465715,
-                  "caption": "platform 465.7k",
+                  "id": "platform 465.7k",
                   "children": [
                     {
                       "size": 240698,
-                      "caption": "graphics 240.7k",
+                      "id": "graphics 240.7k",
                       "children": [
                         {
                           "size": 53171,
-                          "caption": "GraphicsContext3D.cpp 53.2k"
+                          "id": "GraphicsContext3D.cpp 53.2k"
                         },
                         {
                           "size": 41313,
-                          "caption": "chromium 41.3k",
+                          "id": "chromium 41.3k",
                           "children": [
                             {
                               "size": 6364,
-                              "caption": "GraphicsLayerChromium.cpp 6.4k"
+                              "id": "GraphicsLayerChromium.cpp 6.4k"
                             },
                             {
                               "size": 6131,
-                              "caption": "LayerRendererChromium.cpp 6.1k"
+                              "id": "LayerRendererChromium.cpp 6.1k"
                             },
-                            {"size": 5819, "caption": "GLES2Canvas.cpp 5.8k"},
-                            {"size": 4477, "caption": "LayerChromium.cpp 4.5k"},
-                            {"size": 4257, "caption": "FontLinux.cpp 4.3k"},
-                            {"size": 1716, "caption": "GLES2Texture.cpp 1.7k"},
+                            {"size": 5819, "id": "GLES2Canvas.cpp 5.8k"},
+                            {"size": 4477, "id": "LayerChromium.cpp 4.5k"},
+                            {"size": 4257, "id": "FontLinux.cpp 4.3k"},
+                            {"size": 1716, "id": "GLES2Texture.cpp 1.7k"},
                             {
                               "size": 1561,
-                              "caption": "ContentLayerChromium.cpp 1.6k"
+                              "id": "ContentLayerChromium.cpp 1.6k"
                             },
-                            {"size": 1442, "caption": "HarfbuzzSkia.cpp 1.4k"},
+                            {"size": 1442, "id": "HarfbuzzSkia.cpp 1.4k"},
                             {
                               "size": 1430,
-                              "caption": "FontPlatformDataLinux.cpp 1.4k"
+                              "id": "FontPlatformDataLinux.cpp 1.4k"
                             },
-                            {"size": 1417, "caption": "TilingData.cpp 1.4k"}, {
+                            {"size": 1417, "id": "TilingData.cpp 1.4k"}, {
                               "size": 1406,
-                              "caption": "SimpleFontDataLinux.cpp 1.4k"
+                              "id": "SimpleFontDataLinux.cpp 1.4k"
                             },
                             {
                               "size": 1328,
-                              "caption": "FontCacheLinux.cpp 1.3k"
+                              "id": "FontCacheLinux.cpp 1.3k"
                             },
                             {
                               "size": 1289,
-                              "caption": "VideoLayerChromium.cpp 1.3k"
+                              "id": "VideoLayerChromium.cpp 1.3k"
                             },
                             {
                               "size": 850,
-                              "caption": "CanvasLayerChromium.cpp 850"
+                              "id": "CanvasLayerChromium.cpp 850"
                             },
-                            {"size": 566, "caption": "VDMXParser.cpp 566"}, {
+                            {"size": 566, "id": "VDMXParser.cpp 566"}, {
                               "size": 455,
-                              "caption": "GlyphPageTreeNodeLinux.cpp 455"
+                              "id": "GlyphPageTreeNodeLinux.cpp 455"
                             },
                             {
                               "size": 408,
-                              "caption": "FontCustomPlatformData.cpp 408"
+                              "id": "FontCustomPlatformData.cpp 408"
                             },
                             {
                               "size": 387,
-                              "caption": "ImageLayerChromium.cpp 387"
+                              "id": "ImageLayerChromium.cpp 387"
                             },
                             {
                               "size": 10,
-                              "caption": "IconChromiumLinux.cpp 10"
+                              "id": "IconChromiumLinux.cpp 10"
                             }
                           ]
                         },
                         {
                           "size": 32636,
-                          "caption": "skia 32.6k",
+                          "id": "skia 32.6k",
                           "children": [
                             {
                               "size": 10839,
-                              "caption": "GraphicsContextSkia.cpp 10.8k"
+                              "id": "GraphicsContextSkia.cpp 10.8k"
                             },
                             {
                               "size": 6185,
-                              "caption": "PlatformContextSkia.cpp 6.2k"
+                              "id": "PlatformContextSkia.cpp 6.2k"
                             },
-                            {"size": 4326, "caption": "ImageSkia.cpp 4.3k"},
-                            {"size": 3378, "caption": "PathSkia.cpp 3.4k"}, {
+                            {"size": 4326, "id": "ImageSkia.cpp 4.3k"},
+                            {"size": 3378, "id": "PathSkia.cpp 3.4k"}, {
                               "size": 2319,
-                              "caption": "ImageBufferSkia.cpp 2.3k"
+                              "id": "ImageBufferSkia.cpp 2.3k"
                             },
-                            {"size": 1827, "caption": "GradientSkia.cpp 1.8k"},
-                            {"size": 1343, "caption": "SkiaUtils.cpp 1.3k"}, {
+                            {"size": 1827, "id": "GradientSkia.cpp 1.8k"},
+                            {"size": 1343, "id": "SkiaUtils.cpp 1.3k"}, {
                               "size": 656,
-                              "caption": "GraphicsContext3DSkia.cpp 656"
+                              "id": "GraphicsContext3DSkia.cpp 656"
                             },
-                            {"size": 636, "caption": "PatternSkia.cpp 636"},
-                            {"size": 424, "caption": "NativeImageSkia.cpp 424"},
+                            {"size": 636, "id": "PatternSkia.cpp 636"},
+                            {"size": 424, "id": "NativeImageSkia.cpp 424"},
                             {
                               "size": 273,
-                              "caption": "TransformationMatrixSkia.cpp 273"
+                              "id": "TransformationMatrixSkia.cpp 273"
                             },
-                            {"size": 135, "caption": "IntRectSkia.cpp 135"},
-                            {"size": 131, "caption": "FloatRectSkia.cpp 131"},
-                            {"size": 120, "caption": "FloatPointSkia.cpp 120"},
-                            {"size": 44, "caption": "IntPointSkia.cpp 44"}
+                            {"size": 135, "id": "IntRectSkia.cpp 135"},
+                            {"size": 131, "id": "FloatRectSkia.cpp 131"},
+                            {"size": 120, "id": "FloatPointSkia.cpp 120"},
+                            {"size": 44, "id": "IntPointSkia.cpp 44"}
                           ]
                         },
                         {
                           "size": 24819,
-                          "caption": "transforms 24.8k",
+                          "id": "transforms 24.8k",
                           "children": [
                             {
                               "size": 16296,
-                              "caption": "TransformationMatrix.cpp 16.3k"
+                              "id": "TransformationMatrix.cpp 16.3k"
                             },
                             {
                               "size": 2469,
-                              "caption": "AffineTransform.cpp 2.5k"
+                              "id": "AffineTransform.cpp 2.5k"
                             },
                             {
                               "size": 1536,
-                              "caption": "RotateTransformOperation.cpp 1.5k"
+                              "id": "RotateTransformOperation.cpp 1.5k"
                             },
                             {
                               "size": 1460,
-                              "caption": "TranslateTransformOperation.cpp 1.5k"
+                              "id": "TranslateTransformOperation.cpp 1.5k"
                             },
                             {
                               "size": 669,
-                              "caption": "MatrixTransformOperation.cpp 669"
+                              "id": "MatrixTransformOperation.cpp 669"
                             },
                             {
                               "size": 667,
-                              "caption": "PerspectiveTransformOperation.cpp 667"
+                              "id": "PerspectiveTransformOperation.cpp 667"
                             },
                             {
                               "size": 661,
-                              "caption": "Matrix3DTransformOperation.cpp 661"
+                              "id": "Matrix3DTransformOperation.cpp 661"
                             },
                             {
                               "size": 446,
-                              "caption": "ScaleTransformOperation.cpp 446"
+                              "id": "ScaleTransformOperation.cpp 446"
                             },
                             {
                               "size": 334,
-                              "caption": "SkewTransformOperation.cpp 334"
+                              "id": "SkewTransformOperation.cpp 334"
                             },
                             {
                               "size": 281,
-                              "caption": "TransformOperations.cpp 281"
+                              "id": "TransformOperations.cpp 281"
                             }
                           ]
                         },
                         {
                           "size": 14148,
-                          "caption": "filters 14.1k",
+                          "id": "filters 14.1k",
                           "children": [
                             {
                               "size": 3975,
-                              "caption": "FEComponentTransfer.cpp 4.0k"
+                              "id": "FEComponentTransfer.cpp 4.0k"
                             },
-                            {"size": 3007, "caption": "FEComposite.cpp 3.0k"}, {
+                            {"size": 3007, "id": "FEComposite.cpp 3.0k"}, {
                               "size": 1779,
-                              "caption": "FEGaussianBlur.cpp 1.8k"
+                              "id": "FEGaussianBlur.cpp 1.8k"
                             },
-                            {"size": 1715, "caption": "FEBlend.cpp 1.7k"},
-                            {"size": 1428, "caption": "FEColorMatrix.cpp 1.4k"},
-                            {"size": 852, "caption": "FilterEffect.cpp 852"},
-                            {"size": 742, "caption": "SourceAlpha.cpp 742"},
-                            {"size": 650, "caption": "SourceGraphic.cpp 650"}
+                            {"size": 1715, "id": "FEBlend.cpp 1.7k"},
+                            {"size": 1428, "id": "FEColorMatrix.cpp 1.4k"},
+                            {"size": 852, "id": "FilterEffect.cpp 852"},
+                            {"size": 742, "id": "SourceAlpha.cpp 742"},
+                            {"size": 650, "id": "SourceGraphic.cpp 650"}
                           ]
                         },
-                        {"size": 11041, "caption": "GraphicsContext.cpp 11.0k"},
-                        {"size": 8356, "caption": "FontCache.cpp 8.4k"},
-                        {"size": 5744, "caption": "WidthIterator.cpp 5.7k"},
-                        {"size": 4988, "caption": "GlyphPageTreeNode.cpp 5.0k"},
-                        {"size": 4403, "caption": "Color.cpp 4.4k"},
-                        {"size": 4162, "caption": "FontFastPath.cpp 4.2k"},
-                        {"size": 3823, "caption": "Path.cpp 3.8k"},
-                        {"size": 3692, "caption": "MediaPlayer.cpp 3.7k"},
-                        {"size": 3644, "caption": "Font.cpp 3.6k"},
-                        {"size": 3502, "caption": "GraphicsLayer.cpp 3.5k"},
-                        {"size": 2972, "caption": "BitmapImage.cpp 3.0k"},
-                        {"size": 2739, "caption": "SimpleFontData.cpp 2.7k"},
-                        {"size": 2500, "caption": "Image.cpp 2.5k"},
+                        {"size": 11041, "id": "GraphicsContext.cpp 11.0k"},
+                        {"size": 8356, "id": "FontCache.cpp 8.4k"},
+                        {"size": 5744, "id": "WidthIterator.cpp 5.7k"},
+                        {"size": 4988, "id": "GlyphPageTreeNode.cpp 5.0k"},
+                        {"size": 4403, "id": "Color.cpp 4.4k"},
+                        {"size": 4162, "id": "FontFastPath.cpp 4.2k"},
+                        {"size": 3823, "id": "Path.cpp 3.8k"},
+                        {"size": 3692, "id": "MediaPlayer.cpp 3.7k"},
+                        {"size": 3644, "id": "Font.cpp 3.6k"},
+                        {"size": 3502, "id": "GraphicsLayer.cpp 3.5k"},
+                        {"size": 2972, "id": "BitmapImage.cpp 3.0k"},
+                        {"size": 2739, "id": "SimpleFontData.cpp 2.7k"},
+                        {"size": 2500, "id": "Image.cpp 2.5k"},
                         {
                           "size": 1958,
-                          "caption": "PathTraversalState.cpp 2.0k"
+                          "id": "PathTraversalState.cpp 2.0k"
                         },
-                        {"size": 1617, "caption": "StringTruncator.cpp 1.6k"},
-                        {"size": 1213, "caption": "FloatRect.cpp 1.2k"},
-                        {"size": 1090, "caption": "GraphicsTypes.cpp 1.1k"},
-                        {"size": 930, "caption": "ImageSource.cpp 930"},
-                        {"size": 893, "caption": "Gradient.cpp 893"},
-                        {"size": 835, "caption": "ImageBuffer.cpp 835"},
-                        {"size": 777, "caption": "FontFallbackList.cpp 777"},
-                        {"size": 754, "caption": "GeneratedImage.cpp 754"},
-                        {"size": 667, "caption": "FloatQuad.cpp 667"},
-                        {"size": 601, "caption": "IntRect.cpp 601"},
-                        {"size": 465, "caption": "SegmentedFontData.cpp 465"},
+                        {"size": 1617, "id": "StringTruncator.cpp 1.6k"},
+                        {"size": 1213, "id": "FloatRect.cpp 1.2k"},
+                        {"size": 1090, "id": "GraphicsTypes.cpp 1.1k"},
+                        {"size": 930, "id": "ImageSource.cpp 930"},
+                        {"size": 893, "id": "Gradient.cpp 893"},
+                        {"size": 835, "id": "ImageBuffer.cpp 835"},
+                        {"size": 777, "id": "FontFallbackList.cpp 777"},
+                        {"size": 754, "id": "GeneratedImage.cpp 754"},
+                        {"size": 667, "id": "FloatQuad.cpp 667"},
+                        {"size": 601, "id": "IntRect.cpp 601"},
+                        {"size": 465, "id": "SegmentedFontData.cpp 465"},
                         {
                           "size": 253,
-                          "caption": "opentype 253",
+                          "id": "opentype 253",
                           "children": [{
                             "size": 253,
-                            "caption": "OpenTypeSanitizer.cpp 253"
+                            "id": "OpenTypeSanitizer.cpp 253"
                           }]
                         },
-                        {"size": 238, "caption": "FontFamily.cpp 238"},
-                        {"size": 215, "caption": "Pattern.cpp 215"},
-                        {"size": 132, "caption": "FontDescription.cpp 132"},
-                        {"size": 117, "caption": "FloatPoint.cpp 117"},
-                        {"size": 92, "caption": "FloatPoint3D.cpp 92"},
-                        {"size": 88, "caption": "Font.h 88"},
-                        {"size": 58, "caption": "FloatSize.cpp 58"},
-                        {"size": 52, "caption": "FontData.cpp 52"}
+                        {"size": 238, "id": "FontFamily.cpp 238"},
+                        {"size": 215, "id": "Pattern.cpp 215"},
+                        {"size": 132, "id": "FontDescription.cpp 132"},
+                        {"size": 117, "id": "FloatPoint.cpp 117"},
+                        {"size": 92, "id": "FloatPoint3D.cpp 92"},
+                        {"size": 88, "id": "Font.h 88"},
+                        {"size": 58, "id": "FloatSize.cpp 58"},
+                        {"size": 52, "id": "FontData.cpp 52"}
                       ]
                     },
                     {
                       "size": 50969,
-                      "caption": "chromium 51.0k",
+                      "id": "chromium 51.0k",
                       "children": [
                         {
                           "size": 17351,
-                          "caption": "PopupMenuChromium.cpp 17.4k"
+                          "id": "PopupMenuChromium.cpp 17.4k"
                         },
-                        {"size": 9357, "caption": "ClipboardChromium.cpp 9.4k"},
-                        {"size": 3246, "caption": "CursorChromium.cpp 3.2k"},
+                        {"size": 9357, "id": "ClipboardChromium.cpp 9.4k"},
+                        {"size": 3246, "id": "CursorChromium.cpp 3.2k"},
                         {
                           "size": 2953,
-                          "caption": "KeyCodeConversionGtk.cpp 3.0k"
+                          "id": "KeyCodeConversionGtk.cpp 3.0k"
                         },
                         {
                           "size": 2632,
-                          "caption": "PlatformThemeChromiumGtk.cpp 2.6k"
+                          "id": "PlatformThemeChromiumGtk.cpp 2.6k"
                         },
                         {
                           "size": 2195,
-                          "caption": "ScrollbarThemeChromiumLinux.cpp 2.2k"
+                          "id": "ScrollbarThemeChromiumLinux.cpp 2.2k"
                         },
                         {
                           "size": 2091,
-                          "caption": "PasteboardChromium.cpp 2.1k"
+                          "id": "PasteboardChromium.cpp 2.1k"
                         },
                         {
                           "size": 2054,
-                          "caption": "ChromiumDataObject.cpp 2.1k"
+                          "id": "ChromiumDataObject.cpp 2.1k"
                         },
                         {
                           "size": 1641,
-                          "caption": "ScrollbarThemeChromium.cpp 1.6k"
+                          "id": "ScrollbarThemeChromium.cpp 1.6k"
                         },
-                        {"size": 1401, "caption": "DragDataChromium.cpp 1.4k"},
+                        {"size": 1401, "id": "DragDataChromium.cpp 1.4k"},
                         {
                           "size": 1183,
-                          "caption": "MIMETypeRegistryChromium.cpp 1.2k"
+                          "id": "MIMETypeRegistryChromium.cpp 1.2k"
                         },
                         {
                           "size": 631,
-                          "caption": "SSLKeyGeneratorChromium.cpp 631"
+                          "id": "SSLKeyGeneratorChromium.cpp 631"
                         },
                         {
                           "size": 548,
-                          "caption": "DragImageChromiumSkia.cpp 548"
+                          "id": "DragImageChromiumSkia.cpp 548"
                         },
-                        {"size": 528, "caption": "FileChooserChromium.cpp 528"},
+                        {"size": 528, "id": "FileChooserChromium.cpp 528"},
                         {
                           "size": 505,
-                          "caption": "GeolocationServiceChromium.cpp 505"
+                          "id": "GeolocationServiceChromium.cpp 505"
                         },
-                        {"size": 487, "caption": "FramelessScrollView.cpp 487"},
-                        {"size": 393, "caption": "ContextMenuChromium.cpp 393"},
+                        {"size": 487, "id": "FramelessScrollView.cpp 487"},
+                        {"size": 393, "id": "ContextMenuChromium.cpp 393"},
                         {
                           "size": 261,
-                          "caption": "ContextMenuItemChromium.cpp 261"
+                          "id": "ContextMenuItemChromium.cpp 261"
                         },
-                        {"size": 230, "caption": "Language.cpp 230"},
-                        {"size": 218, "caption": "WidgetChromium.cpp 218"},
-                        {"size": 201, "caption": "FileSystemChromium.cpp 201"},
+                        {"size": 230, "id": "Language.cpp 230"},
+                        {"size": 218, "id": "WidgetChromium.cpp 218"},
+                        {"size": 201, "id": "FileSystemChromium.cpp 201"},
                         {
                           "size": 189,
-                          "caption": "PlatformKeyboardEventChromium.cpp 189"
+                          "id": "PlatformKeyboardEventChromium.cpp 189"
                         },
                         {
                           "size": 146,
-                          "caption": "PlatformScreenChromium.cpp 146"
+                          "id": "PlatformScreenChromium.cpp 146"
                         },
                         {
                           "size": 143,
-                          "caption": "ClipboardUtilitiesChromium.cpp 143"
+                          "id": "ClipboardUtilitiesChromium.cpp 143"
                         },
                         {
                           "size": 124,
-                          "caption": "FileSystemChromiumLinux.cpp 124"
+                          "id": "FileSystemChromiumLinux.cpp 124"
                         },
                         {
                           "size": 91,
-                          "caption": "SearchPopupMenuChromium.cpp 91"
+                          "id": "SearchPopupMenuChromium.cpp 91"
                         },
                         {
                           "size": 40,
-                          "caption": "SuddenTerminationChromium.cpp 40"
+                          "id": "SuddenTerminationChromium.cpp 40"
                         },
-                        {"size": 36, "caption": "SharedTimerChromium.cpp 36"},
-                        {"size": 32, "caption": "TemporaryLinkStubs.cpp 32"},
+                        {"size": 36, "id": "SharedTimerChromium.cpp 36"},
+                        {"size": 32, "id": "TemporaryLinkStubs.cpp 32"},
                         {
                           "size": 26,
-                          "caption": "ClipboardChromiumLinux.cpp 26"
+                          "id": "ClipboardChromiumLinux.cpp 26"
                         },
-                        {"size": 24, "caption": "LinkHashChromium.cpp 24"},
-                        {"size": 7, "caption": "SystemTimeChromium.cpp 7"},
-                        {"size": 5, "caption": "SoundChromiumPosix.cpp 5"}
+                        {"size": 24, "id": "LinkHashChromium.cpp 24"},
+                        {"size": 7, "id": "SystemTimeChromium.cpp 7"},
+                        {"size": 5, "id": "SoundChromiumPosix.cpp 5"}
                       ]
                     },
                     {
                       "size": 41115,
-                      "caption": "network 41.1k",
+                      "id": "network 41.1k",
                       "children": [
                         {
                           "size": 14220,
-                          "caption": "ResourceResponseBase.cpp 14.2k"
+                          "id": "ResourceResponseBase.cpp 14.2k"
                         },
-                        {"size": 9107, "caption": "FormData.cpp 9.1k"}, {
+                        {"size": 9107, "id": "FormData.cpp 9.1k"}, {
                           "size": 7960,
-                          "caption": "ResourceRequestBase.cpp 8.0k"
+                          "id": "ResourceRequestBase.cpp 8.0k"
                         },
-                        {"size": 3757, "caption": "HTTPParsers.cpp 3.8k"},
-                        {"size": 2838, "caption": "FormDataBuilder.cpp 2.8k"},
-                        {"size": 1867, "caption": "HTTPHeaderMap.cpp 1.9k"}, {
+                        {"size": 3757, "id": "HTTPParsers.cpp 3.8k"},
+                        {"size": 2838, "id": "FormDataBuilder.cpp 2.8k"},
+                        {"size": 1867, "id": "HTTPHeaderMap.cpp 1.9k"}, {
                           "size": 573,
-                          "caption": "SocketStreamHandleBase.cpp 573"
+                          "id": "SocketStreamHandleBase.cpp 573"
                         },
-                        {"size": 465, "caption": "ResourceErrorBase.cpp 465"}, {
+                        {"size": 465, "id": "ResourceErrorBase.cpp 465"}, {
                           "size": 242,
-                          "caption": "chromium 242",
+                          "id": "chromium 242",
                           "children": [
                             {
                               "size": 136,
-                              "caption": "CookieJarChromium.cpp 136"
+                              "id": "CookieJarChromium.cpp 136"
                             },
-                            {"size": 78, "caption": "DNSChromium.cpp 78"}, {
+                            {"size": 78, "id": "DNSChromium.cpp 78"}, {
                               "size": 18,
-                              "caption": "NetworkStateNotifierChromium.cpp 18"
+                              "id": "NetworkStateNotifierChromium.cpp 18"
                             },
-                            {"size": 10, "caption": "ResourceRequest.cpp 10"}
+                            {"size": 10, "id": "ResourceRequest.cpp 10"}
                           ]
                         },
                         {
                           "size": 86,
-                          "caption": "NetworkStateNotifier.cpp 86"
+                          "id": "NetworkStateNotifier.cpp 86"
                         }
                       ]
                     },
                     {
                       "size": 30258,
-                      "caption": "image-decoders 30.3k",
+                      "id": "image-decoders 30.3k",
                       "children": [
                         {
                           "size": 9589,
-                          "caption": "gif 9.6k",
+                          "id": "gif 9.6k",
                           "children": [
                             {
                               "size": 5068,
-                              "caption": "GIFImageDecoder.cpp 5.1k"
+                              "id": "GIFImageDecoder.cpp 5.1k"
                             },
                             {
                               "size": 4521,
-                              "caption": "GIFImageReader.cpp 4.5k"
+                              "id": "GIFImageReader.cpp 4.5k"
                             }
                           ]
                         },
                         {
                           "size": 7134,
-                          "caption": "bmp 7.1k",
+                          "id": "bmp 7.1k",
                           "children": [
                             {
                               "size": 5904,
-                              "caption": "BMPImageReader.cpp 5.9k"
+                              "id": "BMPImageReader.cpp 5.9k"
                             },
                             {
                               "size": 1230,
-                              "caption": "BMPImageDecoder.cpp 1.2k"
+                              "id": "BMPImageDecoder.cpp 1.2k"
                             }
                           ]
                         },
                         {
                           "size": 5258,
-                          "caption": "ico 5.3k",
+                          "id": "ico 5.3k",
                           "children": [{
                             "size": 5258,
-                            "caption": "ICOImageDecoder.cpp 5.3k"
+                            "id": "ICOImageDecoder.cpp 5.3k"
                           }]
                         },
                         {
                           "size": 3615,
-                          "caption": "png 3.6k",
+                          "id": "png 3.6k",
                           "children": [{
                             "size": 3615,
-                            "caption": "PNGImageDecoder.cpp 3.6k"
+                            "id": "PNGImageDecoder.cpp 3.6k"
                           }]
                         },
                         {
                           "size": 2380,
-                          "caption": "jpeg 2.4k",
+                          "id": "jpeg 2.4k",
                           "children": [{
                             "size": 2380,
-                            "caption": "JPEGImageDecoder.cpp 2.4k"
+                            "id": "JPEGImageDecoder.cpp 2.4k"
                           }]
                         },
-                        {"size": 1679, "caption": "ImageDecoder.cpp 1.7k"}, {
+                        {"size": 1679, "id": "ImageDecoder.cpp 1.7k"}, {
                           "size": 603,
-                          "caption": "skia 603",
+                          "id": "skia 603",
                           "children": [{
                             "size": 603,
-                            "caption": "ImageDecoderSkia.cpp 603"
+                            "id": "ImageDecoderSkia.cpp 603"
                           }]
                         }
                       ]
                     },
                     {
                       "size": 28091,
-                      "caption": "text 28.1k",
+                      "id": "text 28.1k",
                       "children": [
-                        {"size": 5509, "caption": "TextCodecICU.cpp 5.5k"},
-                        {"size": 3970, "caption": "SegmentedString.cpp 4.0k"},
+                        {"size": 5509, "id": "TextCodecICU.cpp 5.5k"},
+                        {"size": 3970, "id": "SegmentedString.cpp 4.0k"},
                         {
                           "size": 3753,
-                          "caption": "TextEncodingRegistry.cpp 3.8k"
+                          "id": "TextEncodingRegistry.cpp 3.8k"
                         },
                         {
                           "size": 2238,
-                          "caption": "transcoder 2.2k",
+                          "id": "transcoder 2.2k",
                           "children": [{
                             "size": 2238,
-                            "caption": "FontTranscoder.cpp 2.2k"
+                            "id": "FontTranscoder.cpp 2.2k"
                           }]
                         },
-                        {"size": 2183, "caption": "TextEncoding.cpp 2.2k"},
-                        {"size": 1519, "caption": "Base64.cpp 1.5k"},
-                        {"size": 1359, "caption": "TextCodecLatin1.cpp 1.4k"},
-                        {"size": 1128, "caption": "StringBuilder.cpp 1.1k"},
-                        {"size": 1052, "caption": "TextStream.cpp 1.1k"},
-                        {"size": 812, "caption": "TextCodecUTF16.cpp 812"},
+                        {"size": 2183, "id": "TextEncoding.cpp 2.2k"},
+                        {"size": 1519, "id": "Base64.cpp 1.5k"},
+                        {"size": 1359, "id": "TextCodecLatin1.cpp 1.4k"},
+                        {"size": 1128, "id": "StringBuilder.cpp 1.1k"},
+                        {"size": 1052, "id": "TextStream.cpp 1.1k"},
+                        {"size": 812, "id": "TextCodecUTF16.cpp 812"},
                         {
                           "size": 722,
-                          "caption": "TextCodecUserDefined.cpp 722"
+                          "id": "TextCodecUserDefined.cpp 722"
                         },
-                        {"size": 676, "caption": "LineEnding.cpp 676"},
+                        {"size": 676, "id": "LineEnding.cpp 676"},
                         {
                           "size": 614,
-                          "caption": "TextBreakIteratorICU.cpp 614"
+                          "id": "TextBreakIteratorICU.cpp 614"
                         },
-                        {"size": 609, "caption": "BidiContext.cpp 609"},
-                        {"size": 460, "caption": "String.cpp 460"},
+                        {"size": 609, "id": "BidiContext.cpp 609"},
+                        {"size": 460, "id": "String.cpp 460"},
                         {
                           "size": 428,
-                          "caption": "TextEncodingDetectorICU.cpp 428"
+                          "id": "TextEncodingDetectorICU.cpp 428"
                         },
-                        {"size": 319, "caption": "RegularExpression.cpp 319"},
-                        {"size": 255, "caption": "TextBoundaries.cpp 255"},
-                        {"size": 186, "caption": "TextCodec.cpp 186"},
+                        {"size": 319, "id": "RegularExpression.cpp 319"},
+                        {"size": 255, "id": "TextBoundaries.cpp 255"},
+                        {"size": 186, "id": "TextCodec.cpp 186"},
                         {
                           "size": 158,
-                          "caption": "chromium 158",
+                          "id": "chromium 158",
                           "children": [{
                             "size": 158,
-                            "caption":
+                            "id":
                                 "TextBreakIteratorInternalICUChromium.cpp 158"
                           }]
                         },
-                        {"size": 127, "caption": "UnicodeRange.cpp 127"},
-                        {"size": 14, "caption": "Hyphenation.cpp 14"}
+                        {"size": 127, "id": "UnicodeRange.cpp 127"},
+                        {"size": 14, "id": "Hyphenation.cpp 14"}
                       ]
                     },
-                    {"size": 11286, "caption": "ScrollView.cpp 11.3k"},
-                    {"size": 11200, "caption": "KURLGoogle.cpp 11.2k"},
-                    {"size": 9400, "caption": "ContextMenu.cpp 9.4k"},
+                    {"size": 11286, "id": "ScrollView.cpp 11.3k"},
+                    {"size": 11200, "id": "KURLGoogle.cpp 11.2k"},
+                    {"size": 9400, "id": "ContextMenu.cpp 9.4k"},
                     {
                       "size": 8855,
-                      "caption": "sql 8.9k",
+                      "id": "sql 8.9k",
                       "children": [
-                        {"size": 5295, "caption": "SQLiteDatabase.cpp 5.3k"},
-                        {"size": 1755, "caption": "SQLiteStatement.cpp 1.8k"}, {
+                        {"size": 5295, "id": "SQLiteDatabase.cpp 5.3k"},
+                        {"size": 1755, "id": "SQLiteStatement.cpp 1.8k"}, {
                           "size": 1228,
-                          "caption": "chromium 1.2k",
+                          "id": "chromium 1.2k",
                           "children": [
                             {
                               "size": 941,
-                              "caption": "SQLiteFileSystemChromiumPosix.cpp 941"
+                              "id": "SQLiteFileSystemChromiumPosix.cpp 941"
                             },
                             {
                               "size": 287,
-                              "caption": "SQLiteFileSystemChromium.cpp 287"
+                              "id": "SQLiteFileSystemChromium.cpp 287"
                             }
                           ]
                         },
-                        {"size": 481, "caption": "SQLiteTransaction.cpp 481"},
-                        {"size": 96, "caption": "SQLValue.cpp 96"}
+                        {"size": 481, "id": "SQLiteTransaction.cpp 481"},
+                        {"size": 96, "id": "SQLValue.cpp 96"}
                       ]
                     },
-                    {"size": 4927, "caption": "Scrollbar.cpp 4.9k"},
-                    {"size": 4620, "caption": "Timer.cpp 4.6k"},
+                    {"size": 4927, "id": "Scrollbar.cpp 4.9k"},
+                    {"size": 4620, "id": "Timer.cpp 4.6k"},
                     {
                       "size": 4016,
-                      "caption": "ScrollbarThemeComposite.cpp 4.0k"
+                      "id": "ScrollbarThemeComposite.cpp 4.0k"
                     },
-                    {"size": 3683, "caption": "SchemeRegistry.cpp 3.7k"},
+                    {"size": 3683, "id": "SchemeRegistry.cpp 3.7k"},
                     {
                       "size": 2202,
-                      "caption": "animation 2.2k",
+                      "id": "animation 2.2k",
                       "children": [
-                        {"size": 1482, "caption": "AnimationList.cpp 1.5k"},
-                        {"size": 720, "caption": "Animation.cpp 720"}
+                        {"size": 1482, "id": "AnimationList.cpp 1.5k"},
+                        {"size": 720, "id": "Animation.cpp 720"}
                       ]
                     },
-                    {"size": 2015, "caption": "BlobItem.cpp 2.0k"},
-                    {"size": 1778, "caption": "SharedBuffer.cpp 1.8k"},
-                    {"size": 1517, "caption": "Length.cpp 1.5k"},
-                    {"size": 1501, "caption": "Widget.cpp 1.5k"},
-                    {"size": 1035, "caption": "DeprecatedPtrListImpl.cpp 1.0k"},
+                    {"size": 2015, "id": "BlobItem.cpp 2.0k"},
+                    {"size": 1778, "id": "SharedBuffer.cpp 1.8k"},
+                    {"size": 1517, "id": "Length.cpp 1.5k"},
+                    {"size": 1501, "id": "Widget.cpp 1.5k"},
+                    {"size": 1035, "id": "DeprecatedPtrListImpl.cpp 1.0k"},
                     {
                       "size": 982,
-                      "caption": "image-encoders 982",
+                      "id": "image-encoders 982",
                       "children": [{
                         "size": 982,
-                        "caption": "skia 982",
+                        "id": "skia 982",
                         "children": [{
                           "size": 982,
-                          "caption": "PNGImageEncoder.cpp 982"
+                          "id": "PNGImageEncoder.cpp 982"
                         }]
                       }]
                     },
-                    {"size": 745, "caption": "ContentType.cpp 745"},
-                    {"size": 675, "caption": "Length.h 675"},
-                    {"size": 668, "caption": "ThreadTimers.cpp 668"},
-                    {"size": 653, "caption": "FileChooser.cpp 653"},
-                    {"size": 547, "caption": "FileStream.cpp 547"},
-                    {"size": 444, "caption": "Arena.cpp 444"},
-                    {"size": 419, "caption": "FileSystem.cpp 419"},
-                    {"size": 398, "caption": "ThreadGlobalData.cpp 398"},
-                    {"size": 390, "caption": "UUID.cpp 390"},
-                    {"size": 274, "caption": "DragImage.cpp 274"},
-                    {"size": 185, "caption": "CrossThreadCopier.cpp 185"},
-                    {"size": 86, "caption": "GeolocationService.cpp 86"},
-                    {"size": 47, "caption": "DragData.cpp 47"},
-                    {"size": 36, "caption": "KillRingNone.cpp 36"}
+                    {"size": 745, "id": "ContentType.cpp 745"},
+                    {"size": 675, "id": "Length.h 675"},
+                    {"size": 668, "id": "ThreadTimers.cpp 668"},
+                    {"size": 653, "id": "FileChooser.cpp 653"},
+                    {"size": 547, "id": "FileStream.cpp 547"},
+                    {"size": 444, "id": "Arena.cpp 444"},
+                    {"size": 419, "id": "FileSystem.cpp 419"},
+                    {"size": 398, "id": "ThreadGlobalData.cpp 398"},
+                    {"size": 390, "id": "UUID.cpp 390"},
+                    {"size": 274, "id": "DragImage.cpp 274"},
+                    {"size": 185, "id": "CrossThreadCopier.cpp 185"},
+                    {"size": 86, "id": "GeolocationService.cpp 86"},
+                    {"size": 47, "id": "DragData.cpp 47"},
+                    {"size": 36, "id": "KillRingNone.cpp 36"}
                   ]
                 },
                 {
                   "size": 431029,
-                  "caption": "editing 431.0k",
+                  "id": "editing 431.0k",
                   "children": [
-                    {"size": 42270, "caption": "Editor.cpp 42.3k"},
-                    {"size": 41330, "caption": "ApplyStyleCommand.cpp 41.3k"},
+                    {"size": 42270, "id": "Editor.cpp 42.3k"},
+                    {"size": 41330, "id": "ApplyStyleCommand.cpp 41.3k"},
                     {
                       "size": 29840,
-                      "caption": "CompositeEditCommand.cpp 29.8k"
+                      "id": "CompositeEditCommand.cpp 29.8k"
                     },
-                    {"size": 29671, "caption": "SelectionController.cpp 29.7k"},
+                    {"size": 29671, "id": "SelectionController.cpp 29.7k"},
                     {
                       "size": 28915,
-                      "caption": "ReplaceSelectionCommand.cpp 28.9k"
+                      "id": "ReplaceSelectionCommand.cpp 28.9k"
                     },
-                    {"size": 28879, "caption": "markup.cpp 28.9k"},
-                    {"size": 22783, "caption": "TextIterator.cpp 22.8k"},
+                    {"size": 28879, "id": "markup.cpp 28.9k"},
+                    {"size": 22783, "id": "TextIterator.cpp 22.8k"},
                     {
                       "size": 22079,
-                      "caption": "DeleteSelectionCommand.cpp 22.1k"
+                      "id": "DeleteSelectionCommand.cpp 22.1k"
                     },
-                    {"size": 21575, "caption": "htmlediting.cpp 21.6k"},
-                    {"size": 20593, "caption": "visible_units.cpp 20.6k"},
-                    {"size": 17520, "caption": "EditorCommand.cpp 17.5k"},
-                    {"size": 15724, "caption": "TypingCommand.cpp 15.7k"},
-                    {"size": 15585, "caption": "VisibleSelection.cpp 15.6k"},
-                    {"size": 15025, "caption": "InsertListCommand.cpp 15.0k"},
+                    {"size": 21575, "id": "htmlediting.cpp 21.6k"},
+                    {"size": 20593, "id": "visible_units.cpp 20.6k"},
+                    {"size": 17520, "id": "EditorCommand.cpp 17.5k"},
+                    {"size": 15724, "id": "TypingCommand.cpp 15.7k"},
+                    {"size": 15585, "id": "VisibleSelection.cpp 15.6k"},
+                    {"size": 15025, "id": "InsertListCommand.cpp 15.0k"},
                     {
                       "size": 13771,
-                      "caption": "IndentOutdentCommand.cpp 13.8k"
+                      "id": "IndentOutdentCommand.cpp 13.8k"
                     },
-                    {"size": 9130, "caption": "VisiblePosition.cpp 9.1k"},
+                    {"size": 9130, "id": "VisiblePosition.cpp 9.1k"},
                     {
                       "size": 8491,
-                      "caption": "InsertParagraphSeparatorCommand.cpp 8.5k"
+                      "id": "InsertParagraphSeparatorCommand.cpp 8.5k"
                     },
                     {
                       "size": 7108,
-                      "caption": "DeleteButtonController.cpp 7.1k"
+                      "id": "DeleteButtonController.cpp 7.1k"
                     },
-                    {"size": 5802, "caption": "InsertTextCommand.cpp 5.8k"},
-                    {"size": 5554, "caption": "FormatBlockCommand.cpp 5.6k"},
+                    {"size": 5802, "id": "InsertTextCommand.cpp 5.8k"},
+                    {"size": 5554, "id": "FormatBlockCommand.cpp 5.6k"},
                     {
                       "size": 4418,
-                      "caption": "InsertLineBreakCommand.cpp 4.4k"
+                      "id": "InsertLineBreakCommand.cpp 4.4k"
                     },
                     {
                       "size": 4247,
-                      "caption": "BreakBlockquoteCommand.cpp 4.2k"
+                      "id": "BreakBlockquoteCommand.cpp 4.2k"
                     },
-                    {"size": 3632, "caption": "EditCommand.cpp 3.6k"},
-                    {"size": 2926, "caption": "HTMLInterchange.cpp 2.9k"},
-                    {"size": 1681, "caption": "MoveSelectionCommand.cpp 1.7k"},
-                    {"size": 1362, "caption": "SplitElementCommand.cpp 1.4k"},
+                    {"size": 3632, "id": "EditCommand.cpp 3.6k"},
+                    {"size": 2926, "id": "HTMLInterchange.cpp 2.9k"},
+                    {"size": 1681, "id": "MoveSelectionCommand.cpp 1.7k"},
+                    {"size": 1362, "id": "SplitElementCommand.cpp 1.4k"},
                     {
                       "size": 1194,
-                      "caption": "MergeIdenticalElementsCommand.cpp 1.2k"
+                      "id": "MergeIdenticalElementsCommand.cpp 1.2k"
                     },
-                    {"size": 1175, "caption": "CreateLinkCommand.cpp 1.2k"},
+                    {"size": 1175, "id": "CreateLinkCommand.cpp 1.2k"},
                     {
                       "size": 1140,
-                      "caption": "WrapContentsInDummySpanCommand.cpp 1.1k"
+                      "id": "WrapContentsInDummySpanCommand.cpp 1.1k"
                     },
-                    {"size": 955, "caption": "SplitTextNodeCommand.cpp 955"},
-                    {"size": 831, "caption": "SmartReplaceICU.cpp 831"},
+                    {"size": 955, "id": "SplitTextNodeCommand.cpp 955"},
+                    {"size": 831, "id": "SmartReplaceICU.cpp 831"},
                     {
                       "size": 739,
-                      "caption": "ReplaceNodeWithSpanCommand.cpp 739"
+                      "id": "ReplaceNodeWithSpanCommand.cpp 739"
                     },
-                    {"size": 722, "caption": "RemoveFormatCommand.cpp 722"},
+                    {"size": 722, "id": "RemoveFormatCommand.cpp 722"},
                     {
                       "size": 581,
-                      "caption": "RemoveNodePreservingChildrenCommand.cpp 581"
+                      "id": "RemoveNodePreservingChildrenCommand.cpp 581"
                     },
-                    {"size": 439, "caption": "RemoveNodeCommand.cpp 439"},
+                    {"size": 439, "id": "RemoveNodeCommand.cpp 439"},
                     {
                       "size": 424,
-                      "caption": "RemoveCSSPropertyCommand.cpp 424"
+                      "id": "RemoveCSSPropertyCommand.cpp 424"
                     },
                     {
                       "size": 411,
-                      "caption": "DeleteFromTextNodeCommand.cpp 411"
+                      "id": "DeleteFromTextNodeCommand.cpp 411"
                     },
                     {
                       "size": 402,
-                      "caption": "SplitTextNodeContainingElementCommand.cpp 402"
+                      "id": "SplitTextNodeContainingElementCommand.cpp 402"
                     },
-                    {"size": 337, "caption": "SetNodeAttributeCommand.cpp 337"},
-                    {"size": 325, "caption": "DeleteButton.cpp 325"},
-                    {"size": 266, "caption": "AppendNodeCommand.cpp 266"},
-                    {"size": 265, "caption": "InsertNodeBeforeCommand.cpp 265"},
+                    {"size": 337, "id": "SetNodeAttributeCommand.cpp 337"},
+                    {"size": 325, "id": "DeleteButton.cpp 325"},
+                    {"size": 266, "id": "AppendNodeCommand.cpp 266"},
+                    {"size": 265, "id": "InsertNodeBeforeCommand.cpp 265"},
                     {
                       "size": 257,
-                      "caption": "chromium 257",
+                      "id": "chromium 257",
                       "children":
-                          [{"size": 257, "caption": "EditorChromium.cpp 257"}]
+                          [{"size": 257, "id": "EditorChromium.cpp 257"}]
                     },
                     {
                       "size": 252,
-                      "caption": "InsertIntoTextNodeCommand.cpp 252"
+                      "id": "InsertIntoTextNodeCommand.cpp 252"
                     },
-                    {"size": 249, "caption": "UnlinkCommand.cpp 249"},
-                    {"size": 154, "caption": "ReplaceSelectionCommand.h 154"}
+                    {"size": 249, "id": "UnlinkCommand.cpp 249"},
+                    {"size": 154, "id": "ReplaceSelectionCommand.h 154"}
                   ]
                 },
                 {
                   "size": 391878,
-                  "caption": "css 391.9k",
+                  "id": "css 391.9k",
                   "children": [
-                    {"size": 125770, "caption": "CSSStyleSelector.cpp 125.8k"},
-                    {"size": 75264, "caption": "CSSParser.cpp 75.3k"},
+                    {"size": 125770, "id": "CSSStyleSelector.cpp 125.8k"},
+                    {"size": 75264, "id": "CSSParser.cpp 75.3k"},
                     {
                       "size": 37711,
-                      "caption": "CSSComputedStyleDeclaration.cpp 37.7k"
+                      "id": "CSSComputedStyleDeclaration.cpp 37.7k"
                     },
-                    {"size": 22676, "caption": "CSSSelector.cpp 22.7k"},
+                    {"size": 22676, "id": "CSSSelector.cpp 22.7k"},
                     {
                       "size": 14844,
-                      "caption": "CSSMutableStyleDeclaration.cpp 14.8k"
+                      "id": "CSSMutableStyleDeclaration.cpp 14.8k"
                     },
-                    {"size": 11029, "caption": "CSSPrimitiveValue.cpp 11.0k"},
-                    {"size": 9821, "caption": "SVGCSSStyleSelector.cpp 9.8k"},
-                    {"size": 9224, "caption": "CSSFontSelector.cpp 9.2k"},
-                    {"size": 6259, "caption": "MediaQueryEvaluator.cpp 6.3k"},
-                    {"size": 4569, "caption": "SVGCSSParser.cpp 4.6k"},
+                    {"size": 11029, "id": "CSSPrimitiveValue.cpp 11.0k"},
+                    {"size": 9821, "id": "SVGCSSStyleSelector.cpp 9.8k"},
+                    {"size": 9224, "id": "CSSFontSelector.cpp 9.2k"},
+                    {"size": 6259, "id": "MediaQueryEvaluator.cpp 6.3k"},
+                    {"size": 4569, "id": "SVGCSSParser.cpp 4.6k"},
                     {
                       "size": 4001,
-                      "caption": "SVGCSSComputedStyleDeclaration.cpp 4.0k"
+                      "id": "SVGCSSComputedStyleDeclaration.cpp 4.0k"
                     },
                     {
                       "size": 3715,
-                      "caption": "CSSImageGeneratorValue.cpp 3.7k"
+                      "id": "CSSImageGeneratorValue.cpp 3.7k"
                     },
-                    {"size": 3703, "caption": "CSSCursorImageValue.cpp 3.7k"},
-                    {"size": 3657, "caption": "CSSGradientValue.cpp 3.7k"},
-                    {"size": 3533, "caption": "MediaList.cpp 3.5k"},
-                    {"size": 3351, "caption": "CSSStyleSheet.cpp 3.4k"},
-                    {"size": 3320, "caption": "CSSImportRule.cpp 3.3k"},
-                    {"size": 2945, "caption": "WebKitCSSMatrix.cpp 2.9k"},
-                    {"size": 2883, "caption": "CSSFontFaceSource.cpp 2.9k"},
-                    {"size": 2343, "caption": "MediaQuery.cpp 2.3k"},
-                    {"size": 2310, "caption": "CSSStyleDeclaration.cpp 2.3k"},
-                    {"size": 2212, "caption": "CSSValueList.cpp 2.2k"},
-                    {"size": 2127, "caption": "CSSPropertyLonghand.cpp 2.1k"},
-                    {"size": 1945, "caption": "MediaQueryExp.cpp 1.9k"},
+                    {"size": 3703, "id": "CSSCursorImageValue.cpp 3.7k"},
+                    {"size": 3657, "id": "CSSGradientValue.cpp 3.7k"},
+                    {"size": 3533, "id": "MediaList.cpp 3.5k"},
+                    {"size": 3351, "id": "CSSStyleSheet.cpp 3.4k"},
+                    {"size": 3320, "id": "CSSImportRule.cpp 3.3k"},
+                    {"size": 2945, "id": "WebKitCSSMatrix.cpp 2.9k"},
+                    {"size": 2883, "id": "CSSFontFaceSource.cpp 2.9k"},
+                    {"size": 2343, "id": "MediaQuery.cpp 2.3k"},
+                    {"size": 2310, "id": "CSSStyleDeclaration.cpp 2.3k"},
+                    {"size": 2212, "id": "CSSValueList.cpp 2.2k"},
+                    {"size": 2127, "id": "CSSPropertyLonghand.cpp 2.1k"},
+                    {"size": 1945, "id": "MediaQueryExp.cpp 1.9k"},
                     {
                       "size": 1936,
-                      "caption": "WebKitCSSKeyframesRule.cpp 1.9k"
+                      "id": "WebKitCSSKeyframesRule.cpp 1.9k"
                     },
-                    {"size": 1767, "caption": "StyleSheet.cpp 1.8k"},
-                    {"size": 1674, "caption": "WebKitCSSKeyframeRule.cpp 1.7k"},
-                    {"size": 1601, "caption": "CSSSegmentedFontFace.cpp 1.6k"},
-                    {"size": 1569, "caption": "CSSOMUtils.cpp 1.6k"},
-                    {"size": 1526, "caption": "CSSParserValues.cpp 1.5k"},
-                    {"size": 1413, "caption": "CSSMediaRule.cpp 1.4k"},
-                    {"size": 1318, "caption": "MediaFeatureNames.cpp 1.3k"},
+                    {"size": 1767, "id": "StyleSheet.cpp 1.8k"},
+                    {"size": 1674, "id": "WebKitCSSKeyframeRule.cpp 1.7k"},
+                    {"size": 1601, "id": "CSSSegmentedFontFace.cpp 1.6k"},
+                    {"size": 1569, "id": "CSSOMUtils.cpp 1.6k"},
+                    {"size": 1526, "id": "CSSParserValues.cpp 1.5k"},
+                    {"size": 1413, "id": "CSSMediaRule.cpp 1.4k"},
+                    {"size": 1318, "id": "MediaFeatureNames.cpp 1.3k"},
                     {
                       "size": 1317,
-                      "caption": "WebKitCSSTransformValue.cpp 1.3k"
+                      "id": "WebKitCSSTransformValue.cpp 1.3k"
                     },
-                    {"size": 1180, "caption": "CSSBorderImageValue.cpp 1.2k"},
-                    {"size": 1177, "caption": "ShadowValue.cpp 1.2k"},
-                    {"size": 1138, "caption": "CSSImageValue.cpp 1.1k"},
+                    {"size": 1180, "id": "CSSBorderImageValue.cpp 1.2k"},
+                    {"size": 1177, "id": "ShadowValue.cpp 1.2k"},
+                    {"size": 1138, "id": "CSSImageValue.cpp 1.1k"},
                     {
                       "size": 1134,
-                      "caption": "CSSVariablesDeclaration.cpp 1.1k"
+                      "id": "CSSVariablesDeclaration.cpp 1.1k"
                     },
-                    {"size": 1134, "caption": "FontValue.cpp 1.1k"},
-                    {"size": 1066, "caption": "CSSFontFace.cpp 1.1k"},
-                    {"size": 927, "caption": "CSSHelper.cpp 927"},
-                    {"size": 871, "caption": "CSSStyleRule.cpp 871"},
-                    {"size": 855, "caption": "CSSCanvasValue.cpp 855"},
-                    {"size": 783, "caption": "CSSFontFaceSrcValue.cpp 783"},
-                    {"size": 770, "caption": "CSSRuleList.cpp 770"},
-                    {"size": 725, "caption": "CSSSelectorList.cpp 725"},
-                    {"size": 711, "caption": "CSSProperty.cpp 711"},
-                    {"size": 695, "caption": "CSSFunctionValue.cpp 695"},
-                    {"size": 668, "caption": "CSSTimingFunctionValue.cpp 668"},
-                    {"size": 580, "caption": "CSSReflectValue.cpp 580"},
-                    {"size": 574, "caption": "StyleMedia.cpp 574"},
-                    {"size": 465, "caption": "CSSFontFaceRule.cpp 465"},
-                    {"size": 455, "caption": "CSSPageRule.cpp 455"},
-                    {"size": 452, "caption": "StyleBase.cpp 452"},
-                    {"size": 408, "caption": "FontFamilyValue.cpp 408"},
-                    {"size": 403, "caption": "StyleList.cpp 403"},
-                    {"size": 372, "caption": "StyleSheetList.cpp 372"},
-                    {"size": 299, "caption": "CSSCharsetRule.cpp 299"},
-                    {"size": 250, "caption": "RGBColor.cpp 250"},
+                    {"size": 1134, "id": "FontValue.cpp 1.1k"},
+                    {"size": 1066, "id": "CSSFontFace.cpp 1.1k"},
+                    {"size": 927, "id": "CSSHelper.cpp 927"},
+                    {"size": 871, "id": "CSSStyleRule.cpp 871"},
+                    {"size": 855, "id": "CSSCanvasValue.cpp 855"},
+                    {"size": 783, "id": "CSSFontFaceSrcValue.cpp 783"},
+                    {"size": 770, "id": "CSSRuleList.cpp 770"},
+                    {"size": 725, "id": "CSSSelectorList.cpp 725"},
+                    {"size": 711, "id": "CSSProperty.cpp 711"},
+                    {"size": 695, "id": "CSSFunctionValue.cpp 695"},
+                    {"size": 668, "id": "CSSTimingFunctionValue.cpp 668"},
+                    {"size": 580, "id": "CSSReflectValue.cpp 580"},
+                    {"size": 574, "id": "StyleMedia.cpp 574"},
+                    {"size": 465, "id": "CSSFontFaceRule.cpp 465"},
+                    {"size": 455, "id": "CSSPageRule.cpp 455"},
+                    {"size": 452, "id": "StyleBase.cpp 452"},
+                    {"size": 408, "id": "FontFamilyValue.cpp 408"},
+                    {"size": 403, "id": "StyleList.cpp 403"},
+                    {"size": 372, "id": "StyleSheetList.cpp 372"},
+                    {"size": 299, "id": "CSSCharsetRule.cpp 299"},
+                    {"size": 250, "id": "RGBColor.cpp 250"},
                     {
                       "size": 207,
-                      "caption": "CSSVariableDependentValue.cpp 207"
+                      "id": "CSSVariableDependentValue.cpp 207"
                     },
-                    {"size": 103, "caption": "CSSRule.cpp 103"},
-                    {"size": 54, "caption": "CSSUnicodeRangeValue.cpp 54"},
-                    {"size": 46, "caption": "CSSInitialValue.cpp 46"},
-                    {"size": 43, "caption": "CSSInheritedValue.cpp 43"}
+                    {"size": 103, "id": "CSSRule.cpp 103"},
+                    {"size": 54, "id": "CSSUnicodeRangeValue.cpp 54"},
+                    {"size": 46, "id": "CSSInitialValue.cpp 46"},
+                    {"size": 43, "id": "CSSInheritedValue.cpp 43"}
                   ]
                 },
                 {
                   "size": 346235,
-                  "caption": "dom 346.2k",
+                  "id": "dom 346.2k",
                   "children": [
-                    {"size": 75382, "caption": "Document.cpp 75.4k"},
-                    {"size": 30894, "caption": "Node.cpp 30.9k"},
-                    {"size": 23487, "caption": "Range.cpp 23.5k"},
+                    {"size": 75382, "id": "Document.cpp 75.4k"},
+                    {"size": 30894, "id": "Node.cpp 30.9k"},
+                    {"size": 23487, "id": "Range.cpp 23.5k"},
                     {
                       "size": 22581,
-                      "caption": "XMLDocumentParserLibxml2.cpp 22.6k"
+                      "id": "XMLDocumentParserLibxml2.cpp 22.6k"
                     },
-                    {"size": 22341, "caption": "Element.cpp 22.3k"},
-                    {"size": 11285, "caption": "SelectElement.cpp 11.3k"},
-                    {"size": 11190, "caption": "ContainerNode.cpp 11.2k"},
-                    {"size": 10307, "caption": "Position.cpp 10.3k"},
+                    {"size": 22341, "id": "Element.cpp 22.3k"},
+                    {"size": 11285, "id": "SelectElement.cpp 11.3k"},
+                    {"size": 11190, "id": "ContainerNode.cpp 11.2k"},
+                    {"size": 10307, "id": "Position.cpp 10.3k"},
                     {
                       "size": 10223,
-                      "caption": "DocumentMarkerController.cpp 10.2k"
+                      "id": "DocumentMarkerController.cpp 10.2k"
                     },
-                    {"size": 8815, "caption": "ScriptElement.cpp 8.8k"},
-                    {"size": 6588, "caption": "DOMImplementation.cpp 6.6k"},
-                    {"size": 6150, "caption": "XMLDocumentParser.cpp 6.2k"},
-                    {"size": 5989, "caption": "ProcessingInstruction.cpp 6.0k"},
+                    {"size": 8815, "id": "ScriptElement.cpp 8.8k"},
+                    {"size": 6588, "id": "DOMImplementation.cpp 6.6k"},
+                    {"size": 6150, "id": "XMLDocumentParser.cpp 6.2k"},
+                    {"size": 5989, "id": "ProcessingInstruction.cpp 6.0k"},
                     {
                       "size": 5834,
-                      "caption": "ScriptExecutionContext.cpp 5.8k"
+                      "id": "ScriptExecutionContext.cpp 5.8k"
                     },
-                    {"size": 5728, "caption": "NamedNodeMap.cpp 5.7k"},
-                    {"size": 5204, "caption": "StyledElement.cpp 5.2k"},
-                    {"size": 4358, "caption": "Event.cpp 4.4k"},
-                    {"size": 3844, "caption": "EventTarget.cpp 3.8k"},
-                    {"size": 3709, "caption": "CharacterData.cpp 3.7k"},
-                    {"size": 3489, "caption": "EventNames.cpp 3.5k"},
-                    {"size": 3471, "caption": "Text.cpp 3.5k"},
-                    {"size": 3362, "caption": "InputElement.cpp 3.4k"},
-                    {"size": 3286, "caption": "MessagePort.cpp 3.3k"},
-                    {"size": 2782, "caption": "KeyboardEvent.cpp 2.8k"},
+                    {"size": 5728, "id": "NamedNodeMap.cpp 5.7k"},
+                    {"size": 5204, "id": "StyledElement.cpp 5.2k"},
+                    {"size": 4358, "id": "Event.cpp 4.4k"},
+                    {"size": 3844, "id": "EventTarget.cpp 3.8k"},
+                    {"size": 3709, "id": "CharacterData.cpp 3.7k"},
+                    {"size": 3489, "id": "EventNames.cpp 3.5k"},
+                    {"size": 3471, "id": "Text.cpp 3.5k"},
+                    {"size": 3362, "id": "InputElement.cpp 3.4k"},
+                    {"size": 3286, "id": "MessagePort.cpp 3.3k"},
+                    {"size": 2782, "id": "KeyboardEvent.cpp 2.8k"},
                     {
                       "size": 2720,
-                      "caption": "DeviceOrientationController.cpp 2.7k"
+                      "id": "DeviceOrientationController.cpp 2.7k"
                     },
-                    {"size": 2501, "caption": "MouseEvent.cpp 2.5k"},
-                    {"size": 2501, "caption": "AsyncScriptRunner.cpp 2.5k"},
-                    {"size": 2410, "caption": "TreeWalker.cpp 2.4k"},
+                    {"size": 2501, "id": "MouseEvent.cpp 2.5k"},
+                    {"size": 2501, "id": "AsyncScriptRunner.cpp 2.5k"},
+                    {"size": 2410, "id": "TreeWalker.cpp 2.4k"},
                     {
                       "size": 2258,
-                      "caption": "DeviceMotionController.cpp 2.3k"
+                      "id": "DeviceMotionController.cpp 2.3k"
                     },
-                    {"size": 2083, "caption": "StyleElement.cpp 2.1k"},
-                    {"size": 1900, "caption": "ViewportArguments.cpp 1.9k"},
-                    {"size": 1892, "caption": "Attr.cpp 1.9k"},
-                    {"size": 1837, "caption": "NodeIterator.cpp 1.8k"},
-                    {"size": 1742, "caption": "TextEvent.cpp 1.7k"},
-                    {"size": 1713, "caption": "MessageEvent.cpp 1.7k"},
-                    {"size": 1564, "caption": "QualifiedName.cpp 1.6k"},
-                    {"size": 1559, "caption": "CrossThreadTask.h 1.6k"},
-                    {"size": 1392, "caption": "OptionElement.cpp 1.4k"},
-                    {"size": 1311, "caption": "MouseRelatedEvent.cpp 1.3k"},
-                    {"size": 1297, "caption": "PositionIterator.cpp 1.3k"},
-                    {"size": 1225, "caption": "Clipboard.cpp 1.2k"},
-                    {"size": 1160, "caption": "WheelEvent.cpp 1.2k"},
-                    {"size": 1147, "caption": "DynamicNodeList.cpp 1.1k"},
-                    {"size": 1075, "caption": "Attribute.cpp 1.1k"},
-                    {"size": 1063, "caption": "PendingScript.cpp 1.1k"},
-                    {"size": 961, "caption": "SpaceSplitString.cpp 961"},
-                    {"size": 913, "caption": "SelectorNodeList.cpp 913"},
-                    {"size": 905, "caption": "ClassNodeList.cpp 905"},
+                    {"size": 2083, "id": "StyleElement.cpp 2.1k"},
+                    {"size": 1900, "id": "ViewportArguments.cpp 1.9k"},
+                    {"size": 1892, "id": "Attr.cpp 1.9k"},
+                    {"size": 1837, "id": "NodeIterator.cpp 1.8k"},
+                    {"size": 1742, "id": "TextEvent.cpp 1.7k"},
+                    {"size": 1713, "id": "MessageEvent.cpp 1.7k"},
+                    {"size": 1564, "id": "QualifiedName.cpp 1.6k"},
+                    {"size": 1559, "id": "CrossThreadTask.h 1.6k"},
+                    {"size": 1392, "id": "OptionElement.cpp 1.4k"},
+                    {"size": 1311, "id": "MouseRelatedEvent.cpp 1.3k"},
+                    {"size": 1297, "id": "PositionIterator.cpp 1.3k"},
+                    {"size": 1225, "id": "Clipboard.cpp 1.2k"},
+                    {"size": 1160, "id": "WheelEvent.cpp 1.2k"},
+                    {"size": 1147, "id": "DynamicNodeList.cpp 1.1k"},
+                    {"size": 1075, "id": "Attribute.cpp 1.1k"},
+                    {"size": 1063, "id": "PendingScript.cpp 1.1k"},
+                    {"size": 961, "id": "SpaceSplitString.cpp 961"},
+                    {"size": 913, "id": "SelectorNodeList.cpp 913"},
+                    {"size": 905, "id": "ClassNodeList.cpp 905"},
                     {
                       "size": 832,
-                      "caption": "DecodedDataDocumentParser.cpp 832"
+                      "id": "DecodedDataDocumentParser.cpp 832"
                     },
-                    {"size": 828, "caption": "CheckedRadioButtons.cpp 828"},
-                    {"size": 698, "caption": "ClientRectList.cpp 698"},
-                    {"size": 680, "caption": "ErrorEvent.cpp 680"},
-                    {"size": 564, "caption": "OverflowEvent.cpp 564"},
-                    {"size": 561, "caption": "UIEvent.cpp 561"},
-                    {"size": 536, "caption": "TagNodeList.cpp 536"},
-                    {"size": 505, "caption": "ChildNodeList.cpp 505"},
-                    {"size": 498, "caption": "MutationEvent.cpp 498"},
-                    {"size": 497, "caption": "DocumentType.cpp 497"},
-                    {"size": 467, "caption": "TouchEvent.cpp 467"},
-                    {"size": 440, "caption": "CompositionEvent.cpp 440"},
-                    {"size": 435, "caption": "CDATASection.cpp 435"},
-                    {"size": 433, "caption": "WebKitAnimationEvent.cpp 433"},
-                    {"size": 433, "caption": "WebKitTransitionEvent.cpp 433"},
+                    {"size": 828, "id": "CheckedRadioButtons.cpp 828"},
+                    {"size": 698, "id": "ClientRectList.cpp 698"},
+                    {"size": 680, "id": "ErrorEvent.cpp 680"},
+                    {"size": 564, "id": "OverflowEvent.cpp 564"},
+                    {"size": 561, "id": "UIEvent.cpp 561"},
+                    {"size": 536, "id": "TagNodeList.cpp 536"},
+                    {"size": 505, "id": "ChildNodeList.cpp 505"},
+                    {"size": 498, "id": "MutationEvent.cpp 498"},
+                    {"size": 497, "id": "DocumentType.cpp 497"},
+                    {"size": 467, "id": "TouchEvent.cpp 467"},
+                    {"size": 440, "id": "CompositionEvent.cpp 440"},
+                    {"size": 435, "id": "CDATASection.cpp 435"},
+                    {"size": 433, "id": "WebKitAnimationEvent.cpp 433"},
+                    {"size": 433, "id": "WebKitTransitionEvent.cpp 433"},
                     {
                       "size": 427,
-                      "caption": "CSSMappedAttributeDeclaration.cpp 427"
+                      "id": "CSSMappedAttributeDeclaration.cpp 427"
                     },
-                    {"size": 424, "caption": "ExceptionCode.cpp 424"},
-                    {"size": 373, "caption": "NameNodeList.cpp 373"},
-                    {"size": 371, "caption": "Comment.cpp 371"},
-                    {"size": 364, "caption": "ExceptionBase.cpp 364"},
-                    {"size": 362, "caption": "DocumentFragment.cpp 362"},
-                    {"size": 324, "caption": "Touch.cpp 324"},
-                    {"size": 321, "caption": "PopStateEvent.cpp 321"},
-                    {"size": 316, "caption": "DeviceMotionEvent.cpp 316"},
-                    {"size": 316, "caption": "DeviceOrientationEvent.cpp 316"},
-                    {"size": 299, "caption": "BeforeUnloadEvent.cpp 299"},
-                    {"size": 295, "caption": "DeviceMotionData.cpp 295"},
-                    {"size": 289, "caption": "MessagePortChannel.cpp 289"},
-                    {"size": 287, "caption": "ProgressEvent.cpp 287"},
+                    {"size": 424, "id": "ExceptionCode.cpp 424"},
+                    {"size": 373, "id": "NameNodeList.cpp 373"},
+                    {"size": 371, "id": "Comment.cpp 371"},
+                    {"size": 364, "id": "ExceptionBase.cpp 364"},
+                    {"size": 362, "id": "DocumentFragment.cpp 362"},
+                    {"size": 324, "id": "Touch.cpp 324"},
+                    {"size": 321, "id": "PopStateEvent.cpp 321"},
+                    {"size": 316, "id": "DeviceMotionEvent.cpp 316"},
+                    {"size": 316, "id": "DeviceOrientationEvent.cpp 316"},
+                    {"size": 299, "id": "BeforeUnloadEvent.cpp 299"},
+                    {"size": 295, "id": "DeviceMotionData.cpp 295"},
+                    {"size": 289, "id": "MessagePortChannel.cpp 289"},
+                    {"size": 287, "id": "ProgressEvent.cpp 287"},
                     {
                       "size": 253,
-                      "caption": "UserTypingGestureIndicator.cpp 253"
+                      "id": "UserTypingGestureIndicator.cpp 253"
                     },
-                    {"size": 251, "caption": "EntityReference.cpp 251"},
-                    {"size": 248, "caption": "XMLDocumentParserScope.cpp 248"},
-                    {"size": 239, "caption": "StaticNodeList.cpp 239"},
-                    {"size": 235, "caption": "PageTransitionEvent.cpp 235"},
-                    {"size": 233, "caption": "MessageChannel.cpp 233"},
-                    {"size": 231, "caption": "BeforeTextInsertedEvent.cpp 231"},
-                    {"size": 230, "caption": "DeviceOrientation.cpp 230"},
-                    {"size": 225, "caption": "ActiveDOMObject.cpp 225"},
-                    {"size": 223, "caption": "StaticHashSetNodeList.cpp 223"},
-                    {"size": 188, "caption": "EditingText.cpp 188"},
-                    {"size": 173, "caption": "CustomEvent.cpp 173"},
-                    {"size": 133, "caption": "Traversal.cpp 133"},
-                    {"size": 103, "caption": "Element.h 103"},
-                    {"size": 98, "caption": "DocumentParser.cpp 98"},
-                    {"size": 95, "caption": "DOMStringList.cpp 95"},
-                    {"size": 79, "caption": "ClipboardEvent.cpp 79"},
-                    {"size": 77, "caption": "OptionGroupElement.cpp 77"},
-                    {"size": 61, "caption": "UIEventWithKeyState.cpp 61"},
-                    {"size": 55, "caption": "ClientRect.cpp 55"},
-                    {"size": 52, "caption": "ScriptableDocumentParser.cpp 52"},
-                    {"size": 52, "caption": "NodeFilter.cpp 52"},
-                    {"size": 39, "caption": "UserGestureIndicator.cpp 39"},
-                    {"size": 35, "caption": "TransformSourceLibxslt.cpp 35"},
-                    {"size": 24, "caption": "TouchList.cpp 24"}
+                    {"size": 251, "id": "EntityReference.cpp 251"},
+                    {"size": 248, "id": "XMLDocumentParserScope.cpp 248"},
+                    {"size": 239, "id": "StaticNodeList.cpp 239"},
+                    {"size": 235, "id": "PageTransitionEvent.cpp 235"},
+                    {"size": 233, "id": "MessageChannel.cpp 233"},
+                    {"size": 231, "id": "BeforeTextInsertedEvent.cpp 231"},
+                    {"size": 230, "id": "DeviceOrientation.cpp 230"},
+                    {"size": 225, "id": "ActiveDOMObject.cpp 225"},
+                    {"size": 223, "id": "StaticHashSetNodeList.cpp 223"},
+                    {"size": 188, "id": "EditingText.cpp 188"},
+                    {"size": 173, "id": "CustomEvent.cpp 173"},
+                    {"size": 133, "id": "Traversal.cpp 133"},
+                    {"size": 103, "id": "Element.h 103"},
+                    {"size": 98, "id": "DocumentParser.cpp 98"},
+                    {"size": 95, "id": "DOMStringList.cpp 95"},
+                    {"size": 79, "id": "ClipboardEvent.cpp 79"},
+                    {"size": 77, "id": "OptionGroupElement.cpp 77"},
+                    {"size": 61, "id": "UIEventWithKeyState.cpp 61"},
+                    {"size": 55, "id": "ClientRect.cpp 55"},
+                    {"size": 52, "id": "ScriptableDocumentParser.cpp 52"},
+                    {"size": 52, "id": "NodeFilter.cpp 52"},
+                    {"size": 39, "id": "UserGestureIndicator.cpp 39"},
+                    {"size": 35, "id": "TransformSourceLibxslt.cpp 35"},
+                    {"size": 24, "id": "TouchList.cpp 24"}
                   ]
                 },
                 {
                   "size": 332277,
-                  "caption": "svg 332.3k",
+                  "id": "svg 332.3k",
                   "children": [
                     {
                       "size": 32492,
-                      "caption": "graphics 32.5k",
+                      "id": "graphics 32.5k",
                       "children": [
                         {
                           "size": 28252,
-                          "caption": "filters 28.3k",
+                          "id": "filters 28.3k",
                           "children": [
-                            {"size": 7822, "caption": "SVGFELighting.cpp 7.8k"},
+                            {"size": 7822, "id": "SVGFELighting.cpp 7.8k"},
                             {
                               "size": 3850,
-                              "caption": "SVGFEConvolveMatrix.cpp 3.9k"
+                              "id": "SVGFEConvolveMatrix.cpp 3.9k"
                             },
                             {
                               "size": 3285,
-                              "caption": "SVGFETurbulence.cpp 3.3k"
+                              "id": "SVGFETurbulence.cpp 3.3k"
                             },
                             {
                               "size": 2880,
-                              "caption": "SVGFilterBuilder.cpp 2.9k"
+                              "id": "SVGFilterBuilder.cpp 2.9k"
                             },
                             {
                               "size": 1992,
-                              "caption": "SVGFEMorphology.cpp 2.0k"
+                              "id": "SVGFEMorphology.cpp 2.0k"
                             },
                             {
                               "size": 1538,
-                              "caption": "SVGFEDisplacementMap.cpp 1.5k"
+                              "id": "SVGFEDisplacementMap.cpp 1.5k"
                             },
                             {
                               "size": 1468,
-                              "caption": "SVGLightSource.cpp 1.5k"
+                              "id": "SVGLightSource.cpp 1.5k"
                             },
-                            {"size": 1141, "caption": "SVGFETile.cpp 1.1k"}, {
+                            {"size": 1141, "id": "SVGFETile.cpp 1.1k"}, {
                               "size": 716,
-                              "caption": "SVGFEDiffuseLighting.cpp 716"
+                              "id": "SVGFEDiffuseLighting.cpp 716"
                             },
-                            {"size": 686, "caption": "SVGFEMerge.cpp 686"}, {
+                            {"size": 686, "id": "SVGFEMerge.cpp 686"}, {
                               "size": 677,
-                              "caption": "SVGFESpecularLighting.cpp 677"
+                              "id": "SVGFESpecularLighting.cpp 677"
                             },
-                            {"size": 654, "caption": "SVGFEOffset.cpp 654"},
-                            {"size": 611, "caption": "SVGFEImage.cpp 611"},
-                            {"size": 520, "caption": "SVGFilter.cpp 520"},
-                            {"size": 412, "caption": "SVGFEFlood.cpp 412"}
+                            {"size": 654, "id": "SVGFEOffset.cpp 654"},
+                            {"size": 611, "id": "SVGFEImage.cpp 611"},
+                            {"size": 520, "id": "SVGFilter.cpp 520"},
+                            {"size": 412, "id": "SVGFEFlood.cpp 412"}
                           ]
                         },
-                        {"size": 4240, "caption": "SVGImage.cpp 4.2k"}
+                        {"size": 4240, "id": "SVGImage.cpp 4.2k"}
                       ]
                     },
                     {
                       "size": 26020,
-                      "caption": "animation 26.0k",
+                      "id": "animation 26.0k",
                       "children": [
-                        {"size": 18757, "caption": "SVGSMILElement.cpp 18.8k"},
-                        {"size": 6921, "caption": "SMILTimeContainer.cpp 6.9k"},
-                        {"size": 342, "caption": "SMILTime.cpp 342"}
+                        {"size": 18757, "id": "SVGSMILElement.cpp 18.8k"},
+                        {"size": 6921, "id": "SMILTimeContainer.cpp 6.9k"},
+                        {"size": 342, "id": "SMILTime.cpp 342"}
                       ]
                     },
-                    {"size": 11969, "caption": "SVGAnimationElement.cpp 12.0k"},
-                    {"size": 10248, "caption": "SVGUseElement.cpp 10.2k"},
-                    {"size": 8823, "caption": "SVGSVGElement.cpp 8.8k"},
-                    {"size": 8483, "caption": "SVGAnimateElement.cpp 8.5k"},
-                    {"size": 7644, "caption": "SVGAnimatedTemplate.h 7.6k"},
-                    {"size": 7009, "caption": "SVGFont.cpp 7.0k"},
-                    {"size": 6641, "caption": "SVGElement.cpp 6.6k"},
-                    {"size": 6395, "caption": "SVGPatternElement.cpp 6.4k"},
-                    {"size": 6272, "caption": "SVGParserUtilities.cpp 6.3k"},
-                    {"size": 5834, "caption": "SVGFontElement.cpp 5.8k"},
-                    {"size": 5337, "caption": "SVGPathParser.cpp 5.3k"},
-                    {"size": 4805, "caption": "SVGPathSegListBuilder.cpp 4.8k"},
-                    {"size": 4621, "caption": "SVGAElement.cpp 4.6k"},
+                    {"size": 11969, "id": "SVGAnimationElement.cpp 12.0k"},
+                    {"size": 10248, "id": "SVGUseElement.cpp 10.2k"},
+                    {"size": 8823, "id": "SVGSVGElement.cpp 8.8k"},
+                    {"size": 8483, "id": "SVGAnimateElement.cpp 8.5k"},
+                    {"size": 7644, "id": "SVGAnimatedTemplate.h 7.6k"},
+                    {"size": 7009, "id": "SVGFont.cpp 7.0k"},
+                    {"size": 6641, "id": "SVGElement.cpp 6.6k"},
+                    {"size": 6395, "id": "SVGPatternElement.cpp 6.4k"},
+                    {"size": 6272, "id": "SVGParserUtilities.cpp 6.3k"},
+                    {"size": 5834, "id": "SVGFontElement.cpp 5.8k"},
+                    {"size": 5337, "id": "SVGPathParser.cpp 5.3k"},
+                    {"size": 4805, "id": "SVGPathSegListBuilder.cpp 4.8k"},
+                    {"size": 4621, "id": "SVGAElement.cpp 4.6k"},
                     {
                       "size": 4621,
-                      "caption": "SVGRadialGradientElement.cpp 4.6k"
+                      "id": "SVGRadialGradientElement.cpp 4.6k"
                     },
                     {
                       "size": 4575,
-                      "caption": "SVGPathByteStreamBuilder.cpp 4.6k"
+                      "id": "SVGPathByteStreamBuilder.cpp 4.6k"
                     },
                     {
                       "size": 4502,
-                      "caption": "SVGAnimateTransformElement.cpp 4.5k"
+                      "id": "SVGAnimateTransformElement.cpp 4.5k"
                     },
-                    {"size": 4432, "caption": "SVGStyledElement.cpp 4.4k"},
-                    {"size": 4098, "caption": "SVGFEImageElement.cpp 4.1k"},
-                    {"size": 4091, "caption": "SVGMarkerElement.cpp 4.1k"},
+                    {"size": 4432, "id": "SVGStyledElement.cpp 4.4k"},
+                    {"size": 4098, "id": "SVGFEImageElement.cpp 4.1k"},
+                    {"size": 4091, "id": "SVGMarkerElement.cpp 4.1k"},
                     {
                       "size": 3711,
-                      "caption": "SVGLinearGradientElement.cpp 3.7k"
+                      "id": "SVGLinearGradientElement.cpp 3.7k"
                     },
-                    {"size": 3664, "caption": "SVGFilterElement.cpp 3.7k"},
-                    {"size": 3632, "caption": "SVGImageElement.cpp 3.6k"},
-                    {"size": 3418, "caption": "SVGRectElement.cpp 3.4k"},
+                    {"size": 3664, "id": "SVGFilterElement.cpp 3.7k"},
+                    {"size": 3632, "id": "SVGImageElement.cpp 3.6k"},
+                    {"size": 3418, "id": "SVGRectElement.cpp 3.4k"},
                     {
                       "size": 3414,
-                      "caption": "SVGPreserveAspectRatio.cpp 3.4k"
+                      "id": "SVGPreserveAspectRatio.cpp 3.4k"
                     },
-                    {"size": 3348, "caption": "SVGTextContentElement.cpp 3.3k"},
+                    {"size": 3348, "id": "SVGTextContentElement.cpp 3.3k"},
                     {
                       "size": 3278,
-                      "caption": "SVGAnimateMotionElement.cpp 3.3k"
+                      "id": "SVGAnimateMotionElement.cpp 3.3k"
                     },
-                    {"size": 3161, "caption": "SVGPathElement.cpp 3.2k"},
-                    {"size": 2919, "caption": "SVGFontFaceElement.cpp 2.9k"},
-                    {"size": 2876, "caption": "SVGMaskElement.cpp 2.9k"},
-                    {"size": 2847, "caption": "SVGDocumentExtensions.cpp 2.8k"},
-                    {"size": 2692, "caption": "SVGPathBlender.cpp 2.7k"},
+                    {"size": 3161, "id": "SVGPathElement.cpp 3.2k"},
+                    {"size": 2919, "id": "SVGFontFaceElement.cpp 2.9k"},
+                    {"size": 2876, "id": "SVGMaskElement.cpp 2.9k"},
+                    {"size": 2847, "id": "SVGDocumentExtensions.cpp 2.8k"},
+                    {"size": 2692, "id": "SVGPathBlender.cpp 2.7k"},
                     {
                       "size": 2663,
-                      "caption": "SVGTextPositioningElement.cpp 2.7k"
+                      "id": "SVGTextPositioningElement.cpp 2.7k"
                     },
                     {
                       "size": 2661,
-                      "caption": "SVGFEConvolveMatrixElement.cpp 2.7k"
+                      "id": "SVGFEConvolveMatrixElement.cpp 2.7k"
                     },
-                    {"size": 2657, "caption": "SVGScriptElement.cpp 2.7k"},
-                    {"size": 2654, "caption": "SVGTransformable.cpp 2.7k"},
-                    {"size": 2432, "caption": "SVGCursorElement.cpp 2.4k"},
+                    {"size": 2657, "id": "SVGScriptElement.cpp 2.7k"},
+                    {"size": 2654, "id": "SVGTransformable.cpp 2.7k"},
+                    {"size": 2432, "id": "SVGCursorElement.cpp 2.4k"},
                     {
                       "size": 2375,
-                      "caption": "SVGForeignObjectElement.cpp 2.4k"
+                      "id": "SVGForeignObjectElement.cpp 2.4k"
                     },
-                    {"size": 2354, "caption": "SVGEllipseElement.cpp 2.4k"},
-                    {"size": 2346, "caption": "SVGGradientElement.cpp 2.3k"},
-                    {"size": 2334, "caption": "SVGTransformDistance.cpp 2.3k"},
-                    {"size": 2289, "caption": "SVGTextPathElement.cpp 2.3k"},
+                    {"size": 2354, "id": "SVGEllipseElement.cpp 2.4k"},
+                    {"size": 2346, "id": "SVGGradientElement.cpp 2.3k"},
+                    {"size": 2334, "id": "SVGTransformDistance.cpp 2.3k"},
+                    {"size": 2289, "id": "SVGTextPathElement.cpp 2.3k"},
                     {
                       "size": 2266,
-                      "caption": "SVGFEComponentTransferElement.cpp 2.3k"
+                      "id": "SVGFEComponentTransferElement.cpp 2.3k"
                     },
                     {
                       "size": 2225,
-                      "caption": "SVGFilterPrimitiveStandardAttributes.cpp 2.2k"
+                      "id": "SVGFilterPrimitiveStandardAttributes.cpp 2.2k"
                     },
-                    {"size": 2104, "caption": "SVGLineElement.cpp 2.1k"},
-                    {"size": 2099, "caption": "SVGGlyphElement.cpp 2.1k"},
-                    {"size": 2098, "caption": "SVGLength.cpp 2.1k"},
-                    {"size": 2049, "caption": "SVGFECompositeElement.cpp 2.0k"},
-                    {"size": 2036, "caption": "SVGPathStringBuilder.cpp 2.0k"},
-                    {"size": 2030, "caption": "SVGPathParserFactory.cpp 2.0k"},
+                    {"size": 2104, "id": "SVGLineElement.cpp 2.1k"},
+                    {"size": 2099, "id": "SVGGlyphElement.cpp 2.1k"},
+                    {"size": 2098, "id": "SVGLength.cpp 2.1k"},
+                    {"size": 2049, "id": "SVGFECompositeElement.cpp 2.0k"},
+                    {"size": 2036, "id": "SVGPathStringBuilder.cpp 2.0k"},
+                    {"size": 2030, "id": "SVGPathParserFactory.cpp 2.0k"},
                     {
                       "size": 1988,
-                      "caption": "SVGPathByteStreamSource.cpp 2.0k"
+                      "id": "SVGPathByteStreamSource.cpp 2.0k"
                     },
-                    {"size": 1946, "caption": "SVGCircleElement.cpp 1.9k"},
+                    {"size": 1946, "id": "SVGCircleElement.cpp 1.9k"},
                     {
                       "size": 1827,
-                      "caption": "SVGFEColorMatrixElement.cpp 1.8k"
+                      "id": "SVGFEColorMatrixElement.cpp 1.8k"
                     },
-                    {"size": 1807, "caption": "SVGFontFaceUriElement.cpp 1.8k"},
-                    {"size": 1806, "caption": "SVGPolyElement.cpp 1.8k"},
-                    {"size": 1792, "caption": "SVGFELightElement.cpp 1.8k"},
-                    {"size": 1761, "caption": "SVGPathStringSource.cpp 1.8k"},
+                    {"size": 1807, "id": "SVGFontFaceUriElement.cpp 1.8k"},
+                    {"size": 1806, "id": "SVGPolyElement.cpp 1.8k"},
+                    {"size": 1792, "id": "SVGFELightElement.cpp 1.8k"},
+                    {"size": 1761, "id": "SVGPathStringSource.cpp 1.8k"},
                     {
                       "size": 1664,
-                      "caption": "SVGFEDiffuseLightingElement.cpp 1.7k"
+                      "id": "SVGFEDiffuseLightingElement.cpp 1.7k"
                     },
-                    {"size": 1606, "caption": "SVGViewElement.cpp 1.6k"},
+                    {"size": 1606, "id": "SVGViewElement.cpp 1.6k"},
                     {
                       "size": 1605,
-                      "caption": "SVGFESpecularLightingElement.cpp 1.6k"
+                      "id": "SVGFESpecularLightingElement.cpp 1.6k"
                     },
                     {
                       "size": 1592,
-                      "caption": "SVGFEDisplacementMapElement.cpp 1.6k"
+                      "id": "SVGFEDisplacementMapElement.cpp 1.6k"
                     },
                     {
                       "size": 1586,
-                      "caption": "SVGComponentTransferFunctionElement.cpp 1.6k"
+                      "id": "SVGComponentTransferFunctionElement.cpp 1.6k"
                     },
-                    {"size": 1579, "caption": "SVGAngle.cpp 1.6k"},
-                    {"size": 1575, "caption": "SVGLengthList.cpp 1.6k"},
-                    {"size": 1572, "caption": "SVGTextElement.cpp 1.6k"},
-                    {"size": 1505, "caption": "SVGTRefElement.cpp 1.5k"},
-                    {"size": 1459, "caption": "SVGFitToViewBox.cpp 1.5k"},
-                    {"size": 1440, "caption": "SVGViewSpec.cpp 1.4k"},
-                    {"size": 1429, "caption": "SVGVKernElement.cpp 1.4k"},
-                    {"size": 1429, "caption": "SVGHKernElement.cpp 1.4k"},
-                    {"size": 1414, "caption": "SVGFEBlendElement.cpp 1.4k"},
+                    {"size": 1579, "id": "SVGAngle.cpp 1.6k"},
+                    {"size": 1575, "id": "SVGLengthList.cpp 1.6k"},
+                    {"size": 1572, "id": "SVGTextElement.cpp 1.6k"},
+                    {"size": 1505, "id": "SVGTRefElement.cpp 1.5k"},
+                    {"size": 1459, "id": "SVGFitToViewBox.cpp 1.5k"},
+                    {"size": 1440, "id": "SVGViewSpec.cpp 1.4k"},
+                    {"size": 1429, "id": "SVGVKernElement.cpp 1.4k"},
+                    {"size": 1429, "id": "SVGHKernElement.cpp 1.4k"},
+                    {"size": 1414, "id": "SVGFEBlendElement.cpp 1.4k"},
                     {
                       "size": 1382,
-                      "caption": "SVGStyledTransformableElement.cpp 1.4k"
+                      "id": "SVGStyledTransformableElement.cpp 1.4k"
                     },
-                    {"size": 1357, "caption": "SVGGElement.cpp 1.4k"},
-                    {"size": 1354, "caption": "SVGTests.cpp 1.4k"},
-                    {"size": 1334, "caption": "SVGTransformList.cpp 1.3k"},
-                    {"size": 1274, "caption": "SVGPointList.cpp 1.3k"},
-                    {"size": 1271, "caption": "SVGStringList.cpp 1.3k"},
+                    {"size": 1357, "id": "SVGGElement.cpp 1.4k"},
+                    {"size": 1354, "id": "SVGTests.cpp 1.4k"},
+                    {"size": 1334, "id": "SVGTransformList.cpp 1.3k"},
+                    {"size": 1274, "id": "SVGPointList.cpp 1.3k"},
+                    {"size": 1271, "id": "SVGStringList.cpp 1.3k"},
                     {
                       "size": 1196,
-                      "caption": "SVGFETurbulenceElement.cpp 1.2k"
+                      "id": "SVGFETurbulenceElement.cpp 1.2k"
                     },
-                    {"size": 1136, "caption": "SVGClipPathElement.cpp 1.1k"},
-                    {"size": 1134, "caption": "SVGFEOffsetElement.cpp 1.1k"},
+                    {"size": 1136, "id": "SVGClipPathElement.cpp 1.1k"},
+                    {"size": 1134, "id": "SVGFEOffsetElement.cpp 1.1k"},
                     {
                       "size": 1132,
-                      "caption": "SVGFEMorphologyElement.cpp 1.1k"
+                      "id": "SVGFEMorphologyElement.cpp 1.1k"
                     },
-                    {"size": 1121, "caption": "SVGElementInstance.cpp 1.1k"},
-                    {"size": 1095, "caption": "SVGMPathElement.cpp 1.1k"},
-                    {"size": 1071, "caption": "SVGAltGlyphElement.cpp 1.1k"},
-                    {"size": 1037, "caption": "SVGPaint.cpp 1.0k"},
-                    {"size": 972, "caption": "SVGStyleElement.cpp 972"},
+                    {"size": 1121, "id": "SVGElementInstance.cpp 1.1k"},
+                    {"size": 1095, "id": "SVGMPathElement.cpp 1.1k"},
+                    {"size": 1071, "id": "SVGAltGlyphElement.cpp 1.1k"},
+                    {"size": 1037, "id": "SVGPaint.cpp 1.0k"},
+                    {"size": 972, "id": "SVGStyleElement.cpp 972"},
                     {
                       "size": 937,
-                      "caption": "SVGFEGaussianBlurElement.cpp 937"
+                      "id": "SVGFEGaussianBlurElement.cpp 937"
                     },
-                    {"size": 925, "caption": "SVGStopElement.cpp 925"},
-                    {"size": 925, "caption": "SVGNumberList.cpp 925"},
-                    {"size": 903, "caption": "SVGFETileElement.cpp 903"},
-                    {"size": 832, "caption": "SVGLocatable.cpp 832"},
-                    {"size": 769, "caption": "SVGSwitchElement.cpp 769"},
-                    {"size": 769, "caption": "SVGSymbolElement.cpp 769"},
-                    {"size": 756, "caption": "SVGPathSegListSource.cpp 756"},
-                    {"size": 720, "caption": "SVGDefsElement.cpp 720"},
-                    {"size": 707, "caption": "SVGTransform.cpp 707"},
-                    {"size": 700, "caption": "SVGFEMergeElement.cpp 700"},
-                    {"size": 678, "caption": "SVGDocument.cpp 678"},
-                    {"size": 647, "caption": "SVGLangSpace.cpp 647"},
-                    {"size": 633, "caption": "SVGImageLoader.cpp 633"},
-                    {"size": 609, "caption": "SVGPolygonElement.cpp 609"},
-                    {"size": 598, "caption": "SVGPolylineElement.cpp 598"},
-                    {"size": 595, "caption": "SVGColor.cpp 595"},
-                    {"size": 580, "caption": "SVGFEMergeNodeElement.cpp 580"},
-                    {"size": 522, "caption": "SVGURIReference.cpp 522"},
-                    {"size": 485, "caption": "SVGFontFaceSrcElement.cpp 485"},
-                    {"size": 450, "caption": "SVGPathBuilder.cpp 450"},
-                    {"size": 413, "caption": "SVGTSpanElement.cpp 413"},
+                    {"size": 925, "id": "SVGStopElement.cpp 925"},
+                    {"size": 925, "id": "SVGNumberList.cpp 925"},
+                    {"size": 903, "id": "SVGFETileElement.cpp 903"},
+                    {"size": 832, "id": "SVGLocatable.cpp 832"},
+                    {"size": 769, "id": "SVGSwitchElement.cpp 769"},
+                    {"size": 769, "id": "SVGSymbolElement.cpp 769"},
+                    {"size": 756, "id": "SVGPathSegListSource.cpp 756"},
+                    {"size": 720, "id": "SVGDefsElement.cpp 720"},
+                    {"size": 707, "id": "SVGTransform.cpp 707"},
+                    {"size": 700, "id": "SVGFEMergeElement.cpp 700"},
+                    {"size": 678, "id": "SVGDocument.cpp 678"},
+                    {"size": 647, "id": "SVGLangSpace.cpp 647"},
+                    {"size": 633, "id": "SVGImageLoader.cpp 633"},
+                    {"size": 609, "id": "SVGPolygonElement.cpp 609"},
+                    {"size": 598, "id": "SVGPolylineElement.cpp 598"},
+                    {"size": 595, "id": "SVGColor.cpp 595"},
+                    {"size": 580, "id": "SVGFEMergeNodeElement.cpp 580"},
+                    {"size": 522, "id": "SVGURIReference.cpp 522"},
+                    {"size": 485, "id": "SVGFontFaceSrcElement.cpp 485"},
+                    {"size": 450, "id": "SVGPathBuilder.cpp 450"},
+                    {"size": 413, "id": "SVGTSpanElement.cpp 413"},
                     {
                       "size": 407,
-                      "caption": "SVGStyledLocatableElement.cpp 407"
+                      "id": "SVGStyledLocatableElement.cpp 407"
                     },
-                    {"size": 405, "caption": "ColorDistance.cpp 405"},
-                    {"size": 376, "caption": "SVGTitleElement.cpp 376"},
-                    {"size": 301, "caption": "SVGFESpotLightElement.cpp 301"},
+                    {"size": 405, "id": "ColorDistance.cpp 405"},
+                    {"size": 376, "id": "SVGTitleElement.cpp 376"},
+                    {"size": 301, "id": "SVGFESpotLightElement.cpp 301"},
                     {
                       "size": 293,
-                      "caption": "SVGPathTraversalStateBuilder.cpp 293"
+                      "id": "SVGPathTraversalStateBuilder.cpp 293"
                     },
-                    {"size": 291, "caption": "SVGZoomAndPan.cpp 291"},
-                    {"size": 278, "caption": "SVGFEFloodElement.cpp 278"},
+                    {"size": 291, "id": "SVGZoomAndPan.cpp 291"},
+                    {"size": 278, "id": "SVGFEFloodElement.cpp 278"},
                     {
                       "size": 243,
-                      "caption": "SVGFontFaceFormatElement.cpp 243"
+                      "id": "SVGFontFaceFormatElement.cpp 243"
                     },
-                    {"size": 239, "caption": "SVGZoomEvent.cpp 239"},
-                    {"size": 222, "caption": "SVGPathSegList.cpp 222"},
-                    {"size": 211, "caption": "SVGFEPointLightElement.cpp 211"},
-                    {"size": 209, "caption": "SVGDescElement.cpp 209"},
+                    {"size": 239, "id": "SVGZoomEvent.cpp 239"},
+                    {"size": 222, "id": "SVGPathSegList.cpp 222"},
+                    {"size": 211, "id": "SVGFEPointLightElement.cpp 211"},
+                    {"size": 209, "id": "SVGDescElement.cpp 209"},
                     {
                       "size": 199,
-                      "caption": "SVGFEDistantLightElement.cpp 199"
+                      "id": "SVGFEDistantLightElement.cpp 199"
                     },
-                    {"size": 155, "caption": "SVGElementInstanceList.cpp 155"},
-                    {"size": 153, "caption": "SVGFontFaceNameElement.cpp 153"},
-                    {"size": 134, "caption": "SVGFontData.cpp 134"},
-                    {"size": 126, "caption": "SVGFEFuncBElement.cpp 126"},
-                    {"size": 126, "caption": "SVGFEFuncRElement.cpp 126"},
-                    {"size": 126, "caption": "SVGFEFuncAElement.cpp 126"},
-                    {"size": 126, "caption": "SVGMetadataElement.cpp 126"},
-                    {"size": 126, "caption": "SVGFEFuncGElement.cpp 126"},
+                    {"size": 155, "id": "SVGElementInstanceList.cpp 155"},
+                    {"size": 153, "id": "SVGFontFaceNameElement.cpp 153"},
+                    {"size": 134, "id": "SVGFontData.cpp 134"},
+                    {"size": 126, "id": "SVGFEFuncBElement.cpp 126"},
+                    {"size": 126, "id": "SVGFEFuncRElement.cpp 126"},
+                    {"size": 126, "id": "SVGFEFuncAElement.cpp 126"},
+                    {"size": 126, "id": "SVGMetadataElement.cpp 126"},
+                    {"size": 126, "id": "SVGFEFuncGElement.cpp 126"},
                     {
                       "size": 123,
-                      "caption": "SVGExternalResourcesRequired.cpp 123"
+                      "id": "SVGExternalResourcesRequired.cpp 123"
                     },
-                    {"size": 91, "caption": "SVGPathSeg.cpp 91"},
-                    {"size": 81, "caption": "SVGAnimateColorElement.cpp 81"},
-                    {"size": 81, "caption": "SVGSetElement.cpp 81"},
-                    {"size": 58, "caption": "SVGMissingGlyphElement.cpp 58"},
-                    {"size": 38, "caption": "SVGAnimatedPathData.cpp 38"},
-                    {"size": 38, "caption": "SVGAnimatedPoints.cpp 38"},
-                    {"size": 38, "caption": "SVGStylable.cpp 38"},
-                    {"size": 38, "caption": "SVGPathSegClosePath.cpp 38"}
+                    {"size": 91, "id": "SVGPathSeg.cpp 91"},
+                    {"size": 81, "id": "SVGAnimateColorElement.cpp 81"},
+                    {"size": 81, "id": "SVGSetElement.cpp 81"},
+                    {"size": 58, "id": "SVGMissingGlyphElement.cpp 58"},
+                    {"size": 38, "id": "SVGAnimatedPathData.cpp 38"},
+                    {"size": 38, "id": "SVGAnimatedPoints.cpp 38"},
+                    {"size": 38, "id": "SVGStylable.cpp 38"},
+                    {"size": 38, "id": "SVGPathSegClosePath.cpp 38"}
                   ]
                 },
                 {
                   "size": 300886,
-                  "caption": "loader 300.9k",
+                  "id": "loader 300.9k",
                   "children": [
-                    {"size": 65640, "caption": "FrameLoader.cpp 65.6k"},
-                    {"size": 18516, "caption": "DocumentLoader.cpp 18.5k"},
-                    {"size": 17720, "caption": "ResourceLoader.cpp 17.7k"},
-                    {"size": 15142, "caption": "MainResourceLoader.cpp 15.1k"},
-                    {"size": 13654, "caption": "FTPDirectoryParser.cpp 13.7k"},
+                    {"size": 65640, "id": "FrameLoader.cpp 65.6k"},
+                    {"size": 18516, "id": "DocumentLoader.cpp 18.5k"},
+                    {"size": 17720, "id": "ResourceLoader.cpp 17.7k"},
+                    {"size": 15142, "id": "MainResourceLoader.cpp 15.1k"},
+                    {"size": 13654, "id": "FTPDirectoryParser.cpp 13.7k"},
                     {
                       "size": 13078,
-                      "caption": "DocumentThreadableLoader.cpp 13.1k"
+                      "id": "DocumentThreadableLoader.cpp 13.1k"
                     },
-                    {"size": 10402, "caption": "loader.cpp 10.4k"},
-                    {"size": 10204, "caption": "DocLoader.cpp 10.2k"},
-                    {"size": 9678, "caption": "FTPDirectoryDocument.cpp 9.7k"},
-                    {"size": 9211, "caption": "CachedResource.cpp 9.2k"},
+                    {"size": 10402, "id": "loader.cpp 10.4k"},
+                    {"size": 10204, "id": "DocLoader.cpp 10.2k"},
+                    {"size": 9678, "id": "FTPDirectoryDocument.cpp 9.7k"},
+                    {"size": 9211, "id": "CachedResource.cpp 9.2k"},
                     {
                       "size": 8135,
-                      "caption": "CrossOriginPreflightResultCache.cpp 8.1k"
+                      "id": "CrossOriginPreflightResultCache.cpp 8.1k"
                     },
-                    {"size": 8129, "caption": "PolicyChecker.cpp 8.1k"},
-                    {"size": 8009, "caption": "HistoryController.cpp 8.0k"},
-                    {"size": 6748, "caption": "FormSubmission.cpp 6.7k"},
-                    {"size": 6703, "caption": "PolicyCallback.cpp 6.7k"},
-                    {"size": 6550, "caption": "TextResourceDecoder.cpp 6.5k"},
-                    {"size": 6531, "caption": "Cache.cpp 6.5k"},
+                    {"size": 8129, "id": "PolicyChecker.cpp 8.1k"},
+                    {"size": 8009, "id": "HistoryController.cpp 8.0k"},
+                    {"size": 6748, "id": "FormSubmission.cpp 6.7k"},
+                    {"size": 6703, "id": "PolicyCallback.cpp 6.7k"},
+                    {"size": 6550, "id": "TextResourceDecoder.cpp 6.5k"},
+                    {"size": 6531, "id": "Cache.cpp 6.5k"},
                     {
                       "size": 6108,
-                      "caption": "WorkerThreadableLoader.cpp 6.1k"
+                      "id": "WorkerThreadableLoader.cpp 6.1k"
                     },
-                    {"size": 5654, "caption": "SubframeLoader.cpp 5.7k"},
-                    {"size": 5550, "caption": "ImageLoader.cpp 5.5k"},
-                    {"size": 5045, "caption": "ImageDocument.cpp 5.0k"},
-                    {"size": 3961, "caption": "MediaDocument.cpp 4.0k"},
-                    {"size": 3517, "caption": "SubresourceLoader.cpp 3.5k"},
-                    {"size": 3484, "caption": "CachedImage.cpp 3.5k"},
-                    {"size": 3348, "caption": "DocumentWriter.cpp 3.3k"},
-                    {"size": 2770, "caption": "TextDocument.cpp 2.8k"},
+                    {"size": 5654, "id": "SubframeLoader.cpp 5.7k"},
+                    {"size": 5550, "id": "ImageLoader.cpp 5.5k"},
+                    {"size": 5045, "id": "ImageDocument.cpp 5.0k"},
+                    {"size": 3961, "id": "MediaDocument.cpp 4.0k"},
+                    {"size": 3517, "id": "SubresourceLoader.cpp 3.5k"},
+                    {"size": 3484, "id": "CachedImage.cpp 3.5k"},
+                    {"size": 3348, "id": "DocumentWriter.cpp 3.3k"},
+                    {"size": 2770, "id": "TextDocument.cpp 2.8k"},
                     {
                       "size": 2613,
-                      "caption": "CrossOriginAccessControl.cpp 2.6k"
+                      "id": "CrossOriginAccessControl.cpp 2.6k"
                     },
-                    {"size": 2474, "caption": "ProgressTracker.cpp 2.5k"},
+                    {"size": 2474, "id": "ProgressTracker.cpp 2.5k"},
                     {
                       "size": 2317,
-                      "caption": "icon 2.3k",
+                      "id": "icon 2.3k",
                       "children": [
-                        {"size": 2230, "caption": "IconLoader.cpp 2.2k"},
-                        {"size": 87, "caption": "IconDatabaseNone.cpp 87"}
+                        {"size": 2230, "id": "IconLoader.cpp 2.2k"},
+                        {"size": 87, "id": "IconDatabaseNone.cpp 87"}
                       ]
                     },
-                    {"size": 2293, "caption": "RedirectScheduler.cpp 2.3k"},
-                    {"size": 2135, "caption": "CachedFont.cpp 2.1k"},
-                    {"size": 2127, "caption": "CachedCSSStyleSheet.cpp 2.1k"},
-                    {"size": 1955, "caption": "PluginDocument.cpp 2.0k"},
+                    {"size": 2293, "id": "RedirectScheduler.cpp 2.3k"},
+                    {"size": 2135, "id": "CachedFont.cpp 2.1k"},
+                    {"size": 2127, "id": "CachedCSSStyleSheet.cpp 2.1k"},
+                    {"size": 1955, "id": "PluginDocument.cpp 2.0k"},
                     {
                       "size": 1928,
-                      "caption": "archive 1.9k",
+                      "id": "archive 1.9k",
                       "children": [
-                        {"size": 1014, "caption": "ArchiveFactory.cpp 1.0k"}, {
+                        {"size": 1014, "id": "ArchiveFactory.cpp 1.0k"}, {
                           "size": 914,
-                          "caption": "ArchiveResourceCollection.cpp 914"
+                          "id": "ArchiveResourceCollection.cpp 914"
                         }
                       ]
                     },
                     {
                       "size": 1870,
-                      "caption": "appcache 1.9k",
+                      "id": "appcache 1.9k",
                       "children": [{
                         "size": 1870,
-                        "caption": "DOMApplicationCache.cpp 1.9k"
+                        "id": "DOMApplicationCache.cpp 1.9k"
                       }]
                     },
-                    {"size": 1485, "caption": "CachedScript.cpp 1.5k"},
-                    {"size": 1453, "caption": "ResourceLoadNotifier.cpp 1.5k"},
-                    {"size": 1419, "caption": "PingLoader.cpp 1.4k"},
-                    {"size": 1075, "caption": "CachedXSLStyleSheet.cpp 1.1k"},
-                    {"size": 469, "caption": "CachedResourceHandle.cpp 469"},
-                    {"size": 468, "caption": "NavigationAction.cpp 468"},
+                    {"size": 1485, "id": "CachedScript.cpp 1.5k"},
+                    {"size": 1453, "id": "ResourceLoadNotifier.cpp 1.5k"},
+                    {"size": 1419, "id": "PingLoader.cpp 1.4k"},
+                    {"size": 1075, "id": "CachedXSLStyleSheet.cpp 1.1k"},
+                    {"size": 469, "id": "CachedResourceHandle.cpp 469"},
+                    {"size": 468, "id": "NavigationAction.cpp 468"},
                     {
                       "size": 430,
-                      "caption": "CachedResourceClientWalker.cpp 430"
+                      "id": "CachedResourceClientWalker.cpp 430"
                     },
-                    {"size": 290, "caption": "ThreadableLoader.cpp 290"},
-                    {"size": 149, "caption": "Request.cpp 149"},
-                    {"size": 143, "caption": "FormState.cpp 143"},
-                    {"size": 137, "caption": "SinkDocument.cpp 137"},
-                    {"size": 88, "caption": "FrameLoaderStateMachine.cpp 88"},
-                    {"size": 69, "caption": "TextResourceDecoder.h 69"},
-                    {"size": 12, "caption": "PlaceholderDocument.cpp 12"}
+                    {"size": 290, "id": "ThreadableLoader.cpp 290"},
+                    {"size": 149, "id": "Request.cpp 149"},
+                    {"size": 143, "id": "FormState.cpp 143"},
+                    {"size": 137, "id": "SinkDocument.cpp 137"},
+                    {"size": 88, "id": "FrameLoaderStateMachine.cpp 88"},
+                    {"size": 69, "id": "TextResourceDecoder.h 69"},
+                    {"size": 12, "id": "PlaceholderDocument.cpp 12"}
                   ]
                 },
                 {
                   "size": 275087,
-                  "caption": "page 275.1k",
+                  "id": "page 275.1k",
                   "children": [
-                    {"size": 41039, "caption": "EventHandler.cpp 41.0k"},
+                    {"size": 41039, "id": "EventHandler.cpp 41.0k"},
                     {
                       "size": 39467,
-                      "caption": "animation 39.5k",
+                      "id": "animation 39.5k",
                       "children": [
-                        {"size": 17447, "caption": "AnimationBase.cpp 17.4k"}, {
+                        {"size": 17447, "id": "AnimationBase.cpp 17.4k"}, {
                           "size": 8254,
-                          "caption": "CompositeAnimation.cpp 8.3k"
+                          "id": "CompositeAnimation.cpp 8.3k"
                         },
                         {
                           "size": 6428,
-                          "caption": "AnimationController.cpp 6.4k"
+                          "id": "AnimationController.cpp 6.4k"
                         },
-                        {"size": 4729, "caption": "KeyframeAnimation.cpp 4.7k"},
+                        {"size": 4729, "id": "KeyframeAnimation.cpp 4.7k"},
                         {
                           "size": 2609,
-                          "caption": "ImplicitAnimation.cpp 2.6k"
+                          "id": "ImplicitAnimation.cpp 2.6k"
                         }
                       ]
                     },
-                    {"size": 25735, "caption": "FrameView.cpp 25.7k"},
-                    {"size": 18120, "caption": "DOMWindow.cpp 18.1k"},
-                    {"size": 17164, "caption": "Frame.cpp 17.2k"},
-                    {"size": 15417, "caption": "DragController.cpp 15.4k"},
-                    {"size": 12902, "caption": "XSSAuditor.cpp 12.9k"},
-                    {"size": 9731, "caption": "Geolocation.cpp 9.7k"},
-                    {"size": 9576, "caption": "SecurityOrigin.cpp 9.6k"},
-                    {"size": 9088, "caption": "ContextMenuController.cpp 9.1k"},
-                    {"size": 8340, "caption": "Page.cpp 8.3k"},
-                    {"size": 7449, "caption": "FocusController.cpp 7.4k"},
-                    {"size": 6962, "caption": "EventSource.cpp 7.0k"},
-                    {"size": 5439, "caption": "DOMSelection.cpp 5.4k"},
-                    {"size": 4772, "caption": "Chrome.cpp 4.8k"},
-                    {"size": 4751, "caption": "PageGroup.cpp 4.8k"},
-                    {"size": 3842, "caption": "UserContentURLPattern.cpp 3.8k"},
-                    {"size": 3724, "caption": "Console.cpp 3.7k"},
-                    {"size": 2739, "caption": "Settings.cpp 2.7k"},
-                    {"size": 2682, "caption": "FrameTree.cpp 2.7k"},
+                    {"size": 25735, "id": "FrameView.cpp 25.7k"},
+                    {"size": 18120, "id": "DOMWindow.cpp 18.1k"},
+                    {"size": 17164, "id": "Frame.cpp 17.2k"},
+                    {"size": 15417, "id": "DragController.cpp 15.4k"},
+                    {"size": 12902, "id": "XSSAuditor.cpp 12.9k"},
+                    {"size": 9731, "id": "Geolocation.cpp 9.7k"},
+                    {"size": 9576, "id": "SecurityOrigin.cpp 9.6k"},
+                    {"size": 9088, "id": "ContextMenuController.cpp 9.1k"},
+                    {"size": 8340, "id": "Page.cpp 8.3k"},
+                    {"size": 7449, "id": "FocusController.cpp 7.4k"},
+                    {"size": 6962, "id": "EventSource.cpp 7.0k"},
+                    {"size": 5439, "id": "DOMSelection.cpp 5.4k"},
+                    {"size": 4772, "id": "Chrome.cpp 4.8k"},
+                    {"size": 4751, "id": "PageGroup.cpp 4.8k"},
+                    {"size": 3842, "id": "UserContentURLPattern.cpp 3.8k"},
+                    {"size": 3724, "id": "Console.cpp 3.7k"},
+                    {"size": 2739, "id": "Settings.cpp 2.7k"},
+                    {"size": 2682, "id": "FrameTree.cpp 2.7k"},
                     {
                       "size": 2563,
-                      "caption": "chromium 2.6k",
+                      "id": "chromium 2.6k",
                       "children": [
-                        {"size": 1391, "caption": "FrameChromium.cpp 1.4k"}, {
+                        {"size": 1391, "id": "FrameChromium.cpp 1.4k"}, {
                           "size": 1067,
-                          "caption": "EventHandlerChromium.cpp 1.1k"
+                          "id": "EventHandlerChromium.cpp 1.1k"
                         },
                         {
                           "size": 105,
-                          "caption": "DragControllerChromium.cpp 105"
+                          "id": "DragControllerChromium.cpp 105"
                         }
                       ]
                     },
-                    {"size": 2385, "caption": "SpatialNavigation.cpp 2.4k"},
-                    {"size": 2206, "caption": "Timing.cpp 2.2k"},
+                    {"size": 2385, "id": "SpatialNavigation.cpp 2.4k"},
+                    {"size": 2206, "id": "Timing.cpp 2.2k"},
                     {
                       "size": 2125,
-                      "caption": "GeolocationPositionCache.cpp 2.1k"
+                      "id": "GeolocationPositionCache.cpp 2.1k"
                     },
-                    {"size": 1943, "caption": "WindowFeatures.cpp 1.9k"},
-                    {"size": 1904, "caption": "PrintContext.cpp 1.9k"},
-                    {"size": 1818, "caption": "Navigator.cpp 1.8k"},
-                    {"size": 1547, "caption": "Location.cpp 1.5k"},
-                    {"size": 1528, "caption": "SpeechInput.cpp 1.5k"},
-                    {"size": 1333, "caption": "PluginHalter.cpp 1.3k"},
-                    {"size": 1134, "caption": "DOMTimer.cpp 1.1k"},
-                    {"size": 1087, "caption": "NavigatorBase.cpp 1.1k"},
-                    {"size": 940, "caption": "History.cpp 940"},
-                    {"size": 798, "caption": "OriginAccessEntry.cpp 798"},
-                    {"size": 761, "caption": "PageGroupLoadDeferrer.cpp 761"},
-                    {"size": 617, "caption": "Screen.cpp 617"},
-                    {"size": 400, "caption": "Performance.cpp 400"},
-                    {"size": 336, "caption": "SuspendableTimer.cpp 336"},
-                    {"size": 209, "caption": "WorkerNavigator.cpp 209"},
+                    {"size": 1943, "id": "WindowFeatures.cpp 1.9k"},
+                    {"size": 1904, "id": "PrintContext.cpp 1.9k"},
+                    {"size": 1818, "id": "Navigator.cpp 1.8k"},
+                    {"size": 1547, "id": "Location.cpp 1.5k"},
+                    {"size": 1528, "id": "SpeechInput.cpp 1.5k"},
+                    {"size": 1333, "id": "PluginHalter.cpp 1.3k"},
+                    {"size": 1134, "id": "DOMTimer.cpp 1.1k"},
+                    {"size": 1087, "id": "NavigatorBase.cpp 1.1k"},
+                    {"size": 940, "id": "History.cpp 940"},
+                    {"size": 798, "id": "OriginAccessEntry.cpp 798"},
+                    {"size": 761, "id": "PageGroupLoadDeferrer.cpp 761"},
+                    {"size": 617, "id": "Screen.cpp 617"},
+                    {"size": 400, "id": "Performance.cpp 400"},
+                    {"size": 336, "id": "SuspendableTimer.cpp 336"},
+                    {"size": 209, "id": "WorkerNavigator.cpp 209"},
                     {
                       "size": 142,
-                      "caption": "MouseEventWithHitTestResults.cpp 142"
+                      "id": "MouseEventWithHitTestResults.cpp 142"
                     },
-                    {"size": 132, "caption": "BarInfo.cpp 132"},
-                    {"size": 122, "caption": "Navigation.cpp 122"},
-                    {"size": 97, "caption": "MemoryInfo.cpp 97"},
-                    {"size": 21, "caption": "GroupSettings.cpp 21"}
+                    {"size": 132, "id": "BarInfo.cpp 132"},
+                    {"size": 122, "id": "Navigation.cpp 122"},
+                    {"size": 97, "id": "MemoryInfo.cpp 97"},
+                    {"size": 21, "id": "GroupSettings.cpp 21"}
                   ]
                 },
                 {
                   "size": 228564,
-                  "caption": "bindings 228.6k",
+                  "id": "bindings 228.6k",
                   "children": [
                     {
                       "size": 225841,
-                      "caption": "v8 225.8k",
+                      "id": "v8 225.8k",
                       "children": [
                         {
                           "size": 112866,
-                          "caption": "custom 112.9k",
+                          "id": "custom 112.9k",
                           "children": [
                             {
                               "size": 10784,
-                              "caption": "V8DOMWindowCustom.cpp 10.8k"
+                              "id": "V8DOMWindowCustom.cpp 10.8k"
                             },
                             {
                               "size": 8391,
-                              "caption":
+                              "id":
                                   "V8WebGLRenderingContextCustom.cpp 8.4k"
                             },
                             {
                               "size": 6068,
-                              "caption": "V8LocationCustom.cpp 6.1k"
+                              "id": "V8LocationCustom.cpp 6.1k"
                             },
                             {
                               "size": 3213,
-                              "caption": "V8CSSStyleDeclarationCustom.cpp 3.2k"
+                              "id": "V8CSSStyleDeclarationCustom.cpp 3.2k"
                             },
                             {
                               "size": 2637,
-                              "caption": "V8InjectedScriptHostCustom.cpp 2.6k"
+                              "id": "V8InjectedScriptHostCustom.cpp 2.6k"
                             },
                             {
                               "size": 2458,
-                              "caption": "V8SQLTransactionCustom.cpp 2.5k"
+                              "id": "V8SQLTransactionCustom.cpp 2.5k"
                             },
                             {
                               "size": 2385,
-                              "caption": "V8XSLTProcessorCustom.cpp 2.4k"
+                              "id": "V8XSLTProcessorCustom.cpp 2.4k"
                             },
                             {
                               "size": 2369,
-                              "caption": "V8HTMLDocumentCustom.cpp 2.4k"
+                              "id": "V8HTMLDocumentCustom.cpp 2.4k"
                             },
                             {
                               "size": 2249,
-                              "caption": "V8DocumentCustom.cpp 2.2k"
+                              "id": "V8DocumentCustom.cpp 2.2k"
                             },
                             {
                               "size": 2137,
-                              "caption": "V8HTMLCollectionCustom.cpp 2.1k"
+                              "id": "V8HTMLCollectionCustom.cpp 2.1k"
                             },
                             {
                               "size": 2111,
-                              "caption": "V8SQLTransactionSyncCustom.cpp 2.1k"
+                              "id": "V8SQLTransactionSyncCustom.cpp 2.1k"
                             },
                             {
                               "size": 2062,
-                              "caption": "V8HTMLAllCollectionCustom.cpp 2.1k"
+                              "id": "V8HTMLAllCollectionCustom.cpp 2.1k"
                             },
                             {
                               "size": 2043,
-                              "caption": "V8GeolocationCustom.cpp 2.0k"
+                              "id": "V8GeolocationCustom.cpp 2.0k"
                             },
                             {
                               "size": 2029,
-                              "caption": "V8NotificationCenterCustom.cpp 2.0k"
+                              "id": "V8NotificationCenterCustom.cpp 2.0k"
                             },
-                            {"size": 2019, "caption": "V8NodeCustom.cpp 2.0k"},
+                            {"size": 2019, "id": "V8NodeCustom.cpp 2.0k"},
                             {
                               "size": 1910,
-                              "caption": "V8WorkerContextCustom.cpp 1.9k"
+                              "id": "V8WorkerContextCustom.cpp 1.9k"
                             },
                             {
                               "size": 1907,
-                              "caption": "V8DeviceMotionEventCustom.cpp 1.9k"
+                              "id": "V8DeviceMotionEventCustom.cpp 1.9k"
                             },
                             {
                               "size": 1710,
-                              "caption": "V8Uint32ArrayCustom.cpp 1.7k"
+                              "id": "V8Uint32ArrayCustom.cpp 1.7k"
                             },
                             {
                               "size": 1703,
-                              "caption": "V8StorageCustom.cpp 1.7k"
+                              "id": "V8StorageCustom.cpp 1.7k"
                             },
                             {
                               "size": 1685,
-                              "caption": "V8Int32ArrayCustom.cpp 1.7k"
+                              "id": "V8Int32ArrayCustom.cpp 1.7k"
                             },
                             {
                               "size": 1684,
-                              "caption": "V8Int16ArrayCustom.cpp 1.7k"
+                              "id": "V8Int16ArrayCustom.cpp 1.7k"
                             },
                             {
                               "size": 1676,
-                              "caption": "V8Int8ArrayCustom.cpp 1.7k"
+                              "id": "V8Int8ArrayCustom.cpp 1.7k"
                             },
                             {
                               "size": 1672,
-                              "caption":
+                              "id":
                                   "V8InspectorFrontendHostCustom.cpp 1.7k"
                             },
                             {
                               "size": 1668,
-                              "caption": "V8Uint16ArrayCustom.cpp 1.7k"
+                              "id": "V8Uint16ArrayCustom.cpp 1.7k"
                             },
                             {
                               "size": 1661,
-                              "caption": "V8Uint8ArrayCustom.cpp 1.7k"
+                              "id": "V8Uint8ArrayCustom.cpp 1.7k"
                             },
                             {
                               "size": 1660,
-                              "caption": "V8Float32ArrayCustom.cpp 1.7k"
+                              "id": "V8Float32ArrayCustom.cpp 1.7k"
                             },
                             {
                               "size": 1642,
-                              "caption": "V8MessageEventCustom.cpp 1.6k"
+                              "id": "V8MessageEventCustom.cpp 1.6k"
                             },
                             {
                               "size": 1613,
-                              "caption": "V8ClipboardCustom.cpp 1.6k"
+                              "id": "V8ClipboardCustom.cpp 1.6k"
                             },
                             {
                               "size": 1607,
-                              "caption": "V8XMLHttpRequestCustom.cpp 1.6k"
+                              "id": "V8XMLHttpRequestCustom.cpp 1.6k"
                             },
                             {
                               "size": 1492,
-                              "caption": "V8HTMLCanvasElementCustom.cpp 1.5k"
+                              "id": "V8HTMLCanvasElementCustom.cpp 1.5k"
                             },
                             {
                               "size": 1480,
-                              "caption": "V8HistoryCustom.cpp 1.5k"
+                              "id": "V8HistoryCustom.cpp 1.5k"
                             },
                             {
                               "size": 1401,
-                              "caption": "V8HTMLPlugInElementCustom.cpp 1.4k"
+                              "id": "V8HTMLPlugInElementCustom.cpp 1.4k"
                             },
                             {
                               "size": 1377,
-                              "caption": "V8WebSocketCustom.cpp 1.4k"
+                              "id": "V8WebSocketCustom.cpp 1.4k"
                             },
                             {
                               "size": 1342,
-                              "caption":
+                              "id":
                                   "V8HTMLOptionElementConstructor.cpp 1.3k"
                             },
                             {
                               "size": 1328,
-                              "caption": "V8SVGMatrixCustom.cpp 1.3k"
+                              "id": "V8SVGMatrixCustom.cpp 1.3k"
                             },
                             {
                               "size": 1203,
-                              "caption": "V8MessagePortCustom.cpp 1.2k"
+                              "id": "V8MessagePortCustom.cpp 1.2k"
                             },
                             {
                               "size": 1171,
-                              "caption": "V8WorkerCustom.cpp 1.2k"
+                              "id": "V8WorkerCustom.cpp 1.2k"
                             },
                             {
                               "size": 1138,
-                              "caption": "V8HTMLSelectElementCustom.cpp 1.1k"
+                              "id": "V8HTMLSelectElementCustom.cpp 1.1k"
                             },
-                            {"size": 1094, "caption": "V8EventCustom.cpp 1.1k"},
+                            {"size": 1094, "id": "V8EventCustom.cpp 1.1k"},
                             {
                               "size": 1082,
-                              "caption":
+                              "id":
                                   "V8DeviceOrientationEventCustom.cpp 1.1k"
                             },
                             {
                               "size": 991,
-                              "caption": "V8HTMLOptionsCollectionCustom.cpp 991"
+                              "id": "V8HTMLOptionsCollectionCustom.cpp 991"
                             },
                             {
                               "size": 968,
-                              "caption": "V8CustomVoidCallback.cpp 968"
+                              "id": "V8CustomVoidCallback.cpp 968"
                             },
                             {
                               "size": 933,
-                              "caption": "V8SharedWorkerCustom.cpp 933"
+                              "id": "V8SharedWorkerCustom.cpp 933"
                             },
                             {
                               "size": 913,
-                              "caption": "V8HTMLFormElementCustom.cpp 913"
+                              "id": "V8HTMLFormElementCustom.cpp 913"
                             },
                             {
                               "size": 875,
-                              "caption": "V8HTMLAudioElementConstructor.cpp 875"
+                              "id": "V8HTMLAudioElementConstructor.cpp 875"
                             },
                             {
                               "size": 826,
-                              "caption": "V8SQLResultSetRowListCustom.cpp 826"
+                              "id": "V8SQLResultSetRowListCustom.cpp 826"
                             },
                             {
                               "size": 789,
-                              "caption":
+                              "id":
                                   "V8CanvasRenderingContext2DCustom.cpp 789"
                             },
                             {
                               "size": 780,
-                              "caption": "V8HTMLInputElementCustom.cpp 780"
+                              "id": "V8HTMLInputElementCustom.cpp 780"
                             },
                             {
                               "size": 761,
-                              "caption": "V8HTMLImageElementConstructor.cpp 761"
+                              "id": "V8HTMLImageElementConstructor.cpp 761"
                             },
                             {
                               "size": 674,
-                              "caption": "V8CustomXPathNSResolver.cpp 674"
+                              "id": "V8CustomXPathNSResolver.cpp 674"
                             },
-                            {"size": 665, "caption": "V8IDBAnyCustom.cpp 665"},
+                            {"size": 665, "id": "V8IDBAnyCustom.cpp 665"},
                             {
                               "size": 629,
-                              "caption": "V8NodeListCustom.cpp 629"
+                              "id": "V8NodeListCustom.cpp 629"
                             },
                             {
                               "size": 609,
-                              "caption": "V8ArrayBufferViewCustom.cpp 609"
+                              "id": "V8ArrayBufferViewCustom.cpp 609"
                             },
                             {
                               "size": 600,
-                              "caption": "V8ScriptProfileNodeCustom.cpp 600"
+                              "id": "V8ScriptProfileNodeCustom.cpp 600"
                             },
-                            {"size": 541, "caption": "V8ConsoleCustom.cpp 541"},
+                            {"size": 541, "id": "V8ConsoleCustom.cpp 541"},
                             {
                               "size": 519,
-                              "caption": "V8JavaScriptCallFrameCustom.cpp 519"
+                              "id": "V8JavaScriptCallFrameCustom.cpp 519"
                             },
                             {
                               "size": 518,
-                              "caption": "V8EventSourceConstructor.cpp 518"
+                              "id": "V8EventSourceConstructor.cpp 518"
                             },
                             {
                               "size": 517,
-                              "caption": "V8WebKitPointConstructor.cpp 517"
+                              "id": "V8WebKitPointConstructor.cpp 517"
                             },
                             {
                               "size": 495,
-                              "caption": "V8WebKitCSSMatrixConstructor.cpp 495"
+                              "id": "V8WebKitCSSMatrixConstructor.cpp 495"
                             },
                             {
                               "size": 490,
-                              "caption":
+                              "id":
                                   "V8DedicatedWorkerContextCustom.cpp 490"
                             },
                             {
                               "size": 469,
-                              "caption": "V8CustomEventListener.cpp 469"
+                              "id": "V8CustomEventListener.cpp 469"
                             },
                             {
                               "size": 459,
-                              "caption": "V8SVGPathSegCustom.cpp 459"
+                              "id": "V8SVGPathSegCustom.cpp 459"
                             },
                             {
                               "size": 430,
-                              "caption": "V8DOMFormDataCustom.cpp 430"
+                              "id": "V8DOMFormDataCustom.cpp 430"
                             },
                             {
                               "size": 422,
-                              "caption": "V8SVGLengthCustom.cpp 422"
+                              "id": "V8SVGLengthCustom.cpp 422"
                             },
                             {
                               "size": 401,
-                              "caption": "V8NamedNodeMapCustom.cpp 401"
+                              "id": "V8NamedNodeMapCustom.cpp 401"
                             },
                             {
                               "size": 400,
-                              "caption": "V8CustomPositionErrorCallback.cpp 400"
+                              "id": "V8CustomPositionErrorCallback.cpp 400"
                             },
                             {
                               "size": 400,
-                              "caption": "V8CustomPositionCallback.cpp 400"
+                              "id": "V8CustomPositionCallback.cpp 400"
                             },
                             {
                               "size": 380,
-                              "caption": "V8CoordinatesCustom.cpp 380"
+                              "id": "V8CoordinatesCustom.cpp 380"
                             },
                             {
                               "size": 339,
-                              "caption": "V8MessageChannelConstructor.cpp 339"
+                              "id": "V8MessageChannelConstructor.cpp 339"
                             },
                             {
                               "size": 336,
-                              "caption": "V8HTMLFrameSetElementCustom.cpp 336"
+                              "id": "V8HTMLFrameSetElementCustom.cpp 336"
                             },
                             {
                               "size": 331,
-                              "caption":
+                              "id":
                                   "V8CustomSQLStatementErrorCallback.cpp 331"
                             },
                             {
                               "size": 318,
-                              "caption": "V8ArrayBufferCustom.cpp 318"
+                              "id": "V8ArrayBufferCustom.cpp 318"
                             },
                             {
                               "size": 299,
-                              "caption": "V8XMLHttpRequestConstructor.cpp 299"
+                              "id": "V8XMLHttpRequestConstructor.cpp 299"
                             },
                             {
                               "size": 293,
-                              "caption": "V8SVGDocumentCustom.cpp 293"
+                              "id": "V8SVGDocumentCustom.cpp 293"
                             },
-                            {"size": 272, "caption": "V8CSSRuleCustom.cpp 272"},
+                            {"size": 272, "id": "V8CSSRuleCustom.cpp 272"},
                             {
                               "size": 253,
-                              "caption": "V8CSSValueCustom.cpp 253"
+                              "id": "V8CSSValueCustom.cpp 253"
                             },
                             {
                               "size": 228,
-                              "caption": "V8NamedNodesCollection.cpp 228"
+                              "id": "V8NamedNodesCollection.cpp 228"
                             },
                             {
                               "size": 225,
-                              "caption": "V8DocumentLocationCustom.cpp 225"
+                              "id": "V8DocumentLocationCustom.cpp 225"
                             },
                             {
                               "size": 222,
-                              "caption": "V8ScriptProfileCustom.cpp 222"
+                              "id": "V8ScriptProfileCustom.cpp 222"
                             },
-                            {"size": 212, "caption": "V8IDBKeyCustom.cpp 212"},
+                            {"size": 212, "id": "V8IDBKeyCustom.cpp 212"},
                             {
                               "size": 199,
-                              "caption": "V8HTMLFrameElementCustom.cpp 199"
+                              "id": "V8HTMLFrameElementCustom.cpp 199"
                             },
                             {
                               "size": 188,
-                              "caption": "V8StyleSheetListCustom.cpp 188"
+                              "id": "V8StyleSheetListCustom.cpp 188"
                             },
                             {
                               "size": 183,
-                              "caption": "V8StyleSheetCustom.cpp 183"
+                              "id": "V8StyleSheetCustom.cpp 183"
                             },
-                            {"size": 154, "caption": "V8ElementCustom.cpp 154"},
+                            {"size": 154, "id": "V8ElementCustom.cpp 154"},
                             {
                               "size": 140,
-                              "caption": "V8CSSStyleSheetCustom.cpp 140"
+                              "id": "V8CSSStyleSheetCustom.cpp 140"
                             },
                             {
                               "size": 114,
-                              "caption": "V8CanvasPixelArrayCustom.cpp 114"
+                              "id": "V8CanvasPixelArrayCustom.cpp 114"
                             },
                             {
                               "size": 85,
-                              "caption": "V8PopStateEventCustom.cpp 85"
+                              "id": "V8PopStateEventCustom.cpp 85"
                             },
                             {
                               "size": 80,
-                              "caption": "V8HTMLElementCustom.cpp 80"
+                              "id": "V8HTMLElementCustom.cpp 80"
                             },
                             {
                               "size": 80,
-                              "caption": "V8SVGElementCustom.cpp 80"
+                              "id": "V8SVGElementCustom.cpp 80"
                             }
                           ]
                         },
                         {
                           "size": 10588,
-                          "caption": "SerializedScriptValue.cpp 10.6k"
+                          "id": "SerializedScriptValue.cpp 10.6k"
                         },
-                        {"size": 9668, "caption": "V8Proxy.cpp 9.7k"},
-                        {"size": 7224, "caption": "V8Collection.h 7.2k"},
-                        {"size": 7207, "caption": "ScriptDebugServer.cpp 7.2k"},
-                        {"size": 5608, "caption": "NPV8Object.cpp 5.6k"},
-                        {"size": 5285, "caption": "npruntime.cpp 5.3k"},
-                        {"size": 5266, "caption": "V8Binding.cpp 5.3k"},
-                        {"size": 5187, "caption": "V8NPObject.cpp 5.2k"},
-                        {"size": 4355, "caption": "ScriptCallStack.cpp 4.4k"},
-                        {"size": 4299, "caption": "V8DOMWindowShell.cpp 4.3k"},
-                        {"size": 4080, "caption": "ScriptController.cpp 4.1k"},
-                        {"size": 3620, "caption": "ScriptProfile.cpp 3.6k"},
-                        {"size": 3158, "caption": "V8DOMWrapper.cpp 3.2k"},
+                        {"size": 9668, "id": "V8Proxy.cpp 9.7k"},
+                        {"size": 7224, "id": "V8Collection.h 7.2k"},
+                        {"size": 7207, "id": "ScriptDebugServer.cpp 7.2k"},
+                        {"size": 5608, "id": "NPV8Object.cpp 5.6k"},
+                        {"size": 5285, "id": "npruntime.cpp 5.3k"},
+                        {"size": 5266, "id": "V8Binding.cpp 5.3k"},
+                        {"size": 5187, "id": "V8NPObject.cpp 5.2k"},
+                        {"size": 4355, "id": "ScriptCallStack.cpp 4.4k"},
+                        {"size": 4299, "id": "V8DOMWindowShell.cpp 4.3k"},
+                        {"size": 4080, "id": "ScriptController.cpp 4.1k"},
+                        {"size": 3620, "id": "ScriptProfile.cpp 3.6k"},
+                        {"size": 3158, "id": "V8DOMWrapper.cpp 3.2k"},
                         {
                           "size": 2537,
-                          "caption": "JavaScriptCallFrame.cpp 2.5k"
+                          "id": "JavaScriptCallFrame.cpp 2.5k"
                         },
                         {
                           "size": 2508,
-                          "caption": "WorkerContextExecutionProxy.cpp 2.5k"
+                          "id": "WorkerContextExecutionProxy.cpp 2.5k"
                         },
-                        {"size": 2405, "caption": "ScheduledAction.cpp 2.4k"},
-                        {"size": 1846, "caption": "ScriptValue.cpp 1.8k"},
+                        {"size": 2405, "id": "ScheduledAction.cpp 2.4k"},
+                        {"size": 1846, "id": "ScriptValue.cpp 1.8k"},
                         {
                           "size": 1816,
-                          "caption": "ScriptEventListener.cpp 1.8k"
+                          "id": "ScriptEventListener.cpp 1.8k"
                         },
                         {
                           "size": 1806,
-                          "caption": "V8AbstractEventListener.cpp 1.8k"
+                          "id": "V8AbstractEventListener.cpp 1.8k"
                         },
                         {
                           "size": 1695,
-                          "caption": "V8LazyEventListener.cpp 1.7k"
+                          "id": "V8LazyEventListener.cpp 1.7k"
                         },
                         {
                           "size": 1587,
-                          "caption": "ScriptFunctionCall.cpp 1.6k"
+                          "id": "ScriptFunctionCall.cpp 1.6k"
                         },
-                        {"size": 1498, "caption": "DOMDataStore.cpp 1.5k"},
-                        {"size": 1402, "caption": "V8ConsoleMessage.cpp 1.4k"},
-                        {"size": 1109, "caption": "V8NPUtils.cpp 1.1k"},
-                        {"size": 1030, "caption": "V8GCController.cpp 1.0k"},
-                        {"size": 1003, "caption": "V8Utilities.cpp 1.0k"},
-                        {"size": 953, "caption": "V8DOMMap.cpp 953"},
+                        {"size": 1498, "id": "DOMDataStore.cpp 1.5k"},
+                        {"size": 1402, "id": "V8ConsoleMessage.cpp 1.4k"},
+                        {"size": 1109, "id": "V8NPUtils.cpp 1.1k"},
+                        {"size": 1030, "id": "V8GCController.cpp 1.0k"},
+                        {"size": 1003, "id": "V8Utilities.cpp 1.0k"},
+                        {"size": 953, "id": "V8DOMMap.cpp 953"},
                         {
                           "size": 895,
-                          "caption": "WorkerScriptController.cpp 895"
+                          "id": "WorkerScriptController.cpp 895"
                         },
-                        {"size": 861, "caption": "DateExtension.cpp 861"},
-                        {"size": 831, "caption": "ScriptStringImpl.cpp 831"},
-                        {"size": 744, "caption": "V8SVGPODTypeWrapper.h 744"},
-                        {"size": 740, "caption": "IDBBindingUtilities.cpp 740"},
+                        {"size": 861, "id": "DateExtension.cpp 861"},
+                        {"size": 831, "id": "ScriptStringImpl.cpp 831"},
+                        {"size": 744, "id": "V8SVGPODTypeWrapper.h 744"},
+                        {"size": 740, "id": "IDBBindingUtilities.cpp 740"},
                         {
                           "size": 714,
-                          "caption": "V8HiddenPropertyName.cpp 714"
+                          "id": "V8HiddenPropertyName.cpp 714"
                         },
-                        {"size": 689, "caption": "ScriptProfiler.cpp 689"},
-                        {"size": 677, "caption": "ScriptGCEvent.cpp 677"},
+                        {"size": 689, "id": "ScriptProfiler.cpp 689"},
+                        {"size": 677, "id": "ScriptGCEvent.cpp 677"},
                         {
                           "size": 663,
-                          "caption": "V8WorkerContextEventListener.cpp 663"
+                          "id": "V8WorkerContextEventListener.cpp 663"
                         },
-                        {"size": 635, "caption": "ScriptCallFrame.cpp 635"},
+                        {"size": 635, "id": "ScriptCallFrame.cpp 635"},
                         {
                           "size": 595,
-                          "caption": "V8NodeFilterCondition.cpp 595"
+                          "id": "V8NodeFilterCondition.cpp 595"
                         },
-                        {"size": 568, "caption": "ScopedDOMDataStore.cpp 568"},
-                        {"size": 567, "caption": "ScriptState.cpp 567"},
+                        {"size": 568, "id": "ScopedDOMDataStore.cpp 568"},
+                        {"size": 567, "id": "ScriptState.cpp 567"},
                         {
                           "size": 521,
-                          "caption": "V8WorkerContextErrorHandler.cpp 521"
+                          "id": "V8WorkerContextErrorHandler.cpp 521"
                         },
-                        {"size": 504, "caption": "V8IsolatedContext.cpp 504"},
-                        {"size": 499, "caption": "ScriptProfileNode.cpp 499"},
-                        {"size": 413, "caption": "V8DOMWrapper.h 413"},
-                        {"size": 376, "caption": "ScriptObject.cpp 376"},
-                        {"size": 325, "caption": "StaticDOMDataStore.cpp 325"},
-                        {"size": 317, "caption": "DOMData.cpp 317"},
+                        {"size": 504, "id": "V8IsolatedContext.cpp 504"},
+                        {"size": 499, "id": "ScriptProfileNode.cpp 499"},
+                        {"size": 413, "id": "V8DOMWrapper.h 413"},
+                        {"size": 376, "id": "ScriptObject.cpp 376"},
+                        {"size": 325, "id": "StaticDOMDataStore.cpp 325"},
+                        {"size": 317, "id": "DOMData.cpp 317"},
                         {
                           "size": 300,
-                          "caption": "V8GCForContextDispose.cpp 300"
+                          "id": "V8GCForContextDispose.cpp 300"
                         },
-                        {"size": 284, "caption": "MainThreadDOMData.cpp 284"},
-                        {"size": 281, "caption": "WorldContextHandle.cpp 281"},
+                        {"size": 284, "id": "MainThreadDOMData.cpp 284"},
+                        {"size": 281, "id": "WorldContextHandle.cpp 281"},
                         {
                           "size": 194,
-                          "caption": "specialization 194",
+                          "id": "specialization 194",
                           "children": [{
                             "size": 194,
-                            "caption": "V8BindingState.cpp 194"
+                            "id": "V8BindingState.cpp 194"
                           }]
                         },
-                        {"size": 175, "caption": "V8Collection.cpp 175"},
-                        {"size": 163, "caption": "V8Proxy.h 163"},
-                        {"size": 159, "caption": "ScriptScope.cpp 159"},
-                        {"size": 147, "caption": "IsolatedWorld.cpp 147"},
-                        {"size": 143, "caption": "ScriptInstance.cpp 143"},
-                        {"size": 132, "caption": "DOMWrapperWorld.cpp 132"},
-                        {"size": 67, "caption": "V8Helpers.cpp 67"},
-                        {"size": 56, "caption": "ChildThreadDOMData.cpp 56"}
+                        {"size": 175, "id": "V8Collection.cpp 175"},
+                        {"size": 163, "id": "V8Proxy.h 163"},
+                        {"size": 159, "id": "ScriptScope.cpp 159"},
+                        {"size": 147, "id": "IsolatedWorld.cpp 147"},
+                        {"size": 143, "id": "ScriptInstance.cpp 143"},
+                        {"size": 132, "id": "DOMWrapperWorld.cpp 132"},
+                        {"size": 67, "id": "V8Helpers.cpp 67"},
+                        {"size": 56, "id": "ChildThreadDOMData.cpp 56"}
                       ]
                     },
-                    {"size": 1940, "caption": "ScriptControllerBase.cpp 1.9k"},
+                    {"size": 1940, "id": "ScriptControllerBase.cpp 1.9k"},
                     {
                       "size": 783,
-                      "caption": "generic 783",
+                      "id": "generic 783",
                       "children": [
-                        {"size": 408, "caption": "ActiveDOMCallback.cpp 408"},
-                        {"size": 131, "caption": "BindingSecurity.h 131"},
-                        {"size": 124, "caption": "BindingSecurityBase.cpp 124"},
+                        {"size": 408, "id": "ActiveDOMCallback.cpp 408"},
+                        {"size": 131, "id": "BindingSecurity.h 131"},
+                        {"size": 124, "id": "BindingSecurityBase.cpp 124"},
                         {
                           "size": 120,
-                          "caption": "RuntimeEnabledFeatures.cpp 120"
+                          "id": "RuntimeEnabledFeatures.cpp 120"
                         }
                       ]
                     }
@@ -2280,708 +2280,708 @@ export default {
                 },
                 {
                   "size": 200610,
-                  "caption": "inspector 200.6k",
+                  "id": "inspector 200.6k",
                   "children": [
-                    {"size": 64854, "caption": "InspectorDOMAgent.cpp 64.9k"},
-                    {"size": 43098, "caption": "InspectorController.cpp 43.1k"},
-                    {"size": 17475, "caption": "InspectorResource.cpp 17.5k"}, {
+                    {"size": 64854, "id": "InspectorDOMAgent.cpp 64.9k"},
+                    {"size": 43098, "id": "InspectorController.cpp 43.1k"},
+                    {"size": 17475, "id": "InspectorResource.cpp 17.5k"}, {
                       "size": 12006,
-                      "caption": "TimelineRecordFactory.cpp 12.0k"
+                      "id": "TimelineRecordFactory.cpp 12.0k"
                     },
                     {
                       "size": 10507,
-                      "caption": "InspectorTimelineAgent.cpp 10.5k"
+                      "id": "InspectorTimelineAgent.cpp 10.5k"
                     },
-                    {"size": 8432, "caption": "InspectorValues.cpp 8.4k"}, {
+                    {"size": 8432, "id": "InspectorValues.cpp 8.4k"}, {
                       "size": 7803,
-                      "caption": "InspectorDebuggerAgent.cpp 7.8k"
+                      "id": "InspectorDebuggerAgent.cpp 7.8k"
                     },
-                    {"size": 7250, "caption": "ConsoleMessage.cpp 7.2k"},
-                    {"size": 5936, "caption": "InspectorCSSStore.cpp 5.9k"}, {
+                    {"size": 7250, "id": "ConsoleMessage.cpp 7.2k"},
+                    {"size": 5936, "id": "InspectorCSSStore.cpp 5.9k"}, {
                       "size": 4569,
-                      "caption": "InspectorApplicationCacheAgent.cpp 4.6k"
+                      "id": "InspectorApplicationCacheAgent.cpp 4.6k"
                     },
                     {
                       "size": 4258,
-                      "caption": "InspectorProfilerAgent.cpp 4.3k"
+                      "id": "InspectorProfilerAgent.cpp 4.3k"
                     },
-                    {"size": 3454, "caption": "InspectorStorageAgent.cpp 3.5k"},
+                    {"size": 3454, "id": "InspectorStorageAgent.cpp 3.5k"},
                     {
                       "size": 2216,
-                      "caption": "InspectorDOMStorageResource.cpp 2.2k"
+                      "id": "InspectorDOMStorageResource.cpp 2.2k"
                     },
-                    {"size": 2130, "caption": "ScriptBreakpoint.cpp 2.1k"}, {
+                    {"size": 2130, "id": "ScriptBreakpoint.cpp 2.1k"}, {
                       "size": 1710,
-                      "caption": "InspectorDatabaseResource.cpp 1.7k"
+                      "id": "InspectorDatabaseResource.cpp 1.7k"
                     },
-                    {"size": 1661, "caption": "InjectedScript.cpp 1.7k"},
-                    {"size": 1145, "caption": "InjectedScriptHost.cpp 1.1k"},
-                    {"size": 1116, "caption": "InspectorFrontendHost.cpp 1.1k"},
-                    {"size": 990, "caption": "InspectorBackend.cpp 990"}
+                    {"size": 1661, "id": "InjectedScript.cpp 1.7k"},
+                    {"size": 1145, "id": "InjectedScriptHost.cpp 1.1k"},
+                    {"size": 1116, "id": "InspectorFrontendHost.cpp 1.1k"},
+                    {"size": 990, "id": "InspectorBackend.cpp 990"}
                   ]
                 },
                 {
                   "size": 98485,
-                  "caption": "storage 98.5k",
+                  "id": "storage 98.5k",
                   "children": [
                     {
                       "size": 11442,
-                      "caption": "chromium 11.4k",
+                      "id": "chromium 11.4k",
                       "children": [
                         {
                           "size": 9449,
-                          "caption": "DatabaseTrackerChromium.cpp 9.4k"
+                          "id": "DatabaseTrackerChromium.cpp 9.4k"
                         },
-                        {"size": 1812, "caption": "QuotaTracker.cpp 1.8k"}, {
+                        {"size": 1812, "id": "QuotaTracker.cpp 1.8k"}, {
                           "size": 139,
-                          "caption": "SQLTransactionClientChromium.cpp 139"
+                          "id": "SQLTransactionClientChromium.cpp 139"
                         },
                         {
                           "size": 30,
-                          "caption": "IDBFactoryBackendInterface.cpp 30"
+                          "id": "IDBFactoryBackendInterface.cpp 30"
                         },
                         {
                           "size": 12,
-                          "caption": "IDBKeyPathBackendImpl.cpp 12"
+                          "id": "IDBKeyPathBackendImpl.cpp 12"
                         }
                       ]
                     },
                     {
                       "size": 8373,
-                      "caption": "IDBObjectStoreBackendImpl.cpp 8.4k"
+                      "id": "IDBObjectStoreBackendImpl.cpp 8.4k"
                     },
-                    {"size": 8190, "caption": "AbstractDatabase.cpp 8.2k"},
-                    {"size": 5942, "caption": "DatabaseAuthorizer.cpp 5.9k"},
-                    {"size": 5821, "caption": "Database.cpp 5.8k"},
-                    {"size": 5664, "caption": "SQLTransaction.cpp 5.7k"},
+                    {"size": 8190, "id": "AbstractDatabase.cpp 8.2k"},
+                    {"size": 5942, "id": "DatabaseAuthorizer.cpp 5.9k"},
+                    {"size": 5821, "id": "Database.cpp 5.8k"},
+                    {"size": 5664, "id": "SQLTransaction.cpp 5.7k"},
                     {
                       "size": 4884,
-                      "caption": "IDBDatabaseBackendImpl.cpp 4.9k"
+                      "id": "IDBDatabaseBackendImpl.cpp 4.9k"
                     },
-                    {"size": 4628, "caption": "StorageAreaSync.cpp 4.6k"},
-                    {"size": 3152, "caption": "StorageNamespaceImpl.cpp 3.2k"},
-                    {"size": 3083, "caption": "StorageMap.cpp 3.1k"},
-                    {"size": 2823, "caption": "SQLStatement.cpp 2.8k"},
-                    {"size": 2607, "caption": "IDBObjectStore.cpp 2.6k"},
+                    {"size": 4628, "id": "StorageAreaSync.cpp 4.6k"},
+                    {"size": 3152, "id": "StorageNamespaceImpl.cpp 3.2k"},
+                    {"size": 3083, "id": "StorageMap.cpp 3.1k"},
+                    {"size": 2823, "id": "SQLStatement.cpp 2.8k"},
+                    {"size": 2607, "id": "IDBObjectStore.cpp 2.6k"},
                     {
                       "size": 2601,
-                      "caption": "SQLTransactionCoordinator.cpp 2.6k"
+                      "id": "SQLTransactionCoordinator.cpp 2.6k"
                     },
-                    {"size": 2133, "caption": "DatabaseThread.cpp 2.1k"},
-                    {"size": 2097, "caption": "IDBRequest.cpp 2.1k"},
-                    {"size": 2065, "caption": "StorageAreaImpl.cpp 2.1k"},
-                    {"size": 1994, "caption": "IDBFactoryBackendImpl.cpp 2.0k"},
-                    {"size": 1675, "caption": "IDBKeyPath.cpp 1.7k"},
+                    {"size": 2133, "id": "DatabaseThread.cpp 2.1k"},
+                    {"size": 2097, "id": "IDBRequest.cpp 2.1k"},
+                    {"size": 2065, "id": "StorageAreaImpl.cpp 2.1k"},
+                    {"size": 1994, "id": "IDBFactoryBackendImpl.cpp 2.0k"},
+                    {"size": 1675, "id": "IDBKeyPath.cpp 1.7k"},
                     {
                       "size": 1664,
-                      "caption": "IDBTransactionCoordinator.cpp 1.7k"
+                      "id": "IDBTransactionCoordinator.cpp 1.7k"
                     },
-                    {"size": 1501, "caption": "SQLTransactionSync.cpp 1.5k"},
-                    {"size": 1408, "caption": "DatabaseSync.cpp 1.4k"},
-                    {"size": 1207, "caption": "SQLStatementSync.cpp 1.2k"},
-                    {"size": 1187, "caption": "StorageEvent.cpp 1.2k"},
-                    {"size": 1142, "caption": "IDBCursor.cpp 1.1k"},
-                    {"size": 1110, "caption": "IDBTransaction.cpp 1.1k"},
-                    {"size": 938, "caption": "IDBDatabase.cpp 938"},
-                    {"size": 875, "caption": "LocalStorageThread.cpp 875"},
-                    {"size": 855, "caption": "IDBAny.cpp 855"},
-                    {"size": 771, "caption": "StorageSyncManager.cpp 771"},
-                    {"size": 769, "caption": "IDBFactory.cpp 769"},
-                    {"size": 649, "caption": "ChangeVersionWrapper.cpp 649"},
-                    {"size": 608, "caption": "DatabaseTask.cpp 608"},
-                    {"size": 542, "caption": "Storage.cpp 542"},
-                    {"size": 512, "caption": "IDBErrorEvent.cpp 512"},
-                    {"size": 503, "caption": "IDBSuccessEvent.cpp 503"},
-                    {"size": 491, "caption": "IDBKeyRange.cpp 491"},
-                    {"size": 465, "caption": "IDBCursorBackendImpl.cpp 465"},
-                    {"size": 357, "caption": "IDBIndexBackendImpl.cpp 357"},
+                    {"size": 1501, "id": "SQLTransactionSync.cpp 1.5k"},
+                    {"size": 1408, "id": "DatabaseSync.cpp 1.4k"},
+                    {"size": 1207, "id": "SQLStatementSync.cpp 1.2k"},
+                    {"size": 1187, "id": "StorageEvent.cpp 1.2k"},
+                    {"size": 1142, "id": "IDBCursor.cpp 1.1k"},
+                    {"size": 1110, "id": "IDBTransaction.cpp 1.1k"},
+                    {"size": 938, "id": "IDBDatabase.cpp 938"},
+                    {"size": 875, "id": "LocalStorageThread.cpp 875"},
+                    {"size": 855, "id": "IDBAny.cpp 855"},
+                    {"size": 771, "id": "StorageSyncManager.cpp 771"},
+                    {"size": 769, "id": "IDBFactory.cpp 769"},
+                    {"size": 649, "id": "ChangeVersionWrapper.cpp 649"},
+                    {"size": 608, "id": "DatabaseTask.cpp 608"},
+                    {"size": 542, "id": "Storage.cpp 542"},
+                    {"size": 512, "id": "IDBErrorEvent.cpp 512"},
+                    {"size": 503, "id": "IDBSuccessEvent.cpp 503"},
+                    {"size": 491, "id": "IDBKeyRange.cpp 491"},
+                    {"size": 465, "id": "IDBCursorBackendImpl.cpp 465"},
+                    {"size": 357, "id": "IDBIndexBackendImpl.cpp 357"},
                     {
                       "size": 342,
-                      "caption": "IDBPendingTransactionMonitor.cpp 342"
+                      "id": "IDBPendingTransactionMonitor.cpp 342"
                     },
-                    {"size": 336, "caption": "IDBAbortEvent.cpp 336"},
+                    {"size": 336, "id": "IDBAbortEvent.cpp 336"},
                     {
                       "size": 257,
-                      "caption": "IDBTransactionBackendImpl.cpp 257"
+                      "id": "IDBTransactionBackendImpl.cpp 257"
                     },
-                    {"size": 242, "caption": "IDBEvent.cpp 242"},
-                    {"size": 211, "caption": "SQLResultSet.cpp 211"},
-                    {"size": 156, "caption": "IDBKey.cpp 156"},
-                    {"size": 131, "caption": "LocalStorageTask.cpp 131"},
-                    {"size": 58, "caption": "IDBIndex.cpp 58"},
-                    {"size": 24, "caption": "SQLResultSetRowList.cpp 24"}
+                    {"size": 242, "id": "IDBEvent.cpp 242"},
+                    {"size": 211, "id": "SQLResultSet.cpp 211"},
+                    {"size": 156, "id": "IDBKey.cpp 156"},
+                    {"size": 131, "id": "LocalStorageTask.cpp 131"},
+                    {"size": 58, "id": "IDBIndex.cpp 58"},
+                    {"size": 24, "id": "SQLResultSetRowList.cpp 24"}
                   ]
                 },
                 {
                   "size": 93186,
-                  "caption": "xml 93.2k",
+                  "id": "xml 93.2k",
                   "children": [
-                    {"size": 23212, "caption": "XMLHttpRequest.cpp 23.2k"},
-                    {"size": 15050, "caption": "XPathFunctions.cpp 15.1k"},
-                    {"size": 9879, "caption": "XPathParser.cpp 9.9k"},
-                    {"size": 7464, "caption": "XPathStep.cpp 7.5k"},
-                    {"size": 5821, "caption": "XPathPredicate.cpp 5.8k"},
-                    {"size": 5509, "caption": "XSLTProcessorLibxslt.cpp 5.5k"},
-                    {"size": 4171, "caption": "XSLTProcessor.cpp 4.2k"},
-                    {"size": 3319, "caption": "XPathPath.cpp 3.3k"},
-                    {"size": 2573, "caption": "XSLTUnicodeSort.cpp 2.6k"},
-                    {"size": 2566, "caption": "XPathNodeSet.cpp 2.6k"},
-                    {"size": 2432, "caption": "XSLStyleSheetLibxslt.cpp 2.4k"},
-                    {"size": 1905, "caption": "XSLImportRule.cpp 1.9k"},
+                    {"size": 23212, "id": "XMLHttpRequest.cpp 23.2k"},
+                    {"size": 15050, "id": "XPathFunctions.cpp 15.1k"},
+                    {"size": 9879, "id": "XPathParser.cpp 9.9k"},
+                    {"size": 7464, "id": "XPathStep.cpp 7.5k"},
+                    {"size": 5821, "id": "XPathPredicate.cpp 5.8k"},
+                    {"size": 5509, "id": "XSLTProcessorLibxslt.cpp 5.5k"},
+                    {"size": 4171, "id": "XSLTProcessor.cpp 4.2k"},
+                    {"size": 3319, "id": "XPathPath.cpp 3.3k"},
+                    {"size": 2573, "id": "XSLTUnicodeSort.cpp 2.6k"},
+                    {"size": 2566, "id": "XPathNodeSet.cpp 2.6k"},
+                    {"size": 2432, "id": "XSLStyleSheetLibxslt.cpp 2.4k"},
+                    {"size": 1905, "id": "XSLImportRule.cpp 1.9k"},
                     {
                       "size": 1892,
-                      "caption": "XMLHttpRequestProgressEventThrottle.cpp 1.9k"
+                      "id": "XMLHttpRequestProgressEventThrottle.cpp 1.9k"
                     },
                     {
                       "size": 1276,
-                      "caption": "XPathVariableReference.cpp 1.3k"
+                      "id": "XPathVariableReference.cpp 1.3k"
                     },
-                    {"size": 1252, "caption": "XPathResult.cpp 1.3k"},
-                    {"size": 1164, "caption": "XPathValue.cpp 1.2k"},
-                    {"size": 917, "caption": "XPathExpression.cpp 917"},
-                    {"size": 739, "caption": "XPathUtil.cpp 739"},
-                    {"size": 399, "caption": "XPathExpressionNode.cpp 399"},
-                    {"size": 293, "caption": "DOMParser.cpp 293"},
-                    {"size": 291, "caption": "XPathEvaluator.cpp 291"},
-                    {"size": 250, "caption": "NativeXPathNSResolver.cpp 250"},
-                    {"size": 230, "caption": "XSLTExtensions.cpp 230"},
-                    {"size": 151, "caption": "XPathValue.h 151"},
-                    {"size": 150, "caption": "XPathStep.h 150"},
-                    {"size": 133, "caption": "XMLHttpRequestUpload.cpp 133"},
-                    {"size": 96, "caption": "XMLSerializer.cpp 96"},
-                    {"size": 52, "caption": "XPathNSResolver.cpp 52"}
+                    {"size": 1252, "id": "XPathResult.cpp 1.3k"},
+                    {"size": 1164, "id": "XPathValue.cpp 1.2k"},
+                    {"size": 917, "id": "XPathExpression.cpp 917"},
+                    {"size": 739, "id": "XPathUtil.cpp 739"},
+                    {"size": 399, "id": "XPathExpressionNode.cpp 399"},
+                    {"size": 293, "id": "DOMParser.cpp 293"},
+                    {"size": 291, "id": "XPathEvaluator.cpp 291"},
+                    {"size": 250, "id": "NativeXPathNSResolver.cpp 250"},
+                    {"size": 230, "id": "XSLTExtensions.cpp 230"},
+                    {"size": 151, "id": "XPathValue.h 151"},
+                    {"size": 150, "id": "XPathStep.h 150"},
+                    {"size": 133, "id": "XMLHttpRequestUpload.cpp 133"},
+                    {"size": 96, "id": "XMLSerializer.cpp 96"},
+                    {"size": 52, "id": "XPathNSResolver.cpp 52"}
                   ]
                 },
                 {
                   "size": 76839,
-                  "caption": "accessibility 76.8k",
+                  "id": "accessibility 76.8k",
                   "children": [
                     {
                       "size": 42916,
-                      "caption": "AccessibilityRenderObject.cpp 42.9k"
+                      "id": "AccessibilityRenderObject.cpp 42.9k"
                     },
-                    {"size": 6394, "caption": "AXObjectCache.cpp 6.4k"},
-                    {"size": 5485, "caption": "AccessibilityTable.cpp 5.5k"},
-                    {"size": 5482, "caption": "AccessibilityObject.cpp 5.5k"},
+                    {"size": 6394, "id": "AXObjectCache.cpp 6.4k"},
+                    {"size": 5485, "id": "AccessibilityTable.cpp 5.5k"},
+                    {"size": 5482, "id": "AccessibilityObject.cpp 5.5k"},
                     {
                       "size": 3426,
-                      "caption": "AccessibilityMediaControls.cpp 3.4k"
+                      "id": "AccessibilityMediaControls.cpp 3.4k"
                     },
-                    {"size": 1530, "caption": "AccessibilityARIAGrid.cpp 1.5k"},
+                    {"size": 1530, "id": "AccessibilityARIAGrid.cpp 1.5k"},
                     {
                       "size": 1434,
-                      "caption": "AccessibilityTableColumn.cpp 1.4k"
+                      "id": "AccessibilityTableColumn.cpp 1.4k"
                     },
                     {
                       "size": 1275,
-                      "caption": "AccessibilityListBoxOption.cpp 1.3k"
+                      "id": "AccessibilityListBoxOption.cpp 1.3k"
                     },
-                    {"size": 1200, "caption": "AccessibilityListBox.cpp 1.2k"},
-                    {"size": 1162, "caption": "AccessibilitySlider.cpp 1.2k"},
+                    {"size": 1200, "id": "AccessibilityListBox.cpp 1.2k"},
+                    {"size": 1162, "id": "AccessibilitySlider.cpp 1.2k"},
                     {
                       "size": 971,
-                      "caption": "AccessibilityImageMapLink.cpp 971"
+                      "id": "AccessibilityImageMapLink.cpp 971"
                     },
-                    {"size": 925, "caption": "AccessibilityTableCell.cpp 925"},
-                    {"size": 766, "caption": "AccessibilityTableRow.cpp 766"},
+                    {"size": 925, "id": "AccessibilityTableCell.cpp 925"},
+                    {"size": 766, "id": "AccessibilityTableRow.cpp 766"},
                     {
                       "size": 713,
-                      "caption": "AccessibilityMenuListPopup.cpp 713"
+                      "id": "AccessibilityMenuListPopup.cpp 713"
                     },
                     {
                       "size": 631,
-                      "caption": "AccessibilityARIAGridCell.cpp 631"
+                      "id": "AccessibilityARIAGridCell.cpp 631"
                     },
                     {
                       "size": 498,
-                      "caption": "AccessibilityARIAGridRow.cpp 498"
+                      "id": "AccessibilityARIAGridRow.cpp 498"
                     },
                     {
                       "size": 476,
-                      "caption": "AccessibilityTableHeaderContainer.cpp 476"
+                      "id": "AccessibilityTableHeaderContainer.cpp 476"
                     },
                     {
                       "size": 426,
-                      "caption": "AccessibilityMenuListOption.cpp 426"
+                      "id": "AccessibilityMenuListOption.cpp 426"
                     },
-                    {"size": 333, "caption": "AccessibilityMenuList.cpp 333"},
+                    {"size": 333, "id": "AccessibilityMenuList.cpp 333"},
                     {
                       "size": 282,
-                      "caption": "AccessibilityProgressIndicator.cpp 282"
+                      "id": "AccessibilityProgressIndicator.cpp 282"
                     },
                     {
                       "size": 225,
-                      "caption": "chromium 225",
+                      "id": "chromium 225",
                       "children": [
                         {
                           "size": 154,
-                          "caption": "AXObjectCacheChromium.cpp 154"
+                          "id": "AXObjectCacheChromium.cpp 154"
                         },
                         {
                           "size": 71,
-                          "caption": "AccessibilityObjectChromium.cpp 71"
+                          "id": "AccessibilityObjectChromium.cpp 71"
                         }
                       ]
                     },
-                    {"size": 184, "caption": "AccessibilityList.cpp 184"},
+                    {"size": 184, "id": "AccessibilityList.cpp 184"},
                     {
                       "size": 105,
-                      "caption": "AccessibilityScrollbar.cpp 105"
+                      "id": "AccessibilityScrollbar.cpp 105"
                     }
                   ]
                 },
                 {
                   "size": 28039,
-                  "caption": "websockets 28.0k",
+                  "id": "websockets 28.0k",
                   "children": [
-                    {"size": 13648, "caption": "WebSocketHandshake.cpp 13.6k"},
-                    {"size": 5562, "caption": "WebSocket.cpp 5.6k"}, {
+                    {"size": 13648, "id": "WebSocketHandshake.cpp 13.6k"},
+                    {"size": 5562, "id": "WebSocket.cpp 5.6k"}, {
                       "size": 4677,
-                      "caption": "WorkerThreadableWebSocketChannel.cpp 4.7k"
+                      "id": "WorkerThreadableWebSocketChannel.cpp 4.7k"
                     },
-                    {"size": 3382, "caption": "WebSocketChannel.cpp 3.4k"}, {
+                    {"size": 3382, "id": "WebSocketChannel.cpp 3.4k"}, {
                       "size": 425,
-                      "caption": "WebSocketHandshakeResponse.cpp 425"
+                      "id": "WebSocketHandshakeResponse.cpp 425"
                     },
                     {
                       "size": 345,
-                      "caption": "ThreadableWebSocketChannel.cpp 345"
+                      "id": "ThreadableWebSocketChannel.cpp 345"
                     }
                   ]
                 },
                 {
                   "size": 21334,
-                  "caption": "workers 21.3k",
+                  "id": "workers 21.3k",
                   "children": [
-                    {"size": 6241, "caption": "WorkerContext.cpp 6.2k"},
-                    {"size": 2865, "caption": "WorkerThread.cpp 2.9k"},
-                    {"size": 2792, "caption": "WorkerScriptLoader.cpp 2.8k"},
-                    {"size": 2415, "caption": "WorkerRunLoop.cpp 2.4k"},
-                    {"size": 1610, "caption": "Worker.cpp 1.6k"},
-                    {"size": 1301, "caption": "WorkerLocation.cpp 1.3k"},
-                    {"size": 1185, "caption": "AbstractWorker.cpp 1.2k"},
-                    {"size": 991, "caption": "SharedWorkerContext.cpp 991"},
-                    {"size": 717, "caption": "SharedWorker.cpp 717"},
-                    {"size": 462, "caption": "DedicatedWorkerContext.cpp 462"},
-                    {"size": 405, "caption": "SharedWorkerThread.cpp 405"},
-                    {"size": 350, "caption": "DedicatedWorkerThread.cpp 350"}
+                    {"size": 6241, "id": "WorkerContext.cpp 6.2k"},
+                    {"size": 2865, "id": "WorkerThread.cpp 2.9k"},
+                    {"size": 2792, "id": "WorkerScriptLoader.cpp 2.8k"},
+                    {"size": 2415, "id": "WorkerRunLoop.cpp 2.4k"},
+                    {"size": 1610, "id": "Worker.cpp 1.6k"},
+                    {"size": 1301, "id": "WorkerLocation.cpp 1.3k"},
+                    {"size": 1185, "id": "AbstractWorker.cpp 1.2k"},
+                    {"size": 991, "id": "SharedWorkerContext.cpp 991"},
+                    {"size": 717, "id": "SharedWorker.cpp 717"},
+                    {"size": 462, "id": "DedicatedWorkerContext.cpp 462"},
+                    {"size": 405, "id": "SharedWorkerThread.cpp 405"},
+                    {"size": 350, "id": "DedicatedWorkerThread.cpp 350"}
                   ]
                 },
                 {
                   "size": 11853,
-                  "caption": "history 11.9k",
+                  "id": "history 11.9k",
                   "children": [
-                    {"size": 6523, "caption": "HistoryItem.cpp 6.5k"},
-                    {"size": 2228, "caption": "CachedFrame.cpp 2.2k"},
-                    {"size": 1939, "caption": "PageCache.cpp 1.9k"},
-                    {"size": 575, "caption": "BackForwardListChromium.cpp 575"},
-                    {"size": 382, "caption": "CachedPage.cpp 382"},
-                    {"size": 206, "caption": "BackForwardController.cpp 206"}
+                    {"size": 6523, "id": "HistoryItem.cpp 6.5k"},
+                    {"size": 2228, "id": "CachedFrame.cpp 2.2k"},
+                    {"size": 1939, "id": "PageCache.cpp 1.9k"},
+                    {"size": 575, "id": "BackForwardListChromium.cpp 575"},
+                    {"size": 382, "id": "CachedPage.cpp 382"},
+                    {"size": 206, "id": "BackForwardController.cpp 206"}
                   ]
                 },
                 {
                   "size": 3838,
-                  "caption": "plugins 3.8k",
+                  "id": "plugins 3.8k",
                   "children": [
                     {
                       "size": 1001,
-                      "caption": "chromium 1.0k",
+                      "id": "chromium 1.0k",
                       "children": [{
                         "size": 1001,
-                        "caption": "PluginDataChromium.cpp 1.0k"
+                        "id": "PluginDataChromium.cpp 1.0k"
                       }]
                     },
-                    {"size": 756, "caption": "PluginData.cpp 756"},
-                    {"size": 746, "caption": "DOMPlugin.cpp 746"},
-                    {"size": 516, "caption": "DOMMimeType.cpp 516"},
-                    {"size": 426, "caption": "DOMMimeTypeArray.cpp 426"},
-                    {"size": 393, "caption": "DOMPluginArray.cpp 393"}
+                    {"size": 756, "id": "PluginData.cpp 756"},
+                    {"size": 746, "id": "DOMPlugin.cpp 746"},
+                    {"size": 516, "id": "DOMMimeType.cpp 516"},
+                    {"size": 426, "id": "DOMMimeTypeArray.cpp 426"},
+                    {"size": 393, "id": "DOMPluginArray.cpp 393"}
                   ]
                 },
                 {
                   "size": 3524,
-                  "caption": "notifications 3.5k",
+                  "id": "notifications 3.5k",
                   "children": [
-                    {"size": 3277, "caption": "Notification.cpp 3.3k"},
-                    {"size": 247, "caption": "NotificationCenter.cpp 247"}
+                    {"size": 3277, "id": "Notification.cpp 3.3k"},
+                    {"size": 247, "id": "NotificationCenter.cpp 247"}
                   ]
                 }
               ]
             },
             {
               "size": 314202,
-              "caption": "WebKit 314.2k",
+              "id": "WebKit 314.2k",
               "children": [{
                 "size": 314202,
-                "caption": "chromium 314.2k",
+                "id": "chromium 314.2k",
                 "children": [
                   {
                     "size": 314129,
-                    "caption": "src 314.1k",
+                    "id": "src 314.1k",
                     "children": [
-                      {"size": 34807, "caption": "WebFrameImpl.cpp 34.8k"},
-                      {"size": 23084, "caption": "WebViewImpl.cpp 23.1k"},
+                      {"size": 34807, "id": "WebFrameImpl.cpp 34.8k"},
+                      {"size": 23084, "id": "WebViewImpl.cpp 23.1k"},
                       {
                         "size": 19749,
-                        "caption": "FrameLoaderClientImpl.cpp 19.7k"
+                        "id": "FrameLoaderClientImpl.cpp 19.7k"
                       },
                       {
                         "size": 13626,
-                        "caption": "WebGraphicsContext3DDefaultImpl.cpp 13.6k"
+                        "id": "WebGraphicsContext3DDefaultImpl.cpp 13.6k"
                       },
                       {
                         "size": 9851,
-                        "caption": "WebPageSerializerImpl.cpp 9.9k"
+                        "id": "WebPageSerializerImpl.cpp 9.9k"
                       },
-                      {"size": 9637, "caption": "GraphicsContext3D.cpp 9.6k"},
-                      {"size": 9503, "caption": "ChromiumBridge.cpp 9.5k"},
-                      {"size": 9066, "caption": "EditorClientImpl.cpp 9.1k"},
+                      {"size": 9637, "id": "GraphicsContext3D.cpp 9.6k"},
+                      {"size": 9503, "id": "ChromiumBridge.cpp 9.5k"},
+                      {"size": 9066, "id": "EditorClientImpl.cpp 9.1k"},
                       {
                         "size": 7905,
-                        "caption": "WebPluginContainerImpl.cpp 7.9k"
+                        "id": "WebPluginContainerImpl.cpp 7.9k"
                       },
-                      {"size": 7347, "caption": "ChromeClientImpl.cpp 7.3k"},
+                      {"size": 7347, "id": "ChromeClientImpl.cpp 7.3k"},
                       {
                         "size": 7299,
-                        "caption": "WebDevToolsAgentImpl.cpp 7.3k"
+                        "id": "WebDevToolsAgentImpl.cpp 7.3k"
                       },
-                      {"size": 6312, "caption": "WebWorkerBase.cpp 6.3k"},
+                      {"size": 6312, "id": "WebWorkerBase.cpp 6.3k"},
                       {
                         "size": 5978,
-                        "caption": "AutoFillPopupMenuClient.cpp 6.0k"
+                        "id": "AutoFillPopupMenuClient.cpp 6.0k"
                       },
-                      {"size": 5897, "caption": "WebWorkerClientImpl.cpp 5.9k"},
+                      {"size": 5897, "id": "WebWorkerClientImpl.cpp 5.9k"},
                       {
                         "size": 5852,
-                        "caption": "ContextMenuClientImpl.cpp 5.9k"
+                        "id": "ContextMenuClientImpl.cpp 5.9k"
                       },
                       {
                         "size": 5374,
-                        "caption": "WebInputEventConversion.cpp 5.4k"
+                        "id": "WebInputEventConversion.cpp 5.4k"
                       },
-                      {"size": 4335, "caption": "ResourceHandle.cpp 4.3k"},
+                      {"size": 4335, "id": "ResourceHandle.cpp 4.3k"},
                       {
                         "size": 4066,
-                        "caption": "WebSearchableFormData.cpp 4.1k"
+                        "id": "WebSearchableFormData.cpp 4.1k"
                       },
-                      {"size": 3930, "caption": "WebURLResponse.cpp 3.9k"},
+                      {"size": 3930, "id": "WebURLResponse.cpp 3.9k"},
                       {
                         "size": 3862,
-                        "caption": "DebuggerAgentManager.cpp 3.9k"
+                        "id": "DebuggerAgentManager.cpp 3.9k"
                       },
-                      {"size": 3821, "caption": "WebPasswordFormData.cpp 3.8k"},
+                      {"size": 3821, "id": "WebPasswordFormData.cpp 3.8k"},
                       {
                         "size": 3703,
-                        "caption": "gtk 3.7k",
+                        "id": "gtk 3.7k",
                         "children": [
                           {
                             "size": 2230,
-                            "caption": "WebInputEventFactory.cpp 2.2k"
+                            "id": "WebInputEventFactory.cpp 2.2k"
                           },
-                          {"size": 1473, "caption": "WebFontInfo.cpp 1.5k"}
+                          {"size": 1473, "id": "WebFontInfo.cpp 1.5k"}
                         ]
                       },
                       {
                         "size": 3701,
-                        "caption": "ApplicationCacheHost.cpp 3.7k"
+                        "id": "ApplicationCacheHost.cpp 3.7k"
                       },
-                      {"size": 3657, "caption": "WebURLRequest.cpp 3.7k"},
-                      {"size": 3553, "caption": "WebDragData.cpp 3.6k"},
+                      {"size": 3657, "id": "WebURLRequest.cpp 3.7k"},
+                      {"size": 3553, "id": "WebDragData.cpp 3.6k"},
                       {
                         "size": 3332,
-                        "caption": "PlatformMessagePortChannel.cpp 3.3k"
+                        "id": "PlatformMessagePortChannel.cpp 3.3k"
                       },
-                      {"size": 3092, "caption": "StorageAreaProxy.cpp 3.1k"},
-                      {"size": 3092, "caption": "WebHistoryItem.cpp 3.1k"},
+                      {"size": 3092, "id": "StorageAreaProxy.cpp 3.1k"},
+                      {"size": 3092, "id": "WebHistoryItem.cpp 3.1k"},
                       {
                         "size": 2981,
-                        "caption": "SharedWorkerRepository.cpp 3.0k"
+                        "id": "SharedWorkerRepository.cpp 3.0k"
                       },
-                      {"size": 2974, "caption": "WebScrollbarImpl.cpp 3.0k"},
+                      {"size": 2974, "id": "WebScrollbarImpl.cpp 3.0k"},
                       {
                         "size": 2575,
-                        "caption": "WebAccessibilityObject.cpp 2.6k"
+                        "id": "WebAccessibilityObject.cpp 2.6k"
                       },
                       {
                         "size": 2516,
-                        "caption": "WebPluginListBuilderImpl.cpp 2.5k"
+                        "id": "WebPluginListBuilderImpl.cpp 2.5k"
                       },
                       {
                         "size": 2424,
-                        "caption": "WebMediaPlayerClientImpl.cpp 2.4k"
+                        "id": "WebMediaPlayerClientImpl.cpp 2.4k"
                       },
                       {
                         "size": 2371,
-                        "caption": "WebIDBObjectStoreImpl.cpp 2.4k"
+                        "id": "WebIDBObjectStoreImpl.cpp 2.4k"
                       },
-                      {"size": 2323, "caption": "WebEntities.cpp 2.3k"},
-                      {"size": 2303, "caption": "WebSettingsImpl.cpp 2.3k"},
-                      {"size": 2252, "caption": "WebDataSourceImpl.cpp 2.3k"},
-                      {"size": 2150, "caption": "WebWorkerImpl.cpp 2.1k"},
+                      {"size": 2323, "id": "WebEntities.cpp 2.3k"},
+                      {"size": 2303, "id": "WebSettingsImpl.cpp 2.3k"},
+                      {"size": 2252, "id": "WebDataSourceImpl.cpp 2.3k"},
+                      {"size": 2150, "id": "WebWorkerImpl.cpp 2.1k"},
                       {
                         "size": 2108,
-                        "caption": "WebAccessibilityCacheImpl.cpp 2.1k"
+                        "id": "WebAccessibilityCacheImpl.cpp 2.1k"
                       },
-                      {"size": 2096, "caption": "LocalizedStrings.cpp 2.1k"},
-                      {"size": 1778, "caption": "WebPopupMenuImpl.cpp 1.8k"},
-                      {"size": 1661, "caption": "WebNotification.cpp 1.7k"},
-                      {"size": 1442, "caption": "IDBObjectStoreProxy.cpp 1.4k"},
-                      {"size": 1441, "caption": "WebFormElement.cpp 1.4k"},
-                      {"size": 1365, "caption": "WebIDBDatabaseImpl.cpp 1.4k"},
-                      {"size": 1340, "caption": "WebFontImpl.cpp 1.3k"},
-                      {"size": 1308, "caption": "WebSecurityOrigin.cpp 1.3k"},
-                      {"size": 1299, "caption": "WebPageSerializer.cpp 1.3k"},
-                      {"size": 1284, "caption": "WebSharedWorkerImpl.cpp 1.3k"},
-                      {"size": 1267, "caption": "WebBindings.cpp 1.3k"},
-                      {"size": 1255, "caption": "SocketStreamHandle.cpp 1.3k"},
-                      {"size": 1230, "caption": "IDBDatabaseProxy.cpp 1.2k"},
-                      {"size": 1190, "caption": "WebIDBCallbacksImpl.cpp 1.2k"},
+                      {"size": 2096, "id": "LocalizedStrings.cpp 2.1k"},
+                      {"size": 1778, "id": "WebPopupMenuImpl.cpp 1.8k"},
+                      {"size": 1661, "id": "WebNotification.cpp 1.7k"},
+                      {"size": 1442, "id": "IDBObjectStoreProxy.cpp 1.4k"},
+                      {"size": 1441, "id": "WebFormElement.cpp 1.4k"},
+                      {"size": 1365, "id": "WebIDBDatabaseImpl.cpp 1.4k"},
+                      {"size": 1340, "id": "WebFontImpl.cpp 1.3k"},
+                      {"size": 1308, "id": "WebSecurityOrigin.cpp 1.3k"},
+                      {"size": 1299, "id": "WebPageSerializer.cpp 1.3k"},
+                      {"size": 1284, "id": "WebSharedWorkerImpl.cpp 1.3k"},
+                      {"size": 1267, "id": "WebBindings.cpp 1.3k"},
+                      {"size": 1255, "id": "SocketStreamHandle.cpp 1.3k"},
+                      {"size": 1230, "id": "IDBDatabaseProxy.cpp 1.2k"},
+                      {"size": 1190, "id": "WebIDBCallbacksImpl.cpp 1.2k"},
                       {
                         "size": 1082,
-                        "caption": "WebGeolocationServiceBridgeImpl.cpp 1.1k"
+                        "id": "WebGeolocationServiceBridgeImpl.cpp 1.1k"
                       },
-                      {"size": 1049, "caption": "WebHTTPBody.cpp 1.0k"},
-                      {"size": 1035, "caption": "DOMUtilitiesPrivate.cpp 1.0k"},
-                      {"size": 1023, "caption": "IDBCallbacksProxy.cpp 1.0k"},
-                      {"size": 998, "caption": "WebNode.cpp 998"},
+                      {"size": 1049, "id": "WebHTTPBody.cpp 1.0k"},
+                      {"size": 1035, "id": "DOMUtilitiesPrivate.cpp 1.0k"},
+                      {"size": 1023, "id": "IDBCallbacksProxy.cpp 1.0k"},
+                      {"size": 998, "id": "WebNode.cpp 998"},
                       {
                         "size": 988,
-                        "caption": "BackForwardListClientImpl.cpp 988"
+                        "id": "BackForwardListClientImpl.cpp 988"
                       },
-                      {"size": 987, "caption": "WebIDBFactoryImpl.cpp 987"},
-                      {"size": 979, "caption": "WebDatabase.cpp 979"},
-                      {"size": 973, "caption": "WebStorageAreaImpl.cpp 973"},
+                      {"size": 987, "id": "WebIDBFactoryImpl.cpp 987"},
+                      {"size": 979, "id": "WebDatabase.cpp 979"},
+                      {"size": 973, "id": "WebStorageAreaImpl.cpp 973"},
                       {
                         "size": 966,
-                        "caption": "WebDevToolsFrontendImpl.cpp 966"
+                        "id": "WebDevToolsFrontendImpl.cpp 966"
                       },
                       {
                         "size": 962,
-                        "caption": "StorageEventDispatcherImpl.cpp 962"
+                        "id": "StorageEventDispatcherImpl.cpp 962"
                       },
-                      {"size": 941, "caption": "WebString.cpp 941"},
-                      {"size": 928, "caption": "WebIDBKey.cpp 928"},
-                      {"size": 921, "caption": "WebURLError.cpp 921"},
-                      {"size": 853, "caption": "WebIDBCursorImpl.cpp 853"},
+                      {"size": 941, "id": "WebString.cpp 941"},
+                      {"size": 928, "id": "WebIDBKey.cpp 928"},
+                      {"size": 921, "id": "WebURLError.cpp 921"},
+                      {"size": 853, "id": "WebIDBCursorImpl.cpp 853"},
                       {
                         "size": 848,
-                        "caption": "WebStorageNamespaceImpl.cpp 848"
+                        "id": "WebStorageNamespaceImpl.cpp 848"
                       },
                       {
                         "size": 848,
-                        "caption": "InspectorFrontendClientImpl.cpp 848"
+                        "id": "InspectorFrontendClientImpl.cpp 848"
                       },
-                      {"size": 848, "caption": "WebFormControlElement.cpp 848"},
-                      {"size": 817, "caption": "WebBlobData.cpp 817"},
-                      {"size": 794, "caption": "IDBCursorBackendProxy.cpp 794"},
+                      {"size": 848, "id": "WebFormControlElement.cpp 848"},
+                      {"size": 817, "id": "WebBlobData.cpp 817"},
+                      {"size": 794, "id": "IDBCursorBackendProxy.cpp 794"},
                       {
                         "size": 781,
-                        "caption": "NotificationPresenterImpl.cpp 781"
+                        "id": "NotificationPresenterImpl.cpp 781"
                       },
-                      {"size": 769, "caption": "WebDocument.cpp 769"},
-                      {"size": 766, "caption": "WebDOMStringList.cpp 766"},
+                      {"size": 769, "id": "WebDocument.cpp 769"},
+                      {"size": 766, "id": "WebDOMStringList.cpp 766"},
                       {
                         "size": 713,
-                        "caption": "WebStorageEventDispatcherImpl.cpp 713"
+                        "id": "WebStorageEventDispatcherImpl.cpp 713"
                       },
-                      {"size": 706, "caption": "WebSecurityPolicy.cpp 706"},
-                      {"size": 621, "caption": "DragScrollTimer.cpp 621"},
-                      {"size": 613, "caption": "StorageNamespaceProxy.cpp 613"},
-                      {"size": 605, "caption": "WebCString.cpp 605"},
-                      {"size": 597, "caption": "WebFontDescription.cpp 597"},
-                      {"size": 581, "caption": "WebInputElement.cpp 581"},
+                      {"size": 706, "id": "WebSecurityPolicy.cpp 706"},
+                      {"size": 621, "id": "DragScrollTimer.cpp 621"},
+                      {"size": 613, "id": "StorageNamespaceProxy.cpp 613"},
+                      {"size": 605, "id": "WebCString.cpp 605"},
+                      {"size": 597, "id": "WebFontDescription.cpp 597"},
+                      {"size": 581, "id": "WebInputElement.cpp 581"},
                       {
                         "size": 574,
-                        "caption": "WebAnimationControllerImpl.cpp 574"
+                        "id": "WebAnimationControllerImpl.cpp 574"
                       },
-                      {"size": 567, "caption": "WebIDBKeyRange.cpp 567"},
-                      {"size": 564, "caption": "WebElement.cpp 564"},
-                      {"size": 551, "caption": "InspectorClientImpl.cpp 551"},
-                      {"size": 538, "caption": "WebPasswordFormUtils.cpp 538"},
-                      {"size": 530, "caption": "WebImageSkia.cpp 530"},
-                      {"size": 510, "caption": "WebIDBTransactionImpl.cpp 510"},
+                      {"size": 567, "id": "WebIDBKeyRange.cpp 567"},
+                      {"size": 564, "id": "WebElement.cpp 564"},
+                      {"size": 551, "id": "InspectorClientImpl.cpp 551"},
+                      {"size": 538, "id": "WebPasswordFormUtils.cpp 538"},
+                      {"size": 530, "id": "WebImageSkia.cpp 530"},
+                      {"size": 510, "id": "WebIDBTransactionImpl.cpp 510"},
                       {
                         "size": 505,
-                        "caption": "WebSerializedScriptValue.cpp 505"
+                        "id": "WebSerializedScriptValue.cpp 505"
                       },
                       {
                         "size": 504,
-                        "caption": "WebFileChooserCompletionImpl.cpp 504"
+                        "id": "WebFileChooserCompletionImpl.cpp 504"
                       },
                       {
                         "size": 504,
-                        "caption": "IDBFactoryBackendProxy.cpp 504"
+                        "id": "IDBFactoryBackendProxy.cpp 504"
                       },
-                      {"size": 490, "caption": "WebIDBKeyPath.cpp 490"},
+                      {"size": 490, "id": "WebIDBKeyPath.cpp 490"},
                       {
                         "size": 478,
-                        "caption": "IDBTransactionBackendProxy.cpp 478"
+                        "id": "IDBTransactionBackendProxy.cpp 478"
                       },
-                      {"size": 445, "caption": "WebSelectElement.cpp 445"},
-                      {"size": 436, "caption": "WebURLLoadTiming.cpp 436"},
-                      {"size": 426, "caption": "WebCache.cpp 426"},
-                      {"size": 402, "caption": "WebIDBDatabaseError.cpp 402"},
-                      {"size": 402, "caption": "DatabaseObserver.cpp 402"},
+                      {"size": 445, "id": "WebSelectElement.cpp 445"},
+                      {"size": 436, "id": "WebURLLoadTiming.cpp 436"},
+                      {"size": 426, "id": "WebCache.cpp 426"},
+                      {"size": 402, "id": "WebIDBDatabaseError.cpp 402"},
+                      {"size": 402, "id": "DatabaseObserver.cpp 402"},
                       {
                         "size": 401,
-                        "caption": "StorageEventDispatcherChromium.cpp 401"
+                        "id": "StorageEventDispatcherChromium.cpp 401"
                       },
-                      {"size": 396, "caption": "BlobRegistryProxy.cpp 396"},
-                      {"size": 396, "caption": "SpeechInputClientImpl.cpp 396"},
-                      {"size": 359, "caption": "DragClientImpl.cpp 359"},
-                      {"size": 344, "caption": "WebIDBIndexImpl.cpp 344"},
-                      {"size": 317, "caption": "IDBIndexBackendProxy.cpp 317"},
-                      {"size": 310, "caption": "WebNodeCollection.cpp 310"},
-                      {"size": 298, "caption": "WebData.cpp 298"},
-                      {"size": 285, "caption": "WebURL.cpp 285"},
-                      {"size": 275, "caption": "WebRegularExpression.cpp 275"},
-                      {"size": 257, "caption": "GLES2Context.cpp 257"},
+                      {"size": 396, "id": "BlobRegistryProxy.cpp 396"},
+                      {"size": 396, "id": "SpeechInputClientImpl.cpp 396"},
+                      {"size": 359, "id": "DragClientImpl.cpp 359"},
+                      {"size": 344, "id": "WebIDBIndexImpl.cpp 344"},
+                      {"size": 317, "id": "IDBIndexBackendProxy.cpp 317"},
+                      {"size": 310, "id": "WebNodeCollection.cpp 310"},
+                      {"size": 298, "id": "WebData.cpp 298"},
+                      {"size": 285, "id": "WebURL.cpp 285"},
+                      {"size": 275, "id": "WebRegularExpression.cpp 275"},
+                      {"size": 257, "id": "GLES2Context.cpp 257"},
                       {
                         "size": 251,
-                        "caption": "VideoFrameChromiumImpl.cpp 251"
+                        "id": "VideoFrameChromiumImpl.cpp 251"
                       },
-                      {"size": 249, "caption": "WebTextRun.cpp 249"},
-                      {"size": 249, "caption": "WebRuntimeFeatures.cpp 249"},
+                      {"size": 249, "id": "WebTextRun.cpp 249"},
+                      {"size": 249, "id": "WebRuntimeFeatures.cpp 249"},
                       {
                         "size": 239,
-                        "caption": "CompositionUnderlineVectorBuilder.cpp 239"
+                        "id": "CompositionUnderlineVectorBuilder.cpp 239"
                       },
                       {
                         "size": 238,
-                        "caption": "DeviceOrientationClientProxy.cpp 238"
+                        "id": "DeviceOrientationClientProxy.cpp 238"
                       },
-                      {"size": 238, "caption": "WebNodeList.cpp 238"},
+                      {"size": 238, "id": "WebNodeList.cpp 238"},
                       {
                         "size": 235,
-                        "caption": "IDBTransactionCallbacksProxy.cpp 235"
+                        "id": "IDBTransactionCallbacksProxy.cpp 235"
                       },
-                      {"size": 217, "caption": "WebScriptController.cpp 217"},
-                      {"size": 209, "caption": "WebCursorInfo.cpp 209"},
-                      {"size": 201, "caption": "DebuggerAgentImpl.cpp 201"},
+                      {"size": 217, "id": "WebScriptController.cpp 217"},
+                      {"size": 209, "id": "WebCursorInfo.cpp 209"},
+                      {"size": 201, "id": "DebuggerAgentImpl.cpp 201"},
                       {
                         "size": 200,
-                        "caption": "x11 200",
+                        "id": "x11 200",
                         "children": [{
                           "size": 200,
-                          "caption": "WebScreenInfoFactory.cpp 200"
+                          "id": "WebScreenInfoFactory.cpp 200"
                         }]
                       },
                       {
                         "size": 177,
-                        "caption": "WebIDBTransactionCallbacksImpl.cpp 177"
+                        "id": "WebIDBTransactionCallbacksImpl.cpp 177"
                       },
                       {
                         "size": 168,
-                        "caption": "linux 168",
+                        "id": "linux 168",
                         "children": [
-                          {"size": 82, "caption": "WebFontRenderStyle.cpp 82"},
-                          {"size": 74, "caption": "WebFontRendering.cpp 74"},
-                          {"size": 12, "caption": "WebRenderTheme.cpp 12"}
+                          {"size": 82, "id": "WebFontRenderStyle.cpp 82"},
+                          {"size": 74, "id": "WebFontRendering.cpp 74"},
+                          {"size": 12, "id": "WebRenderTheme.cpp 12"}
                         ]
                       },
-                      {"size": 155, "caption": "WebPluginLoadObserver.cpp 155"},
-                      {"size": 130, "caption": "WebInputEvent.cpp 130"},
-                      {"size": 117, "caption": "WebRange.cpp 117"},
-                      {"size": 110, "caption": "WebKit.cpp 110"},
-                      {"size": 99, "caption": "WebColor.cpp 99"},
-                      {"size": 98, "caption": "WebOptionElement.cpp 98"},
-                      {"size": 93, "caption": "WebDeviceOrientation.cpp 93"},
+                      {"size": 155, "id": "WebPluginLoadObserver.cpp 155"},
+                      {"size": 130, "id": "WebInputEvent.cpp 130"},
+                      {"size": 117, "id": "WebRange.cpp 117"},
+                      {"size": 110, "id": "WebKit.cpp 110"},
+                      {"size": 99, "id": "WebColor.cpp 99"},
+                      {"size": 98, "id": "WebOptionElement.cpp 98"},
+                      {"size": 93, "id": "WebDeviceOrientation.cpp 93"},
                       {
                         "size": 83,
-                        "caption": "WebDeviceOrientationController.cpp 83"
+                        "id": "WebDeviceOrientationController.cpp 83"
                       },
-                      {"size": 82, "caption": "WebLabelElement.cpp 82"},
-                      {"size": 56, "caption": "WebPluginDocument.cpp 56"},
-                      {"size": 53, "caption": "GLES2ContextInternal.cpp 53"},
-                      {"size": 38, "caption": "ChromiumThreading.cpp 38"},
-                      {"size": 34, "caption": "WebGraphicsContext3D.cpp 34"},
-                      {"size": 24, "caption": "ChromiumCurrentTime.cpp 24"},
+                      {"size": 82, "id": "WebLabelElement.cpp 82"},
+                      {"size": 56, "id": "WebPluginDocument.cpp 56"},
+                      {"size": 53, "id": "GLES2ContextInternal.cpp 53"},
+                      {"size": 38, "id": "ChromiumThreading.cpp 38"},
+                      {"size": 34, "id": "WebGraphicsContext3D.cpp 34"},
+                      {"size": 24, "id": "ChromiumCurrentTime.cpp 24"},
                       {
                         "size": 21,
-                        "caption": "WebCrossOriginPreflightResultCache.cpp 21"
+                        "id": "WebCrossOriginPreflightResultCache.cpp 21"
                       },
-                      {"size": 21, "caption": "WebFontCache.cpp 21"},
+                      {"size": 21, "id": "WebFontCache.cpp 21"},
                       {
                         "size": 12,
-                        "caption": "MediaPlayerPrivateChromium.cpp 12"
+                        "id": "MediaPlayerPrivateChromium.cpp 12"
                       },
-                      {"size": 12, "caption": "WebGlyphCache.cpp 12"}
+                      {"size": 12, "id": "WebGlyphCache.cpp 12"}
                     ]
                   },
                   {
                     "size": 73,
-                    "caption": "public 73",
+                    "id": "public 73",
                     "children":
-                        [{"size": 73, "caption": "WebString.h 73"}]
+                        [{"size": 73, "id": "WebString.h 73"}]
                   }
                 ]
               }]
             },
             {
               "size": 81382,
-              "caption": "JavaScriptCore 81.4k",
+              "id": "JavaScriptCore 81.4k",
               "children": [
                 {
                   "size": 55934,
-                  "caption": "wtf 55.9k",
+                  "id": "wtf 55.9k",
                   "children": [
                     {
                       "size": 22467,
-                      "caption": "text 22.5k",
+                      "id": "text 22.5k",
                       "children": [
-                        {"size": 10823, "caption": "WTFString.cpp 10.8k"},
-                        {"size": 8179, "caption": "StringImpl.cpp 8.2k"},
-                        {"size": 2271, "caption": "AtomicString.cpp 2.3k"},
-                        {"size": 479, "caption": "CString.cpp 479"},
-                        {"size": 341, "caption": "WTFString.h 341"},
-                        {"size": 333, "caption": "StringStatics.cpp 333"},
-                        {"size": 41, "caption": "AtomicString.h 41"}
+                        {"size": 10823, "id": "WTFString.cpp 10.8k"},
+                        {"size": 8179, "id": "StringImpl.cpp 8.2k"},
+                        {"size": 2271, "id": "AtomicString.cpp 2.3k"},
+                        {"size": 479, "id": "CString.cpp 479"},
+                        {"size": 341, "id": "WTFString.h 341"},
+                        {"size": 333, "id": "StringStatics.cpp 333"},
+                        {"size": 41, "id": "AtomicString.h 41"}
                       ]
                     },
-                    {"size": 16737, "caption": "dtoa.cpp 16.7k"},
-                    {"size": 5178, "caption": "DateMath.cpp 5.2k"},
-                    {"size": 3258, "caption": "Vector.h 3.3k"},
-                    {"size": 3219, "caption": "MD5.cpp 3.2k"},
-                    {"size": 2020, "caption": "ThreadingPthreads.cpp 2.0k"}, {
+                    {"size": 16737, "id": "dtoa.cpp 16.7k"},
+                    {"size": 5178, "id": "DateMath.cpp 5.2k"},
+                    {"size": 3258, "id": "Vector.h 3.3k"},
+                    {"size": 3219, "id": "MD5.cpp 3.2k"},
+                    {"size": 2020, "id": "ThreadingPthreads.cpp 2.0k"}, {
                       "size": 1849,
-                      "caption": "unicode 1.8k",
+                      "id": "unicode 1.8k",
                       "children": [
-                        {"size": 1242, "caption": "UTF8.cpp 1.2k"}, {
+                        {"size": 1242, "id": "UTF8.cpp 1.2k"}, {
                           "size": 607,
-                          "caption": "icu 607",
+                          "id": "icu 607",
                           "children": [
-                            {"size": 607, "caption": "CollatorICU.cpp 607"}
+                            {"size": 607, "id": "CollatorICU.cpp 607"}
                           ]
                         }
                       ]
                     },
-                    {"size": 345, "caption": "FastMalloc.cpp 345"}, {
+                    {"size": 345, "id": "FastMalloc.cpp 345"}, {
                       "size": 247,
-                      "caption": "ThreadIdentifierDataPthreads.cpp 247"
+                      "id": "ThreadIdentifierDataPthreads.cpp 247"
                     },
-                    {"size": 184, "caption": "Threading.cpp 184"},
-                    {"size": 153, "caption": "RandomNumber.cpp 153"},
-                    {"size": 98, "caption": "ThreadSafeShared.h 98"}, {
+                    {"size": 184, "id": "Threading.cpp 184"},
+                    {"size": 153, "id": "RandomNumber.cpp 153"},
+                    {"size": 98, "id": "ThreadSafeShared.h 98"}, {
                       "size": 70,
-                      "caption": "chromium 70",
+                      "id": "chromium 70",
                       "children": [
-                        {"size": 70, "caption": "MainThreadChromium.cpp 70"}
+                        {"size": 70, "id": "MainThreadChromium.cpp 70"}
                       ]
                     },
-                    {"size": 51, "caption": "ByteArray.cpp 51"},
-                    {"size": 47, "caption": "WTFThreadData.cpp 47"},
-                    {"size": 11, "caption": "PassRefPtr.h 11"}
+                    {"size": 51, "id": "ByteArray.cpp 51"},
+                    {"size": 47, "id": "WTFThreadData.cpp 47"},
+                    {"size": 11, "id": "PassRefPtr.h 11"}
                   ]
                 },
                 {
                   "size": 25448,
-                  "caption": "pcre 25.4k",
+                  "id": "pcre 25.4k",
                   "children": [
-                    {"size": 12881, "caption": "pcre_compile.cpp 12.9k"},
-                    {"size": 11943, "caption": "pcre_exec.cpp 11.9k"},
-                    {"size": 465, "caption": "pcre_xclass.cpp 465"}, {
+                    {"size": 12881, "id": "pcre_compile.cpp 12.9k"},
+                    {"size": 11943, "id": "pcre_exec.cpp 11.9k"},
+                    {"size": 465, "id": "pcre_xclass.cpp 465"}, {
                       "size": 159,
-                      "caption": "pcre_ucp_searchfuncs.cpp 159"
+                      "id": "pcre_ucp_searchfuncs.cpp 159"
                     }
                   ]
                 }
@@ -2991,228 +2991,228 @@ export default {
         },
         {
           "size": 927169,
-          "caption": "icu 927.2k",
+          "id": "icu 927.2k",
           "children": [
             {
               "size": 926234,
-              "caption": "source 926.2k",
+              "id": "source 926.2k",
               "children": [
                 {
                   "size": 505403,
-                  "caption": "i18n 505.4k",
+                  "id": "i18n 505.4k",
                   "children": [
-                    {"size": 55441, "caption": "decimfmt.cpp 55.4k"},
-                    {"size": 52432, "caption": "ucol.cpp 52.4k"},
-                    {"size": 28620, "caption": "smpdtfmt.cpp 28.6k"},
-                    {"size": 26642, "caption": "regexcmp.cpp 26.6k"},
-                    {"size": 20768, "caption": "msgfmt.cpp 20.8k"},
-                    {"size": 19141, "caption": "zstrfmt.cpp 19.1k"},
-                    {"size": 16200, "caption": "rematch.cpp 16.2k"},
-                    {"size": 15552, "caption": "ucol_elm.cpp 15.6k"},
-                    {"size": 14174, "caption": "calendar.cpp 14.2k"},
-                    {"size": 12923, "caption": "dtfmtsym.cpp 12.9k"},
-                    {"size": 12803, "caption": "rbnf.cpp 12.8k"},
-                    {"size": 12287, "caption": "nfrule.cpp 12.3k"},
-                    {"size": 12039, "caption": "ucol_tok.cpp 12.0k"},
-                    {"size": 9854, "caption": "plurrule.cpp 9.9k"},
-                    {"size": 9762, "caption": "nfsubs.cpp 9.8k"},
-                    {"size": 8780, "caption": "ucol_bld.cpp 8.8k"},
-                    {"size": 8280, "caption": "ucurr.cpp 8.3k"},
-                    {"size": 8277, "caption": "olsontz.cpp 8.3k"},
-                    {"size": 8063, "caption": "timezone.cpp 8.1k"},
-                    {"size": 8034, "caption": "zonemeta.cpp 8.0k"},
-                    {"size": 7925, "caption": "usearch.cpp 7.9k"},
-                    {"size": 7677, "caption": "simpletz.cpp 7.7k"},
-                    {"size": 7558, "caption": "choicfmt.cpp 7.6k"},
-                    {"size": 6810, "caption": "nfrs.cpp 6.8k"},
-                    {"size": 5849, "caption": "dcfmtsym.cpp 5.8k"},
-                    {"size": 5110, "caption": "numfmt.cpp 5.1k"},
-                    {"size": 4955, "caption": "gregocal.cpp 5.0k"},
-                    {"size": 4889, "caption": "ucol_res.cpp 4.9k"},
-                    {"size": 4820, "caption": "reldtfmt.cpp 4.8k"},
-                    {"size": 4668, "caption": "chnsecal.cpp 4.7k"},
-                    {"size": 4584, "caption": "csrsbcs.cpp 4.6k"},
-                    {"size": 4505, "caption": "plurfmt.cpp 4.5k"},
-                    {"size": 4404, "caption": "basictz.cpp 4.4k"},
-                    {"size": 4359, "caption": "tzrule.cpp 4.4k"},
-                    {"size": 3873, "caption": "tblcoll.cpp 3.9k"},
-                    {"size": 3727, "caption": "ucol_cnt.cpp 3.7k"},
-                    {"size": 3680, "caption": "astro.cpp 3.7k"},
-                    {"size": 3657, "caption": "csdetect.cpp 3.7k"},
-                    {"size": 3512, "caption": "currpinf.cpp 3.5k"},
-                    {"size": 3439, "caption": "ucol_wgt.c 3.4k"},
-                    {"size": 2989, "caption": "hebrwcal.cpp 3.0k"},
-                    {"size": 2853, "caption": "islamcal.cpp 2.9k"},
-                    {"size": 2743, "caption": "indiancal.cpp 2.7k"},
-                    {"size": 2626, "caption": "repattrn.cpp 2.6k"},
-                    {"size": 2436, "caption": "digitlst.cpp 2.4k"},
-                    {"size": 2338, "caption": "gregoimp.cpp 2.3k"},
-                    {"size": 2157, "caption": "regexst.cpp 2.2k"},
-                    {"size": 2070, "caption": "csrmbcs.cpp 2.1k"},
-                    {"size": 2035, "caption": "datefmt.cpp 2.0k"},
-                    {"size": 1996, "caption": "persncal.cpp 2.0k"},
-                    {"size": 1818, "caption": "ucoleitr.cpp 1.8k"},
-                    {"size": 1809, "caption": "fmtable.cpp 1.8k"},
-                    {"size": 1463, "caption": "numsys.cpp 1.5k"},
-                    {"size": 1206, "caption": "bocsu.c 1.2k"},
-                    {"size": 1149, "caption": "coll.cpp 1.1k"},
-                    {"size": 1096, "caption": "ethpccal.cpp 1.1k"},
-                    {"size": 1051, "caption": "taiwncal.cpp 1.1k"},
-                    {"size": 1008, "caption": "japancal.cpp 1.0k"},
-                    {"size": 977, "caption": "uregex.cpp 977"},
-                    {"size": 934, "caption": "buddhcal.cpp 934"},
-                    {"size": 921, "caption": "coptccal.cpp 921"},
-                    {"size": 906, "caption": "csrucode.cpp 906"},
-                    {"size": 697, "caption": "format.cpp 697"},
-                    {"size": 690, "caption": "cecal.cpp 690"},
-                    {"size": 647, "caption": "coleitr.cpp 647"},
-                    {"size": 555, "caption": "inputext.cpp 555"},
-                    {"size": 533, "caption": "csr2022.cpp 533"},
-                    {"size": 505, "caption": "tztrans.cpp 505"},
-                    {"size": 504, "caption": "dtrule.cpp 504"},
-                    {"size": 499, "caption": "measure.cpp 499"},
-                    {"size": 443, "caption": "csrutf8.cpp 443"},
-                    {"size": 357, "caption": "ucsdet.cpp 357"},
-                    {"size": 356, "caption": "currunit.cpp 356"},
-                    {"size": 351, "caption": "ulocdata.c 351"},
-                    {"size": 247, "caption": "curramt.cpp 247"},
-                    {"size": 142, "caption": "sortkey.cpp 142"},
-                    {"size": 104, "caption": "ucln_in.c 104"},
-                    {"size": 62, "caption": "csrecog.cpp 62"},
-                    {"size": 57, "caption": "csmatch.cpp 57"}
+                    {"size": 55441, "id": "decimfmt.cpp 55.4k"},
+                    {"size": 52432, "id": "ucol.cpp 52.4k"},
+                    {"size": 28620, "id": "smpdtfmt.cpp 28.6k"},
+                    {"size": 26642, "id": "regexcmp.cpp 26.6k"},
+                    {"size": 20768, "id": "msgfmt.cpp 20.8k"},
+                    {"size": 19141, "id": "zstrfmt.cpp 19.1k"},
+                    {"size": 16200, "id": "rematch.cpp 16.2k"},
+                    {"size": 15552, "id": "ucol_elm.cpp 15.6k"},
+                    {"size": 14174, "id": "calendar.cpp 14.2k"},
+                    {"size": 12923, "id": "dtfmtsym.cpp 12.9k"},
+                    {"size": 12803, "id": "rbnf.cpp 12.8k"},
+                    {"size": 12287, "id": "nfrule.cpp 12.3k"},
+                    {"size": 12039, "id": "ucol_tok.cpp 12.0k"},
+                    {"size": 9854, "id": "plurrule.cpp 9.9k"},
+                    {"size": 9762, "id": "nfsubs.cpp 9.8k"},
+                    {"size": 8780, "id": "ucol_bld.cpp 8.8k"},
+                    {"size": 8280, "id": "ucurr.cpp 8.3k"},
+                    {"size": 8277, "id": "olsontz.cpp 8.3k"},
+                    {"size": 8063, "id": "timezone.cpp 8.1k"},
+                    {"size": 8034, "id": "zonemeta.cpp 8.0k"},
+                    {"size": 7925, "id": "usearch.cpp 7.9k"},
+                    {"size": 7677, "id": "simpletz.cpp 7.7k"},
+                    {"size": 7558, "id": "choicfmt.cpp 7.6k"},
+                    {"size": 6810, "id": "nfrs.cpp 6.8k"},
+                    {"size": 5849, "id": "dcfmtsym.cpp 5.8k"},
+                    {"size": 5110, "id": "numfmt.cpp 5.1k"},
+                    {"size": 4955, "id": "gregocal.cpp 5.0k"},
+                    {"size": 4889, "id": "ucol_res.cpp 4.9k"},
+                    {"size": 4820, "id": "reldtfmt.cpp 4.8k"},
+                    {"size": 4668, "id": "chnsecal.cpp 4.7k"},
+                    {"size": 4584, "id": "csrsbcs.cpp 4.6k"},
+                    {"size": 4505, "id": "plurfmt.cpp 4.5k"},
+                    {"size": 4404, "id": "basictz.cpp 4.4k"},
+                    {"size": 4359, "id": "tzrule.cpp 4.4k"},
+                    {"size": 3873, "id": "tblcoll.cpp 3.9k"},
+                    {"size": 3727, "id": "ucol_cnt.cpp 3.7k"},
+                    {"size": 3680, "id": "astro.cpp 3.7k"},
+                    {"size": 3657, "id": "csdetect.cpp 3.7k"},
+                    {"size": 3512, "id": "currpinf.cpp 3.5k"},
+                    {"size": 3439, "id": "ucol_wgt.c 3.4k"},
+                    {"size": 2989, "id": "hebrwcal.cpp 3.0k"},
+                    {"size": 2853, "id": "islamcal.cpp 2.9k"},
+                    {"size": 2743, "id": "indiancal.cpp 2.7k"},
+                    {"size": 2626, "id": "repattrn.cpp 2.6k"},
+                    {"size": 2436, "id": "digitlst.cpp 2.4k"},
+                    {"size": 2338, "id": "gregoimp.cpp 2.3k"},
+                    {"size": 2157, "id": "regexst.cpp 2.2k"},
+                    {"size": 2070, "id": "csrmbcs.cpp 2.1k"},
+                    {"size": 2035, "id": "datefmt.cpp 2.0k"},
+                    {"size": 1996, "id": "persncal.cpp 2.0k"},
+                    {"size": 1818, "id": "ucoleitr.cpp 1.8k"},
+                    {"size": 1809, "id": "fmtable.cpp 1.8k"},
+                    {"size": 1463, "id": "numsys.cpp 1.5k"},
+                    {"size": 1206, "id": "bocsu.c 1.2k"},
+                    {"size": 1149, "id": "coll.cpp 1.1k"},
+                    {"size": 1096, "id": "ethpccal.cpp 1.1k"},
+                    {"size": 1051, "id": "taiwncal.cpp 1.1k"},
+                    {"size": 1008, "id": "japancal.cpp 1.0k"},
+                    {"size": 977, "id": "uregex.cpp 977"},
+                    {"size": 934, "id": "buddhcal.cpp 934"},
+                    {"size": 921, "id": "coptccal.cpp 921"},
+                    {"size": 906, "id": "csrucode.cpp 906"},
+                    {"size": 697, "id": "format.cpp 697"},
+                    {"size": 690, "id": "cecal.cpp 690"},
+                    {"size": 647, "id": "coleitr.cpp 647"},
+                    {"size": 555, "id": "inputext.cpp 555"},
+                    {"size": 533, "id": "csr2022.cpp 533"},
+                    {"size": 505, "id": "tztrans.cpp 505"},
+                    {"size": 504, "id": "dtrule.cpp 504"},
+                    {"size": 499, "id": "measure.cpp 499"},
+                    {"size": 443, "id": "csrutf8.cpp 443"},
+                    {"size": 357, "id": "ucsdet.cpp 357"},
+                    {"size": 356, "id": "currunit.cpp 356"},
+                    {"size": 351, "id": "ulocdata.c 351"},
+                    {"size": 247, "id": "curramt.cpp 247"},
+                    {"size": 142, "id": "sortkey.cpp 142"},
+                    {"size": 104, "id": "ucln_in.c 104"},
+                    {"size": 62, "id": "csrecog.cpp 62"},
+                    {"size": 57, "id": "csmatch.cpp 57"}
                   ]
                 },
                 {
                   "size": 420831,
-                  "caption": "common 420.8k",
+                  "id": "common 420.8k",
                   "children": [
-                    {"size": 23166, "caption": "ucnvmbcs.c 23.2k"},
-                    {"size": 21269, "caption": "unorm.cpp 21.3k"},
-                    {"size": 16494, "caption": "uloc.c 16.5k"},
-                    {"size": 13843, "caption": "uniset.cpp 13.8k"},
-                    {"size": 13817, "caption": "ucnv2022.c 13.8k"},
-                    {"size": 12102, "caption": "rbbi.cpp 12.1k"},
-                    {"size": 11684, "caption": "utext.cpp 11.7k"},
-                    {"size": 11635, "caption": "uniset_props.cpp 11.6k"},
-                    {"size": 11361, "caption": "uresbund.c 11.4k"},
-                    {"size": 11260, "caption": "unisetspan.cpp 11.3k"},
-                    {"size": 10179, "caption": "ucnv.c 10.2k"},
-                    {"size": 9489, "caption": "unistr.cpp 9.5k"},
-                    {"size": 9460, "caption": "ucnvscsu.c 9.5k"},
-                    {"size": 9392, "caption": "triedict.cpp 9.4k"},
-                    {"size": 8946, "caption": "dictbe.cpp 8.9k"},
-                    {"size": 7980, "caption": "rbbiscan.cpp 8.0k"},
-                    {"size": 7850, "caption": "ucnvisci.c 7.8k"},
-                    {"size": 7125, "caption": "caniter.cpp 7.1k"},
-                    {"size": 6882, "caption": "ucnv_u16.c 6.9k"},
-                    {"size": 6816, "caption": "ustrcase.c 6.8k"},
-                    {"size": 6658, "caption": "ucase.c 6.7k"},
-                    {"size": 6389, "caption": "locid.cpp 6.4k"},
-                    {"size": 6212, "caption": "ucnvbocu.c 6.2k"},
-                    {"size": 6192, "caption": "ucnv_u7.c 6.2k"},
-                    {"size": 6138, "caption": "rbbitblb.cpp 6.1k"},
-                    {"size": 5617, "caption": "serv.cpp 5.6k"},
-                    {"size": 5489, "caption": "udata.c 5.5k"},
-                    {"size": 5451, "caption": "uchar.c 5.5k"},
-                    {"size": 5354, "caption": "ustrtrns.c 5.4k"},
-                    {"size": 5344, "caption": "utrie.c 5.3k"},
-                    {"size": 5265, "caption": "ucnv_u32.c 5.3k"},
-                    {"size": 5089, "caption": "ucnv_ext.c 5.1k"},
-                    {"size": 4989, "caption": "ucnv_u8.c 5.0k"},
-                    {"size": 4919, "caption": "unames.c 4.9k"},
-                    {"size": 4662, "caption": "ustring.c 4.7k"},
-                    {"size": 4592, "caption": "ucnv_bld.c 4.6k"},
-                    {"size": 4543, "caption": "uidna.cpp 4.5k"},
-                    {"size": 4463, "caption": "usprep.cpp 4.5k"},
-                    {"size": 4325, "caption": "uiter.cpp 4.3k"},
-                    {"size": 4079, "caption": "putil.c 4.1k"},
-                    {"size": 4071, "caption": "bmpset.cpp 4.1k"},
-                    {"size": 3730, "caption": "ucnv_io.c 3.7k"},
-                    {"size": 3614, "caption": "ucnv_lmb.c 3.6k"},
-                    {"size": 3376, "caption": "unorm_it.c 3.4k"},
-                    {"size": 3211, "caption": "punycode.c 3.2k"},
-                    {"size": 3079, "caption": "uvector.cpp 3.1k"},
-                    {"size": 2875, "caption": "uhash.c 2.9k"},
-                    {"size": 2802, "caption": "ucnvhz.c 2.8k"},
-                    {"size": 2578, "caption": "ucnvlat1.c 2.6k"},
-                    {"size": 2474, "caption": "uchriter.cpp 2.5k"},
-                    {"size": 2396, "caption": "rbbisetb.cpp 2.4k"},
-                    {"size": 2384, "caption": "brkeng.cpp 2.4k"},
-                    {"size": 2295, "caption": "rbbirb.cpp 2.3k"},
-                    {"size": 2142, "caption": "unistr_cnv.cpp 2.1k"},
-                    {"size": 2075, "caption": "uresdata.c 2.1k"},
-                    {"size": 2010, "caption": "locutil.cpp 2.0k"},
-                    {"size": 1926, "caption": "servlk.cpp 1.9k"},
-                    {"size": 1736, "caption": "brkiter.cpp 1.7k"},
-                    {"size": 1726, "caption": "normlzr.cpp 1.7k"},
-                    {"size": 1662, "caption": "unistr_case.cpp 1.7k"},
-                    {"size": 1541, "caption": "servls.cpp 1.5k"},
-                    {"size": 1503, "caption": "ubidi_props.c 1.5k"},
-                    {"size": 1444, "caption": "ruleiter.cpp 1.4k"},
-                    {"size": 1359, "caption": "ucnv_err.c 1.4k"},
-                    {"size": 1347, "caption": "uarrsort.c 1.3k"},
-                    {"size": 1322, "caption": "util.cpp 1.3k"},
-                    {"size": 1244, "caption": "propname.cpp 1.2k"},
-                    {"size": 1240, "caption": "uprops.c 1.2k"},
-                    {"size": 1171, "caption": "utrie2.c 1.2k"},
-                    {"size": 1146, "caption": "rbbinode.cpp 1.1k"},
-                    {"size": 1119, "caption": "utf_impl.c 1.1k"},
-                    {"size": 975, "caption": "ubrk.cpp 975"},
-                    {"size": 936, "caption": "rbbistbl.cpp 936"},
-                    {"size": 928, "caption": "uvectr32.cpp 928"},
-                    {"size": 869, "caption": "ustrenum.cpp 869"},
-                    {"size": 856, "caption": "servlkf.cpp 856"},
-                    {"size": 795, "caption": "servnotf.cpp 795"},
-                    {"size": 766, "caption": "schriter.cpp 766"},
-                    {"size": 749, "caption": "uscript.c 749"},
-                    {"size": 740, "caption": "ucnv_cb.c 740"},
-                    {"size": 712, "caption": "umutex.c 712"},
-                    {"size": 704, "caption": "ucnv_cnv.c 704"},
-                    {"size": 685, "caption": "uset.cpp 685"},
-                    {"size": 685, "caption": "servslkf.cpp 685"},
-                    {"size": 645, "caption": "rbbidata.cpp 645"},
-                    {"size": 596, "caption": "cstring.c 596"},
-                    {"size": 547, "caption": "ucmndata.c 547"},
-                    {"size": 457, "caption": "unistr_props.cpp 457"},
-                    {"size": 455, "caption": "uenum.c 455"},
-                    {"size": 455, "caption": "uset_props.cpp 455"},
-                    {"size": 420, "caption": "unifilt.cpp 420"},
-                    {"size": 388, "caption": "servrbf.cpp 388"},
-                    {"size": 320, "caption": "uhash_us.cpp 320"},
-                    {"size": 281, "caption": "chariter.cpp 281"},
-                    {"size": 277, "caption": "umapfile.c 277"},
-                    {"size": 275, "caption": "ustack.cpp 275"},
-                    {"size": 260, "caption": "udatamem.c 260"},
-                    {"size": 238, "caption": "cmemory.c 238"},
-                    {"size": 230, "caption": "uinvchar.c 230"},
-                    {"size": 222, "caption": "ustr_cnv.c 222"},
-                    {"size": 196, "caption": "resbund.cpp 196"},
-                    {"size": 145, "caption": "utypes.c 145"},
-                    {"size": 144, "caption": "ustrfmt.c 144"},
-                    {"size": 118, "caption": "uobject.cpp 118"},
-                    {"size": 108, "caption": "ustr_wcs.c 108"},
-                    {"size": 99, "caption": "unifunct.cpp 99"},
-                    {"size": 94, "caption": "hash.h 94"},
-                    {"size": 83, "caption": "uinit.c 83"},
-                    {"size": 71, "caption": "parsepos.cpp 71"},
-                    {"size": 66, "caption": "locbased.cpp 66"},
-                    {"size": 46, "caption": "ucln_cmn.c 46"},
-                    {"size": 45, "caption": "bytestream.cpp 45"},
-                    {"size": 32, "caption": "umath.c 32"}
+                    {"size": 23166, "id": "ucnvmbcs.c 23.2k"},
+                    {"size": 21269, "id": "unorm.cpp 21.3k"},
+                    {"size": 16494, "id": "uloc.c 16.5k"},
+                    {"size": 13843, "id": "uniset.cpp 13.8k"},
+                    {"size": 13817, "id": "ucnv2022.c 13.8k"},
+                    {"size": 12102, "id": "rbbi.cpp 12.1k"},
+                    {"size": 11684, "id": "utext.cpp 11.7k"},
+                    {"size": 11635, "id": "uniset_props.cpp 11.6k"},
+                    {"size": 11361, "id": "uresbund.c 11.4k"},
+                    {"size": 11260, "id": "unisetspan.cpp 11.3k"},
+                    {"size": 10179, "id": "ucnv.c 10.2k"},
+                    {"size": 9489, "id": "unistr.cpp 9.5k"},
+                    {"size": 9460, "id": "ucnvscsu.c 9.5k"},
+                    {"size": 9392, "id": "triedict.cpp 9.4k"},
+                    {"size": 8946, "id": "dictbe.cpp 8.9k"},
+                    {"size": 7980, "id": "rbbiscan.cpp 8.0k"},
+                    {"size": 7850, "id": "ucnvisci.c 7.8k"},
+                    {"size": 7125, "id": "caniter.cpp 7.1k"},
+                    {"size": 6882, "id": "ucnv_u16.c 6.9k"},
+                    {"size": 6816, "id": "ustrcase.c 6.8k"},
+                    {"size": 6658, "id": "ucase.c 6.7k"},
+                    {"size": 6389, "id": "locid.cpp 6.4k"},
+                    {"size": 6212, "id": "ucnvbocu.c 6.2k"},
+                    {"size": 6192, "id": "ucnv_u7.c 6.2k"},
+                    {"size": 6138, "id": "rbbitblb.cpp 6.1k"},
+                    {"size": 5617, "id": "serv.cpp 5.6k"},
+                    {"size": 5489, "id": "udata.c 5.5k"},
+                    {"size": 5451, "id": "uchar.c 5.5k"},
+                    {"size": 5354, "id": "ustrtrns.c 5.4k"},
+                    {"size": 5344, "id": "utrie.c 5.3k"},
+                    {"size": 5265, "id": "ucnv_u32.c 5.3k"},
+                    {"size": 5089, "id": "ucnv_ext.c 5.1k"},
+                    {"size": 4989, "id": "ucnv_u8.c 5.0k"},
+                    {"size": 4919, "id": "unames.c 4.9k"},
+                    {"size": 4662, "id": "ustring.c 4.7k"},
+                    {"size": 4592, "id": "ucnv_bld.c 4.6k"},
+                    {"size": 4543, "id": "uidna.cpp 4.5k"},
+                    {"size": 4463, "id": "usprep.cpp 4.5k"},
+                    {"size": 4325, "id": "uiter.cpp 4.3k"},
+                    {"size": 4079, "id": "putil.c 4.1k"},
+                    {"size": 4071, "id": "bmpset.cpp 4.1k"},
+                    {"size": 3730, "id": "ucnv_io.c 3.7k"},
+                    {"size": 3614, "id": "ucnv_lmb.c 3.6k"},
+                    {"size": 3376, "id": "unorm_it.c 3.4k"},
+                    {"size": 3211, "id": "punycode.c 3.2k"},
+                    {"size": 3079, "id": "uvector.cpp 3.1k"},
+                    {"size": 2875, "id": "uhash.c 2.9k"},
+                    {"size": 2802, "id": "ucnvhz.c 2.8k"},
+                    {"size": 2578, "id": "ucnvlat1.c 2.6k"},
+                    {"size": 2474, "id": "uchriter.cpp 2.5k"},
+                    {"size": 2396, "id": "rbbisetb.cpp 2.4k"},
+                    {"size": 2384, "id": "brkeng.cpp 2.4k"},
+                    {"size": 2295, "id": "rbbirb.cpp 2.3k"},
+                    {"size": 2142, "id": "unistr_cnv.cpp 2.1k"},
+                    {"size": 2075, "id": "uresdata.c 2.1k"},
+                    {"size": 2010, "id": "locutil.cpp 2.0k"},
+                    {"size": 1926, "id": "servlk.cpp 1.9k"},
+                    {"size": 1736, "id": "brkiter.cpp 1.7k"},
+                    {"size": 1726, "id": "normlzr.cpp 1.7k"},
+                    {"size": 1662, "id": "unistr_case.cpp 1.7k"},
+                    {"size": 1541, "id": "servls.cpp 1.5k"},
+                    {"size": 1503, "id": "ubidi_props.c 1.5k"},
+                    {"size": 1444, "id": "ruleiter.cpp 1.4k"},
+                    {"size": 1359, "id": "ucnv_err.c 1.4k"},
+                    {"size": 1347, "id": "uarrsort.c 1.3k"},
+                    {"size": 1322, "id": "util.cpp 1.3k"},
+                    {"size": 1244, "id": "propname.cpp 1.2k"},
+                    {"size": 1240, "id": "uprops.c 1.2k"},
+                    {"size": 1171, "id": "utrie2.c 1.2k"},
+                    {"size": 1146, "id": "rbbinode.cpp 1.1k"},
+                    {"size": 1119, "id": "utf_impl.c 1.1k"},
+                    {"size": 975, "id": "ubrk.cpp 975"},
+                    {"size": 936, "id": "rbbistbl.cpp 936"},
+                    {"size": 928, "id": "uvectr32.cpp 928"},
+                    {"size": 869, "id": "ustrenum.cpp 869"},
+                    {"size": 856, "id": "servlkf.cpp 856"},
+                    {"size": 795, "id": "servnotf.cpp 795"},
+                    {"size": 766, "id": "schriter.cpp 766"},
+                    {"size": 749, "id": "uscript.c 749"},
+                    {"size": 740, "id": "ucnv_cb.c 740"},
+                    {"size": 712, "id": "umutex.c 712"},
+                    {"size": 704, "id": "ucnv_cnv.c 704"},
+                    {"size": 685, "id": "uset.cpp 685"},
+                    {"size": 685, "id": "servslkf.cpp 685"},
+                    {"size": 645, "id": "rbbidata.cpp 645"},
+                    {"size": 596, "id": "cstring.c 596"},
+                    {"size": 547, "id": "ucmndata.c 547"},
+                    {"size": 457, "id": "unistr_props.cpp 457"},
+                    {"size": 455, "id": "uenum.c 455"},
+                    {"size": 455, "id": "uset_props.cpp 455"},
+                    {"size": 420, "id": "unifilt.cpp 420"},
+                    {"size": 388, "id": "servrbf.cpp 388"},
+                    {"size": 320, "id": "uhash_us.cpp 320"},
+                    {"size": 281, "id": "chariter.cpp 281"},
+                    {"size": 277, "id": "umapfile.c 277"},
+                    {"size": 275, "id": "ustack.cpp 275"},
+                    {"size": 260, "id": "udatamem.c 260"},
+                    {"size": 238, "id": "cmemory.c 238"},
+                    {"size": 230, "id": "uinvchar.c 230"},
+                    {"size": 222, "id": "ustr_cnv.c 222"},
+                    {"size": 196, "id": "resbund.cpp 196"},
+                    {"size": 145, "id": "utypes.c 145"},
+                    {"size": 144, "id": "ustrfmt.c 144"},
+                    {"size": 118, "id": "uobject.cpp 118"},
+                    {"size": 108, "id": "ustr_wcs.c 108"},
+                    {"size": 99, "id": "unifunct.cpp 99"},
+                    {"size": 94, "id": "hash.h 94"},
+                    {"size": 83, "id": "uinit.c 83"},
+                    {"size": 71, "id": "parsepos.cpp 71"},
+                    {"size": 66, "id": "locbased.cpp 66"},
+                    {"size": 46, "id": "ucln_cmn.c 46"},
+                    {"size": 45, "id": "bytestream.cpp 45"},
+                    {"size": 32, "id": "umath.c 32"}
                   ]
                 }
               ]
             },
             {
               "size": 935,
-              "caption": "public 935",
+              "id": "public 935",
               "children": [{
                 "size": 935,
-                "caption": "common 935",
+                "id": "common 935",
                 "children": [{
                   "size": 935,
-                  "caption": "unicode 935",
-                  "children": [{"size": 935, "caption": "unistr.h 935"}]
+                  "id": "unicode 935",
+                  "children": [{"size": 935, "id": "unistr.h 935"}]
                 }]
               }]
             }
@@ -3220,156 +3220,156 @@ export default {
         },
         {
           "size": 423980,
-          "caption": "libxml 424.0k",
+          "id": "libxml 424.0k",
           "children": [{
             "size": 423980,
-            "caption": "src 424.0k",
+            "id": "src 424.0k",
             "children": [
-              {"size": 86518, "caption": "parser.c 86.5k"},
-              {"size": 68102, "caption": "xpath.c 68.1k"},
-              {"size": 31174, "caption": "valid.c 31.2k"},
-              {"size": 26338, "caption": "tree.c 26.3k"},
-              {"size": 19977, "caption": "relaxng.c 20.0k"},
-              {"size": 16387, "caption": "xmlregexp.c 16.4k"},
-              {"size": 14662, "caption": "SAX2.c 14.7k"},
-              {"size": 14031, "caption": "uri.c 14.0k"},
-              {"size": 11718, "caption": "xinclude.c 11.7k"},
-              {"size": 11328, "caption": "pattern.c 11.3k"},
-              {"size": 11282, "caption": "xmlsave.c 11.3k"},
-              {"size": 10377, "caption": "xmlreader.c 10.4k"},
-              {"size": 10348, "caption": "encoding.c 10.3k"},
-              {"size": 9806, "caption": "xpointer.c 9.8k"},
-              {"size": 9561, "caption": "catalog.c 9.6k"},
-              {"size": 9413, "caption": "parserInternals.c 9.4k"},
-              {"size": 9377, "caption": "xmlIO.c 9.4k"},
-              {"size": 7350, "caption": "debugXML.c 7.3k"},
-              {"size": 6445, "caption": "error.c 6.4k"},
-              {"size": 5016, "caption": "hash.c 5.0k"},
-              {"size": 4798, "caption": "xmlwriter.c 4.8k"},
-              {"size": 4432, "caption": "entities.c 4.4k"},
-              {"size": 4329, "caption": "xmlunicode.c 4.3k"},
-              {"size": 4327, "caption": "xmlschemas.c 4.3k"},
-              {"size": 4249, "caption": "dict.c 4.2k"},
-              {"size": 4063, "caption": "HTMLtree.c 4.1k"},
-              {"size": 2962, "caption": "xmlstring.c 3.0k"},
-              {"size": 1427, "caption": "HTMLparser.c 1.4k"},
-              {"size": 1378, "caption": "globals.c 1.4k"},
-              {"size": 1025, "caption": "threads.c 1.0k"},
-              {"size": 762, "caption": "list.c 762"},
-              {"size": 643, "caption": "SAX.c 643"},
-              {"size": 156, "caption": "chvalid.c 156"},
-              {"size": 131, "caption": "xmlmemory.c 131"},
-              {"size": 88, "caption": "xmlschemastypes.c 88"}
+              {"size": 86518, "id": "parser.c 86.5k"},
+              {"size": 68102, "id": "xpath.c 68.1k"},
+              {"size": 31174, "id": "valid.c 31.2k"},
+              {"size": 26338, "id": "tree.c 26.3k"},
+              {"size": 19977, "id": "relaxng.c 20.0k"},
+              {"size": 16387, "id": "xmlregexp.c 16.4k"},
+              {"size": 14662, "id": "SAX2.c 14.7k"},
+              {"size": 14031, "id": "uri.c 14.0k"},
+              {"size": 11718, "id": "xinclude.c 11.7k"},
+              {"size": 11328, "id": "pattern.c 11.3k"},
+              {"size": 11282, "id": "xmlsave.c 11.3k"},
+              {"size": 10377, "id": "xmlreader.c 10.4k"},
+              {"size": 10348, "id": "encoding.c 10.3k"},
+              {"size": 9806, "id": "xpointer.c 9.8k"},
+              {"size": 9561, "id": "catalog.c 9.6k"},
+              {"size": 9413, "id": "parserInternals.c 9.4k"},
+              {"size": 9377, "id": "xmlIO.c 9.4k"},
+              {"size": 7350, "id": "debugXML.c 7.3k"},
+              {"size": 6445, "id": "error.c 6.4k"},
+              {"size": 5016, "id": "hash.c 5.0k"},
+              {"size": 4798, "id": "xmlwriter.c 4.8k"},
+              {"size": 4432, "id": "entities.c 4.4k"},
+              {"size": 4329, "id": "xmlunicode.c 4.3k"},
+              {"size": 4327, "id": "xmlschemas.c 4.3k"},
+              {"size": 4249, "id": "dict.c 4.2k"},
+              {"size": 4063, "id": "HTMLtree.c 4.1k"},
+              {"size": 2962, "id": "xmlstring.c 3.0k"},
+              {"size": 1427, "id": "HTMLparser.c 1.4k"},
+              {"size": 1378, "id": "globals.c 1.4k"},
+              {"size": 1025, "id": "threads.c 1.0k"},
+              {"size": 762, "id": "list.c 762"},
+              {"size": 643, "id": "SAX.c 643"},
+              {"size": 156, "id": "chvalid.c 156"},
+              {"size": 131, "id": "xmlmemory.c 131"},
+              {"size": 88, "id": "xmlschemastypes.c 88"}
             ]
           }]
         },
         {
           "size": 409122,
-          "caption": "sqlite 409.1k",
+          "id": "sqlite 409.1k",
           "children": [{
             "size": 409122,
-            "caption": "src 409.1k",
+            "id": "src 409.1k",
             "children": [
               {
                 "size": 322269,
-                "caption": "src 322.3k",
+                "id": "src 322.3k",
                 "children": [
-                  {"size": 33520, "caption": "btree.c 33.5k"},
-                  {"size": 25401, "caption": "vdbe.c 25.4k"},
-                  {"size": 25180, "caption": "select.c 25.2k"},
-                  {"size": 21615, "caption": "where.c 21.6k"},
-                  {"size": 20082, "caption": "build.c 20.1k"},
-                  {"size": 19899, "caption": "expr.c 19.9k"},
-                  {"size": 16193, "caption": "pager.c 16.2k"},
-                  {"size": 13001, "caption": "insert.c 13.0k"},
-                  {"size": 11516, "caption": "vdbeaux.c 11.5k"},
-                  {"size": 10577, "caption": "pragma.c 10.6k"},
-                  {"size": 8178, "caption": "func.c 8.2k"},
-                  {"size": 7733, "caption": "main.c 7.7k"},
-                  {"size": 7714, "caption": "os_unix.c 7.7k"},
-                  {"size": 7347, "caption": "date.c 7.3k"},
-                  {"size": 6166, "caption": "printf.c 6.2k"},
-                  {"size": 5837, "caption": "trigger.c 5.8k"},
-                  {"size": 5824, "caption": "resolve.c 5.8k"},
-                  {"size": 5489, "caption": "update.c 5.5k"},
-                  {"size": 5214, "caption": "vdbeapi.c 5.2k"},
-                  {"size": 4960, "caption": "vdbemem.c 5.0k"},
-                  {"size": 4784, "caption": "vtab.c 4.8k"},
-                  {"size": 4512, "caption": "util.c 4.5k"},
-                  {"size": 4044, "caption": "prepare.c 4.0k"},
-                  {"size": 3614, "caption": "alter.c 3.6k"},
-                  {"size": 3518, "caption": "delete.c 3.5k"},
-                  {"size": 3111, "caption": "analyze.c 3.1k"},
-                  {"size": 3091, "caption": "malloc.c 3.1k"},
-                  {"size": 3080, "caption": "attach.c 3.1k"},
-                  {"size": 2696, "caption": "pcache1.c 2.7k"},
-                  {"size": 2667, "caption": "tokenize.c 2.7k"},
-                  {"size": 2603, "caption": "backup.c 2.6k"},
-                  {"size": 2109, "caption": "vdbeblob.c 2.1k"},
-                  {"size": 2064, "caption": "callback.c 2.1k"},
-                  {"size": 2049, "caption": "pcache.c 2.0k"},
-                  {"size": 1978, "caption": "utf.c 2.0k"},
-                  {"size": 1680, "caption": "bitvec.c 1.7k"},
-                  {"size": 1471, "caption": "rowset.c 1.5k"},
-                  {"size": 1304, "caption": "hash.c 1.3k"},
-                  {"size": 1126, "caption": "vacuum.c 1.1k"},
-                  {"size": 1023, "caption": "loadext.c 1.0k"},
-                  {"size": 991, "caption": "os.c 991"},
-                  {"size": 972, "caption": "complete.c 972"},
-                  {"size": 968, "caption": "legacy.c 968"},
-                  {"size": 941, "caption": "table.c 941"},
-                  {"size": 863, "caption": "btmutex.c 863"},
-                  {"size": 732, "caption": "auth.c 732"},
-                  {"size": 712, "caption": "memjournal.c 712"},
-                  {"size": 613, "caption": "walker.c 613"},
-                  {"size": 485, "caption": "random.c 485"},
-                  {"size": 335, "caption": "mutex_unix.c 335"},
-                  {"size": 261, "caption": "mutex.c 261"},
-                  {"size": 197, "caption": "mem1.c 197"},
-                  {"size": 168, "caption": "status.c 168"},
-                  {"size": 61, "caption": "fault.c 61"}
+                  {"size": 33520, "id": "btree.c 33.5k"},
+                  {"size": 25401, "id": "vdbe.c 25.4k"},
+                  {"size": 25180, "id": "select.c 25.2k"},
+                  {"size": 21615, "id": "where.c 21.6k"},
+                  {"size": 20082, "id": "build.c 20.1k"},
+                  {"size": 19899, "id": "expr.c 19.9k"},
+                  {"size": 16193, "id": "pager.c 16.2k"},
+                  {"size": 13001, "id": "insert.c 13.0k"},
+                  {"size": 11516, "id": "vdbeaux.c 11.5k"},
+                  {"size": 10577, "id": "pragma.c 10.6k"},
+                  {"size": 8178, "id": "func.c 8.2k"},
+                  {"size": 7733, "id": "main.c 7.7k"},
+                  {"size": 7714, "id": "os_unix.c 7.7k"},
+                  {"size": 7347, "id": "date.c 7.3k"},
+                  {"size": 6166, "id": "printf.c 6.2k"},
+                  {"size": 5837, "id": "trigger.c 5.8k"},
+                  {"size": 5824, "id": "resolve.c 5.8k"},
+                  {"size": 5489, "id": "update.c 5.5k"},
+                  {"size": 5214, "id": "vdbeapi.c 5.2k"},
+                  {"size": 4960, "id": "vdbemem.c 5.0k"},
+                  {"size": 4784, "id": "vtab.c 4.8k"},
+                  {"size": 4512, "id": "util.c 4.5k"},
+                  {"size": 4044, "id": "prepare.c 4.0k"},
+                  {"size": 3614, "id": "alter.c 3.6k"},
+                  {"size": 3518, "id": "delete.c 3.5k"},
+                  {"size": 3111, "id": "analyze.c 3.1k"},
+                  {"size": 3091, "id": "malloc.c 3.1k"},
+                  {"size": 3080, "id": "attach.c 3.1k"},
+                  {"size": 2696, "id": "pcache1.c 2.7k"},
+                  {"size": 2667, "id": "tokenize.c 2.7k"},
+                  {"size": 2603, "id": "backup.c 2.6k"},
+                  {"size": 2109, "id": "vdbeblob.c 2.1k"},
+                  {"size": 2064, "id": "callback.c 2.1k"},
+                  {"size": 2049, "id": "pcache.c 2.0k"},
+                  {"size": 1978, "id": "utf.c 2.0k"},
+                  {"size": 1680, "id": "bitvec.c 1.7k"},
+                  {"size": 1471, "id": "rowset.c 1.5k"},
+                  {"size": 1304, "id": "hash.c 1.3k"},
+                  {"size": 1126, "id": "vacuum.c 1.1k"},
+                  {"size": 1023, "id": "loadext.c 1.0k"},
+                  {"size": 991, "id": "os.c 991"},
+                  {"size": 972, "id": "complete.c 972"},
+                  {"size": 968, "id": "legacy.c 968"},
+                  {"size": 941, "id": "table.c 941"},
+                  {"size": 863, "id": "btmutex.c 863"},
+                  {"size": 732, "id": "auth.c 732"},
+                  {"size": 712, "id": "memjournal.c 712"},
+                  {"size": 613, "id": "walker.c 613"},
+                  {"size": 485, "id": "random.c 485"},
+                  {"size": 335, "id": "mutex_unix.c 335"},
+                  {"size": 261, "id": "mutex.c 261"},
+                  {"size": 197, "id": "mem1.c 197"},
+                  {"size": 168, "id": "status.c 168"},
+                  {"size": 61, "id": "fault.c 61"}
                 ]
               },
               {
                 "size": 86634,
-                "caption": "ext 86.6k",
+                "id": "ext 86.6k",
                 "children": [
                   {
                     "size": 43155,
-                    "caption": "fts3 43.2k",
+                    "id": "fts3 43.2k",
                     "children": [
-                      {"size": 32715, "caption": "fts3.c 32.7k"},
-                      {"size": 4127, "caption": "fts3_porter.c 4.1k"},
-                      {"size": 2659, "caption": "fts3_expr.c 2.7k"},
-                      {"size": 1479, "caption": "fts3_hash.c 1.5k"},
-                      {"size": 1445, "caption": "fts3_icu.c 1.4k"},
-                      {"size": 730, "caption": "fts3_tokenizer1.c 730"}
+                      {"size": 32715, "id": "fts3.c 32.7k"},
+                      {"size": 4127, "id": "fts3_porter.c 4.1k"},
+                      {"size": 2659, "id": "fts3_expr.c 2.7k"},
+                      {"size": 1479, "id": "fts3_hash.c 1.5k"},
+                      {"size": 1445, "id": "fts3_icu.c 1.4k"},
+                      {"size": 730, "id": "fts3_tokenizer1.c 730"}
                     ]
                   },
                   {
                     "size": 40690,
-                    "caption": "fts2 40.7k",
+                    "id": "fts2 40.7k",
                     "children": [
-                      {"size": 32908, "caption": "fts2.c 32.9k"},
-                      {"size": 4127, "caption": "fts2_porter.c 4.1k"},
-                      {"size": 1483, "caption": "fts2_hash.c 1.5k"},
-                      {"size": 1445, "caption": "fts2_icu.c 1.4k"},
-                      {"size": 727, "caption": "fts2_tokenizer1.c 727"}
+                      {"size": 32908, "id": "fts2.c 32.9k"},
+                      {"size": 4127, "id": "fts2_porter.c 4.1k"},
+                      {"size": 1483, "id": "fts2_hash.c 1.5k"},
+                      {"size": 1445, "id": "fts2_icu.c 1.4k"},
+                      {"size": 727, "id": "fts2_tokenizer1.c 727"}
                     ]
                   },
                   {
                     "size": 2789,
-                    "caption": "icu 2.8k",
-                    "children": [{"size": 2789, "caption": "icu.c 2.8k"}]
+                    "id": "icu 2.8k",
+                    "children": [{"size": 2789, "id": "icu.c 2.8k"}]
                   }
                 ]
               },
               {
                 "size": 219,
-                "caption": "preprocessed 219",
+                "id": "preprocessed 219",
                 "children": [
-                  {"size": 204, "caption": "keywordhash.h 204"},
-                  {"size": 15, "caption": "opcodes.c 15"}
+                  {"size": 204, "id": "keywordhash.h 204"},
+                  {"size": 15, "id": "opcodes.c 15"}
                 ]
               }
             ]
@@ -3377,58 +3377,58 @@ export default {
         },
         {
           "size": 354141,
-          "caption": "libjingle 354.1k",
+          "id": "libjingle 354.1k",
           "children": [
             {
               "size": 353406,
-              "caption": "source 353.4k",
+              "id": "source 353.4k",
               "children": [{
                 "size": 353406,
-                "caption": "talk 353.4k",
+                "id": "talk 353.4k",
                 "children": [
                   {
                     "size": 132229,
-                    "caption": "p2p 132.2k",
+                    "id": "p2p 132.2k",
                     "children": [
                       {
                         "size": 109218,
-                        "caption": "base 109.2k",
+                        "id": "base 109.2k",
                         "children": [
-                          {"size": 14297, "caption": "session.cc 14.3k"},
-                          {"size": 13545, "caption": "port.cc 13.5k"},
-                          {"size": 12144, "caption": "transport.cc 12.1k"},
-                          {"size": 11606, "caption": "relayport.cc 11.6k"},
-                          {"size": 9159, "caption": "sessionmanager.cc 9.2k"}, {
+                          {"size": 14297, "id": "session.cc 14.3k"},
+                          {"size": 13545, "id": "port.cc 13.5k"},
+                          {"size": 12144, "id": "transport.cc 12.1k"},
+                          {"size": 11606, "id": "relayport.cc 11.6k"},
+                          {"size": 9159, "id": "sessionmanager.cc 9.2k"}, {
                             "size": 9136,
-                            "caption": "p2ptransportchannel.cc 9.1k"
+                            "id": "p2ptransportchannel.cc 9.1k"
                           },
                           {
                             "size": 7549,
-                            "caption": "transportchannelproxy.cc 7.5k"
+                            "id": "transportchannelproxy.cc 7.5k"
                           },
-                          {"size": 6938, "caption": "p2ptransport.cc 6.9k"},
-                          {"size": 5282, "caption": "pseudotcp.cc 5.3k"},
-                          {"size": 4008, "caption": "tcpport.cc 4.0k"},
-                          {"size": 3954, "caption": "stun.cc 4.0k"},
-                          {"size": 3937, "caption": "sessionmessages.cc 3.9k"},
-                          {"size": 3367, "caption": "stunrequest.cc 3.4k"},
-                          {"size": 1787, "caption": "stunport.cc 1.8k"},
-                          {"size": 1445, "caption": "parsing.cc 1.4k"},
-                          {"size": 854, "caption": "udpport.cc 854"},
-                          {"size": 210, "caption": "transportchannel.cc 210"}
+                          {"size": 6938, "id": "p2ptransport.cc 6.9k"},
+                          {"size": 5282, "id": "pseudotcp.cc 5.3k"},
+                          {"size": 4008, "id": "tcpport.cc 4.0k"},
+                          {"size": 3954, "id": "stun.cc 4.0k"},
+                          {"size": 3937, "id": "sessionmessages.cc 3.9k"},
+                          {"size": 3367, "id": "stunrequest.cc 3.4k"},
+                          {"size": 1787, "id": "stunport.cc 1.8k"},
+                          {"size": 1445, "id": "parsing.cc 1.4k"},
+                          {"size": 854, "id": "udpport.cc 854"},
+                          {"size": 210, "id": "transportchannel.cc 210"}
                         ]
                       },
                       {
                         "size": 23011,
-                        "caption": "client 23.0k",
+                        "id": "client 23.0k",
                         "children": [
                           {
                             "size": 12064,
-                            "caption": "basicportallocator.cc 12.1k"
+                            "id": "basicportallocator.cc 12.1k"
                           },
                           {
                             "size": 10947,
-                            "caption": "httpportallocator.cc 10.9k"
+                            "id": "httpportallocator.cc 10.9k"
                           }
                         ]
                       }
@@ -3436,93 +3436,93 @@ export default {
                   },
                   {
                     "size": 127573,
-                    "caption": "base 127.6k",
+                    "id": "base 127.6k",
                     "children": [
-                      {"size": 16280, "caption": "httpclient.cc 16.3k"},
-                      {"size": 10294, "caption": "httpcommon.cc 10.3k"},
-                      {"size": 10172, "caption": "socketadapters.cc 10.2k"},
-                      {"size": 7547, "caption": "unixfilesystem.cc 7.5k"},
-                      {"size": 7199, "caption": "proxydetect.cc 7.2k"},
-                      {"size": 7057, "caption": "httpbase.cc 7.1k"},
-                      {"size": 5426, "caption": "stream.cc 5.4k"},
-                      {"size": 5387, "caption": "messagequeue.cc 5.4k"},
-                      {"size": 4761, "caption": "fileutils.cc 4.8k"},
-                      {"size": 4568, "caption": "socketaddress.cc 4.6k"},
-                      {"size": 4501, "caption": "asynctcpsocket.cc 4.5k"},
-                      {"size": 3615, "caption": "signalthread.cc 3.6k"},
-                      {"size": 3602, "caption": "autodetectproxy.cc 3.6k"},
-                      {"size": 3590, "caption": "task.cc 3.6k"},
-                      {"size": 3319, "caption": "physicalsocketserver.cc 3.3k"},
-                      {"size": 3066, "caption": "network.cc 3.1k"},
-                      {"size": 3050, "caption": "thread.cc 3.0k"},
-                      {"size": 2655, "caption": "diskcache.cc 2.7k"},
-                      {"size": 2424, "caption": "md5c.c 2.4k"},
-                      {"size": 2411, "caption": "asyncpacketsocket.cc 2.4k"},
-                      {"size": 2129, "caption": "taskrunner.cc 2.1k"},
-                      {"size": 2111, "caption": "pathutils.cc 2.1k"},
-                      {"size": 1772, "caption": "socketpool.cc 1.8k"},
-                      {"size": 1751, "caption": "firewallsocketserver.cc 1.8k"},
-                      {"size": 1642, "caption": "asynchttprequest.cc 1.6k"},
-                      {"size": 1029, "caption": "nethelpers.cc 1.0k"},
-                      {"size": 905, "caption": "base64.cc 905"},
-                      {"size": 888, "caption": "taskparent.cc 888"},
-                      {"size": 854, "caption": "asyncudpsocket.cc 854"},
-                      {"size": 832, "caption": "bytebuffer.cc 832"},
-                      {"size": 715, "caption": "sslsocketfactory.cc 715"},
-                      {"size": 508, "caption": "urlencode.cc 508"},
-                      {"size": 321, "caption": "stringdigest.cc 321"},
-                      {"size": 295, "caption": "stringutils.cc 295"},
-                      {"size": 232, "caption": "helpers.cc 232"},
-                      {"size": 225, "caption": "stringencode.cc 225"},
-                      {"size": 157, "caption": "time.cc 157"},
-                      {"size": 124, "caption": "messagehandler.cc 124"},
-                      {"size": 84, "caption": "stringutils.h 84"},
-                      {"size": 43, "caption": "proxyinfo.cc 43"},
-                      {"size": 27, "caption": "ssladapter.cc 27"},
-                      {"size": 5, "caption": "logging.cc 5"}
+                      {"size": 16280, "id": "httpclient.cc 16.3k"},
+                      {"size": 10294, "id": "httpcommon.cc 10.3k"},
+                      {"size": 10172, "id": "socketadapters.cc 10.2k"},
+                      {"size": 7547, "id": "unixfilesystem.cc 7.5k"},
+                      {"size": 7199, "id": "proxydetect.cc 7.2k"},
+                      {"size": 7057, "id": "httpbase.cc 7.1k"},
+                      {"size": 5426, "id": "stream.cc 5.4k"},
+                      {"size": 5387, "id": "messagequeue.cc 5.4k"},
+                      {"size": 4761, "id": "fileutils.cc 4.8k"},
+                      {"size": 4568, "id": "socketaddress.cc 4.6k"},
+                      {"size": 4501, "id": "asynctcpsocket.cc 4.5k"},
+                      {"size": 3615, "id": "signalthread.cc 3.6k"},
+                      {"size": 3602, "id": "autodetectproxy.cc 3.6k"},
+                      {"size": 3590, "id": "task.cc 3.6k"},
+                      {"size": 3319, "id": "physicalsocketserver.cc 3.3k"},
+                      {"size": 3066, "id": "network.cc 3.1k"},
+                      {"size": 3050, "id": "thread.cc 3.0k"},
+                      {"size": 2655, "id": "diskcache.cc 2.7k"},
+                      {"size": 2424, "id": "md5c.c 2.4k"},
+                      {"size": 2411, "id": "asyncpacketsocket.cc 2.4k"},
+                      {"size": 2129, "id": "taskrunner.cc 2.1k"},
+                      {"size": 2111, "id": "pathutils.cc 2.1k"},
+                      {"size": 1772, "id": "socketpool.cc 1.8k"},
+                      {"size": 1751, "id": "firewallsocketserver.cc 1.8k"},
+                      {"size": 1642, "id": "asynchttprequest.cc 1.6k"},
+                      {"size": 1029, "id": "nethelpers.cc 1.0k"},
+                      {"size": 905, "id": "base64.cc 905"},
+                      {"size": 888, "id": "taskparent.cc 888"},
+                      {"size": 854, "id": "asyncudpsocket.cc 854"},
+                      {"size": 832, "id": "bytebuffer.cc 832"},
+                      {"size": 715, "id": "sslsocketfactory.cc 715"},
+                      {"size": 508, "id": "urlencode.cc 508"},
+                      {"size": 321, "id": "stringdigest.cc 321"},
+                      {"size": 295, "id": "stringutils.cc 295"},
+                      {"size": 232, "id": "helpers.cc 232"},
+                      {"size": 225, "id": "stringencode.cc 225"},
+                      {"size": 157, "id": "time.cc 157"},
+                      {"size": 124, "id": "messagehandler.cc 124"},
+                      {"size": 84, "id": "stringutils.h 84"},
+                      {"size": 43, "id": "proxyinfo.cc 43"},
+                      {"size": 27, "id": "ssladapter.cc 27"},
+                      {"size": 5, "id": "logging.cc 5"}
                     ]
                   },
                   {
                     "size": 61649,
-                    "caption": "xmpp 61.6k",
+                    "id": "xmpp 61.6k",
                     "children": [
-                      {"size": 25154, "caption": "constants.cc 25.2k"},
-                      {"size": 9447, "caption": "xmppclient.cc 9.4k"},
-                      {"size": 8261, "caption": "xmppengineimpl.cc 8.3k"},
-                      {"size": 5482, "caption": "jid.cc 5.5k"},
-                      {"size": 4806, "caption": "xmpplogintask.cc 4.8k"},
-                      {"size": 4219, "caption": "xmpptask.cc 4.2k"},
-                      {"size": 3668, "caption": "xmppengineimpl_iq.cc 3.7k"},
-                      {"size": 404, "caption": "xmppstanzaparser.cc 404"},
-                      {"size": 208, "caption": "saslmechanism.cc 208"}
+                      {"size": 25154, "id": "constants.cc 25.2k"},
+                      {"size": 9447, "id": "xmppclient.cc 9.4k"},
+                      {"size": 8261, "id": "xmppengineimpl.cc 8.3k"},
+                      {"size": 5482, "id": "jid.cc 5.5k"},
+                      {"size": 4806, "id": "xmpplogintask.cc 4.8k"},
+                      {"size": 4219, "id": "xmpptask.cc 4.2k"},
+                      {"size": 3668, "id": "xmppengineimpl_iq.cc 3.7k"},
+                      {"size": 404, "id": "xmppstanzaparser.cc 404"},
+                      {"size": 208, "id": "saslmechanism.cc 208"}
                     ]
                   },
                   {
                     "size": 16725,
-                    "caption": "xmllite 16.7k",
+                    "id": "xmllite 16.7k",
                     "children": [
-                      {"size": 4609, "caption": "xmlelement.cc 4.6k"},
-                      {"size": 4404, "caption": "xmlnsstack.cc 4.4k"},
-                      {"size": 3044, "caption": "xmlprinter.cc 3.0k"},
-                      {"size": 2527, "caption": "xmlparser.cc 2.5k"},
-                      {"size": 1654, "caption": "xmlbuilder.cc 1.7k"},
-                      {"size": 487, "caption": "xmlconstants.cc 487"}
+                      {"size": 4609, "id": "xmlelement.cc 4.6k"},
+                      {"size": 4404, "id": "xmlnsstack.cc 4.4k"},
+                      {"size": 3044, "id": "xmlprinter.cc 3.0k"},
+                      {"size": 2527, "id": "xmlparser.cc 2.5k"},
+                      {"size": 1654, "id": "xmlbuilder.cc 1.7k"},
+                      {"size": 487, "id": "xmlconstants.cc 487"}
                     ]
                   },
                   {
                     "size": 15230,
-                    "caption": "session 15.2k",
+                    "id": "session 15.2k",
                     "children": [{
                       "size": 15230,
-                      "caption": "tunnel 15.2k",
+                      "id": "tunnel 15.2k",
                       "children": [
                         {
                           "size": 8114,
-                          "caption": "tunnelsessionclient.cc 8.1k"
+                          "id": "tunnelsessionclient.cc 8.1k"
                         },
                         {
                           "size": 7116,
-                          "caption": "pseudotcpchannel.cc 7.1k"
+                          "id": "pseudotcpchannel.cc 7.1k"
                         }
                       ]
                     }]
@@ -3532,14 +3532,14 @@ export default {
             },
             {
               "size": 735,
-              "caption": "overrides 735",
+              "id": "overrides 735",
               "children": [{
                 "size": 735,
-                "caption": "talk 735",
+                "id": "talk 735",
                 "children": [{
                   "size": 735,
-                  "caption": "xmllite 735",
-                  "children": [{"size": 735, "caption": "qname.cc 735"}]
+                  "id": "xmllite 735",
+                  "children": [{"size": 735, "id": "qname.cc 735"}]
                 }]
               }]
             }
@@ -3547,141 +3547,141 @@ export default {
         },
         {
           "size": 259998,
-          "caption": "skia 260.0k",
+          "id": "skia 260.0k",
           "children": [{
             "size": 259998,
-            "caption": "src 260.0k",
+            "id": "src 260.0k",
             "children": [
               {
                 "size": 235887,
-                "caption": "core 235.9k",
+                "id": "core 235.9k",
                 "children": [
-                  {"size": 20247, "caption": "SkDraw.cpp 20.2k"},
+                  {"size": 20247, "id": "SkDraw.cpp 20.2k"},
                   {
                     "size": 17907,
-                    "caption": "SkBitmapProcState_sample.h 17.9k"
+                    "id": "SkBitmapProcState_sample.h 17.9k"
                   },
-                  {"size": 14974, "caption": "SkCanvas.cpp 15.0k"},
-                  {"size": 11898, "caption": "SkBlitter_RGB16.cpp 11.9k"},
-                  {"size": 10522, "caption": "SkPath.cpp 10.5k"},
-                  {"size": 10379, "caption": "SkPaint.cpp 10.4k"},
-                  {"size": 8405, "caption": "SkMatrix.cpp 8.4k"},
-                  {"size": 7717, "caption": "SkRegion.cpp 7.7k"},
-                  {"size": 7437, "caption": "SkXfermode.cpp 7.4k"},
-                  {"size": 6733, "caption": "SkBlitter.cpp 6.7k"},
-                  {"size": 6699, "caption": "SkBlitter_4444.cpp 6.7k"},
-                  {"size": 6407, "caption": "SkBlitter_ARGB32.cpp 6.4k"},
-                  {"size": 6217, "caption": "SkBitmapProcState_matrix.h 6.2k"},
-                  {"size": 6074, "caption": "SkGeometry.cpp 6.1k"},
-                  {"size": 6019, "caption": "SkBitmap.cpp 6.0k"},
-                  {"size": 5723, "caption": "SkStroke.cpp 5.7k"},
-                  {"size": 5233, "caption": "SkScalerContext.cpp 5.2k"},
-                  {"size": 4827, "caption": "SkScan_Antihair.cpp 4.8k"},
-                  {"size": 4817, "caption": "SkPicturePlayback.cpp 4.8k"},
-                  {"size": 4476, "caption": "SkBlitter_A8.cpp 4.5k"},
-                  {"size": 4192, "caption": "SkPathMeasure.cpp 4.2k"},
-                  {"size": 4073, "caption": "SkEdgeClipper.cpp 4.1k"},
-                  {"size": 2827, "caption": "SkScan_Hairline.cpp 2.8k"},
-                  {"size": 2764, "caption": "SkEdge.cpp 2.8k"},
-                  {"size": 2657, "caption": "SkGlyphCache.cpp 2.7k"},
-                  {"size": 2455, "caption": "SkRegion_path.cpp 2.5k"},
-                  {"size": 2376, "caption": "SkScan_Path.cpp 2.4k"},
-                  {"size": 2223, "caption": "SkStrokerPriv.cpp 2.2k"},
-                  {"size": 1991, "caption": "SkScan_AntiPath.cpp 2.0k"},
-                  {"size": 1979, "caption": "SkBitmapProcShader.cpp 2.0k"},
-                  {"size": 1935, "caption": "SkBlitRow_D4444.cpp 1.9k"},
+                  {"size": 14974, "id": "SkCanvas.cpp 15.0k"},
+                  {"size": 11898, "id": "SkBlitter_RGB16.cpp 11.9k"},
+                  {"size": 10522, "id": "SkPath.cpp 10.5k"},
+                  {"size": 10379, "id": "SkPaint.cpp 10.4k"},
+                  {"size": 8405, "id": "SkMatrix.cpp 8.4k"},
+                  {"size": 7717, "id": "SkRegion.cpp 7.7k"},
+                  {"size": 7437, "id": "SkXfermode.cpp 7.4k"},
+                  {"size": 6733, "id": "SkBlitter.cpp 6.7k"},
+                  {"size": 6699, "id": "SkBlitter_4444.cpp 6.7k"},
+                  {"size": 6407, "id": "SkBlitter_ARGB32.cpp 6.4k"},
+                  {"size": 6217, "id": "SkBitmapProcState_matrix.h 6.2k"},
+                  {"size": 6074, "id": "SkGeometry.cpp 6.1k"},
+                  {"size": 6019, "id": "SkBitmap.cpp 6.0k"},
+                  {"size": 5723, "id": "SkStroke.cpp 5.7k"},
+                  {"size": 5233, "id": "SkScalerContext.cpp 5.2k"},
+                  {"size": 4827, "id": "SkScan_Antihair.cpp 4.8k"},
+                  {"size": 4817, "id": "SkPicturePlayback.cpp 4.8k"},
+                  {"size": 4476, "id": "SkBlitter_A8.cpp 4.5k"},
+                  {"size": 4192, "id": "SkPathMeasure.cpp 4.2k"},
+                  {"size": 4073, "id": "SkEdgeClipper.cpp 4.1k"},
+                  {"size": 2827, "id": "SkScan_Hairline.cpp 2.8k"},
+                  {"size": 2764, "id": "SkEdge.cpp 2.8k"},
+                  {"size": 2657, "id": "SkGlyphCache.cpp 2.7k"},
+                  {"size": 2455, "id": "SkRegion_path.cpp 2.5k"},
+                  {"size": 2376, "id": "SkScan_Path.cpp 2.4k"},
+                  {"size": 2223, "id": "SkStrokerPriv.cpp 2.2k"},
+                  {"size": 1991, "id": "SkScan_AntiPath.cpp 2.0k"},
+                  {"size": 1979, "id": "SkBitmapProcShader.cpp 2.0k"},
+                  {"size": 1935, "id": "SkBlitRow_D4444.cpp 1.9k"},
                   {
                     "size": 1886,
-                    "caption": "SkBitmapProcState_matrixProcs.cpp 1.9k"
+                    "id": "SkBitmapProcState_matrixProcs.cpp 1.9k"
                   },
-                  {"size": 1705, "caption": "SkBlitRow_D16.cpp 1.7k"},
+                  {"size": 1705, "id": "SkBlitRow_D16.cpp 1.7k"},
                   {
                     "size": 1693,
-                    "caption": "SkBitmapProcState_shaderproc.h 1.7k"
+                    "id": "SkBitmapProcState_shaderproc.h 1.7k"
                   },
-                  {"size": 1640, "caption": "SkComposeShader.cpp 1.6k"},
-                  {"size": 1608, "caption": "SkShader.cpp 1.6k"},
-                  {"size": 1552, "caption": "SkLineClipper.cpp 1.6k"},
-                  {"size": 1518, "caption": "SkPackBits.cpp 1.5k"},
-                  {"size": 1293, "caption": "SkEdgeBuilder.cpp 1.3k"},
-                  {"size": 1285, "caption": "SkMath.cpp 1.3k"},
-                  {"size": 1235, "caption": "SkFlattenable.cpp 1.2k"},
-                  {"size": 1130, "caption": "SkString.cpp 1.1k"},
-                  {"size": 982, "caption": "SkBitmapProcState.cpp 982"},
-                  {"size": 894, "caption": "SkSpriteBlitter_RGB16.cpp 894"},
-                  {"size": 813, "caption": "SkColorFilter.cpp 813"},
-                  {"size": 795, "caption": "SkUtils.cpp 795"},
-                  {"size": 790, "caption": "SkColor.cpp 790"},
-                  {"size": 788, "caption": "SkDevice.cpp 788"},
-                  {"size": 751, "caption": "SkBlitBWMaskTemplate.h 751"},
-                  {"size": 734, "caption": "SkBlitter_ARGB32_Subpixel.cpp 734"},
-                  {"size": 721, "caption": "SkRect.cpp 721"},
-                  {"size": 665, "caption": "Sk64.cpp 665"},
-                  {"size": 662, "caption": "SkColorTable.cpp 662"},
-                  {"size": 659, "caption": "SkBlitRow_D32.cpp 659"},
-                  {"size": 651, "caption": "SkPixelRef.cpp 651"},
-                  {"size": 589, "caption": "SkDeque.cpp 589"},
-                  {"size": 539, "caption": "SkScan.cpp 539"},
-                  {"size": 537, "caption": "SkSpriteBlitter_ARGB32.cpp 537"},
-                  {"size": 465, "caption": "SkPictureFlat.cpp 465"},
-                  {"size": 453, "caption": "SkTSearch.cpp 453"},
-                  {"size": 440, "caption": "SkStream.cpp 440"},
-                  {"size": 435, "caption": "SkAlphaRuns.cpp 435"},
-                  {"size": 411, "caption": "SkWriter32.cpp 411"},
-                  {"size": 357, "caption": "SkPoint.cpp 357"},
-                  {"size": 337, "caption": "SkPtrRecorder.cpp 337"},
-                  {"size": 333, "caption": "SkBlitter_Sprite.cpp 333"},
-                  {"size": 323, "caption": "SkChunkAlloc.cpp 323"},
-                  {"size": 319, "caption": "SkMaskFilter.cpp 319"},
-                  {"size": 307, "caption": "SkFloatBits.cpp 307"},
-                  {"size": 240, "caption": "SkRasterizer.cpp 240"},
-                  {"size": 230, "caption": "SkTypeface.cpp 230"},
-                  {"size": 215, "caption": "SkBlitter_A1.cpp 215"},
-                  {"size": 171, "caption": "SkPicture.cpp 171"},
-                  {"size": 153, "caption": "SkShape.cpp 153"},
-                  {"size": 106, "caption": "SkMask.cpp 106"},
-                  {"size": 86, "caption": "SkUnPreMultiply.cpp 86"},
-                  {"size": 60, "caption": "SkRefCnt.cpp 60"},
-                  {"size": 52, "caption": "SkGlobals.cpp 52"},
-                  {"size": 50, "caption": "SkBuffer.cpp 50"},
-                  {"size": 46, "caption": "SkFontHost.cpp 46"}
+                  {"size": 1640, "id": "SkComposeShader.cpp 1.6k"},
+                  {"size": 1608, "id": "SkShader.cpp 1.6k"},
+                  {"size": 1552, "id": "SkLineClipper.cpp 1.6k"},
+                  {"size": 1518, "id": "SkPackBits.cpp 1.5k"},
+                  {"size": 1293, "id": "SkEdgeBuilder.cpp 1.3k"},
+                  {"size": 1285, "id": "SkMath.cpp 1.3k"},
+                  {"size": 1235, "id": "SkFlattenable.cpp 1.2k"},
+                  {"size": 1130, "id": "SkString.cpp 1.1k"},
+                  {"size": 982, "id": "SkBitmapProcState.cpp 982"},
+                  {"size": 894, "id": "SkSpriteBlitter_RGB16.cpp 894"},
+                  {"size": 813, "id": "SkColorFilter.cpp 813"},
+                  {"size": 795, "id": "SkUtils.cpp 795"},
+                  {"size": 790, "id": "SkColor.cpp 790"},
+                  {"size": 788, "id": "SkDevice.cpp 788"},
+                  {"size": 751, "id": "SkBlitBWMaskTemplate.h 751"},
+                  {"size": 734, "id": "SkBlitter_ARGB32_Subpixel.cpp 734"},
+                  {"size": 721, "id": "SkRect.cpp 721"},
+                  {"size": 665, "id": "Sk64.cpp 665"},
+                  {"size": 662, "id": "SkColorTable.cpp 662"},
+                  {"size": 659, "id": "SkBlitRow_D32.cpp 659"},
+                  {"size": 651, "id": "SkPixelRef.cpp 651"},
+                  {"size": 589, "id": "SkDeque.cpp 589"},
+                  {"size": 539, "id": "SkScan.cpp 539"},
+                  {"size": 537, "id": "SkSpriteBlitter_ARGB32.cpp 537"},
+                  {"size": 465, "id": "SkPictureFlat.cpp 465"},
+                  {"size": 453, "id": "SkTSearch.cpp 453"},
+                  {"size": 440, "id": "SkStream.cpp 440"},
+                  {"size": 435, "id": "SkAlphaRuns.cpp 435"},
+                  {"size": 411, "id": "SkWriter32.cpp 411"},
+                  {"size": 357, "id": "SkPoint.cpp 357"},
+                  {"size": 337, "id": "SkPtrRecorder.cpp 337"},
+                  {"size": 333, "id": "SkBlitter_Sprite.cpp 333"},
+                  {"size": 323, "id": "SkChunkAlloc.cpp 323"},
+                  {"size": 319, "id": "SkMaskFilter.cpp 319"},
+                  {"size": 307, "id": "SkFloatBits.cpp 307"},
+                  {"size": 240, "id": "SkRasterizer.cpp 240"},
+                  {"size": 230, "id": "SkTypeface.cpp 230"},
+                  {"size": 215, "id": "SkBlitter_A1.cpp 215"},
+                  {"size": 171, "id": "SkPicture.cpp 171"},
+                  {"size": 153, "id": "SkShape.cpp 153"},
+                  {"size": 106, "id": "SkMask.cpp 106"},
+                  {"size": 86, "id": "SkUnPreMultiply.cpp 86"},
+                  {"size": 60, "id": "SkRefCnt.cpp 60"},
+                  {"size": 52, "id": "SkGlobals.cpp 52"},
+                  {"size": 50, "id": "SkBuffer.cpp 50"},
+                  {"size": 46, "id": "SkFontHost.cpp 46"}
                 ]
               },
               {
                 "size": 13496,
-                "caption": "effects 13.5k",
+                "id": "effects 13.5k",
                 "children": [
-                  {"size": 7667, "caption": "SkGradientShader.cpp 7.7k"},
-                  {"size": 1779, "caption": "SkBlurMask.cpp 1.8k"},
-                  {"size": 1544, "caption": "SkDashPathEffect.cpp 1.5k"},
-                  {"size": 1326, "caption": "SkCornerPathEffect.cpp 1.3k"},
-                  {"size": 795, "caption": "SkBlurDrawLooper.cpp 795"},
-                  {"size": 385, "caption": "SkBlurMaskFilter.cpp 385"}
+                  {"size": 7667, "id": "SkGradientShader.cpp 7.7k"},
+                  {"size": 1779, "id": "SkBlurMask.cpp 1.8k"},
+                  {"size": 1544, "id": "SkDashPathEffect.cpp 1.5k"},
+                  {"size": 1326, "id": "SkCornerPathEffect.cpp 1.3k"},
+                  {"size": 795, "id": "SkBlurDrawLooper.cpp 795"},
+                  {"size": 385, "id": "SkBlurMaskFilter.cpp 385"}
                 ]
               },
               {
                 "size": 8267,
-                "caption": "ports 8.3k",
+                "id": "ports 8.3k",
                 "children": [
-                  {"size": 6028, "caption": "SkFontHost_FreeType.cpp 6.0k"},
-                  {"size": 1102, "caption": "SkFontHost_tables.cpp 1.1k"}, {
+                  {"size": 6028, "id": "SkFontHost_FreeType.cpp 6.0k"},
+                  {"size": 1102, "id": "SkFontHost_tables.cpp 1.1k"}, {
                     "size": 746,
-                    "caption": "SkFontHost_FreeType_Subpixel.cpp 746"
+                    "id": "SkFontHost_FreeType_Subpixel.cpp 746"
                   },
-                  {"size": 363, "caption": "SkThread_pthread.cpp 363"},
-                  {"size": 28, "caption": "SkFontHost_gamma_none.cpp 28"}
+                  {"size": 363, "id": "SkThread_pthread.cpp 363"},
+                  {"size": 28, "id": "SkFontHost_gamma_none.cpp 28"}
                 ]
               },
               {
                 "size": 2348,
-                "caption": "opts 2.3k",
+                "id": "opts 2.3k",
                 "children": [
-                  {"size": 1401, "caption": "SkBlitRow_opts_SSE2.cpp 1.4k"}, {
+                  {"size": 1401, "id": "SkBlitRow_opts_SSE2.cpp 1.4k"}, {
                     "size": 557,
-                    "caption": "SkBitmapProcState_opts_SSE2.cpp 557"
+                    "id": "SkBitmapProcState_opts_SSE2.cpp 557"
                   },
-                  {"size": 202, "caption": "SkUtils_opts_SSE2.cpp 202"},
-                  {"size": 188, "caption": "opts_check_SSE2.cpp 188"}
+                  {"size": 202, "id": "SkUtils_opts_SSE2.cpp 202"},
+                  {"size": 188, "id": "opts_check_SSE2.cpp 188"}
                 ]
               }
             ]
@@ -3689,55 +3689,55 @@ export default {
         },
         {
           "size": 211679,
-          "caption": "protobuf2 211.7k",
+          "id": "protobuf2 211.7k",
           "children": [{
             "size": 211679,
-            "caption": "src 211.7k",
+            "id": "src 211.7k",
             "children": [{
               "size": 211679,
-              "caption": "src 211.7k",
+              "id": "src 211.7k",
               "children": [{
                 "size": 211679,
-                "caption": "google 211.7k",
+                "id": "google 211.7k",
                 "children": [{
                   "size": 211679,
-                  "caption": "protobuf 211.7k",
+                  "id": "protobuf 211.7k",
                   "children": [
-                    {"size": 58838, "caption": "descriptor.pb.cc 58.8k"},
-                    {"size": 55928, "caption": "descriptor.cc 55.9k"},
-                    {"size": 22751, "caption": "extension_set.cc 22.8k"}, {
+                    {"size": 58838, "id": "descriptor.pb.cc 58.8k"},
+                    {"size": 55928, "id": "descriptor.cc 55.9k"},
+                    {"size": 22751, "id": "extension_set.cc 22.8k"}, {
                       "size": 20250,
-                      "caption": "generated_message_reflection.cc 20.2k"
+                      "id": "generated_message_reflection.cc 20.2k"
                     },
-                    {"size": 13753, "caption": "wire_format.cc 13.8k"}, {
+                    {"size": 13753, "id": "wire_format.cc 13.8k"}, {
                       "size": 9960,
-                      "caption": "stubs 10.0k",
+                      "id": "stubs 10.0k",
                       "children": [
-                        {"size": 4947, "caption": "strutil.cc 4.9k"},
-                        {"size": 2530, "caption": "common.cc 2.5k"},
-                        {"size": 1245, "caption": "substitute.cc 1.2k"},
-                        {"size": 1238, "caption": "map-util.h 1.2k"}
+                        {"size": 4947, "id": "strutil.cc 4.9k"},
+                        {"size": 2530, "id": "common.cc 2.5k"},
+                        {"size": 1245, "id": "substitute.cc 1.2k"},
+                        {"size": 1238, "id": "map-util.h 1.2k"}
                       ]
                     },
-                    {"size": 7788, "caption": "extension_set_heavy.cc 7.8k"}, {
+                    {"size": 7788, "id": "extension_set_heavy.cc 7.8k"}, {
                       "size": 6862,
-                      "caption": "io 6.9k",
+                      "id": "io 6.9k",
                       "children": [
-                        {"size": 5146, "caption": "coded_stream.cc 5.1k"}, {
+                        {"size": 5146, "id": "coded_stream.cc 5.1k"}, {
                           "size": 1612,
-                          "caption": "zero_copy_stream_impl_lite.cc 1.6k"
+                          "id": "zero_copy_stream_impl_lite.cc 1.6k"
                         },
-                        {"size": 104, "caption": "zero_copy_stream.cc 104"}
+                        {"size": 104, "id": "zero_copy_stream.cc 104"}
                       ]
                     },
-                    {"size": 4032, "caption": "reflection_ops.cc 4.0k"},
-                    {"size": 3502, "caption": "message.cc 3.5k"},
-                    {"size": 2234, "caption": "wire_format_lite.cc 2.2k"},
-                    {"size": 2152, "caption": "message_lite.cc 2.2k"},
-                    {"size": 2067, "caption": "unknown_field_set.cc 2.1k"},
-                    {"size": 1084, "caption": "descriptor_database.cc 1.1k"},
-                    {"size": 402, "caption": "repeated_field.cc 402"},
-                    {"size": 76, "caption": "descriptor.pb.h 76"}
+                    {"size": 4032, "id": "reflection_ops.cc 4.0k"},
+                    {"size": 3502, "id": "message.cc 3.5k"},
+                    {"size": 2234, "id": "wire_format_lite.cc 2.2k"},
+                    {"size": 2152, "id": "message_lite.cc 2.2k"},
+                    {"size": 2067, "id": "unknown_field_set.cc 2.1k"},
+                    {"size": 1084, "id": "descriptor_database.cc 1.1k"},
+                    {"size": 402, "id": "repeated_field.cc 402"},
+                    {"size": 76, "id": "descriptor.pb.h 76"}
                   ]
                 }]
               }]
@@ -3746,332 +3746,332 @@ export default {
         },
         {
           "size": 140467,
-          "caption": "hunspell 140.5k",
+          "id": "hunspell 140.5k",
           "children": [
             {
               "size": 134620,
-              "caption": "src 134.6k",
+              "id": "src 134.6k",
               "children": [{
                 "size": 134620,
-                "caption": "hunspell 134.6k",
+                "id": "hunspell 134.6k",
                 "children": [
-                  {"size": 50975, "caption": "affixmgr.cxx 51.0k"},
-                  {"size": 27334, "caption": "suggestmgr.cxx 27.3k"},
-                  {"size": 22248, "caption": "hunspell.cxx 22.2k"},
-                  {"size": 15804, "caption": "affentry.cxx 15.8k"},
-                  {"size": 8173, "caption": "hashmgr.cxx 8.2k"},
-                  {"size": 6519, "caption": "csutil.cxx 6.5k"},
-                  {"size": 2680, "caption": "phonet.cxx 2.7k"},
-                  {"size": 809, "caption": "replist.cxx 809"},
-                  {"size": 78, "caption": "filemgr.cxx 78"}
+                  {"size": 50975, "id": "affixmgr.cxx 51.0k"},
+                  {"size": 27334, "id": "suggestmgr.cxx 27.3k"},
+                  {"size": 22248, "id": "hunspell.cxx 22.2k"},
+                  {"size": 15804, "id": "affentry.cxx 15.8k"},
+                  {"size": 8173, "id": "hashmgr.cxx 8.2k"},
+                  {"size": 6519, "id": "csutil.cxx 6.5k"},
+                  {"size": 2680, "id": "phonet.cxx 2.7k"},
+                  {"size": 809, "id": "replist.cxx 809"},
+                  {"size": 78, "id": "filemgr.cxx 78"}
                 ]
               }]
             },
             {
               "size": 5847,
-              "caption": "google 5.8k",
+              "id": "google 5.8k",
               "children":
-                  [{"size": 5847, "caption": "bdict_reader.cc 5.8k"}]
+                  [{"size": 5847, "id": "bdict_reader.cc 5.8k"}]
             }
           ]
         },
         {
           "size": 125728,
-          "caption": "libxslt 125.7k",
+          "id": "libxslt 125.7k",
           "children": [{
             "size": 125728,
-            "caption": "libxslt 125.7k",
+            "id": "libxslt 125.7k",
             "children": [
-              {"size": 29105, "caption": "transform.c 29.1k"},
-              {"size": 14872, "caption": "pattern.c 14.9k"},
-              {"size": 14746, "caption": "xslt.c 14.7k"},
-              {"size": 10775, "caption": "numbers.c 10.8k"},
-              {"size": 8995, "caption": "xsltutils.c 9.0k"},
-              {"size": 8724, "caption": "preproc.c 8.7k"},
-              {"size": 7961, "caption": "variables.c 8.0k"},
-              {"size": 6166, "caption": "functions.c 6.2k"},
-              {"size": 4092, "caption": "attributes.c 4.1k"},
-              {"size": 3978, "caption": "keys.c 4.0k"},
-              {"size": 3444, "caption": "extensions.c 3.4k"},
-              {"size": 2841, "caption": "templates.c 2.8k"},
-              {"size": 2301, "caption": "namespaces.c 2.3k"},
-              {"size": 1936, "caption": "attrvt.c 1.9k"},
-              {"size": 1892, "caption": "extra.c 1.9k"},
-              {"size": 1620, "caption": "imports.c 1.6k"},
-              {"size": 1347, "caption": "documents.c 1.3k"},
-              {"size": 890, "caption": "security.c 890"},
-              {"size": 43, "caption": "xsltlocale.c 43"}
+              {"size": 29105, "id": "transform.c 29.1k"},
+              {"size": 14872, "id": "pattern.c 14.9k"},
+              {"size": 14746, "id": "xslt.c 14.7k"},
+              {"size": 10775, "id": "numbers.c 10.8k"},
+              {"size": 8995, "id": "xsltutils.c 9.0k"},
+              {"size": 8724, "id": "preproc.c 8.7k"},
+              {"size": 7961, "id": "variables.c 8.0k"},
+              {"size": 6166, "id": "functions.c 6.2k"},
+              {"size": 4092, "id": "attributes.c 4.1k"},
+              {"size": 3978, "id": "keys.c 4.0k"},
+              {"size": 3444, "id": "extensions.c 3.4k"},
+              {"size": 2841, "id": "templates.c 2.8k"},
+              {"size": 2301, "id": "namespaces.c 2.3k"},
+              {"size": 1936, "id": "attrvt.c 1.9k"},
+              {"size": 1892, "id": "extra.c 1.9k"},
+              {"size": 1620, "id": "imports.c 1.6k"},
+              {"size": 1347, "id": "documents.c 1.3k"},
+              {"size": 890, "id": "security.c 890"},
+              {"size": 43, "id": "xsltlocale.c 43"}
             ]
           }]
         },
         {
           "size": 122650,
-          "caption": "angle 122.7k",
+          "id": "angle 122.7k",
           "children": [{
             "size": 122650,
-            "caption": "src 122.7k",
+            "id": "src 122.7k",
             "children": [{
               "size": 122650,
-              "caption": "compiler 122.7k",
+              "id": "compiler 122.7k",
               "children": [
-                {"size": 33415, "caption": "Initialize.cpp 33.4k"},
+                {"size": 33415, "id": "Initialize.cpp 33.4k"},
                 {
                   "size": 18672,
-                  "caption": "preprocessor 18.7k",
+                  "id": "preprocessor 18.7k",
                   "children": [
-                    {"size": 8214, "caption": "cpp.c 8.2k"},
-                    {"size": 4275, "caption": "scanner.c 4.3k"},
-                    {"size": 2498, "caption": "tokens.c 2.5k"},
-                    {"size": 2286, "caption": "atom.c 2.3k"},
-                    {"size": 600, "caption": "symbols.c 600"},
-                    {"size": 407, "caption": "cppstruct.c 407"},
-                    {"size": 392, "caption": "memory.c 392"}
+                    {"size": 8214, "id": "cpp.c 8.2k"},
+                    {"size": 4275, "id": "scanner.c 4.3k"},
+                    {"size": 2498, "id": "tokens.c 2.5k"},
+                    {"size": 2286, "id": "atom.c 2.3k"},
+                    {"size": 600, "id": "symbols.c 600"},
+                    {"size": 407, "id": "cppstruct.c 407"},
+                    {"size": 392, "id": "memory.c 392"}
                   ]
                 },
-                {"size": 17255, "caption": "ParseHelper.cpp 17.3k"},
-                {"size": 14862, "caption": "OutputGLSL.cpp 14.9k"},
-                {"size": 13253, "caption": "Intermediate.cpp 13.3k"},
-                {"size": 9796, "caption": "intermOut.cpp 9.8k"},
-                {"size": 5374, "caption": "SymbolTable.cpp 5.4k"},
-                {"size": 2787, "caption": "ShaderLang.cpp 2.8k"},
-                {"size": 2127, "caption": "parseConst.cpp 2.1k"},
-                {"size": 1559, "caption": "InfoSink.cpp 1.6k"},
-                {"size": 1227, "caption": "IntermTraverse.cpp 1.2k"},
-                {"size": 948, "caption": "PoolAlloc.cpp 948"},
-                {"size": 328, "caption": "InitializeDll.cpp 328"},
-                {"size": 251, "caption": "SymbolTable.h 251"},
-                {"size": 219, "caption": "RemoveTree.cpp 219"},
-                {"size": 195, "caption": "Types.h 195"},
-                {"size": 176, "caption": "TranslatorGLSL.cpp 176"},
-                {"size": 106, "caption": "ossource_posix.cpp 106"},
-                {"size": 71, "caption": "CodeGenGLSL.cpp 71"},
-                {"size": 29, "caption": "ConstantUnion.h 29"}
+                {"size": 17255, "id": "ParseHelper.cpp 17.3k"},
+                {"size": 14862, "id": "OutputGLSL.cpp 14.9k"},
+                {"size": 13253, "id": "Intermediate.cpp 13.3k"},
+                {"size": 9796, "id": "intermOut.cpp 9.8k"},
+                {"size": 5374, "id": "SymbolTable.cpp 5.4k"},
+                {"size": 2787, "id": "ShaderLang.cpp 2.8k"},
+                {"size": 2127, "id": "parseConst.cpp 2.1k"},
+                {"size": 1559, "id": "InfoSink.cpp 1.6k"},
+                {"size": 1227, "id": "IntermTraverse.cpp 1.2k"},
+                {"size": 948, "id": "PoolAlloc.cpp 948"},
+                {"size": 328, "id": "InitializeDll.cpp 328"},
+                {"size": 251, "id": "SymbolTable.h 251"},
+                {"size": 219, "id": "RemoveTree.cpp 219"},
+                {"size": 195, "id": "Types.h 195"},
+                {"size": 176, "id": "TranslatorGLSL.cpp 176"},
+                {"size": 106, "id": "ossource_posix.cpp 106"},
+                {"size": 71, "id": "CodeGenGLSL.cpp 71"},
+                {"size": 29, "id": "ConstantUnion.h 29"}
               ]
             }]
           }]
         },
         {
           "size": 99741,
-          "caption": "tcmalloc 99.7k",
+          "id": "tcmalloc 99.7k",
           "children": [{
             "size": 99741,
-            "caption": "chromium 99.7k",
+            "id": "chromium 99.7k",
             "children": [{
               "size": 99741,
-              "caption": "src 99.7k",
+              "id": "src 99.7k",
               "children": [
-                {"size": 49208, "caption": "tcmalloc.cc 49.2k"},
+                {"size": 49208, "id": "tcmalloc.cc 49.2k"},
                 {
                   "size": 9845,
-                  "caption": "base 9.8k",
+                  "id": "base 9.8k",
                   "children": [
-                    {"size": 3685, "caption": "sysinfo.cc 3.7k"},
-                    {"size": 2801, "caption": "low_level_alloc.cc 2.8k"},
-                    {"size": 2762, "caption": "vdso_support.cc 2.8k"},
-                    {"size": 364, "caption": "spinlock.cc 364"},
-                    {"size": 166, "caption": "logging.cc 166"},
-                    {"size": 67, "caption": "linux_syscall_support.h 67"}
+                    {"size": 3685, "id": "sysinfo.cc 3.7k"},
+                    {"size": 2801, "id": "low_level_alloc.cc 2.8k"},
+                    {"size": 2762, "id": "vdso_support.cc 2.8k"},
+                    {"size": 364, "id": "spinlock.cc 364"},
+                    {"size": 166, "id": "logging.cc 166"},
+                    {"size": 67, "id": "linux_syscall_support.h 67"}
                   ]
                 },
-                {"size": 9212, "caption": "memory_region_map.cc 9.2k"},
-                {"size": 5001, "caption": "page_heap.cc 5.0k"},
-                {"size": 3206, "caption": "thread_cache.cc 3.2k"},
-                {"size": 3191, "caption": "heap-profiler.cc 3.2k"},
-                {"size": 2471, "caption": "heap-profile-table.cc 2.5k"},
-                {"size": 2311, "caption": "profile-handler.cc 2.3k"},
-                {"size": 2220, "caption": "central_freelist.cc 2.2k"},
-                {"size": 1808, "caption": "profiledata.cc 1.8k"},
-                {"size": 1700, "caption": "system-alloc.cc 1.7k"},
-                {"size": 1677, "caption": "malloc_extension.cc 1.7k"},
-                {"size": 1535, "caption": "malloc_hook.cc 1.5k"},
-                {"size": 1338, "caption": "common.cc 1.3k"},
-                {"size": 1060, "caption": "profiler.cc 1.1k"},
-                {"size": 940, "caption": "stack_trace_table.cc 940"},
-                {"size": 784, "caption": "static_vars.cc 784"},
-                {"size": 751, "caption": "stacktrace_x86-inl.h 751"},
-                {"size": 551, "caption": "sampler.cc 551"},
-                {"size": 413, "caption": "internal_logging.cc 413"},
-                {"size": 318, "caption": "span.cc 318"},
-                {"size": 201, "caption": "maybe_threads.cc 201"}
+                {"size": 9212, "id": "memory_region_map.cc 9.2k"},
+                {"size": 5001, "id": "page_heap.cc 5.0k"},
+                {"size": 3206, "id": "thread_cache.cc 3.2k"},
+                {"size": 3191, "id": "heap-profiler.cc 3.2k"},
+                {"size": 2471, "id": "heap-profile-table.cc 2.5k"},
+                {"size": 2311, "id": "profile-handler.cc 2.3k"},
+                {"size": 2220, "id": "central_freelist.cc 2.2k"},
+                {"size": 1808, "id": "profiledata.cc 1.8k"},
+                {"size": 1700, "id": "system-alloc.cc 1.7k"},
+                {"size": 1677, "id": "malloc_extension.cc 1.7k"},
+                {"size": 1535, "id": "malloc_hook.cc 1.5k"},
+                {"size": 1338, "id": "common.cc 1.3k"},
+                {"size": 1060, "id": "profiler.cc 1.1k"},
+                {"size": 940, "id": "stack_trace_table.cc 940"},
+                {"size": 784, "id": "static_vars.cc 784"},
+                {"size": 751, "id": "stacktrace_x86-inl.h 751"},
+                {"size": 551, "id": "sampler.cc 551"},
+                {"size": 413, "id": "internal_logging.cc 413"},
+                {"size": 318, "id": "span.cc 318"},
+                {"size": 201, "id": "maybe_threads.cc 201"}
               ]
             }]
           }]
         },
         {
           "size": 98931,
-          "caption": "harfbuzz 98.9k",
+          "id": "harfbuzz 98.9k",
           "children": [
             {
               "size": 97724,
-              "caption": "src 97.7k",
+              "id": "src 97.7k",
               "children": [
-                {"size": 34721, "caption": "harfbuzz-gpos.c 34.7k"},
-                {"size": 26058, "caption": "harfbuzz-gsub.c 26.1k"},
-                {"size": 7136, "caption": "harfbuzz-open.c 7.1k"},
-                {"size": 6636, "caption": "harfbuzz-indic.cpp 6.6k"},
-                {"size": 5580, "caption": "harfbuzz-shaper.cpp 5.6k"},
-                {"size": 4455, "caption": "harfbuzz-gdef.c 4.5k"},
-                {"size": 2889, "caption": "harfbuzz-arabic.c 2.9k"},
-                {"size": 2389, "caption": "harfbuzz-khmer.c 2.4k"},
-                {"size": 2023, "caption": "harfbuzz-myanmar.c 2.0k"},
-                {"size": 1395, "caption": "harfbuzz-hangul.c 1.4k"},
-                {"size": 1388, "caption": "harfbuzz-buffer.c 1.4k"},
-                {"size": 1243, "caption": "harfbuzz-hebrew.c 1.2k"},
-                {"size": 1097, "caption": "harfbuzz-tibetan.c 1.1k"},
-                {"size": 399, "caption": "harfbuzz-thai.c 399"},
-                {"size": 167, "caption": "harfbuzz-stream.c 167"},
-                {"size": 148, "caption": "harfbuzz-impl.c 148"}
+                {"size": 34721, "id": "harfbuzz-gpos.c 34.7k"},
+                {"size": 26058, "id": "harfbuzz-gsub.c 26.1k"},
+                {"size": 7136, "id": "harfbuzz-open.c 7.1k"},
+                {"size": 6636, "id": "harfbuzz-indic.cpp 6.6k"},
+                {"size": 5580, "id": "harfbuzz-shaper.cpp 5.6k"},
+                {"size": 4455, "id": "harfbuzz-gdef.c 4.5k"},
+                {"size": 2889, "id": "harfbuzz-arabic.c 2.9k"},
+                {"size": 2389, "id": "harfbuzz-khmer.c 2.4k"},
+                {"size": 2023, "id": "harfbuzz-myanmar.c 2.0k"},
+                {"size": 1395, "id": "harfbuzz-hangul.c 1.4k"},
+                {"size": 1388, "id": "harfbuzz-buffer.c 1.4k"},
+                {"size": 1243, "id": "harfbuzz-hebrew.c 1.2k"},
+                {"size": 1097, "id": "harfbuzz-tibetan.c 1.1k"},
+                {"size": 399, "id": "harfbuzz-thai.c 399"},
+                {"size": 167, "id": "harfbuzz-stream.c 167"},
+                {"size": 148, "id": "harfbuzz-impl.c 148"}
               ]
             },
             {
               "size": 1207,
-              "caption": "contrib 1.2k",
+              "id": "contrib 1.2k",
               "children": [
-                {"size": 901, "caption": "harfbuzz-unicode.c 901"},
-                {"size": 306, "caption": "harfbuzz-unicode-tables.c 306"}
+                {"size": 901, "id": "harfbuzz-unicode.c 901"},
+                {"size": 306, "id": "harfbuzz-unicode-tables.c 306"}
               ]
             }
           ]
         },
         {
           "size": 60275,
-          "caption": "ots 60.3k",
+          "id": "ots 60.3k",
           "children": [{
             "size": 60275,
-            "caption": "src 60.3k",
+            "id": "src 60.3k",
             "children": [
-              {"size": 7732, "caption": "cff.cc 7.7k"},
-              {"size": 7518, "caption": "cmap.cc 7.5k"},
-              {"size": 5058, "caption": "ots.cc 5.1k"},
-              {"size": 4644, "caption": "cff_type2_charstring.cc 4.6k"},
-              {"size": 4587, "caption": "vdmx.cc 4.6k"},
-              {"size": 3621, "caption": "os2.cc 3.6k"},
-              {"size": 3357, "caption": "kern.cc 3.4k"},
-              {"size": 2851, "caption": "hdmx.cc 2.9k"},
-              {"size": 2798, "caption": "name.cc 2.8k"},
-              {"size": 2770, "caption": "post.cc 2.8k"},
-              {"size": 2313, "caption": "glyf.cc 2.3k"},
-              {"size": 1866, "caption": "vorg.cc 1.9k"},
-              {"size": 1793, "caption": "head.cc 1.8k"},
-              {"size": 1587, "caption": "hmtx.cc 1.6k"},
-              {"size": 1556, "caption": "gasp.cc 1.6k"},
-              {"size": 1526, "caption": "maxp.cc 1.5k"},
-              {"size": 1343, "caption": "hhea.cc 1.3k"},
-              {"size": 1205, "caption": "ltsh.cc 1.2k"},
-              {"size": 1019, "caption": "loca.cc 1.0k"},
-              {"size": 383, "caption": "cvt.cc 383"},
-              {"size": 374, "caption": "prep.cc 374"},
-              {"size": 374, "caption": "fpgm.cc 374"}
+              {"size": 7732, "id": "cff.cc 7.7k"},
+              {"size": 7518, "id": "cmap.cc 7.5k"},
+              {"size": 5058, "id": "ots.cc 5.1k"},
+              {"size": 4644, "id": "cff_type2_charstring.cc 4.6k"},
+              {"size": 4587, "id": "vdmx.cc 4.6k"},
+              {"size": 3621, "id": "os2.cc 3.6k"},
+              {"size": 3357, "id": "kern.cc 3.4k"},
+              {"size": 2851, "id": "hdmx.cc 2.9k"},
+              {"size": 2798, "id": "name.cc 2.8k"},
+              {"size": 2770, "id": "post.cc 2.8k"},
+              {"size": 2313, "id": "glyf.cc 2.3k"},
+              {"size": 1866, "id": "vorg.cc 1.9k"},
+              {"size": 1793, "id": "head.cc 1.8k"},
+              {"size": 1587, "id": "hmtx.cc 1.6k"},
+              {"size": 1556, "id": "gasp.cc 1.6k"},
+              {"size": 1526, "id": "maxp.cc 1.5k"},
+              {"size": 1343, "id": "hhea.cc 1.3k"},
+              {"size": 1205, "id": "ltsh.cc 1.2k"},
+              {"size": 1019, "id": "loca.cc 1.0k"},
+              {"size": 383, "id": "cvt.cc 383"},
+              {"size": 374, "id": "prep.cc 374"},
+              {"size": 374, "id": "fpgm.cc 374"}
             ]
           }]
         },
         {
           "size": 53675,
-          "caption": "speex 53.7k",
+          "id": "speex 53.7k",
           "children": [{
             "size": 53675,
-            "caption": "libspeex 53.7k",
+            "id": "libspeex 53.7k",
             "children": [
-              {"size": 16702, "caption": "nb_celp.c 16.7k"},
-              {"size": 11418, "caption": "sb_celp.c 11.4k"},
-              {"size": 5806, "caption": "ltp.c 5.8k"},
-              {"size": 4969, "caption": "filters.c 5.0k"},
-              {"size": 4685, "caption": "cb_search.c 4.7k"},
-              {"size": 2998, "caption": "quant_lsp.c 3.0k"},
-              {"size": 2446, "caption": "vbr.c 2.4k"},
-              {"size": 1972, "caption": "lsp.c 2.0k"},
-              {"size": 872, "caption": "bits.c 872"},
-              {"size": 708, "caption": "vq.c 708"},
-              {"size": 459, "caption": "lpc.c 459"},
-              {"size": 331, "caption": "speex.c 331"},
-              {"size": 187, "caption": "speex_callbacks.c 187"},
-              {"size": 122, "caption": "modes_wb.c 122"}
+              {"size": 16702, "id": "nb_celp.c 16.7k"},
+              {"size": 11418, "id": "sb_celp.c 11.4k"},
+              {"size": 5806, "id": "ltp.c 5.8k"},
+              {"size": 4969, "id": "filters.c 5.0k"},
+              {"size": 4685, "id": "cb_search.c 4.7k"},
+              {"size": 2998, "id": "quant_lsp.c 3.0k"},
+              {"size": 2446, "id": "vbr.c 2.4k"},
+              {"size": 1972, "id": "lsp.c 2.0k"},
+              {"size": 872, "id": "bits.c 872"},
+              {"size": 708, "id": "vq.c 708"},
+              {"size": 459, "id": "lpc.c 459"},
+              {"size": 331, "id": "speex.c 331"},
+              {"size": 187, "id": "speex_callbacks.c 187"},
+              {"size": 122, "id": "modes_wb.c 122"}
             ]
           }]
         },
         {
           "size": 20504,
-          "caption": "cld 20.5k",
+          "id": "cld 20.5k",
           "children": [
             {
               "size": 20329,
-              "caption": "encodings 20.3k",
+              "id": "encodings 20.3k",
               "children": [
                 {
                   "size": 20319,
-                  "caption": "compact_lang_det 20.3k",
+                  "id": "compact_lang_det 20.3k",
                   "children": [
-                    {"size": 9580, "caption": "compact_lang_det_impl.cc 9.6k"},
-                    {"size": 5823, "caption": "cldutil.cc 5.8k"}, {
+                    {"size": 9580, "id": "compact_lang_det_impl.cc 9.6k"},
+                    {"size": 5823, "id": "cldutil.cc 5.8k"}, {
                       "size": 1771,
-                      "caption": "win 1.8k",
+                      "id": "win 1.8k",
                       "children": [
-                        {"size": 1068, "caption": "cld_utf8statetable.cc 1.1k"},
-                        {"size": 615, "caption": "cld_unicodetext.cc 615"},
-                        {"size": 58, "caption": "cld_htmlutils_windows.cc 58"},
-                        {"size": 18, "caption": "cld_unilib_windows.cc 18"}, {
+                        {"size": 1068, "id": "cld_utf8statetable.cc 1.1k"},
+                        {"size": 615, "id": "cld_unicodetext.cc 615"},
+                        {"size": 58, "id": "cld_htmlutils_windows.cc 58"},
+                        {"size": 18, "id": "cld_unilib_windows.cc 18"}, {
                           "size": 12,
-                          "caption": "cld_utf8utils_windows.cc 12"
+                          "id": "cld_utf8utils_windows.cc 12"
                         }
                       ]
                     },
-                    {"size": 1626, "caption": "getonescriptspan.cc 1.6k"},
-                    {"size": 1203, "caption": "tote.cc 1.2k"},
-                    {"size": 135, "caption": "compact_lang_det.cc 135"},
-                    {"size": 126, "caption": "ext_lang_enc.cc 126"},
-                    {"size": 55, "caption": "cldutil_dbg_empty.cc 55"}
+                    {"size": 1626, "id": "getonescriptspan.cc 1.6k"},
+                    {"size": 1203, "id": "tote.cc 1.2k"},
+                    {"size": 135, "id": "compact_lang_det.cc 135"},
+                    {"size": 126, "id": "ext_lang_enc.cc 126"},
+                    {"size": 55, "id": "cldutil_dbg_empty.cc 55"}
                   ]
                 },
                 {
                   "size": 10,
-                  "caption": "internal 10",
-                  "children": [{"size": 10, "caption": "encodings.cc 10"}]
+                  "id": "internal 10",
+                  "children": [{"size": 10, "id": "encodings.cc 10"}]
                 }
               ]
             },
             {
               "size": 175,
-              "caption": "languages 175",
+              "id": "languages 175",
               "children": [{
                 "size": 175,
-                "caption": "internal 175",
-                "children": [{"size": 175, "caption": "languages.cc 175"}]
+                "id": "internal 175",
+                "children": [{"size": 175, "id": "languages.cc 175"}]
               }]
             }
           ]
         },
         {
           "size": 19314,
-          "caption": "cacheinvalidation 19.3k",
+          "id": "cacheinvalidation 19.3k",
           "children": [
             {
               "size": 19241,
-              "caption": "files 19.2k",
+              "id": "files 19.2k",
               "children": [{
                 "size": 19241,
-                "caption": "src 19.2k",
+                "id": "src 19.2k",
                 "children": [{
                   "size": 19241,
-                  "caption": "google 19.2k",
+                  "id": "google 19.2k",
                   "children": [{
                     "size": 19241,
-                    "caption": "cacheinvalidation 19.2k",
+                    "id": "cacheinvalidation 19.2k",
                     "children": [
                       {
                         "size": 7205,
-                        "caption": "registration-update-manager.cc 7.2k"
+                        "id": "registration-update-manager.cc 7.2k"
                       },
                       {
                         "size": 3517,
-                        "caption": "invalidation-client-impl.cc 3.5k"
+                        "id": "invalidation-client-impl.cc 3.5k"
                       },
-                      {"size": 3121, "caption": "session-manager.cc 3.1k"},
-                      {"size": 2139, "caption": "network-manager.cc 2.1k"},
-                      {"size": 1434, "caption": "throttle.cc 1.4k"},
-                      {"size": 1330, "caption": "invalidation-client.cc 1.3k"},
+                      {"size": 3121, "id": "session-manager.cc 3.1k"},
+                      {"size": 2139, "id": "network-manager.cc 2.1k"},
+                      {"size": 1434, "id": "throttle.cc 1.4k"},
+                      {"size": 1330, "id": "invalidation-client.cc 1.3k"},
                       {
                         "size": 495,
-                        "caption": "version-manager.cc 495"
+                        "id": "version-manager.cc 495"
                       }
                     ]
                   }]
@@ -4080,14 +4080,14 @@ export default {
             },
             {
               "size": 73,
-              "caption": "overrides 73",
+              "id": "overrides 73",
               "children": [{
                 "size": 73,
-                "caption": "google 73",
+                "id": "google 73",
                 "children": [{
                   "size": 73,
-                  "caption": "cacheinvalidation 73",
-                  "children": [{"size": 73, "caption": "callback.h 73"}]
+                  "id": "cacheinvalidation 73",
+                  "children": [{"size": 73, "id": "callback.h 73"}]
                 }]
               }]
             }
@@ -4095,2218 +4095,2218 @@ export default {
         },
         {
           "size": 12826,
-          "caption": "zlib 12.8k",
+          "id": "zlib 12.8k",
           "children": [{
             "size": 12826,
-            "caption": "contrib 12.8k",
+            "id": "contrib 12.8k",
             "children": [{
               "size": 12826,
-              "caption": "minizip 12.8k",
+              "id": "minizip 12.8k",
               "children": [
-                {"size": 7091, "caption": "zip.c 7.1k"},
-                {"size": 5249, "caption": "unzip.c 5.2k"},
-                {"size": 336, "caption": "ioapi.c 336"},
-                {"size": 150, "caption": "crypt.h 150"}
+                {"size": 7091, "id": "zip.c 7.1k"},
+                {"size": 5249, "id": "unzip.c 5.2k"},
+                {"size": 336, "id": "ioapi.c 336"},
+                {"size": 150, "id": "crypt.h 150"}
               ]
             }]
           }]
         },
         {
           "size": 12472,
-          "caption": "ppapi 12.5k",
+          "id": "ppapi 12.5k",
           "children": [{
             "size": 12472,
-            "caption": "cpp 12.5k",
+            "id": "cpp 12.5k",
             "children": [
-              {"size": 4659, "caption": "module.cc 4.7k"},
-              {"size": 3554, "caption": "scriptable_object.cc 3.6k"},
-              {"size": 1320, "caption": "var.cc 1.3k"},
-              {"size": 837, "caption": "image_data.cc 837"},
-              {"size": 827, "caption": "device_context_2d.cc 827"},
-              {"size": 520, "caption": "resource.cc 520"},
-              {"size": 467, "caption": "instance.cc 467"},
-              {"size": 118, "caption": "widget.cc 118"},
-              {"size": 59, "caption": "scrollbar.cc 59"},
-              {"size": 59, "caption": "url_loader.cc 59"},
-              {"size": 52, "caption": "core.cc 52"}
+              {"size": 4659, "id": "module.cc 4.7k"},
+              {"size": 3554, "id": "scriptable_object.cc 3.6k"},
+              {"size": 1320, "id": "var.cc 1.3k"},
+              {"size": 837, "id": "image_data.cc 837"},
+              {"size": 827, "id": "device_context_2d.cc 827"},
+              {"size": 520, "id": "resource.cc 520"},
+              {"size": 467, "id": "instance.cc 467"},
+              {"size": 118, "id": "widget.cc 118"},
+              {"size": 59, "id": "scrollbar.cc 59"},
+              {"size": 59, "id": "url_loader.cc 59"},
+              {"size": 52, "id": "core.cc 52"}
             ]
           }]
         },
         {
           "size": 10564,
-          "caption": "libevent 10.6k",
+          "id": "libevent 10.6k",
           "children": [
-            {"size": 3845, "caption": "event.c 3.8k"},
-            {"size": 1579, "caption": "select.c 1.6k"},
-            {"size": 1561, "caption": "signal.c 1.6k"},
-            {"size": 1456, "caption": "epoll.c 1.5k"},
-            {"size": 1435, "caption": "poll.c 1.4k"},
-            {"size": 448, "caption": "log.c 448"},
-            {"size": 240, "caption": "evutil.c 240"}
+            {"size": 3845, "id": "event.c 3.8k"},
+            {"size": 1579, "id": "select.c 1.6k"},
+            {"size": 1561, "id": "signal.c 1.6k"},
+            {"size": 1456, "id": "epoll.c 1.5k"},
+            {"size": 1435, "id": "poll.c 1.4k"},
+            {"size": 448, "id": "log.c 448"},
+            {"size": 240, "id": "evutil.c 240"}
           ]
         },
         {
           "size": 844,
-          "caption": "modp_b64 844",
-          "children": [{"size": 844, "caption": "modp_b64.cc 844"}]
+          "id": "modp_b64 844",
+          "children": [{"size": 844, "id": "modp_b64.cc 844"}]
         }
       ]
     },
     {
       "size": 6624206,
-      "caption": "/chrome 6.6m",
+      "id": "/chrome 6.6m",
       "children": [
         {
           "size": 5478758,
-          "caption": "browser 5.5m",
+          "id": "browser 5.5m",
           "children": [
             {
               "size": 707725,
-              "caption": "sync 707.7k",
+              "id": "sync 707.7k",
               "children": [
                 {
                   "size": 305286,
-                  "caption": "glue 305.3k",
+                  "id": "glue 305.3k",
                   "children": [
                     {
                       "size": 19506,
-                      "caption": "autofill_change_processor.cc 19.5k"
+                      "id": "autofill_change_processor.cc 19.5k"
                     },
                     {
                       "size": 18232,
-                      "caption": "autofill_model_associator.cc 18.2k"
+                      "id": "autofill_model_associator.cc 18.2k"
                     },
                     {
                       "size": 17648,
-                      "caption": "typed_url_model_associator.cc 17.6k"
+                      "id": "typed_url_model_associator.cc 17.6k"
                     },
-                    {"size": 17557, "caption": "sync_backend_host.cc 17.6k"},
+                    {"size": 17557, "id": "sync_backend_host.cc 17.6k"},
                     {
                       "size": 17334,
-                      "caption": "bookmark_change_processor.cc 17.3k"
+                      "id": "bookmark_change_processor.cc 17.3k"
                     },
                     {
                       "size": 15765,
-                      "caption": "bookmark_model_associator.cc 15.8k"
+                      "id": "bookmark_model_associator.cc 15.8k"
                     },
                     {
                       "size": 14985,
-                      "caption": "typed_url_change_processor.cc 15.0k"
+                      "id": "typed_url_change_processor.cc 15.0k"
                     },
                     {
                       "size": 14821,
-                      "caption": "password_model_associator.cc 14.8k"
+                      "id": "password_model_associator.cc 14.8k"
                     },
-                    {"size": 12073, "caption": "extension_sync.cc 12.1k"},
+                    {"size": 12073, "id": "extension_sync.cc 12.1k"},
                     {
                       "size": 11172,
-                      "caption": "autofill_data_type_controller.cc 11.2k"
+                      "id": "autofill_data_type_controller.cc 11.2k"
                     },
                     {
                       "size": 10628,
-                      "caption": "preference_model_associator.cc 10.6k"
+                      "id": "preference_model_associator.cc 10.6k"
                     },
                     {
                       "size": 10204,
-                      "caption": "session_model_associator.cc 10.2k"
+                      "id": "session_model_associator.cc 10.2k"
                     },
                     {
                       "size": 9993,
-                      "caption": "data_type_manager_impl.cc 10.0k"
+                      "id": "data_type_manager_impl.cc 10.0k"
                     },
                     {
                       "size": 8992,
-                      "caption": "bookmark_data_type_controller.cc 9.0k"
+                      "id": "bookmark_data_type_controller.cc 9.0k"
                     },
                     {
                       "size": 8899,
-                      "caption": "extension_change_processor.cc 8.9k"
+                      "id": "extension_change_processor.cc 8.9k"
                     },
                     {
                       "size": 8848,
-                      "caption": "password_change_processor.cc 8.8k"
+                      "id": "password_change_processor.cc 8.8k"
                     },
                     {
                       "size": 8584,
-                      "caption": "typed_url_data_type_controller.cc 8.6k"
+                      "id": "typed_url_data_type_controller.cc 8.6k"
                     },
-                    {"size": 8196, "caption": "http_bridge.cc 8.2k"},
-                    {"size": 7534, "caption": "theme_change_processor.cc 7.5k"},
-                    {"size": 6861, "caption": "extension_util.cc 6.9k"},
+                    {"size": 8196, "id": "http_bridge.cc 8.2k"},
+                    {"size": 7534, "id": "theme_change_processor.cc 7.5k"},
+                    {"size": 6861, "id": "extension_util.cc 6.9k"},
                     {
                       "size": 6470,
-                      "caption": "session_change_processor.cc 6.5k"
+                      "id": "session_change_processor.cc 6.5k"
                     },
                     {
                       "size": 6065,
-                      "caption": "preference_data_type_controller.cc 6.1k"
+                      "id": "preference_data_type_controller.cc 6.1k"
                     },
                     {
                       "size": 5828,
-                      "caption": "preference_change_processor.cc 5.8k"
+                      "id": "preference_change_processor.cc 5.8k"
                     },
                     {
                       "size": 5542,
-                      "caption": "session_data_type_controller.cc 5.5k"
+                      "id": "session_data_type_controller.cc 5.5k"
                     },
                     {
                       "size": 5514,
-                      "caption": "extension_data_type_controller.cc 5.5k"
+                      "id": "extension_data_type_controller.cc 5.5k"
                     },
                     {
                       "size": 5514,
-                      "caption": "app_data_type_controller.cc 5.5k"
+                      "id": "app_data_type_controller.cc 5.5k"
                     },
                     {
                       "size": 5514,
-                      "caption": "theme_data_type_controller.cc 5.5k"
+                      "id": "theme_data_type_controller.cc 5.5k"
                     },
                     {
                       "size": 4557,
-                      "caption": "password_data_type_controller.cc 4.6k"
+                      "id": "password_data_type_controller.cc 4.6k"
                     },
-                    {"size": 2836, "caption": "theme_util.cc 2.8k"},
-                    {"size": 2496, "caption": "ui_model_worker.cc 2.5k"},
-                    {"size": 1771, "caption": "theme_model_associator.cc 1.8k"},
-                    {"size": 1238, "caption": "extension_sync_traits.cc 1.2k"},
-                    {"size": 1232, "caption": "extension_data.cc 1.2k"},
+                    {"size": 2836, "id": "theme_util.cc 2.8k"},
+                    {"size": 2496, "id": "ui_model_worker.cc 2.5k"},
+                    {"size": 1771, "id": "theme_model_associator.cc 1.8k"},
+                    {"size": 1238, "id": "extension_sync_traits.cc 1.2k"},
+                    {"size": 1232, "id": "extension_data.cc 1.2k"},
                     {
                       "size": 1153,
-                      "caption": "extension_model_associator.cc 1.2k"
+                      "id": "extension_model_associator.cc 1.2k"
                     },
-                    {"size": 656, "caption": "change_processor.cc 656"},
-                    {"size": 558, "caption": "database_model_worker.cc 558"},
-                    {"size": 268, "caption": "password_model_worker.cc 268"},
-                    {"size": 242, "caption": "history_model_worker.cc 242"}
+                    {"size": 656, "id": "change_processor.cc 656"},
+                    {"size": 558, "id": "database_model_worker.cc 558"},
+                    {"size": 268, "id": "password_model_worker.cc 268"},
+                    {"size": 242, "id": "history_model_worker.cc 242"}
                   ]
                 },
                 {
                   "size": 204053,
-                  "caption": "engine 204.1k",
+                  "id": "engine 204.1k",
                   "children": [
-                    {"size": 38706, "caption": "syncapi.cc 38.7k"},
-                    {"size": 20724, "caption": "syncer_util.cc 20.7k"},
+                    {"size": 38706, "id": "syncapi.cc 38.7k"},
+                    {"size": 20724, "id": "syncer_util.cc 20.7k"},
                     {
                       "size": 17357,
-                      "caption":
+                      "id":
                           "build_and_process_conflict_sets_command.cc 17.4k"
                     },
-                    {"size": 13810, "caption": "auth_watcher.cc 13.8k"},
-                    {"size": 13799, "caption": "conflict_resolver.cc 13.8k"},
-                    {"size": 13632, "caption": "syncer_thread.cc 13.6k"},
+                    {"size": 13810, "id": "auth_watcher.cc 13.8k"},
+                    {"size": 13799, "id": "conflict_resolver.cc 13.8k"},
+                    {"size": 13632, "id": "syncer_thread.cc 13.6k"},
                     {
                       "size": 12388,
-                      "caption": "process_commit_response_command.cc 12.4k"
+                      "id": "process_commit_response_command.cc 12.4k"
                     },
                     {
                       "size": 10528,
-                      "caption": "get_commit_ids_command.cc 10.5k"
+                      "id": "get_commit_ids_command.cc 10.5k"
                     },
                     {
                       "size": 10044,
-                      "caption": "net 10.0k",
+                      "id": "net 10.0k",
                       "children": [
                         {
                           "size": 8123,
-                          "caption": "server_connection_manager.cc 8.1k"
+                          "id": "server_connection_manager.cc 8.1k"
                         },
                         {
                           "size": 1567,
-                          "caption": "syncapi_server_connection_manager.cc 1.6k"
+                          "id": "syncapi_server_connection_manager.cc 1.6k"
                         },
-                        {"size": 354, "caption": "url_translator.cc 354"}
+                        {"size": 354, "id": "url_translator.cc 354"}
                       ]
                     },
-                    {"size": 8204, "caption": "syncer.cc 8.2k"},
-                    {"size": 7757, "caption": "syncer_proto_util.cc 7.8k"},
-                    {"size": 6849, "caption": "build_commit_command.cc 6.8k"},
-                    {"size": 6848, "caption": "change_reorder_buffer.cc 6.8k"},
-                    {"size": 6605, "caption": "all_status.cc 6.6k"},
+                    {"size": 8204, "id": "syncer.cc 8.2k"},
+                    {"size": 7757, "id": "syncer_proto_util.cc 7.8k"},
+                    {"size": 6849, "id": "build_commit_command.cc 6.8k"},
+                    {"size": 6848, "id": "change_reorder_buffer.cc 6.8k"},
+                    {"size": 6605, "id": "all_status.cc 6.6k"},
                     {
                       "size": 2591,
-                      "caption": "download_updates_command.cc 2.6k"
+                      "id": "download_updates_command.cc 2.6k"
                     },
                     {
                       "size": 1787,
-                      "caption": "process_updates_command.cc 1.8k"
+                      "id": "process_updates_command.cc 1.8k"
                     },
-                    {"size": 1771, "caption": "verify_updates_command.cc 1.8k"},
-                    {"size": 1741, "caption": "update_applicator.cc 1.7k"},
-                    {"size": 1568, "caption": "authenticator.cc 1.6k"},
-                    {"size": 1250, "caption": "syncer_command.cc 1.2k"},
+                    {"size": 1771, "id": "verify_updates_command.cc 1.8k"},
+                    {"size": 1741, "id": "update_applicator.cc 1.7k"},
+                    {"size": 1568, "id": "authenticator.cc 1.6k"},
+                    {"size": 1250, "id": "syncer_command.cc 1.2k"},
                     {
                       "size": 1108,
-                      "caption": "store_timestamps_command.cc 1.1k"
+                      "id": "store_timestamps_command.cc 1.1k"
                     },
-                    {"size": 1015, "caption": "syncer_end_command.cc 1.0k"},
-                    {"size": 865, "caption": "apply_updates_command.cc 865"},
+                    {"size": 1015, "id": "syncer_end_command.cc 1.0k"},
+                    {"size": 865, "id": "apply_updates_command.cc 865"},
                     {
                       "size": 807,
-                      "caption": "post_commit_message_command.cc 807"
+                      "id": "post_commit_message_command.cc 807"
                     },
                     {
                       "size": 695,
-                      "caption": "cleanup_disabled_types_command.cc 695"
+                      "id": "cleanup_disabled_types_command.cc 695"
                     },
-                    {"size": 532, "caption": "model_safe_worker.cc 532"},
+                    {"size": 532, "id": "model_safe_worker.cc 532"},
                     {
                       "size": 491,
-                      "caption": "model_changing_syncer_command.cc 491"
+                      "id": "model_changing_syncer_command.cc 491"
                     },
                     {
                       "size": 324,
-                      "caption": "resolve_conflicts_command.cc 324"
+                      "id": "resolve_conflicts_command.cc 324"
                     },
-                    {"size": 257, "caption": "idle_query_linux.cc 257"}
+                    {"size": 257, "id": "idle_query_linux.cc 257"}
                   ]
                 },
                 {
                   "size": 68728,
-                  "caption": "syncable 68.7k",
+                  "id": "syncable 68.7k",
                   "children": [
-                    {"size": 40945, "caption": "syncable.cc 40.9k"}, {
+                    {"size": 40945, "id": "syncable.cc 40.9k"}, {
                       "size": 16485,
-                      "caption": "directory_backing_store.cc 16.5k"
+                      "id": "directory_backing_store.cc 16.5k"
                     },
-                    {"size": 5853, "caption": "directory_manager.cc 5.9k"},
-                    {"size": 2372, "caption": "syncable.h 2.4k"},
-                    {"size": 2256, "caption": "model_type.cc 2.3k"},
-                    {"size": 817, "caption": "syncable_id.cc 817"}
+                    {"size": 5853, "id": "directory_manager.cc 5.9k"},
+                    {"size": 2372, "id": "syncable.h 2.4k"},
+                    {"size": 2256, "id": "model_type.cc 2.3k"},
+                    {"size": 817, "id": "syncable_id.cc 817"}
                   ]
                 },
                 {
                   "size": 28351,
-                  "caption": "util 28.4k",
+                  "id": "util 28.4k",
                   "children": [
-                    {"size": 8994, "caption": "user_settings.cc 9.0k"},
-                    {"size": 6993, "caption": "nigori.cc 7.0k"},
-                    {"size": 6448, "caption": "cryptographer.cc 6.4k"}, {
+                    {"size": 8994, "id": "user_settings.cc 9.0k"},
+                    {"size": 6993, "id": "nigori.cc 7.0k"},
+                    {"size": 6448, "id": "cryptographer.cc 6.4k"}, {
                       "size": 3597,
-                      "caption": "extensions_activity_monitor.cc 3.6k"
+                      "id": "extensions_activity_monitor.cc 3.6k"
                     },
-                    {"size": 1812, "caption": "user_settings_posix.cc 1.8k"},
-                    {"size": 507, "caption": "crypto_helpers.cc 507"}
+                    {"size": 1812, "id": "user_settings_posix.cc 1.8k"},
+                    {"size": 507, "id": "crypto_helpers.cc 507"}
                   ]
                 },
                 {
                   "size": 26492,
-                  "caption": "notifier 26.5k",
+                  "id": "notifier 26.5k",
                   "children": [
                     {
                       "size": 8588,
-                      "caption": "cache_invalidation_packet_handler.cc 8.6k"
+                      "id": "cache_invalidation_packet_handler.cc 8.6k"
                     },
-                    {"size": 7306, "caption": "invalidation_util.cc 7.3k"},
-                    {"size": 3814, "caption": "server_notifier_thread.cc 3.8k"},
-                    {"size": 3102, "caption": "registration_manager.cc 3.1k"}, {
+                    {"size": 7306, "id": "invalidation_util.cc 7.3k"},
+                    {"size": 3814, "id": "server_notifier_thread.cc 3.8k"},
+                    {"size": 3102, "id": "registration_manager.cc 3.1k"}, {
                       "size": 2205,
-                      "caption": "chrome_invalidation_client.cc 2.2k"
+                      "id": "chrome_invalidation_client.cc 2.2k"
                     },
                     {
                       "size": 1477,
-                      "caption": "chrome_system_resources.cc 1.5k"
+                      "id": "chrome_system_resources.cc 1.5k"
                     }
                   ]
                 },
-                {"size": 21642, "caption": "profile_sync_service.cc 21.6k"},
-                {"size": 15474, "caption": "sync_setup_flow.cc 15.5k"}, {
+                {"size": 21642, "id": "profile_sync_service.cc 21.6k"},
+                {"size": 15474, "id": "sync_setup_flow.cc 15.5k"}, {
                   "size": 14959,
-                  "caption": "sessions 15.0k",
+                  "id": "sessions 15.0k",
                   "children": [
-                    {"size": 4901, "caption": "status_controller.cc 4.9k"},
-                    {"size": 4456, "caption": "session_state.cc 4.5k"},
-                    {"size": 3771, "caption": "ordered_commit_set.cc 3.8k"},
-                    {"size": 1831, "caption": "sync_session.cc 1.8k"}
+                    {"size": 4901, "id": "status_controller.cc 4.9k"},
+                    {"size": 4456, "id": "session_state.cc 4.5k"},
+                    {"size": 3771, "id": "ordered_commit_set.cc 3.8k"},
+                    {"size": 1831, "id": "sync_session.cc 1.8k"}
                   ]
                 },
-                {"size": 14347, "caption": "sync_setup_wizard.cc 14.3k"},
-                {"size": 4854, "caption": "sync_ui_util.cc 4.9k"},
-                {"size": 2917, "caption": "profile_sync_factory_impl.cc 2.9k"},
-                {"size": 622, "caption": "notification_method.cc 622"}
+                {"size": 14347, "id": "sync_setup_wizard.cc 14.3k"},
+                {"size": 4854, "id": "sync_ui_util.cc 4.9k"},
+                {"size": 2917, "id": "profile_sync_factory_impl.cc 2.9k"},
+                {"size": 622, "id": "notification_method.cc 622"}
               ]
             },
             {
               "size": 636286,
-              "caption": "gtk 636.3k",
+              "id": "gtk 636.3k",
               "children": [
                 {
                   "size": 113387,
-                  "caption": "options 113.4k",
+                  "id": "options 113.4k",
                   "children": [
                     {
                       "size": 17723,
-                      "caption": "advanced_contents_gtk.cc 17.7k"
+                      "id": "advanced_contents_gtk.cc 17.7k"
                     },
-                    {"size": 13319, "caption": "general_page_gtk.cc 13.3k"},
-                    {"size": 10666, "caption": "content_page_gtk.cc 10.7k"},
-                    {"size": 8508, "caption": "languages_page_gtk.cc 8.5k"},
+                    {"size": 13319, "id": "general_page_gtk.cc 13.3k"},
+                    {"size": 10666, "id": "content_page_gtk.cc 10.7k"},
+                    {"size": 8508, "id": "languages_page_gtk.cc 8.5k"},
                     {
                       "size": 8060,
-                      "caption": "content_exceptions_window_gtk.cc 8.1k"
+                      "id": "content_exceptions_window_gtk.cc 8.1k"
                     },
-                    {"size": 7648, "caption": "passwords_page_gtk.cc 7.6k"},
-                    {"size": 6435, "caption": "cookies_view.cc 6.4k"},
+                    {"size": 7648, "id": "passwords_page_gtk.cc 7.6k"},
+                    {"size": 6435, "id": "cookies_view.cc 6.4k"},
                     {
                       "size": 5190,
-                      "caption": "passwords_exceptions_page_gtk.cc 5.2k"
+                      "id": "passwords_exceptions_page_gtk.cc 5.2k"
                     },
-                    {"size": 5133, "caption": "url_picker_dialog_gtk.cc 5.1k"},
-                    {"size": 4404, "caption": "fonts_page_gtk.cc 4.4k"},
-                    {"size": 4396, "caption": "cookie_filter_page_gtk.cc 4.4k"},
+                    {"size": 5133, "id": "url_picker_dialog_gtk.cc 5.1k"},
+                    {"size": 4404, "id": "fonts_page_gtk.cc 4.4k"},
+                    {"size": 4396, "id": "cookie_filter_page_gtk.cc 4.4k"},
                     {
                       "size": 3940,
-                      "caption": "content_settings_window_gtk.cc 3.9k"
+                      "id": "content_settings_window_gtk.cc 3.9k"
                     },
                     {
                       "size": 3556,
-                      "caption": "content_filter_page_gtk.cc 3.6k"
+                      "id": "content_filter_page_gtk.cc 3.6k"
                     },
                     {
                       "size": 3080,
-                      "caption": "simple_content_exceptions_window.cc 3.1k"
+                      "id": "simple_content_exceptions_window.cc 3.1k"
                     },
-                    {"size": 2674, "caption": "options_window_gtk.cc 2.7k"},
+                    {"size": 2674, "id": "options_window_gtk.cc 2.7k"},
                     {
                       "size": 2596,
-                      "caption": "content_exception_editor.cc 2.6k"
+                      "id": "content_exception_editor.cc 2.6k"
                     },
-                    {"size": 1585, "caption": "advanced_page_gtk.cc 1.6k"},
+                    {"size": 1585, "id": "advanced_page_gtk.cc 1.6k"},
                     {
                       "size": 1427,
-                      "caption": "fonts_languages_window_gtk.cc 1.4k"
+                      "id": "fonts_languages_window_gtk.cc 1.4k"
                     },
                     {
                       "size": 1233,
-                      "caption": "passwords_exceptions_window_gtk.cc 1.2k"
+                      "id": "passwords_exceptions_window_gtk.cc 1.2k"
                     },
-                    {"size": 1187, "caption": "options_layout_gtk.cc 1.2k"},
+                    {"size": 1187, "id": "options_layout_gtk.cc 1.2k"},
                     {
                       "size": 627,
-                      "caption": "managed_prefs_banner_gtk.cc 627"
+                      "id": "managed_prefs_banner_gtk.cc 627"
                     }
                   ]
                 },
                 {
                   "size": 47376,
-                  "caption": "tabs 47.4k",
+                  "id": "tabs 47.4k",
                   "children": [
-                    {"size": 18533, "caption": "tab_strip_gtk.cc 18.5k"},
-                    {"size": 14300, "caption": "tab_renderer_gtk.cc 14.3k"}, {
+                    {"size": 18533, "id": "tab_strip_gtk.cc 18.5k"},
+                    {"size": 14300, "id": "tab_renderer_gtk.cc 14.3k"}, {
                       "size": 6507,
-                      "caption": "dragged_tab_controller_gtk.cc 6.5k"
+                      "id": "dragged_tab_controller_gtk.cc 6.5k"
                     },
-                    {"size": 4603, "caption": "tab_gtk.cc 4.6k"},
-                    {"size": 3433, "caption": "dragged_tab_gtk.cc 3.4k"}
+                    {"size": 4603, "id": "tab_gtk.cc 4.6k"},
+                    {"size": 3433, "id": "dragged_tab_gtk.cc 3.4k"}
                   ]
                 },
-                {"size": 25788, "caption": "location_bar_view_gtk.cc 25.8k"},
-                {"size": 24124, "caption": "browser_window_gtk.cc 24.1k"},
-                {"size": 20052, "caption": "bookmark_bar_gtk.cc 20.1k"},
-                {"size": 16930, "caption": "certificate_viewer.cc 16.9k"},
-                {"size": 16017, "caption": "download_item_gtk.cc 16.0k"},
+                {"size": 25788, "id": "location_bar_view_gtk.cc 25.8k"},
+                {"size": 24124, "id": "browser_window_gtk.cc 24.1k"},
+                {"size": 20052, "id": "bookmark_bar_gtk.cc 20.1k"},
+                {"size": 16930, "id": "certificate_viewer.cc 16.9k"},
+                {"size": 16017, "id": "download_item_gtk.cc 16.0k"},
                 {
                   "size": 13546,
-                  "caption": "accessibility_event_router_gtk.cc 13.5k"
+                  "id": "accessibility_event_router_gtk.cc 13.5k"
                 },
-                {"size": 12865, "caption": "find_bar_gtk.cc 12.9k"},
-                {"size": 12551, "caption": "gtk_theme_provider.cc 12.6k"},
-                {"size": 11369, "caption": "tab_contents_drag_source.cc 11.4k"},
-                {"size": 11104, "caption": "task_manager_gtk.cc 11.1k"},
-                {"size": 11044, "caption": "gtk_chrome_cookie_view.cc 11.0k"},
-                {"size": 10756, "caption": "browser_toolbar_gtk.cc 10.8k"},
-                {"size": 10008, "caption": "browser_titlebar.cc 10.0k"},
+                {"size": 12865, "id": "find_bar_gtk.cc 12.9k"},
+                {"size": 12551, "id": "gtk_theme_provider.cc 12.6k"},
+                {"size": 11369, "id": "tab_contents_drag_source.cc 11.4k"},
+                {"size": 11104, "id": "task_manager_gtk.cc 11.1k"},
+                {"size": 11044, "id": "gtk_chrome_cookie_view.cc 11.0k"},
+                {"size": 10756, "id": "browser_toolbar_gtk.cc 10.8k"},
+                {"size": 10008, "id": "browser_titlebar.cc 10.0k"},
                 {
                   "size": 9904,
-                  "caption": "browser_actions_toolbar_gtk.cc 9.9k"
+                  "id": "browser_actions_toolbar_gtk.cc 9.9k"
                 },
-                {"size": 9902, "caption": "gtk_util.cc 9.9k"},
+                {"size": 9902, "id": "gtk_util.cc 9.9k"},
                 {
                   "size": 9231,
-                  "caption": "ssl_client_certificate_selector.cc 9.2k"
+                  "id": "ssl_client_certificate_selector.cc 9.2k"
                 },
                 {
                   "size": 9128,
-                  "caption": "translate 9.1k",
+                  "id": "translate 9.1k",
                   "children": [
                     {
                       "size": 3173,
-                      "caption": "translate_infobar_base_gtk.cc 3.2k"
+                      "id": "translate_infobar_base_gtk.cc 3.2k"
                     },
                     {
                       "size": 2629,
-                      "caption": "before_translate_infobar_gtk.cc 2.6k"
+                      "id": "before_translate_infobar_gtk.cc 2.6k"
                     },
                     {
                       "size": 2331,
-                      "caption": "after_translate_infobar_gtk.cc 2.3k"
+                      "id": "after_translate_infobar_gtk.cc 2.3k"
                     },
                     {
                       "size": 995,
-                      "caption": "translate_message_infobar_gtk.cc 995"
+                      "id": "translate_message_infobar_gtk.cc 995"
                     }
                   ]
                 },
-                {"size": 8780, "caption": "keyword_editor_view.cc 8.8k"},
-                {"size": 8551, "caption": "menu_gtk.cc 8.6k"},
-                {"size": 8383, "caption": "dialogs_gtk.cc 8.4k"},
-                {"size": 7983, "caption": "bookmark_editor_gtk.cc 8.0k"},
-                {"size": 7656, "caption": "collected_cookies_gtk.cc 7.7k"},
-                {"size": 7459, "caption": "certificate_dialogs.cc 7.5k"},
-                {"size": 7300, "caption": "bookmark_utils_gtk.cc 7.3k"},
-                {"size": 6766, "caption": "bookmark_bubble_gtk.cc 6.8k"},
+                {"size": 8780, "id": "keyword_editor_view.cc 8.8k"},
+                {"size": 8551, "id": "menu_gtk.cc 8.6k"},
+                {"size": 8383, "id": "dialogs_gtk.cc 8.4k"},
+                {"size": 7983, "id": "bookmark_editor_gtk.cc 8.0k"},
+                {"size": 7656, "id": "collected_cookies_gtk.cc 7.7k"},
+                {"size": 7459, "id": "certificate_dialogs.cc 7.5k"},
+                {"size": 7300, "id": "bookmark_utils_gtk.cc 7.3k"},
+                {"size": 6766, "id": "bookmark_bubble_gtk.cc 6.8k"},
                 {
                   "size": 6731,
-                  "caption": "bookmark_menu_controller_gtk.cc 6.7k"
+                  "id": "bookmark_menu_controller_gtk.cc 6.7k"
                 },
                 {
                   "size": 6603,
-                  "caption": "notifications 6.6k",
+                  "id": "notifications 6.6k",
                   "children": [
-                    {"size": 6320, "caption": "balloon_view_gtk.cc 6.3k"},
-                    {"size": 283, "caption": "balloon_view_host_gtk.cc 283"}
+                    {"size": 6320, "id": "balloon_view_gtk.cc 6.3k"},
+                    {"size": 283, "id": "balloon_view_host_gtk.cc 283"}
                   ]
                 },
                 {
                   "size": 6367,
-                  "caption": "create_application_shortcuts_dialog_gtk.cc 6.4k"
+                  "id": "create_application_shortcuts_dialog_gtk.cc 6.4k"
                 },
-                {"size": 6324, "caption": "info_bubble_gtk.cc 6.3k"},
-                {"size": 6210, "caption": "content_setting_bubble_gtk.cc 6.2k"},
+                {"size": 6324, "id": "info_bubble_gtk.cc 6.3k"},
+                {"size": 6210, "id": "content_setting_bubble_gtk.cc 6.2k"},
                 {
                   "size": 5968,
-                  "caption": "clear_browsing_data_dialog_gtk.cc 6.0k"
+                  "id": "clear_browsing_data_dialog_gtk.cc 6.0k"
                 },
-                {"size": 5778, "caption": "about_chrome_dialog.cc 5.8k"},
-                {"size": 5615, "caption": "rounded_window.cc 5.6k"},
-                {"size": 5492, "caption": "infobar_gtk.cc 5.5k"},
-                {"size": 5344, "caption": "edit_search_engine_dialog.cc 5.3k"},
-                {"size": 5110, "caption": "page_info_window_gtk.cc 5.1k"},
+                {"size": 5778, "id": "about_chrome_dialog.cc 5.8k"},
+                {"size": 5615, "id": "rounded_window.cc 5.6k"},
+                {"size": 5492, "id": "infobar_gtk.cc 5.5k"},
+                {"size": 5344, "id": "edit_search_engine_dialog.cc 5.3k"},
+                {"size": 5110, "id": "page_info_window_gtk.cc 5.1k"},
                 {
                   "size": 4956,
-                  "caption": "external_protocol_dialog_gtk.cc 5.0k"
+                  "id": "external_protocol_dialog_gtk.cc 5.0k"
                 },
-                {"size": 4819, "caption": "status_bubble_gtk.cc 4.8k"},
-                {"size": 4578, "caption": "import_progress_dialog_gtk.cc 4.6k"},
-                {"size": 4217, "caption": "custom_button.cc 4.2k"},
-                {"size": 3828, "caption": "bookmark_tree_model.cc 3.8k"},
-                {"size": 3733, "caption": "gtk_custom_menu_item.cc 3.7k"},
+                {"size": 4819, "id": "status_bubble_gtk.cc 4.8k"},
+                {"size": 4578, "id": "import_progress_dialog_gtk.cc 4.6k"},
+                {"size": 4217, "id": "custom_button.cc 4.2k"},
+                {"size": 3828, "id": "bookmark_tree_model.cc 3.8k"},
+                {"size": 3733, "id": "gtk_custom_menu_item.cc 3.7k"},
                 {
                   "size": 3715,
-                  "caption": "extension_installed_bubble_gtk.cc 3.7k"
+                  "id": "extension_installed_bubble_gtk.cc 3.7k"
                 },
-                {"size": 3580, "caption": "reload_button_gtk.cc 3.6k"},
-                {"size": 3517, "caption": "import_dialog_gtk.cc 3.5k"},
-                {"size": 3513, "caption": "gtk_tree.cc 3.5k"},
-                {"size": 3221, "caption": "download_shelf_gtk.cc 3.2k"},
-                {"size": 3219, "caption": "first_run_dialog.cc 3.2k"},
-                {"size": 3104, "caption": "first_run_bubble.cc 3.1k"},
-                {"size": 3076, "caption": "menu_bar_helper.cc 3.1k"},
-                {"size": 2872, "caption": "hung_renderer_dialog_gtk.cc 2.9k"},
+                {"size": 3580, "id": "reload_button_gtk.cc 3.6k"},
+                {"size": 3517, "id": "import_dialog_gtk.cc 3.5k"},
+                {"size": 3513, "id": "gtk_tree.cc 3.5k"},
+                {"size": 3221, "id": "download_shelf_gtk.cc 3.2k"},
+                {"size": 3219, "id": "first_run_dialog.cc 3.2k"},
+                {"size": 3104, "id": "first_run_bubble.cc 3.1k"},
+                {"size": 3076, "id": "menu_bar_helper.cc 3.1k"},
+                {"size": 2872, "id": "hung_renderer_dialog_gtk.cc 2.9k"},
                 {
                   "size": 2814,
-                  "caption": "extension_install_prompt2_gtk.cc 2.8k"
+                  "id": "extension_install_prompt2_gtk.cc 2.8k"
                 },
-                {"size": 2744, "caption": "tab_contents_container_gtk.cc 2.7k"},
-                {"size": 2570, "caption": "nine_box.cc 2.6k"},
-                {"size": 2545, "caption": "gtk_chrome_link_button.cc 2.5k"},
-                {"size": 2476, "caption": "gtk_floating_container.cc 2.5k"},
-                {"size": 2129, "caption": "sad_tab_gtk.cc 2.1k"},
-                {"size": 2077, "caption": "gtk_chrome_shrinkable_hbox.cc 2.1k"},
+                {"size": 2744, "id": "tab_contents_container_gtk.cc 2.7k"},
+                {"size": 2570, "id": "nine_box.cc 2.6k"},
+                {"size": 2545, "id": "gtk_chrome_link_button.cc 2.5k"},
+                {"size": 2476, "id": "gtk_floating_container.cc 2.5k"},
+                {"size": 2129, "id": "sad_tab_gtk.cc 2.1k"},
+                {"size": 2077, "id": "gtk_chrome_shrinkable_hbox.cc 2.1k"},
                 {
                   "size": 2024,
-                  "caption": "accessible_widget_helper_gtk.cc 2.0k"
+                  "id": "accessible_widget_helper_gtk.cc 2.0k"
                 },
-                {"size": 1908, "caption": "html_dialog_gtk.cc 1.9k"},
-                {"size": 1872, "caption": "extension_popup_gtk.cc 1.9k"},
+                {"size": 1908, "id": "html_dialog_gtk.cc 1.9k"},
+                {"size": 1872, "id": "extension_popup_gtk.cc 1.9k"},
                 {
                   "size": 1854,
-                  "caption": "theme_install_bubble_view_gtk.cc 1.9k"
+                  "id": "theme_install_bubble_view_gtk.cc 1.9k"
                 },
                 {
                   "size": 1840,
-                  "caption": "download_in_progress_dialog_gtk.cc 1.8k"
+                  "id": "download_in_progress_dialog_gtk.cc 1.8k"
                 },
-                {"size": 1654, "caption": "owned_widget_gtk.cc 1.7k"},
-                {"size": 1605, "caption": "repost_form_warning_gtk.cc 1.6k"},
-                {"size": 1596, "caption": "infobar_container_gtk.cc 1.6k"},
-                {"size": 1576, "caption": "custom_drag.cc 1.6k"},
-                {"size": 1528, "caption": "back_forward_button_gtk.cc 1.5k"},
+                {"size": 1654, "id": "owned_widget_gtk.cc 1.7k"},
+                {"size": 1605, "id": "repost_form_warning_gtk.cc 1.6k"},
+                {"size": 1596, "id": "infobar_container_gtk.cc 1.6k"},
+                {"size": 1576, "id": "custom_drag.cc 1.6k"},
+                {"size": 1528, "id": "back_forward_button_gtk.cc 1.5k"},
                 {
                   "size": 1480,
-                  "caption": "extension_install_prompt_gtk.cc 1.5k"
+                  "id": "extension_install_prompt_gtk.cc 1.5k"
                 },
-                {"size": 1474, "caption": "gconf_titlebar_listener.cc 1.5k"},
-                {"size": 1453, "caption": "fullscreen_exit_bubble_gtk.cc 1.5k"},
-                {"size": 1430, "caption": "gtk_chrome_button.cc 1.4k"},
-                {"size": 1349, "caption": "gtk_expanded_container.cc 1.3k"},
-                {"size": 1297, "caption": "gtk_custom_menu.cc 1.3k"},
+                {"size": 1474, "id": "gconf_titlebar_listener.cc 1.5k"},
+                {"size": 1453, "id": "fullscreen_exit_bubble_gtk.cc 1.5k"},
+                {"size": 1430, "id": "gtk_chrome_button.cc 1.4k"},
+                {"size": 1349, "id": "gtk_expanded_container.cc 1.3k"},
+                {"size": 1297, "id": "gtk_custom_menu.cc 1.3k"},
                 {
                   "size": 1284,
-                  "caption": "download_started_animation_gtk.cc 1.3k"
+                  "id": "download_started_animation_gtk.cc 1.3k"
                 },
-                {"size": 1280, "caption": "constrained_window_gtk.cc 1.3k"},
+                {"size": 1280, "id": "constrained_window_gtk.cc 1.3k"},
                 {
                   "size": 1253,
-                  "caption": "bookmark_bar_instructions_gtk.cc 1.3k"
+                  "id": "bookmark_bar_instructions_gtk.cc 1.3k"
                 },
-                {"size": 1153, "caption": "slide_animator_gtk.cc 1.2k"},
-                {"size": 1122, "caption": "import_lock_dialog_gtk.cc 1.1k"},
-                {"size": 1110, "caption": "extension_infobar_gtk.cc 1.1k"},
-                {"size": 1005, "caption": "hover_controller_gtk.cc 1.0k"},
-                {"size": 953, "caption": "update_recommended_dialog.cc 953"},
+                {"size": 1153, "id": "slide_animator_gtk.cc 1.2k"},
+                {"size": 1122, "id": "import_lock_dialog_gtk.cc 1.1k"},
+                {"size": 1110, "id": "extension_infobar_gtk.cc 1.1k"},
+                {"size": 1005, "id": "hover_controller_gtk.cc 1.0k"},
+                {"size": 953, "id": "update_recommended_dialog.cc 953"},
                 {
                   "size": 826,
-                  "caption": "status_icons 826",
+                  "id": "status_icons 826",
                   "children": [
-                    {"size": 667, "caption": "status_icon_gtk.cc 667"},
-                    {"size": 159, "caption": "status_tray_gtk.cc 159"}
+                    {"size": 667, "id": "status_icon_gtk.cc 667"},
+                    {"size": 159, "id": "status_tray_gtk.cc 159"}
                   ]
                 },
-                {"size": 762, "caption": "view_id_util.cc 762"},
-                {"size": 701, "caption": "accelerators_gtk.cc 701"},
-                {"size": 682, "caption": "cairo_cached_surface.cc 682"},
-                {"size": 417, "caption": "extension_view_gtk.cc 417"},
-                {"size": 377, "caption": "process_singleton_dialog.cc 377"},
-                {"size": 253, "caption": "meta_frames.cc 253"},
-                {"size": 241, "caption": "focus_store_gtk.cc 241"},
-                {"size": 82, "caption": "browser_window_factory_gtk.cc 82"},
-                {"size": 35, "caption": "certificate_manager.cc 35"},
-                {"size": 5, "caption": "popup_blocked_animation_gtk.cc 5"}
+                {"size": 762, "id": "view_id_util.cc 762"},
+                {"size": 701, "id": "accelerators_gtk.cc 701"},
+                {"size": 682, "id": "cairo_cached_surface.cc 682"},
+                {"size": 417, "id": "extension_view_gtk.cc 417"},
+                {"size": 377, "id": "process_singleton_dialog.cc 377"},
+                {"size": 253, "id": "meta_frames.cc 253"},
+                {"size": 241, "id": "focus_store_gtk.cc 241"},
+                {"size": 82, "id": "browser_window_factory_gtk.cc 82"},
+                {"size": 35, "id": "certificate_manager.cc 35"},
+                {"size": 5, "id": "popup_blocked_animation_gtk.cc 5"}
               ]
             },
             {
               "size": 414026,
-              "caption": "extensions 414.0k",
+              "id": "extensions 414.0k",
               "children": [
-                {"size": 40836, "caption": "extensions_service.cc 40.8k"},
-                {"size": 34912, "caption": "extensions_ui.cc 34.9k"},
-                {"size": 22617, "caption": "extension_updater.cc 22.6k"},
-                {"size": 22404, "caption": "extension_tabs_module.cc 22.4k"},
+                {"size": 40836, "id": "extensions_service.cc 40.8k"},
+                {"size": 34912, "id": "extensions_ui.cc 34.9k"},
+                {"size": 22617, "id": "extension_updater.cc 22.6k"},
+                {"size": 22404, "id": "extension_tabs_module.cc 22.4k"},
                 {
                   "size": 20925,
-                  "caption": "extension_function_dispatcher.cc 20.9k"
+                  "id": "extension_function_dispatcher.cc 20.9k"
                 },
-                {"size": 16441, "caption": "extension_menu_manager.cc 16.4k"},
+                {"size": 16441, "id": "extension_menu_manager.cc 16.4k"},
                 {
                   "size": 15334,
-                  "caption": "extension_bookmark_manager_api.cc 15.3k"
+                  "id": "extension_bookmark_manager_api.cc 15.3k"
                 },
                 {
                   "size": 15225,
-                  "caption": "extension_bookmarks_module.cc 15.2k"
+                  "id": "extension_bookmarks_module.cc 15.2k"
                 },
-                {"size": 14254, "caption": "extension_host.cc 14.3k"},
-                {"size": 14113, "caption": "extension_prefs.cc 14.1k"},
-                {"size": 12577, "caption": "extension_cookies_api.cc 12.6k"},
+                {"size": 14254, "id": "extension_host.cc 14.3k"},
+                {"size": 14113, "id": "extension_prefs.cc 14.1k"},
+                {"size": 12577, "id": "extension_cookies_api.cc 12.6k"},
                 {
                   "size": 11526,
-                  "caption": "extension_message_service.cc 11.5k"
+                  "id": "extension_message_service.cc 11.5k"
                 },
                 {
                   "size": 10727,
-                  "caption": "extension_browser_event_router.cc 10.7k"
+                  "id": "extension_browser_event_router.cc 10.7k"
                 },
-                {"size": 9435, "caption": "crx_installer.cc 9.4k"},
-                {"size": 9147, "caption": "user_script_master.cc 9.1k"},
-                {"size": 8316, "caption": "extension_history_api.cc 8.3k"},
-                {"size": 7689, "caption": "extension_context_menu_api.cc 7.7k"},
+                {"size": 9435, "id": "crx_installer.cc 9.4k"},
+                {"size": 9147, "id": "user_script_master.cc 9.1k"},
+                {"size": 8316, "id": "extension_history_api.cc 8.3k"},
+                {"size": 7689, "id": "extension_context_menu_api.cc 7.7k"},
                 {
                   "size": 7603,
-                  "caption": "sandboxed_extension_unpacker.cc 7.6k"
+                  "id": "sandboxed_extension_unpacker.cc 7.6k"
                 },
-                {"size": 6919, "caption": "extension_toolbar_model.cc 6.9k"},
-                {"size": 6455, "caption": "extension_dom_ui.cc 6.5k"},
-                {"size": 6217, "caption": "extension_process_manager.cc 6.2k"},
-                {"size": 5649, "caption": "extension_cookies_helpers.cc 5.6k"},
-                {"size": 5459, "caption": "extension_install_ui.cc 5.5k"},
-                {"size": 4848, "caption": "convert_user_script.cc 4.8k"},
-                {"size": 4760, "caption": "extension_sidebar_api.cc 4.8k"},
-                {"size": 4686, "caption": "extension_omnibox_api.cc 4.7k"},
-                {"size": 4185, "caption": "extension_creator.cc 4.2k"},
-                {"size": 4146, "caption": "user_script_listener.cc 4.1k"},
-                {"size": 4118, "caption": "extension_protocols.cc 4.1k"},
+                {"size": 6919, "id": "extension_toolbar_model.cc 6.9k"},
+                {"size": 6455, "id": "extension_dom_ui.cc 6.5k"},
+                {"size": 6217, "id": "extension_process_manager.cc 6.2k"},
+                {"size": 5649, "id": "extension_cookies_helpers.cc 5.6k"},
+                {"size": 5459, "id": "extension_install_ui.cc 5.5k"},
+                {"size": 4848, "id": "convert_user_script.cc 4.8k"},
+                {"size": 4760, "id": "extension_sidebar_api.cc 4.8k"},
+                {"size": 4686, "id": "extension_omnibox_api.cc 4.7k"},
+                {"size": 4185, "id": "extension_creator.cc 4.2k"},
+                {"size": 4146, "id": "user_script_listener.cc 4.1k"},
+                {"size": 4118, "id": "extension_protocols.cc 4.1k"},
                 {
                   "size": 3833,
-                  "caption": "extension_page_actions_module.cc 3.8k"
+                  "id": "extension_page_actions_module.cc 3.8k"
                 },
-                {"size": 3398, "caption": "extensions_quota_service.cc 3.4k"},
+                {"size": 3398, "id": "extensions_quota_service.cc 3.4k"},
                 {
                   "size": 3380,
-                  "caption": "external_pref_extension_provider.cc 3.4k"
+                  "id": "external_pref_extension_provider.cc 3.4k"
                 },
                 {
                   "size": 3183,
-                  "caption": "extension_browser_actions_api.cc 3.2k"
+                  "id": "extension_browser_actions_api.cc 3.2k"
                 },
                 {
                   "size": 3002,
-                  "caption": "extension_accessibility_api.cc 3.0k"
+                  "id": "extension_accessibility_api.cc 3.0k"
                 },
                 {
                   "size": 2937,
-                  "caption": "execute_code_in_tab_function.cc 2.9k"
+                  "id": "execute_code_in_tab_function.cc 2.9k"
                 },
-                {"size": 2923, "caption": "extension_devtools_manager.cc 2.9k"},
-                {"size": 2811, "caption": "extension_metrics_module.cc 2.8k"},
-                {"size": 2756, "caption": "extension_bookmark_helpers.cc 2.8k"},
-                {"size": 2738, "caption": "extension_management_api.cc 2.7k"},
-                {"size": 2622, "caption": "image_loading_tracker.cc 2.6k"},
-                {"size": 2534, "caption": "extension_icon_manager.cc 2.5k"},
-                {"size": 2518, "caption": "extension_devtools_bridge.cc 2.5k"},
+                {"size": 2923, "id": "extension_devtools_manager.cc 2.9k"},
+                {"size": 2811, "id": "extension_metrics_module.cc 2.8k"},
+                {"size": 2756, "id": "extension_bookmark_helpers.cc 2.8k"},
+                {"size": 2738, "id": "extension_management_api.cc 2.7k"},
+                {"size": 2622, "id": "image_loading_tracker.cc 2.6k"},
+                {"size": 2534, "id": "extension_icon_manager.cc 2.5k"},
+                {"size": 2518, "id": "extension_devtools_bridge.cc 2.5k"},
                 {
                   "size": 2195,
-                  "caption": "extension_context_menu_model.cc 2.2k"
+                  "id": "extension_context_menu_model.cc 2.2k"
                 },
-                {"size": 2189, "caption": "extension_pref_store.cc 2.2k"},
-                {"size": 2066, "caption": "extension_function.cc 2.1k"},
-                {"size": 1947, "caption": "extension_proxy_api.cc 1.9k"},
-                {"size": 1759, "caption": "pack_extension_job.cc 1.8k"},
+                {"size": 2189, "id": "extension_pref_store.cc 2.2k"},
+                {"size": 2066, "id": "extension_function.cc 2.1k"},
+                {"size": 1947, "id": "extension_proxy_api.cc 1.9k"},
+                {"size": 1759, "id": "pack_extension_job.cc 1.8k"},
                 {
                   "size": 1684,
-                  "caption": "theme_installed_infobar_delegate.cc 1.7k"
+                  "id": "theme_installed_infobar_delegate.cc 1.7k"
                 },
-                {"size": 1570, "caption": "extension_data_deleter.cc 1.6k"},
-                {"size": 1387, "caption": "extension_popup_api.cc 1.4k"},
-                {"size": 1363, "caption": "extension_test_api.cc 1.4k"},
-                {"size": 1121, "caption": "extension_idle_api.cc 1.1k"},
-                {"size": 1015, "caption": "extension_error_reporter.cc 1.0k"},
-                {"size": 906, "caption": "extension_infobar_module.cc 906"},
-                {"size": 789, "caption": "extension_devtools_events.cc 789"},
-                {"size": 769, "caption": "extension_infobar_delegate.cc 769"},
-                {"size": 711, "caption": "file_reader.cc 711"},
-                {"size": 592, "caption": "crashed_extension_infobar.cc 592"},
-                {"size": 560, "caption": "extension_i18n_api.cc 560"},
+                {"size": 1570, "id": "extension_data_deleter.cc 1.6k"},
+                {"size": 1387, "id": "extension_popup_api.cc 1.4k"},
+                {"size": 1363, "id": "extension_test_api.cc 1.4k"},
+                {"size": 1121, "id": "extension_idle_api.cc 1.1k"},
+                {"size": 1015, "id": "extension_error_reporter.cc 1.0k"},
+                {"size": 906, "id": "extension_infobar_module.cc 906"},
+                {"size": 789, "id": "extension_devtools_events.cc 789"},
+                {"size": 769, "id": "extension_infobar_delegate.cc 769"},
+                {"size": 711, "id": "file_reader.cc 711"},
+                {"size": 592, "id": "crashed_extension_infobar.cc 592"},
+                {"size": 560, "id": "extension_i18n_api.cc 560"},
                 {
                   "size": 440,
-                  "caption": "extension_disabled_infobar_delegate.cc 440"
+                  "id": "extension_disabled_infobar_delegate.cc 440"
                 },
-                {"size": 353, "caption": "extension_clipboard_api.cc 353"},
-                {"size": 339, "caption": "extension_processes_api.cc 339"},
+                {"size": 353, "id": "extension_clipboard_api.cc 353"},
+                {"size": 339, "id": "extension_processes_api.cc 339"},
                 {
                   "size": 113,
-                  "caption": "gtk_theme_installed_infobar_delegate.cc 113"
+                  "id": "gtk_theme_installed_infobar_delegate.cc 113"
                 }
               ]
             },
             {
               "size": 336512,
-              "caption": "dom_ui 336.5k",
+              "id": "dom_ui 336.5k",
               "children": [
-                {"size": 32535, "caption": "net_internals_ui.cc 32.5k"},
-                {"size": 21168, "caption": "ntp_resource_cache.cc 21.2k"},
-                {"size": 20394, "caption": "content_settings_handler.cc 20.4k"},
-                {"size": 16933, "caption": "cookies_view_handler.cc 16.9k"},
-                {"size": 16691, "caption": "most_visited_handler.cc 16.7k"},
-                {"size": 16485, "caption": "history_ui.cc 16.5k"},
-                {"size": 15696, "caption": "history2_ui.cc 15.7k"},
-                {"size": 15157, "caption": "advanced_options_handler.cc 15.2k"},
-                {"size": 11981, "caption": "new_tab_ui.cc 12.0k"},
-                {"size": 11161, "caption": "browser_options_handler.cc 11.2k"},
-                {"size": 10569, "caption": "bug_report_ui.cc 10.6k"},
-                {"size": 10431, "caption": "core_options_handler.cc 10.4k"},
-                {"size": 10117, "caption": "chrome_url_data_manager.cc 10.1k"},
+                {"size": 32535, "id": "net_internals_ui.cc 32.5k"},
+                {"size": 21168, "id": "ntp_resource_cache.cc 21.2k"},
+                {"size": 20394, "id": "content_settings_handler.cc 20.4k"},
+                {"size": 16933, "id": "cookies_view_handler.cc 16.9k"},
+                {"size": 16691, "id": "most_visited_handler.cc 16.7k"},
+                {"size": 16485, "id": "history_ui.cc 16.5k"},
+                {"size": 15696, "id": "history2_ui.cc 15.7k"},
+                {"size": 15157, "id": "advanced_options_handler.cc 15.2k"},
+                {"size": 11981, "id": "new_tab_ui.cc 12.0k"},
+                {"size": 11161, "id": "browser_options_handler.cc 11.2k"},
+                {"size": 10569, "id": "bug_report_ui.cc 10.6k"},
+                {"size": 10431, "id": "core_options_handler.cc 10.4k"},
+                {"size": 10117, "id": "chrome_url_data_manager.cc 10.1k"},
                 {
                   "size": 9395,
-                  "caption": "passwords_exceptions_handler.cc 9.4k"
+                  "id": "passwords_exceptions_handler.cc 9.4k"
                 },
-                {"size": 7378, "caption": "plugins_ui.cc 7.4k"},
-                {"size": 7209, "caption": "personal_options_handler.cc 7.2k"},
+                {"size": 7378, "id": "plugins_ui.cc 7.4k"},
+                {"size": 7209, "id": "personal_options_handler.cc 7.2k"},
                 {
                   "size": 5955,
-                  "caption": "search_engine_manager_handler.cc 6.0k"
+                  "id": "search_engine_manager_handler.cc 6.0k"
                 },
-                {"size": 5668, "caption": "app_launcher_handler.cc 5.7k"},
-                {"size": 5340, "caption": "downloads_ui.cc 5.3k"},
-                {"size": 5322, "caption": "clear_browser_data_handler.cc 5.3k"},
-                {"size": 5115, "caption": "font_settings_handler.cc 5.1k"},
-                {"size": 4983, "caption": "autofill_options_handler.cc 5.0k"},
-                {"size": 4659, "caption": "import_data_handler.cc 4.7k"},
-                {"size": 4586, "caption": "downloads_dom_handler.cc 4.6k"},
-                {"size": 4235, "caption": "new_tab_page_sync_handler.cc 4.2k"},
+                {"size": 5668, "id": "app_launcher_handler.cc 5.7k"},
+                {"size": 5340, "id": "downloads_ui.cc 5.3k"},
+                {"size": 5322, "id": "clear_browser_data_handler.cc 5.3k"},
+                {"size": 5115, "id": "font_settings_handler.cc 5.1k"},
+                {"size": 4983, "id": "autofill_options_handler.cc 5.0k"},
+                {"size": 4659, "id": "import_data_handler.cc 4.7k"},
+                {"size": 4586, "id": "downloads_dom_handler.cc 4.6k"},
+                {"size": 4235, "id": "new_tab_page_sync_handler.cc 4.2k"},
                 {
                   "size": 4184,
-                  "caption": "autofill_edit_creditcard_handler.cc 4.2k"
+                  "id": "autofill_edit_creditcard_handler.cc 4.2k"
                 },
-                {"size": 4065, "caption": "dom_ui.cc 4.1k"},
+                {"size": 4065, "id": "dom_ui.cc 4.1k"},
                 {
                   "size": 3935,
-                  "caption": "autofill_edit_address_handler.cc 3.9k"
+                  "id": "autofill_edit_address_handler.cc 3.9k"
                 },
-                {"size": 3851, "caption": "dom_ui_factory.cc 3.9k"},
-                {"size": 3790, "caption": "advanced_options_utils_gtk.cc 3.8k"},
-                {"size": 3476, "caption": "add_startup_page_handler.cc 3.5k"},
-                {"size": 3053, "caption": "fileicon_source.cc 3.1k"},
-                {"size": 2936, "caption": "options_ui.cc 2.9k"},
-                {"size": 2824, "caption": "dom_ui_theme_source.cc 2.8k"},
-                {"size": 2797, "caption": "dom_ui_thumbnail_source.cc 2.8k"},
-                {"size": 2777, "caption": "dom_ui_favicon_source.cc 2.8k"},
-                {"size": 2636, "caption": "sync_options_handler.cc 2.6k"},
-                {"size": 2573, "caption": "foreign_session_handler.cc 2.6k"},
+                {"size": 3851, "id": "dom_ui_factory.cc 3.9k"},
+                {"size": 3790, "id": "advanced_options_utils_gtk.cc 3.8k"},
+                {"size": 3476, "id": "add_startup_page_handler.cc 3.5k"},
+                {"size": 3053, "id": "fileicon_source.cc 3.1k"},
+                {"size": 2936, "id": "options_ui.cc 2.9k"},
+                {"size": 2824, "id": "dom_ui_theme_source.cc 2.8k"},
+                {"size": 2797, "id": "dom_ui_thumbnail_source.cc 2.8k"},
+                {"size": 2777, "id": "dom_ui_favicon_source.cc 2.8k"},
+                {"size": 2636, "id": "sync_options_handler.cc 2.6k"},
+                {"size": 2573, "id": "foreign_session_handler.cc 2.6k"},
                 {
                   "size": 2254,
-                  "caption": "shared_resources_data_source.cc 2.3k"
+                  "id": "shared_resources_data_source.cc 2.3k"
                 },
-                {"size": 1699, "caption": "value_helper.cc 1.7k"},
-                {"size": 1539, "caption": "shown_sections_handler.cc 1.5k"},
-                {"size": 1455, "caption": "stop_syncing_handler.cc 1.5k"},
+                {"size": 1699, "id": "value_helper.cc 1.7k"},
+                {"size": 1539, "id": "shown_sections_handler.cc 1.5k"},
+                {"size": 1455, "id": "stop_syncing_handler.cc 1.5k"},
                 {
                   "size": 1269,
-                  "caption": "passwords_remove_all_handler.cc 1.3k"
+                  "id": "passwords_remove_all_handler.cc 1.3k"
                 },
-                {"size": 1179, "caption": "html_dialog_ui.cc 1.2k"},
-                {"size": 1088, "caption": "bookmarks_ui.cc 1.1k"},
-                {"size": 1005, "caption": "remoting_ui.cc 1.0k"},
+                {"size": 1179, "id": "html_dialog_ui.cc 1.2k"},
+                {"size": 1088, "id": "bookmarks_ui.cc 1.1k"},
+                {"size": 1005, "id": "remoting_ui.cc 1.0k"},
                 {
                   "size": 881,
-                  "caption": "html_dialog_tab_contents_delegate.cc 881"
+                  "id": "html_dialog_tab_contents_delegate.cc 881"
                 },
                 {
                   "size": 701,
-                  "caption": "options_managed_banner_handler.cc 701"
+                  "id": "options_managed_banner_handler.cc 701"
                 },
-                {"size": 480, "caption": "dom_ui_screenshot_source.cc 480"},
-                {"size": 431, "caption": "font_settings_utils_gtk.cc 431"},
-                {"size": 345, "caption": "dom_ui_util.cc 345"},
-                {"size": 126, "caption": "devtools_ui.cc 126"}
+                {"size": 480, "id": "dom_ui_screenshot_source.cc 480"},
+                {"size": 431, "id": "font_settings_utils_gtk.cc 431"},
+                {"size": 345, "id": "dom_ui_util.cc 345"},
+                {"size": 126, "id": "devtools_ui.cc 126"}
               ]
             },
             {
               "size": 299563,
-              "caption": "renderer_host 299.6k",
+              "id": "renderer_host 299.6k",
               "children": [
-                {"size": 39512, "caption": "resource_dispatcher_host.cc 39.5k"},
-                {"size": 37355, "caption": "render_view_host.cc 37.4k"},
-                {"size": 37290, "caption": "resource_message_filter.cc 37.3k"},
-                {"size": 20792, "caption": "render_widget_host.cc 20.8k"},
+                {"size": 39512, "id": "resource_dispatcher_host.cc 39.5k"},
+                {"size": 37355, "id": "render_view_host.cc 37.4k"},
+                {"size": 37290, "id": "resource_message_filter.cc 37.3k"},
+                {"size": 20792, "id": "render_widget_host.cc 20.8k"},
                 {
                   "size": 16022,
-                  "caption": "browser_render_process_host.cc 16.0k"
+                  "id": "browser_render_process_host.cc 16.0k"
                 },
-                {"size": 11504, "caption": "web_cache_manager.cc 11.5k"},
+                {"size": 11504, "id": "web_cache_manager.cc 11.5k"},
                 {
                   "size": 11178,
-                  "caption": "render_widget_host_view_gtk.cc 11.2k"
+                  "id": "render_widget_host_view_gtk.cc 11.2k"
                 },
-                {"size": 10943, "caption": "audio_renderer_host.cc 10.9k"},
-                {"size": 10694, "caption": "database_dispatcher_host.cc 10.7k"},
+                {"size": 10943, "id": "audio_renderer_host.cc 10.9k"},
+                {"size": 10694, "id": "database_dispatcher_host.cc 10.7k"},
                 {
                   "size": 9792,
-                  "caption": "socket_stream_dispatcher_host.cc 9.8k"
+                  "id": "socket_stream_dispatcher_host.cc 9.8k"
                 },
-                {"size": 8083, "caption": "buffered_resource_handler.cc 8.1k"},
+                {"size": 8083, "id": "buffered_resource_handler.cc 8.1k"},
                 {
                   "size": 6708,
-                  "caption": "resource_message_filter_gtk.cc 6.7k"
+                  "id": "resource_message_filter_gtk.cc 6.7k"
                 },
                 {
                   "size": 6667,
-                  "caption": "safe_browsing_resource_handler.cc 6.7k"
+                  "id": "safe_browsing_resource_handler.cc 6.7k"
                 },
-                {"size": 6304, "caption": "resource_queue.cc 6.3k"},
-                {"size": 6254, "caption": "render_process_host.cc 6.3k"},
-                {"size": 5474, "caption": "backing_store_manager.cc 5.5k"},
-                {"size": 5173, "caption": "backing_store_x.cc 5.2k"},
-                {"size": 5163, "caption": "gtk_im_context_wrapper.cc 5.2k"},
-                {"size": 4701, "caption": "gtk_key_bindings_handler.cc 4.7k"},
-                {"size": 4333, "caption": "site_instance.cc 4.3k"},
-                {"size": 3691, "caption": "render_widget_helper.cc 3.7k"},
-                {"size": 3553, "caption": "download_resource_handler.cc 3.6k"},
-                {"size": 3207, "caption": "async_resource_handler.cc 3.2k"},
+                {"size": 6304, "id": "resource_queue.cc 6.3k"},
+                {"size": 6254, "id": "render_process_host.cc 6.3k"},
+                {"size": 5474, "id": "backing_store_manager.cc 5.5k"},
+                {"size": 5173, "id": "backing_store_x.cc 5.2k"},
+                {"size": 5163, "id": "gtk_im_context_wrapper.cc 5.2k"},
+                {"size": 4701, "id": "gtk_key_bindings_handler.cc 4.7k"},
+                {"size": 4333, "id": "site_instance.cc 4.3k"},
+                {"size": 3691, "id": "render_widget_helper.cc 3.7k"},
+                {"size": 3553, "id": "download_resource_handler.cc 3.6k"},
+                {"size": 3207, "id": "async_resource_handler.cc 3.2k"},
                 {
                   "size": 2968,
-                  "caption": "download_throttling_resource_handler.cc 3.0k"
+                  "id": "download_throttling_resource_handler.cc 3.0k"
                 },
                 {
                   "size": 2819,
-                  "caption": "redirect_to_file_resource_handler.cc 2.8k"
+                  "id": "redirect_to_file_resource_handler.cc 2.8k"
                 },
-                {"size": 2539, "caption": "sync_resource_handler.cc 2.5k"},
+                {"size": 2539, "id": "sync_resource_handler.cc 2.5k"},
                 {
                   "size": 2329,
-                  "caption": "database_permission_request.cc 2.3k"
+                  "id": "database_permission_request.cc 2.3k"
                 },
-                {"size": 1787, "caption": "save_file_resource_handler.cc 1.8k"},
+                {"size": 1787, "id": "save_file_resource_handler.cc 1.8k"},
                 {
                   "size": 1769,
-                  "caption": "x509_user_cert_resource_handler.cc 1.8k"
+                  "id": "x509_user_cert_resource_handler.cc 1.8k"
                 },
                 {
                   "size": 1706,
-                  "caption": "cross_site_resource_handler.cc 1.7k"
+                  "id": "cross_site_resource_handler.cc 1.7k"
                 },
                 {
                   "size": 1599,
-                  "caption": "resource_dispatcher_host_request_info.cc 1.6k"
+                  "id": "resource_dispatcher_host_request_info.cc 1.6k"
                 },
-                {"size": 1457, "caption": "socket_stream_host.cc 1.5k"},
-                {"size": 1414, "caption": "render_sandbox_host_linux.cc 1.4k"},
-                {"size": 1229, "caption": "video_layer_x.cc 1.2k"},
-                {"size": 1029, "caption": "backing_store_proxy.cc 1.0k"},
-                {"size": 613, "caption": "video_layer_proxy.cc 613"},
-                {"size": 571, "caption": "render_view_host_delegate.cc 571"},
-                {"size": 501, "caption": "audio_sync_reader.cc 501"},
-                {"size": 460, "caption": "gpu_view_host.cc 460"},
-                {"size": 138, "caption": "render_view_host_factory.cc 138"},
-                {"size": 105, "caption": "backing_store.cc 105"},
-                {"size": 86, "caption": "video_layer.cc 86"},
+                {"size": 1457, "id": "socket_stream_host.cc 1.5k"},
+                {"size": 1414, "id": "render_sandbox_host_linux.cc 1.4k"},
+                {"size": 1229, "id": "video_layer_x.cc 1.2k"},
+                {"size": 1029, "id": "backing_store_proxy.cc 1.0k"},
+                {"size": 613, "id": "video_layer_proxy.cc 613"},
+                {"size": 571, "id": "render_view_host_delegate.cc 571"},
+                {"size": 501, "id": "audio_sync_reader.cc 501"},
+                {"size": 460, "id": "gpu_view_host.cc 460"},
+                {"size": 138, "id": "render_view_host_factory.cc 138"},
+                {"size": 105, "id": "backing_store.cc 105"},
+                {"size": 86, "id": "video_layer.cc 86"},
                 {
                   "size": 51,
-                  "caption": "render_widget_fullscreen_host.cc 51"
+                  "id": "render_widget_fullscreen_host.cc 51"
                 }
               ]
             },
             {
               "size": 223880,
-              "caption": "history 223.9k",
+              "id": "history 223.9k",
               "children": [
-                {"size": 41766, "caption": "history_backend.cc 41.8k"},
-                {"size": 23939, "caption": "top_sites.cc 23.9k"},
-                {"size": 21349, "caption": "history.cc 21.3k"},
-                {"size": 16816, "caption": "text_database_manager.cc 16.8k"},
-                {"size": 16405, "caption": "expire_history_backend.cc 16.4k"},
-                {"size": 16249, "caption": "starred_url_database.cc 16.2k"},
-                {"size": 9463, "caption": "url_database.cc 9.5k"},
-                {"size": 8528, "caption": "history_database.cc 8.5k"},
-                {"size": 8252, "caption": "top_sites_database.cc 8.3k"},
-                {"size": 8125, "caption": "visit_database.cc 8.1k"},
-                {"size": 7738, "caption": "thumbnail_database.cc 7.7k"},
-                {"size": 6555, "caption": "visitsegment_database.cc 6.6k"},
-                {"size": 6310, "caption": "text_database.cc 6.3k"},
-                {"size": 5063, "caption": "snippet.cc 5.1k"},
-                {"size": 4985, "caption": "download_database.cc 5.0k"},
-                {"size": 4782, "caption": "history_types.cc 4.8k"},
-                {"size": 4277, "caption": "in_memory_database.cc 4.3k"},
-                {"size": 4160, "caption": "query_parser.cc 4.2k"},
-                {"size": 3126, "caption": "in_memory_history_backend.cc 3.1k"},
-                {"size": 3089, "caption": "history.h 3.1k"},
-                {"size": 1233, "caption": "visit_tracker.cc 1.2k"},
-                {"size": 910, "caption": "archived_database.cc 910"},
-                {"size": 420, "caption": "page_usage_data.cc 420"},
-                {"size": 303, "caption": "history_publisher.cc 303"},
-                {"size": 27, "caption": "history_publisher_none.cc 27"},
-                {"size": 10, "caption": "in_memory_url_index.cc 10"}
+                {"size": 41766, "id": "history_backend.cc 41.8k"},
+                {"size": 23939, "id": "top_sites.cc 23.9k"},
+                {"size": 21349, "id": "history.cc 21.3k"},
+                {"size": 16816, "id": "text_database_manager.cc 16.8k"},
+                {"size": 16405, "id": "expire_history_backend.cc 16.4k"},
+                {"size": 16249, "id": "starred_url_database.cc 16.2k"},
+                {"size": 9463, "id": "url_database.cc 9.5k"},
+                {"size": 8528, "id": "history_database.cc 8.5k"},
+                {"size": 8252, "id": "top_sites_database.cc 8.3k"},
+                {"size": 8125, "id": "visit_database.cc 8.1k"},
+                {"size": 7738, "id": "thumbnail_database.cc 7.7k"},
+                {"size": 6555, "id": "visitsegment_database.cc 6.6k"},
+                {"size": 6310, "id": "text_database.cc 6.3k"},
+                {"size": 5063, "id": "snippet.cc 5.1k"},
+                {"size": 4985, "id": "download_database.cc 5.0k"},
+                {"size": 4782, "id": "history_types.cc 4.8k"},
+                {"size": 4277, "id": "in_memory_database.cc 4.3k"},
+                {"size": 4160, "id": "query_parser.cc 4.2k"},
+                {"size": 3126, "id": "in_memory_history_backend.cc 3.1k"},
+                {"size": 3089, "id": "history.h 3.1k"},
+                {"size": 1233, "id": "visit_tracker.cc 1.2k"},
+                {"size": 910, "id": "archived_database.cc 910"},
+                {"size": 420, "id": "page_usage_data.cc 420"},
+                {"size": 303, "id": "history_publisher.cc 303"},
+                {"size": 27, "id": "history_publisher_none.cc 27"},
+                {"size": 10, "id": "in_memory_url_index.cc 10"}
               ]
             },
             {
               "size": 184300,
-              "caption": "safe_browsing 184.3k",
+              "id": "safe_browsing 184.3k",
               "children": [
                 {
                   "size": 39218,
-                  "caption": "safe_browsing_database_bloom.cc 39.2k"
+                  "id": "safe_browsing_database_bloom.cc 39.2k"
                 },
-                {"size": 27585, "caption": "safe_browsing_service.cc 27.6k"},
-                {"size": 24795, "caption": "safe_browsing_database.cc 24.8k"}, {
+                {"size": 27585, "id": "safe_browsing_service.cc 27.6k"},
+                {"size": 24795, "id": "safe_browsing_database.cc 24.8k"}, {
                   "size": 20989,
-                  "caption": "safe_browsing_blocking_page.cc 21.0k"
+                  "id": "safe_browsing_blocking_page.cc 21.0k"
                 },
-                {"size": 17996, "caption": "protocol_manager.cc 18.0k"}, {
+                {"size": 17996, "id": "protocol_manager.cc 18.0k"}, {
                   "size": 14419,
-                  "caption": "safe_browsing_store_sqlite.cc 14.4k"
+                  "id": "safe_browsing_store_sqlite.cc 14.4k"
                 },
-                {"size": 13514, "caption": "safe_browsing_store_file.cc 13.5k"},
-                {"size": 10700, "caption": "safe_browsing_util.cc 10.7k"},
-                {"size": 9012, "caption": "protocol_parser.cc 9.0k"},
-                {"size": 2453, "caption": "safe_browsing_store.cc 2.5k"},
-                {"size": 2006, "caption": "chunk_range.cc 2.0k"},
-                {"size": 1613, "caption": "bloom_filter.cc 1.6k"}
+                {"size": 13514, "id": "safe_browsing_store_file.cc 13.5k"},
+                {"size": 10700, "id": "safe_browsing_util.cc 10.7k"},
+                {"size": 9012, "id": "protocol_parser.cc 9.0k"},
+                {"size": 2453, "id": "safe_browsing_store.cc 2.5k"},
+                {"size": 2006, "id": "chunk_range.cc 2.0k"},
+                {"size": 1613, "id": "bloom_filter.cc 1.6k"}
               ]
             },
             {
               "size": 173298,
-              "caption": "automation 173.3k",
+              "id": "automation 173.3k",
               "children": [
-                {"size": 94414, "caption": "automation_provider.cc 94.4k"}, {
+                {"size": 94414, "id": "automation_provider.cc 94.4k"}, {
                   "size": 25913,
-                  "caption": "testing_automation_provider.cc 25.9k"
+                  "id": "testing_automation_provider.cc 25.9k"
                 },
                 {
                   "size": 25306,
-                  "caption": "automation_provider_observers.cc 25.3k"
+                  "id": "automation_provider_observers.cc 25.3k"
                 },
-                {"size": 9410, "caption": "url_request_automation_job.cc 9.4k"},
+                {"size": 9410, "id": "url_request_automation_job.cc 9.4k"},
                 {
                   "size": 8929,
-                  "caption": "automation_resource_message_filter.cc 8.9k"
+                  "id": "automation_resource_message_filter.cc 8.9k"
                 },
                 {
                   "size": 2152,
-                  "caption": "automation_resource_tracker.cc 2.2k"
+                  "id": "automation_resource_tracker.cc 2.2k"
                 },
-                {"size": 2090, "caption": "ui_controls_linux.cc 2.1k"},
-                {"size": 1405, "caption": "automation_provider_json.cc 1.4k"}, {
+                {"size": 2090, "id": "ui_controls_linux.cc 2.1k"},
+                {"size": 1405, "id": "automation_provider_json.cc 1.4k"}, {
                   "size": 1003,
-                  "caption": "testing_automation_provider_gtk.cc 1.0k"
+                  "id": "testing_automation_provider_gtk.cc 1.0k"
                 },
-                {"size": 933, "caption": "automation_provider_gtk.cc 933"},
-                {"size": 589, "caption": "automation_extension_tracker.cc 589"},
-                {"size": 548, "caption": "automation_provider_list.cc 548"}, {
+                {"size": 933, "id": "automation_provider_gtk.cc 933"},
+                {"size": 589, "id": "automation_extension_tracker.cc 589"},
+                {"size": 548, "id": "automation_provider_list.cc 548"}, {
                   "size": 525,
-                  "caption": "chrome_frame_automation_provider.cc 525"
+                  "id": "chrome_frame_automation_provider.cc 525"
                 },
                 {
                   "size": 76,
-                  "caption": "automation_resource_routing_delegate.cc 76"
+                  "id": "automation_resource_routing_delegate.cc 76"
                 },
                 {
                   "size": 5,
-                  "caption": "automation_provider_list_generic.cc 5"
+                  "id": "automation_provider_list_generic.cc 5"
                 }
               ]
             },
             {
               "size": 161582,
-              "caption": "net 161.6k",
+              "id": "net 161.6k",
               "children": [
-                {"size": 19723, "caption": "predictor.cc 19.7k"},
+                {"size": 19723, "id": "predictor.cc 19.7k"},
                 {
                   "size": 19016,
-                  "caption": "chrome_url_request_context.cc 19.0k"
+                  "id": "chrome_url_request_context.cc 19.0k"
                 },
-                {"size": 12782, "caption": "predictor_api.cc 12.8k"},
-                {"size": 12707, "caption": "url_fixer_upper.cc 12.7k"},
-                {"size": 11128, "caption": "passive_log_collector.cc 11.1k"},
-                {"size": 10722, "caption": "url_info.cc 10.7k"},
+                {"size": 12782, "id": "predictor_api.cc 12.8k"},
+                {"size": 12707, "id": "url_fixer_upper.cc 12.7k"},
+                {"size": 11128, "id": "passive_log_collector.cc 11.1k"},
+                {"size": 10722, "id": "url_info.cc 10.7k"},
                 {
                   "size": 10396,
-                  "caption": "websocket_experiment 10.4k",
+                  "id": "websocket_experiment 10.4k",
                   "children": [
                     {
                       "size": 9613,
-                      "caption": "websocket_experiment_task.cc 9.6k"
+                      "id": "websocket_experiment_task.cc 9.6k"
                     },
                     {
                       "size": 783,
-                      "caption": "websocket_experiment_runner.cc 783"
+                      "id": "websocket_experiment_runner.cc 783"
                     }
                   ]
                 },
-                {"size": 9006, "caption": "connection_tester.cc 9.0k"},
+                {"size": 9006, "id": "connection_tester.cc 9.0k"},
                 {
                   "size": 8223,
-                  "caption": "sqlite_persistent_cookie_store.cc 8.2k"
+                  "id": "sqlite_persistent_cookie_store.cc 8.2k"
                 },
                 {
                   "size": 6594,
-                  "caption": "gaia 6.6k",
+                  "id": "gaia 6.6k",
                   "children":
-                      [{"size": 6594, "caption": "token_service.cc 6.6k"}]
+                      [{"size": 6594, "id": "token_service.cc 6.6k"}]
                 },
-                {"size": 6422, "caption": "preconnect.cc 6.4k"},
-                {"size": 5160, "caption": "chrome_cookie_policy.cc 5.2k"},
-                {"size": 3910, "caption": "resolve_proxy_msg_helper.cc 3.9k"},
-                {"size": 3550, "caption": "load_timing_observer.cc 3.5k"},
+                {"size": 6422, "id": "preconnect.cc 6.4k"},
+                {"size": 5160, "id": "chrome_cookie_policy.cc 5.2k"},
+                {"size": 3910, "id": "resolve_proxy_msg_helper.cc 3.9k"},
+                {"size": 3550, "id": "load_timing_observer.cc 3.5k"},
                 {
                   "size": 3515,
-                  "caption": "url_request_slow_download_job.cc 3.5k"
+                  "id": "url_request_slow_download_job.cc 3.5k"
                 },
-                {"size": 3047, "caption": "chrome_net_log.cc 3.0k"},
-                {"size": 2916, "caption": "referrer.cc 2.9k"},
+                {"size": 3047, "id": "chrome_net_log.cc 3.0k"},
+                {"size": 2916, "id": "referrer.cc 2.9k"},
                 {
                   "size": 2681,
-                  "caption": "view_http_cache_job_factory.cc 2.7k"
+                  "id": "view_http_cache_job_factory.cc 2.7k"
                 },
                 {
                   "size": 2225,
-                  "caption": "ssl_config_service_manager_pref.cc 2.2k"
+                  "id": "ssl_config_service_manager_pref.cc 2.2k"
                 },
-                {"size": 2078, "caption": "url_request_mock_http_job.cc 2.1k"},
-                {"size": 1792, "caption": "sdch_dictionary_fetcher.cc 1.8k"},
-                {"size": 890, "caption": "connect_interceptor.cc 890"},
+                {"size": 2078, "id": "url_request_mock_http_job.cc 2.1k"},
+                {"size": 1792, "id": "sdch_dictionary_fetcher.cc 1.8k"},
+                {"size": 890, "id": "connect_interceptor.cc 890"},
                 {
                   "size": 728,
-                  "caption": "url_request_mock_link_doctor_job.cc 728"
+                  "id": "url_request_mock_link_doctor_job.cc 728"
                 },
-                {"size": 607, "caption": "url_request_slow_http_job.cc 607"},
-                {"size": 493, "caption": "browser_url_util.cc 493"},
-                {"size": 426, "caption": "url_request_failed_dns_job.cc 426"},
-                {"size": 300, "caption": "net_log_logger.cc 300"},
-                {"size": 241, "caption": "url_request_mock_util.cc 241"},
-                {"size": 165, "caption": "chrome_network_delegate.cc 165"},
-                {"size": 134, "caption": "url_request_tracking.cc 134"},
-                {"size": 5, "caption": "metadata_url_request.cc 5"}
+                {"size": 607, "id": "url_request_slow_http_job.cc 607"},
+                {"size": 493, "id": "browser_url_util.cc 493"},
+                {"size": 426, "id": "url_request_failed_dns_job.cc 426"},
+                {"size": 300, "id": "net_log_logger.cc 300"},
+                {"size": 241, "id": "url_request_mock_util.cc 241"},
+                {"size": 165, "id": "chrome_network_delegate.cc 165"},
+                {"size": 134, "id": "url_request_tracking.cc 134"},
+                {"size": 5, "id": "metadata_url_request.cc 5"}
               ]
             },
             {
               "size": 155202,
-              "caption": "autofill 155.2k",
+              "id": "autofill 155.2k",
               "children": [
-                {"size": 18048, "caption": "personal_data_manager.cc 18.0k"},
-                {"size": 16420, "caption": "autofill_manager.cc 16.4k"},
-                {"size": 15995, "caption": "auto_fill_editor_gtk.cc 16.0k"},
-                {"size": 11439, "caption": "form_structure.cc 11.4k"},
-                {"size": 11228, "caption": "autofill_profile.cc 11.2k"},
-                {"size": 10509, "caption": "autofill_dialog_gtk.cc 10.5k"},
-                {"size": 10195, "caption": "contact_info.cc 10.2k"},
-                {"size": 9991, "caption": "credit_card.cc 10.0k"},
-                {"size": 8558, "caption": "address.cc 8.6k"},
-                {"size": 6672, "caption": "phone_number.cc 6.7k"},
-                {"size": 6630, "caption": "address_field.cc 6.6k"},
-                {"size": 4274, "caption": "autofill_download.cc 4.3k"},
-                {"size": 3654, "caption": "select_control_handler.cc 3.7k"},
+                {"size": 18048, "id": "personal_data_manager.cc 18.0k"},
+                {"size": 16420, "id": "autofill_manager.cc 16.4k"},
+                {"size": 15995, "id": "auto_fill_editor_gtk.cc 16.0k"},
+                {"size": 11439, "id": "form_structure.cc 11.4k"},
+                {"size": 11228, "id": "autofill_profile.cc 11.2k"},
+                {"size": 10509, "id": "autofill_dialog_gtk.cc 10.5k"},
+                {"size": 10195, "id": "contact_info.cc 10.2k"},
+                {"size": 9991, "id": "credit_card.cc 10.0k"},
+                {"size": 8558, "id": "address.cc 8.6k"},
+                {"size": 6672, "id": "phone_number.cc 6.7k"},
+                {"size": 6630, "id": "address_field.cc 6.6k"},
+                {"size": 4274, "id": "autofill_download.cc 4.3k"},
+                {"size": 3654, "id": "select_control_handler.cc 3.7k"},
                 {
                   "size": 3522,
-                  "caption": "autofill_cc_infobar_delegate.cc 3.5k"
+                  "id": "autofill_cc_infobar_delegate.cc 3.5k"
                 },
-                {"size": 3507, "caption": "credit_card_field.cc 3.5k"},
-                {"size": 3503, "caption": "form_field.cc 3.5k"},
-                {"size": 2299, "caption": "autofill_field.cc 2.3k"},
-                {"size": 2154, "caption": "name_field.cc 2.2k"},
-                {"size": 2115, "caption": "phone_field.cc 2.1k"},
-                {"size": 2107, "caption": "autofill_xml_parser.cc 2.1k"},
-                {"size": 1932, "caption": "form_group.cc 1.9k"},
-                {"size": 337, "caption": "fax_field.cc 337"},
-                {"size": 113, "caption": "autofill_type.cc 113"}
+                {"size": 3507, "id": "credit_card_field.cc 3.5k"},
+                {"size": 3503, "id": "form_field.cc 3.5k"},
+                {"size": 2299, "id": "autofill_field.cc 2.3k"},
+                {"size": 2154, "id": "name_field.cc 2.2k"},
+                {"size": 2115, "id": "phone_field.cc 2.1k"},
+                {"size": 2107, "id": "autofill_xml_parser.cc 2.1k"},
+                {"size": 1932, "id": "form_group.cc 1.9k"},
+                {"size": 337, "id": "fax_field.cc 337"},
+                {"size": 113, "id": "autofill_type.cc 113"}
               ]
             },
             {
               "size": 145249,
-              "caption": "tab_contents 145.2k",
+              "id": "tab_contents 145.2k",
               "children": [
-                {"size": 51390, "caption": "tab_contents.cc 51.4k"},
-                {"size": 19530, "caption": "render_view_context_menu.cc 19.5k"},
-                {"size": 14734, "caption": "navigation_controller.cc 14.7k"},
-                {"size": 9010, "caption": "interstitial_page.cc 9.0k"},
+                {"size": 51390, "id": "tab_contents.cc 51.4k"},
+                {"size": 19530, "id": "render_view_context_menu.cc 19.5k"},
+                {"size": 14734, "id": "navigation_controller.cc 14.7k"},
+                {"size": 9010, "id": "interstitial_page.cc 9.0k"},
                 {
                   "size": 8755,
-                  "caption": "render_view_host_delegate_helper.cc 8.8k"
+                  "id": "render_view_host_delegate_helper.cc 8.8k"
                 },
-                {"size": 8458, "caption": "web_drag_dest_gtk.cc 8.5k"},
-                {"size": 5740, "caption": "thumbnail_generator.cc 5.7k"},
-                {"size": 5489, "caption": "render_view_host_manager.cc 5.5k"},
-                {"size": 4477, "caption": "tab_contents_view_gtk.cc 4.5k"},
+                {"size": 8458, "id": "web_drag_dest_gtk.cc 8.5k"},
+                {"size": 5740, "id": "thumbnail_generator.cc 5.7k"},
+                {"size": 5489, "id": "render_view_host_manager.cc 5.5k"},
+                {"size": 4477, "id": "tab_contents_view_gtk.cc 4.5k"},
                 {
                   "size": 3328,
-                  "caption": "tab_specific_content_settings.cc 3.3k"
+                  "id": "tab_specific_content_settings.cc 3.3k"
                 },
-                {"size": 2816, "caption": "background_contents.cc 2.8k"},
-                {"size": 2675, "caption": "tab_contents_ssl_helper.cc 2.7k"},
-                {"size": 2441, "caption": "navigation_entry.cc 2.4k"},
+                {"size": 2816, "id": "background_contents.cc 2.8k"},
+                {"size": 2675, "id": "tab_contents_ssl_helper.cc 2.7k"},
+                {"size": 2441, "id": "navigation_entry.cc 2.4k"},
                 {
                   "size": 1887,
-                  "caption": "tab_contents_file_select_helper.cc 1.9k"
+                  "id": "tab_contents_file_select_helper.cc 1.9k"
                 },
-                {"size": 1058, "caption": "tab_contents_view.cc 1.1k"},
-                {"size": 813, "caption": "infobar_delegate.cc 813"},
-                {"size": 805, "caption": "language_state.cc 805"},
-                {"size": 732, "caption": "match_preview.cc 732"},
-                {"size": 543, "caption": "render_view_context_menu_gtk.cc 543"},
-                {"size": 374, "caption": "tab_contents_delegate.cc 374"},
-                {"size": 147, "caption": "provisional_load_details.cc 147"},
-                {"size": 47, "caption": "tab_util.cc 47"}
+                {"size": 1058, "id": "tab_contents_view.cc 1.1k"},
+                {"size": 813, "id": "infobar_delegate.cc 813"},
+                {"size": 805, "id": "language_state.cc 805"},
+                {"size": 732, "id": "match_preview.cc 732"},
+                {"size": 543, "id": "render_view_context_menu_gtk.cc 543"},
+                {"size": 374, "id": "tab_contents_delegate.cc 374"},
+                {"size": 147, "id": "provisional_load_details.cc 147"},
+                {"size": 47, "id": "tab_util.cc 47"}
               ]
             },
             {
               "size": 128174,
-              "caption": "download 128.2k",
+              "id": "download 128.2k",
               "children": [
-                {"size": 31798, "caption": "save_package.cc 31.8k"},
-                {"size": 27818, "caption": "download_manager.cc 27.8k"},
-                {"size": 12893, "caption": "download_util.cc 12.9k"},
-                {"size": 12851, "caption": "save_file_manager.cc 12.9k"},
-                {"size": 12112, "caption": "download_file_manager.cc 12.1k"},
-                {"size": 7969, "caption": "download_item.cc 8.0k"},
-                {"size": 4585, "caption": "download_request_limiter.cc 4.6k"},
-                {"size": 3321, "caption": "download_file.cc 3.3k"},
-                {"size": 3257, "caption": "download_history.cc 3.3k"},
-                {"size": 2899, "caption": "drag_download_file.cc 2.9k"},
-                {"size": 1912, "caption": "drag_download_util.cc 1.9k"},
-                {"size": 1580, "caption": "download_item_model.cc 1.6k"},
-                {"size": 1579, "caption": "save_item.cc 1.6k"},
-                {"size": 1386, "caption": "download_shelf.cc 1.4k"},
-                {"size": 1134, "caption": "save_file.cc 1.1k"},
-                {"size": 721, "caption": "download_exe.cc 721"}, {
+                {"size": 31798, "id": "save_package.cc 31.8k"},
+                {"size": 27818, "id": "download_manager.cc 27.8k"},
+                {"size": 12893, "id": "download_util.cc 12.9k"},
+                {"size": 12851, "id": "save_file_manager.cc 12.9k"},
+                {"size": 12112, "id": "download_file_manager.cc 12.1k"},
+                {"size": 7969, "id": "download_item.cc 8.0k"},
+                {"size": 4585, "id": "download_request_limiter.cc 4.6k"},
+                {"size": 3321, "id": "download_file.cc 3.3k"},
+                {"size": 3257, "id": "download_history.cc 3.3k"},
+                {"size": 2899, "id": "drag_download_file.cc 2.9k"},
+                {"size": 1912, "id": "drag_download_util.cc 1.9k"},
+                {"size": 1580, "id": "download_item_model.cc 1.6k"},
+                {"size": 1579, "id": "save_item.cc 1.6k"},
+                {"size": 1386, "id": "download_shelf.cc 1.4k"},
+                {"size": 1134, "id": "save_file.cc 1.1k"},
+                {"size": 721, "id": "download_exe.cc 721"}, {
                   "size": 359,
-                  "caption": "download_request_infobar_delegate.cc 359"
+                  "id": "download_request_infobar_delegate.cc 359"
                 }
               ]
             },
             {
               "size": 118078,
-              "caption": "autocomplete 118.1k",
+              "id": "autocomplete 118.1k",
               "children": [
-                {"size": 19945, "caption": "history_url_provider.cc 19.9k"}, {
+                {"size": 19945, "id": "history_url_provider.cc 19.9k"}, {
                   "size": 16984,
-                  "caption": "autocomplete_edit_view_gtk.cc 17.0k"
+                  "id": "autocomplete_edit_view_gtk.cc 17.0k"
                 },
-                {"size": 16897, "caption": "autocomplete.cc 16.9k"},
-                {"size": 16343, "caption": "search_provider.cc 16.3k"},
-                {"size": 13663, "caption": "autocomplete_edit.cc 13.7k"},
-                {"size": 11673, "caption": "keyword_provider.cc 11.7k"}, {
+                {"size": 16897, "id": "autocomplete.cc 16.9k"},
+                {"size": 16343, "id": "search_provider.cc 16.3k"},
+                {"size": 13663, "id": "autocomplete_edit.cc 13.7k"},
+                {"size": 11673, "id": "keyword_provider.cc 11.7k"}, {
                   "size": 8417,
-                  "caption": "autocomplete_popup_view_gtk.cc 8.4k"
+                  "id": "autocomplete_popup_view_gtk.cc 8.4k"
                 },
-                {"size": 6936, "caption": "history_contents_provider.cc 6.9k"},
-                {"size": 5796, "caption": "autocomplete_popup_model.cc 5.8k"},
-                {"size": 1101, "caption": "autocomplete_classifier.cc 1.1k"},
-                {"size": 318, "caption": "history_provider_util.cc 318"},
-                {"size": 5, "caption": "history_quick_provider.cc 5"}
+                {"size": 6936, "id": "history_contents_provider.cc 6.9k"},
+                {"size": 5796, "id": "autocomplete_popup_model.cc 5.8k"},
+                {"size": 1101, "id": "autocomplete_classifier.cc 1.1k"},
+                {"size": 318, "id": "history_provider_util.cc 318"},
+                {"size": 5, "id": "history_quick_provider.cc 5"}
               ]
             },
             {
               "size": 112261,
-              "caption": "importer 112.3k",
+              "id": "importer 112.3k",
               "children": [
-                {"size": 15654, "caption": "firefox2_importer.cc 15.7k"},
-                {"size": 13796, "caption": "firefox_importer_utils.cc 13.8k"},
-                {"size": 13729, "caption": "toolbar_importer.cc 13.7k"},
-                {"size": 13506, "caption": "firefox3_importer.cc 13.5k"},
-                {"size": 11974, "caption": "mork_reader.cc 12.0k"},
-                {"size": 11593, "caption": "nss_decryptor.cc 11.6k"},
-                {"size": 9920, "caption": "firefox_proxy_settings.cc 9.9k"},
-                {"size": 7323, "caption": "profile_writer.cc 7.3k"},
-                {"size": 5921, "caption": "importer_bridge.cc 5.9k"},
-                {"size": 5402, "caption": "importer.cc 5.4k"},
-                {"size": 1290, "caption": "nss_decryptor_system_nss.cc 1.3k"},
-                {"size": 1139, "caption": "importer_list.cc 1.1k"},
-                {"size": 518, "caption": "firefox_profile_lock_posix.cc 518"},
-                {"size": 265, "caption": "firefox_importer_utils_linux.cc 265"},
-                {"size": 231, "caption": "firefox_profile_lock.cc 231"}
+                {"size": 15654, "id": "firefox2_importer.cc 15.7k"},
+                {"size": 13796, "id": "firefox_importer_utils.cc 13.8k"},
+                {"size": 13729, "id": "toolbar_importer.cc 13.7k"},
+                {"size": 13506, "id": "firefox3_importer.cc 13.5k"},
+                {"size": 11974, "id": "mork_reader.cc 12.0k"},
+                {"size": 11593, "id": "nss_decryptor.cc 11.6k"},
+                {"size": 9920, "id": "firefox_proxy_settings.cc 9.9k"},
+                {"size": 7323, "id": "profile_writer.cc 7.3k"},
+                {"size": 5921, "id": "importer_bridge.cc 5.9k"},
+                {"size": 5402, "id": "importer.cc 5.4k"},
+                {"size": 1290, "id": "nss_decryptor_system_nss.cc 1.3k"},
+                {"size": 1139, "id": "importer_list.cc 1.1k"},
+                {"size": 518, "id": "firefox_profile_lock_posix.cc 518"},
+                {"size": 265, "id": "firefox_importer_utils_linux.cc 265"},
+                {"size": 231, "id": "firefox_profile_lock.cc 231"}
               ]
             },
             {
               "size": 95443,
-              "caption": "password_manager 95.4k",
+              "id": "password_manager 95.4k",
               "children": [
-                {"size": 19734, "caption": "native_backend_gnome_x.cc 19.7k"},
-                {"size": 16531, "caption": "password_form_manager.cc 16.5k"},
-                {"size": 12840, "caption": "native_backend_kwallet_x.cc 12.8k"},
-                {"size": 11911, "caption": "password_store_default.cc 11.9k"},
-                {"size": 10479, "caption": "login_database.cc 10.5k"},
-                {"size": 10315, "caption": "password_store.cc 10.3k"},
-                {"size": 9422, "caption": "password_store_x.cc 9.4k"},
-                {"size": 2431, "caption": "password_manager.cc 2.4k"},
-                {"size": 1706, "caption": "encryptor_linux.cc 1.7k"},
-                {"size": 74, "caption": "login_database_posix.cc 74"}
+                {"size": 19734, "id": "native_backend_gnome_x.cc 19.7k"},
+                {"size": 16531, "id": "password_form_manager.cc 16.5k"},
+                {"size": 12840, "id": "native_backend_kwallet_x.cc 12.8k"},
+                {"size": 11911, "id": "password_store_default.cc 11.9k"},
+                {"size": 10479, "id": "login_database.cc 10.5k"},
+                {"size": 10315, "id": "password_store.cc 10.3k"},
+                {"size": 9422, "id": "password_store_x.cc 9.4k"},
+                {"size": 2431, "id": "password_manager.cc 2.4k"},
+                {"size": 1706, "id": "encryptor_linux.cc 1.7k"},
+                {"size": 74, "id": "login_database_posix.cc 74"}
               ]
             },
             {
               "size": 84268,
-              "caption": "bookmarks 84.3k",
+              "id": "bookmarks 84.3k",
               "children": [
-                {"size": 20003, "caption": "bookmark_model.cc 20.0k"},
-                {"size": 15120, "caption": "bookmark_utils.cc 15.1k"},
-                {"size": 11620, "caption": "bookmark_html_writer.cc 11.6k"},
-                {"size": 9539, "caption": "bookmark_drag_data.cc 9.5k"},
-                {"size": 8476, "caption": "bookmark_index.cc 8.5k"},
-                {"size": 8051, "caption": "bookmark_codec.cc 8.1k"}, {
+                {"size": 20003, "id": "bookmark_model.cc 20.0k"},
+                {"size": 15120, "id": "bookmark_utils.cc 15.1k"},
+                {"size": 11620, "id": "bookmark_html_writer.cc 11.6k"},
+                {"size": 9539, "id": "bookmark_drag_data.cc 9.5k"},
+                {"size": 8476, "id": "bookmark_index.cc 8.5k"},
+                {"size": 8051, "id": "bookmark_codec.cc 8.1k"}, {
                   "size": 4594,
-                  "caption": "bookmark_context_menu_controller.cc 4.6k"
+                  "id": "bookmark_context_menu_controller.cc 4.6k"
                 },
-                {"size": 3570, "caption": "bookmark_storage.cc 3.6k"}, {
+                {"size": 3570, "id": "bookmark_storage.cc 3.6k"}, {
                   "size": 2314,
-                  "caption": "bookmark_folder_editor_controller.cc 2.3k"
+                  "id": "bookmark_folder_editor_controller.cc 2.3k"
                 },
                 {
                   "size": 981,
-                  "caption": "recently_used_folders_combo_model.cc 981"
+                  "id": "recently_used_folders_combo_model.cc 981"
                 }
               ]
             },
             {
               "size": 82000,
-              "caption": "search_engines 82.0k",
+              "id": "search_engines 82.0k",
               "children": [
-                {"size": 25167, "caption": "template_url_model.cc 25.2k"},
-                {"size": 13450, "caption": "template_url.cc 13.4k"}, {
+                {"size": 25167, "id": "template_url_model.cc 25.2k"},
+                {"size": 13450, "id": "template_url.cc 13.4k"}, {
                   "size": 11967,
-                  "caption": "template_url_prepopulate_data.cc 12.0k"
+                  "id": "template_url_prepopulate_data.cc 12.0k"
                 },
-                {"size": 10587, "caption": "template_url_parser.cc 10.6k"},
-                {"size": 6645, "caption": "template_url_table_model.cc 6.6k"},
-                {"size": 4719, "caption": "util.cc 4.7k"}, {
+                {"size": 10587, "id": "template_url_parser.cc 10.6k"},
+                {"size": 6645, "id": "template_url_table_model.cc 6.6k"},
+                {"size": 4719, "id": "util.cc 4.7k"}, {
                   "size": 3693,
-                  "caption": "edit_search_engine_controller.cc 3.7k"
+                  "id": "edit_search_engine_controller.cc 3.7k"
                 },
-                {"size": 2954, "caption": "template_url_fetcher.cc 3.0k"}, {
+                {"size": 2954, "id": "template_url_fetcher.cc 3.0k"}, {
                   "size": 1664,
-                  "caption":
+                  "id":
                       "search_provider_install_state_dispatcher_host.cc 1.7k"
                 },
                 {
                   "size": 1154,
-                  "caption": "keyword_editor_controller.cc 1.2k"
+                  "id": "keyword_editor_controller.cc 1.2k"
                 }
               ]
             },
             {
               "size": 72477,
-              "caption": "geolocation 72.5k",
+              "id": "geolocation 72.5k",
               "children": [
-                {"size": 11414, "caption": "network_location_request.cc 11.4k"},
+                {"size": 11414, "id": "network_location_request.cc 11.4k"},
                 {
                   "size": 10828,
-                  "caption": "network_location_provider.cc 10.8k"
+                  "id": "network_location_provider.cc 10.8k"
                 },
                 {
                   "size": 7359,
-                  "caption": "geolocation_permission_context.cc 7.4k"
+                  "id": "geolocation_permission_context.cc 7.4k"
                 },
-                {"size": 5860, "caption": "location_arbitrator.cc 5.9k"}, {
+                {"size": 5860, "id": "location_arbitrator.cc 5.9k"}, {
                   "size": 5411,
-                  "caption": "geolocation_exceptions_table_model.cc 5.4k"
+                  "id": "geolocation_exceptions_table_model.cc 5.4k"
                 },
                 {
                   "size": 4733,
-                  "caption": "geolocation_dispatcher_host.cc 4.7k"
+                  "id": "geolocation_dispatcher_host.cc 4.7k"
                 },
                 {
                   "size": 4729,
-                  "caption": "geolocation_content_settings_map.cc 4.7k"
+                  "id": "geolocation_content_settings_map.cc 4.7k"
                 },
-                {"size": 4407, "caption": "libgps_wrapper_linux.cc 4.4k"},
-                {"size": 4338, "caption": "wifi_data_provider_linux.cc 4.3k"},
-                {"size": 3940, "caption": "wifi_data_provider_common.cc 3.9k"},
-                {"size": 3171, "caption": "access_token_store.cc 3.2k"},
-                {"size": 3016, "caption": "geolocation_settings_state.cc 3.0k"},
+                {"size": 4407, "id": "libgps_wrapper_linux.cc 4.4k"},
+                {"size": 4338, "id": "wifi_data_provider_linux.cc 4.3k"},
+                {"size": 3940, "id": "wifi_data_provider_common.cc 3.9k"},
+                {"size": 3171, "id": "access_token_store.cc 3.2k"},
+                {"size": 3016, "id": "geolocation_settings_state.cc 3.0k"},
                 {
                   "size": 1963,
-                  "caption": "gps_location_provider_linux.cc 2.0k"
+                  "id": "gps_location_provider_linux.cc 2.0k"
                 },
-                {"size": 826, "caption": "location_provider.cc 826"},
-                {"size": 376, "caption": "empty_device_data_provider.cc 376"},
-                {"size": 47, "caption": "libgps_2_38_wrapper_linux.cc 47"},
-                {"size": 47, "caption": "libgps_2_94_wrapper_linux.cc 47"},
-                {"size": 12, "caption": "geolocation_prefs.cc 12"}
+                {"size": 826, "id": "location_provider.cc 826"},
+                {"size": 376, "id": "empty_device_data_provider.cc 376"},
+                {"size": 47, "id": "libgps_2_38_wrapper_linux.cc 47"},
+                {"size": 47, "id": "libgps_2_94_wrapper_linux.cc 47"},
+                {"size": 12, "id": "geolocation_prefs.cc 12"}
               ]
             },
             {
               "size": 71140,
-              "caption": "sessions 71.1k",
+              "id": "sessions 71.1k",
               "children": [
-                {"size": 28513, "caption": "session_service.cc 28.5k"},
-                {"size": 16629, "caption": "tab_restore_service.cc 16.6k"},
-                {"size": 10445, "caption": "session_restore.cc 10.4k"},
-                {"size": 9208, "caption": "session_backend.cc 9.2k"},
-                {"size": 5237, "caption": "base_session_service.cc 5.2k"},
-                {"size": 683, "caption": "session_types.cc 683"},
-                {"size": 402, "caption": "session_command.cc 402"},
-                {"size": 23, "caption": "session_id.cc 23"}
+                {"size": 28513, "id": "session_service.cc 28.5k"},
+                {"size": 16629, "id": "tab_restore_service.cc 16.6k"},
+                {"size": 10445, "id": "session_restore.cc 10.4k"},
+                {"size": 9208, "id": "session_backend.cc 9.2k"},
+                {"size": 5237, "id": "base_session_service.cc 5.2k"},
+                {"size": 683, "id": "session_types.cc 683"},
+                {"size": 402, "id": "session_command.cc 402"},
+                {"size": 23, "id": "session_id.cc 23"}
               ]
             },
             {
               "size": 63691,
-              "caption": "webdata 63.7k",
+              "id": "webdata 63.7k",
               "children": [
-                {"size": 43797, "caption": "web_database.cc 43.8k"},
-                {"size": 19747, "caption": "web_data_service.cc 19.7k"},
-                {"size": 147, "caption": "autofill_entry.cc 147"}
+                {"size": 43797, "id": "web_database.cc 43.8k"},
+                {"size": 19747, "id": "web_data_service.cc 19.7k"},
+                {"size": 147, "id": "autofill_entry.cc 147"}
               ]
             },
             {
               "size": 62806,
-              "caption": "metrics 62.8k",
+              "id": "metrics 62.8k",
               "children": [
-                {"size": 34122, "caption": "metrics_service.cc 34.1k"},
-                {"size": 17431, "caption": "metrics_log.cc 17.4k"},
-                {"size": 11076, "caption": "histogram_synchronizer.cc 11.1k"},
-                {"size": 177, "caption": "user_metrics.cc 177"}
+                {"size": 34122, "id": "metrics_service.cc 34.1k"},
+                {"size": 17431, "id": "metrics_log.cc 17.4k"},
+                {"size": 11076, "id": "histogram_synchronizer.cc 11.1k"},
+                {"size": 177, "id": "user_metrics.cc 177"}
               ]
             },
             {
               "size": 60898,
-              "caption": "in_process_webkit 60.9k",
+              "id": "in_process_webkit 60.9k",
               "children": [
                 {
                   "size": 21136,
-                  "caption": "indexed_db_dispatcher_host.cc 21.1k"
+                  "id": "indexed_db_dispatcher_host.cc 21.1k"
                 },
                 {
                   "size": 13066,
-                  "caption": "dom_storage_dispatcher_host.cc 13.1k"
+                  "id": "dom_storage_dispatcher_host.cc 13.1k"
                 },
-                {"size": 8056, "caption": "dom_storage_context.cc 8.1k"},
-                {"size": 4760, "caption": "browser_webkitclient_impl.cc 4.8k"},
+                {"size": 8056, "id": "dom_storage_context.cc 8.1k"},
+                {"size": 4760, "id": "browser_webkitclient_impl.cc 4.8k"},
                 {
                   "size": 4236,
-                  "caption": "indexed_db_key_utility_client.cc 4.2k"
+                  "id": "indexed_db_key_utility_client.cc 4.2k"
                 },
-                {"size": 3634, "caption": "dom_storage_area.cc 3.6k"},
-                {"size": 2867, "caption": "dom_storage_namespace.cc 2.9k"},
-                {"size": 1194, "caption": "webkit_context.cc 1.2k"},
-                {"size": 1075, "caption": "webkit_thread.cc 1.1k"}, {
+                {"size": 3634, "id": "dom_storage_area.cc 3.6k"},
+                {"size": 2867, "id": "dom_storage_namespace.cc 2.9k"},
+                {"size": 1194, "id": "webkit_context.cc 1.2k"},
+                {"size": 1075, "id": "webkit_thread.cc 1.1k"}, {
                   "size": 659,
-                  "caption": "dom_storage_permission_request.cc 659"
+                  "id": "dom_storage_permission_request.cc 659"
                 },
-                {"size": 215, "caption": "indexed_db_context.cc 215"}
+                {"size": 215, "id": "indexed_db_context.cc 215"}
               ]
             },
             {
               "size": 59376,
-              "caption": "debugger 59.4k",
+              "id": "debugger 59.4k",
               "children": [
                 {
                   "size": 11312,
-                  "caption": "extension_ports_remote_service.cc 11.3k"
+                  "id": "extension_ports_remote_service.cc 11.3k"
                 },
                 {
                   "size": 11020,
-                  "caption": "devtools_http_protocol_handler.cc 11.0k"
+                  "id": "devtools_http_protocol_handler.cc 11.0k"
                 },
-                {"size": 8886, "caption": "devtools_manager.cc 8.9k"},
-                {"size": 6638, "caption": "devtools_window.cc 6.6k"},
-                {"size": 5406, "caption": "debugger_remote_service.cc 5.4k"},
-                {"size": 4682, "caption": "devtools_protocol_handler.cc 4.7k"},
+                {"size": 8886, "id": "devtools_manager.cc 8.9k"},
+                {"size": 6638, "id": "devtools_window.cc 6.6k"},
+                {"size": 5406, "id": "debugger_remote_service.cc 5.4k"},
+                {"size": 4682, "id": "devtools_protocol_handler.cc 4.7k"},
                 {
                   "size": 3441,
-                  "caption": "devtools_remote_listen_socket.cc 3.4k"
+                  "id": "devtools_remote_listen_socket.cc 3.4k"
                 },
-                {"size": 2957, "caption": "devtools_remote_service.cc 3.0k"},
-                {"size": 2760, "caption": "devtools_remote_message.cc 2.8k"},
-                {"size": 1512, "caption": "inspectable_tab_proxy.cc 1.5k"},
-                {"size": 762, "caption": "debugger_wrapper.cc 762"}
+                {"size": 2957, "id": "devtools_remote_service.cc 3.0k"},
+                {"size": 2760, "id": "devtools_remote_message.cc 2.8k"},
+                {"size": 1512, "id": "inspectable_tab_proxy.cc 1.5k"},
+                {"size": 762, "id": "debugger_wrapper.cc 762"}
               ]
             },
-            {"size": 54937, "caption": "browser.cc 54.9k"},
+            {"size": 54937, "id": "browser.cc 54.9k"},
             {
               "size": 33985,
-              "caption": "worker_host 34.0k",
+              "id": "worker_host 34.0k",
               "children": [
-                {"size": 13205, "caption": "worker_process_host.cc 13.2k"},
-                {"size": 10117, "caption": "worker_service.cc 10.1k"},
-                {"size": 9918, "caption": "message_port_dispatcher.cc 9.9k"},
-                {"size": 745, "caption": "worker_document_set.cc 745"}
+                {"size": 13205, "id": "worker_process_host.cc 13.2k"},
+                {"size": 10117, "id": "worker_service.cc 10.1k"},
+                {"size": 9918, "id": "message_port_dispatcher.cc 9.9k"},
+                {"size": 745, "id": "worker_document_set.cc 745"}
               ]
             },
             {
               "size": 33788,
-              "caption": "printing 33.8k",
+              "id": "printing 33.8k",
               "children": [
-                {"size": 10110, "caption": "print_job.cc 10.1k"},
-                {"size": 8442, "caption": "print_job_worker.cc 8.4k"},
-                {"size": 5163, "caption": "print_view_manager.cc 5.2k"},
-                {"size": 4528, "caption": "printer_query.cc 4.5k"},
-                {"size": 3427, "caption": "print_job_manager.cc 3.4k"},
-                {"size": 2051, "caption": "print_dialog_gtk.cc 2.1k"}, {
+                {"size": 10110, "id": "print_job.cc 10.1k"},
+                {"size": 8442, "id": "print_job_worker.cc 8.4k"},
+                {"size": 5163, "id": "print_view_manager.cc 5.2k"},
+                {"size": 4528, "id": "printer_query.cc 4.5k"},
+                {"size": 3427, "id": "print_job_manager.cc 3.4k"},
+                {"size": 2051, "id": "print_dialog_gtk.cc 2.1k"}, {
                   "size": 67,
-                  "caption": "cloud_print 67",
+                  "id": "cloud_print 67",
                   "children": [{
                     "size": 67,
-                    "caption": "cloud_print_proxy_service.cc 67"
+                    "id": "cloud_print_proxy_service.cc 67"
                   }]
                 }
               ]
             },
             {
               "size": 33670,
-              "caption": "notifications 33.7k",
+              "id": "notifications 33.7k",
               "children": [
                 {
                   "size": 12896,
-                  "caption": "desktop_notification_service.cc 12.9k"
+                  "id": "desktop_notification_service.cc 12.9k"
                 },
-                {"size": 4430, "caption": "balloon_collection.cc 4.4k"}, {
+                {"size": 4430, "id": "balloon_collection.cc 4.4k"}, {
                   "size": 4338,
-                  "caption": "notification_exceptions_table_model.cc 4.3k"
+                  "id": "notification_exceptions_table_model.cc 4.3k"
                 },
-                {"size": 3367, "caption": "notification_ui_manager.cc 3.4k"},
-                {"size": 2210, "caption": "balloon_host.cc 2.2k"},
-                {"size": 1941, "caption": "balloon.cc 1.9k"},
-                {"size": 1914, "caption": "notifications_prefs_cache.cc 1.9k"},
-                {"size": 1192, "caption": "notification_object_proxy.cc 1.2k"},
+                {"size": 3367, "id": "notification_ui_manager.cc 3.4k"},
+                {"size": 2210, "id": "balloon_host.cc 2.2k"},
+                {"size": 1941, "id": "balloon.cc 1.9k"},
+                {"size": 1914, "id": "notifications_prefs_cache.cc 1.9k"},
+                {"size": 1192, "id": "notification_object_proxy.cc 1.2k"},
                 {
                   "size": 820,
-                  "caption": "notification_options_menu_model.cc 820"
+                  "id": "notification_options_menu_model.cc 820"
                 },
-                {"size": 562, "caption": "balloon_collection_linux.cc 562"}
+                {"size": 562, "id": "balloon_collection_linux.cc 562"}
               ]
             },
             {
               "size": 33431,
-              "caption": "prefs 33.4k",
+              "id": "prefs 33.4k",
               "children": [
-                {"size": 15693, "caption": "pref_service.cc 15.7k"},
-                {"size": 4924, "caption": "pref_value_store.cc 4.9k"},
-                {"size": 4717, "caption": "pref_notifier.cc 4.7k"},
-                {"size": 2497, "caption": "pref_member.cc 2.5k"},
-                {"size": 1869, "caption": "command_line_pref_store.cc 1.9k"},
-                {"size": 1782, "caption": "session_startup_pref.cc 1.8k"},
-                {"size": 1436, "caption": "pref_set_observer.cc 1.4k"},
-                {"size": 374, "caption": "browser_prefs.cc 374"},
-                {"size": 139, "caption": "scoped_pref_update.cc 139"}
+                {"size": 15693, "id": "pref_service.cc 15.7k"},
+                {"size": 4924, "id": "pref_value_store.cc 4.9k"},
+                {"size": 4717, "id": "pref_notifier.cc 4.7k"},
+                {"size": 2497, "id": "pref_member.cc 2.5k"},
+                {"size": 1869, "id": "command_line_pref_store.cc 1.9k"},
+                {"size": 1782, "id": "session_startup_pref.cc 1.8k"},
+                {"size": 1436, "id": "pref_set_observer.cc 1.4k"},
+                {"size": 374, "id": "browser_prefs.cc 374"},
+                {"size": 139, "id": "scoped_pref_update.cc 139"}
               ]
             },
-            {"size": 30127, "caption": "profile_impl.cc 30.1k"},
+            {"size": 30127, "id": "profile_impl.cc 30.1k"},
             {
               "size": 29647,
-              "caption": "translate 29.6k",
+              "id": "translate 29.6k",
               "children": [
-                {"size": 12866, "caption": "translate_manager.cc 12.9k"}, {
+                {"size": 12866, "id": "translate_manager.cc 12.9k"}, {
                   "size": 9964,
-                  "caption": "translate_infobar_delegate.cc 10.0k"
+                  "id": "translate_infobar_delegate.cc 10.0k"
                 },
-                {"size": 3626, "caption": "options_menu_model.cc 3.6k"},
-                {"size": 3191, "caption": "translate_prefs.cc 3.2k"}
+                {"size": 3626, "id": "options_menu_model.cc 3.6k"},
+                {"size": 3191, "id": "translate_prefs.cc 3.2k"}
               ]
             },
             {
               "size": 28949,
-              "caption": "ssl 28.9k",
+              "id": "ssl 28.9k",
               "children": [
-                {"size": 6596, "caption": "ssl_blocking_page.cc 6.6k"},
-                {"size": 6269, "caption": "ssl_error_info.cc 6.3k"},
-                {"size": 4526, "caption": "ssl_manager.cc 4.5k"},
-                {"size": 2782, "caption": "ssl_host_state.cc 2.8k"},
-                {"size": 2490, "caption": "ssl_error_handler.cc 2.5k"},
-                {"size": 2205, "caption": "ssl_policy.cc 2.2k"},
-                {"size": 1414, "caption": "ssl_add_cert_handler.cc 1.4k"},
-                {"size": 1280, "caption": "ssl_client_auth_handler.cc 1.3k"},
-                {"size": 1044, "caption": "ssl_policy_backend.cc 1.0k"},
-                {"size": 343, "caption": "ssl_cert_error_handler.cc 343"}
+                {"size": 6596, "id": "ssl_blocking_page.cc 6.6k"},
+                {"size": 6269, "id": "ssl_error_info.cc 6.3k"},
+                {"size": 4526, "id": "ssl_manager.cc 4.5k"},
+                {"size": 2782, "id": "ssl_host_state.cc 2.8k"},
+                {"size": 2490, "id": "ssl_error_handler.cc 2.5k"},
+                {"size": 2205, "id": "ssl_policy.cc 2.2k"},
+                {"size": 1414, "id": "ssl_add_cert_handler.cc 1.4k"},
+                {"size": 1280, "id": "ssl_client_auth_handler.cc 1.3k"},
+                {"size": 1044, "id": "ssl_policy_backend.cc 1.0k"},
+                {"size": 343, "id": "ssl_cert_error_handler.cc 343"}
               ]
             },
-            {"size": 28873, "caption": "browser_about_handler.cc 28.9k"},
+            {"size": 28873, "id": "browser_about_handler.cc 28.9k"},
             {
               "size": 21460,
-              "caption": "themes 21.5k",
+              "id": "themes 21.5k",
               "children": [
-                {"size": 14627, "caption": "browser_theme_pack.cc 14.6k"},
-                {"size": 5967, "caption": "browser_theme_provider.cc 6.0k"},
-                {"size": 866, "caption": "browser_theme_provider_gtk.cc 866"}
+                {"size": 14627, "id": "browser_theme_pack.cc 14.6k"},
+                {"size": 5967, "id": "browser_theme_provider.cc 6.0k"},
+                {"size": 866, "id": "browser_theme_provider_gtk.cc 866"}
               ]
             },
-            {"size": 20684, "caption": "browser_init.cc 20.7k"},
-            {"size": 20097, "caption": "task_manager.cc 20.1k"},
-            {"size": 19988, "caption": "browser_main.cc 20.0k"},
-            {"size": 19939, "caption": "host_content_settings_map.cc 19.9k"},
+            {"size": 20684, "id": "browser_init.cc 20.7k"},
+            {"size": 20097, "id": "task_manager.cc 20.1k"},
+            {"size": 19988, "id": "browser_main.cc 20.0k"},
+            {"size": 19939, "id": "host_content_settings_map.cc 19.9k"},
             {
               "size": 19773,
-              "caption": "tabs 19.8k",
+              "id": "tabs 19.8k",
               "children": [
-                {"size": 16106, "caption": "tab_strip_model.cc 16.1k"},
-                {"size": 2284, "caption": "pinned_tab_codec.cc 2.3k"}, {
+                {"size": 16106, "id": "tab_strip_model.cc 16.1k"},
+                {"size": 2284, "id": "pinned_tab_codec.cc 2.3k"}, {
                   "size": 862,
-                  "caption": "tab_strip_model_order_controller.cc 862"
+                  "id": "tab_strip_model_order_controller.cc 862"
                 },
-                {"size": 521, "caption": "pinned_tab_service.cc 521"}
+                {"size": 521, "id": "pinned_tab_service.cc 521"}
               ]
             },
             {
               "size": 19042,
-              "caption": "speech 19.0k",
+              "id": "speech 19.0k",
               "children": [
-                {"size": 5120, "caption": "speech_recognizer.cc 5.1k"}, {
+                {"size": 5120, "id": "speech_recognizer.cc 5.1k"}, {
                   "size": 4422,
-                  "caption": "endpointer 4.4k",
+                  "id": "endpointer 4.4k",
                   "children": [
-                    {"size": 3295, "caption": "energy_endpointer.cc 3.3k"},
-                    {"size": 1127, "caption": "endpointer.cc 1.1k"}
+                    {"size": 3295, "id": "energy_endpointer.cc 3.3k"},
+                    {"size": 1127, "id": "endpointer.cc 1.1k"}
                   ]
                 },
                 {
                   "size": 3541,
-                  "caption": "speech_input_dispatcher_host.cc 3.5k"
+                  "id": "speech_input_dispatcher_host.cc 3.5k"
                 },
-                {"size": 3321, "caption": "speech_recognition_request.cc 3.3k"},
-                {"size": 2638, "caption": "speech_input_manager.cc 2.6k"}
+                {"size": 3321, "id": "speech_recognition_request.cc 3.3k"},
+                {"size": 2638, "id": "speech_input_manager.cc 2.6k"}
               ]
             },
             {
               "size": 17854,
-              "caption": "diagnostics 17.9k",
+              "id": "diagnostics 17.9k",
               "children": [
-                {"size": 8270, "caption": "recon_diagnostics.cc 8.3k"},
-                {"size": 4438, "caption": "sqlite_diagnostics.cc 4.4k"},
-                {"size": 3394, "caption": "diagnostics_main.cc 3.4k"},
-                {"size": 1752, "caption": "diagnostics_model.cc 1.8k"}
+                {"size": 8270, "id": "recon_diagnostics.cc 8.3k"},
+                {"size": 4438, "id": "sqlite_diagnostics.cc 4.4k"},
+                {"size": 3394, "id": "diagnostics_main.cc 3.4k"},
+                {"size": 1752, "id": "diagnostics_model.cc 1.8k"}
               ]
             },
-            {"size": 16705, "caption": "memory_details.cc 16.7k"},
-            {"size": 15665, "caption": "shell_integration_linux.cc 15.7k"},
+            {"size": 16705, "id": "memory_details.cc 16.7k"},
+            {"size": 15665, "id": "shell_integration_linux.cc 15.7k"},
             {
               "size": 15455,
-              "caption": "policy 15.5k",
+              "id": "policy 15.5k",
               "children": [
                 {
                   "size": 7632,
-                  "caption": "configuration_policy_pref_store.cc 7.6k"
+                  "id": "configuration_policy_pref_store.cc 7.6k"
                 },
-                {"size": 6439, "caption": "config_dir_policy_provider.cc 6.4k"},
-                {"size": 904, "caption": "managed_prefs_banner_base.cc 904"}, {
+                {"size": 6439, "id": "config_dir_policy_provider.cc 6.4k"},
+                {"size": 904, "id": "managed_prefs_banner_base.cc 904"}, {
                   "size": 480,
-                  "caption": "configuration_policy_provider.cc 480"
+                  "id": "configuration_policy_provider.cc 480"
                 }
               ]
             },
-            {"size": 14469, "caption": "plugin_process_host.cc 14.5k"},
-            {"size": 14409, "caption": "process_singleton_linux.cc 14.4k"},
+            {"size": 14469, "id": "plugin_process_host.cc 14.5k"},
+            {"size": 14409, "id": "process_singleton_linux.cc 14.4k"},
             {
               "size": 13347,
-              "caption": "remoting 13.3k",
+              "id": "remoting 13.3k",
               "children": [
-                {"size": 7215, "caption": "remoting_resources_source.cc 7.2k"},
-                {"size": 3974, "caption": "remoting_setup_flow.cc 4.0k"}, {
+                {"size": 7215, "id": "remoting_resources_source.cc 7.2k"},
+                {"size": 3974, "id": "remoting_setup_flow.cc 4.0k"}, {
                   "size": 2158,
-                  "caption": "remoting_setup_message_handler.cc 2.2k"
+                  "id": "remoting_setup_message_handler.cc 2.2k"
                 }
               ]
             },
-            {"size": 13168, "caption": "browser_process_impl.cc 13.2k"},
+            {"size": 13168, "id": "browser_process_impl.cc 13.2k"},
             {
               "size": 13079,
-              "caption": "task_manager_resource_providers.cc 13.1k"
+              "id": "task_manager_resource_providers.cc 13.1k"
             },
-            {"size": 12558, "caption": "cookies_tree_model.cc 12.6k"},
-            {"size": 11657, "caption": "login_prompt.cc 11.7k"},
+            {"size": 12558, "id": "cookies_tree_model.cc 12.6k"},
+            {"size": 11657, "id": "login_prompt.cc 11.7k"},
             {
               "size": 10678,
-              "caption": "appcache 10.7k",
+              "id": "appcache 10.7k",
               "children": [
-                {"size": 5438, "caption": "appcache_dispatcher_host.cc 5.4k"},
-                {"size": 4366, "caption": "chrome_appcache_service.cc 4.4k"},
-                {"size": 671, "caption": "appcache_frontend_proxy.cc 671"}, {
+                {"size": 5438, "id": "appcache_dispatcher_host.cc 5.4k"},
+                {"size": 4366, "id": "chrome_appcache_service.cc 4.4k"},
+                {"size": 671, "id": "appcache_frontend_proxy.cc 671"}, {
                   "size": 203,
-                  "caption": "view_appcache_internals_job_factory.cc 203"
+                  "id": "view_appcache_internals_job_factory.cc 203"
                 }
               ]
             },
-            {"size": 10402, "caption": "character_encoding.cc 10.4k"},
-            {"size": 10355, "caption": "plugin_service.cc 10.4k"},
-            {"size": 10185, "caption": "file_path_watcher_inotify.cc 10.2k"},
-            {"size": 9963, "caption": "browsing_data_database_helper.cc 10.0k"},
+            {"size": 10402, "id": "character_encoding.cc 10.4k"},
+            {"size": 10355, "id": "plugin_service.cc 10.4k"},
+            {"size": 10185, "id": "file_path_watcher_inotify.cc 10.2k"},
+            {"size": 9963, "id": "browsing_data_database_helper.cc 10.0k"},
             {
               "size": 9878,
-              "caption": "sidebar 9.9k",
+              "id": "sidebar 9.9k",
               "children": [
-                {"size": 8671, "caption": "sidebar_manager.cc 8.7k"},
-                {"size": 1207, "caption": "sidebar_container.cc 1.2k"}
+                {"size": 8671, "id": "sidebar_manager.cc 8.7k"},
+                {"size": 1207, "id": "sidebar_container.cc 1.2k"}
               ]
             },
-            {"size": 9704, "caption": "page_info_model.cc 9.7k"},
-            {"size": 9590, "caption": "gpu_process_host.cc 9.6k"},
-            {"size": 9546, "caption": "browser_list.cc 9.5k"},
-            {"size": 9406, "caption": "chrome_plugin_host.cc 9.4k"},
-            {"size": 9091, "caption": "visitedlink_master.cc 9.1k"},
-            {"size": 8546, "caption": "child_process_security_policy.cc 8.5k"},
+            {"size": 9704, "id": "page_info_model.cc 9.7k"},
+            {"size": 9590, "id": "gpu_process_host.cc 9.6k"},
+            {"size": 9546, "id": "browser_list.cc 9.5k"},
+            {"size": 9406, "id": "chrome_plugin_host.cc 9.4k"},
+            {"size": 9091, "id": "visitedlink_master.cc 9.1k"},
+            {"size": 8546, "id": "child_process_security_policy.cc 8.5k"},
             {
               "size": 8234,
-              "caption": "browsing_data_local_storage_helper.cc 8.2k"
+              "id": "browsing_data_local_storage_helper.cc 8.2k"
             },
-            {"size": 8172, "caption": "browsing_data_remover.cc 8.2k"},
-            {"size": 7388, "caption": "possible_url_model.cc 7.4k"},
-            {"size": 7353, "caption": "zygote_main_linux.cc 7.4k"},
-            {"size": 7225, "caption": "browser_shutdown.cc 7.2k"},
-            {"size": 7101, "caption": "background_contents_service.cc 7.1k"},
-            {"size": 6968, "caption": "spellcheck_host.cc 7.0k"},
-            {"size": 6899, "caption": "plugin_updater.cc 6.9k"},
-            {"size": 6887, "caption": "google_url_tracker.cc 6.9k"},
-            {"size": 6861, "caption": "bug_report_util.cc 6.9k"},
+            {"size": 8172, "id": "browsing_data_remover.cc 8.2k"},
+            {"size": 7388, "id": "possible_url_model.cc 7.4k"},
+            {"size": 7353, "id": "zygote_main_linux.cc 7.4k"},
+            {"size": 7225, "id": "browser_shutdown.cc 7.2k"},
+            {"size": 7101, "id": "background_contents_service.cc 7.1k"},
+            {"size": 6968, "id": "spellcheck_host.cc 7.0k"},
+            {"size": 6899, "id": "plugin_updater.cc 6.9k"},
+            {"size": 6887, "id": "google_url_tracker.cc 6.9k"},
+            {"size": 6861, "id": "bug_report_util.cc 6.9k"},
             {
               "size": 6721,
-              "caption": "device_orientation 6.7k",
+              "id": "device_orientation 6.7k",
               "children": [
-                {"size": 4736, "caption": "provider_impl.cc 4.7k"},
-                {"size": 1792, "caption": "dispatcher_host.cc 1.8k"},
-                {"size": 193, "caption": "provider.cc 193"}
+                {"size": 4736, "id": "provider_impl.cc 4.7k"},
+                {"size": 1792, "id": "dispatcher_host.cc 1.8k"},
+                {"size": 193, "id": "provider.cc 193"}
               ]
             },
-            {"size": 6711, "caption": "memory_details_linux.cc 6.7k"},
-            {"size": 6500, "caption": "io_thread.cc 6.5k"},
-            {"size": 6497, "caption": "custom_home_pages_table_model.cc 6.5k"},
-            {"size": 6376, "caption": "zygote_host_linux.cc 6.4k"},
+            {"size": 6711, "id": "memory_details_linux.cc 6.7k"},
+            {"size": 6500, "id": "io_thread.cc 6.5k"},
+            {"size": 6497, "id": "custom_home_pages_table_model.cc 6.5k"},
+            {"size": 6376, "id": "zygote_host_linux.cc 6.4k"},
             {
               "size": 6343,
-              "caption": "first_run 6.3k",
+              "id": "first_run 6.3k",
               "children": [
-                {"size": 4666, "caption": "first_run.cc 4.7k"},
-                {"size": 1677, "caption": "first_run_gtk.cc 1.7k"}
+                {"size": 4666, "id": "first_run.cc 4.7k"},
+                {"size": 1677, "id": "first_run_gtk.cc 1.7k"}
               ]
             },
-            {"size": 5718, "caption": "intranet_redirect_detector.cc 5.7k"},
-            {"size": 5691, "caption": "shell_integration.cc 5.7k"},
-            {"size": 5247, "caption": "fav_icon_helper.cc 5.2k"},
-            {"size": 5058, "caption": "wrench_menu_model.cc 5.1k"},
-            {"size": 5047, "caption": "language_combobox_model.cc 5.0k"},
-            {"size": 5027, "caption": "back_forward_menu_model.cc 5.0k"},
-            {"size": 4871, "caption": "utility_process_host.cc 4.9k"},
-            {"size": 4835, "caption": "jankometer.cc 4.8k"},
-            {"size": 4743, "caption": "browser_child_process_host.cc 4.7k"},
-            {"size": 4497, "caption": "message_box_handler.cc 4.5k"},
-            {"size": 4314, "caption": "browsing_instance.cc 4.3k"},
-            {"size": 4208, "caption": "cert_store.cc 4.2k"},
-            {"size": 4205, "caption": "toolbar_model.cc 4.2k"},
-            {"size": 4050, "caption": "chrome_plugin_browsing_context.cc 4.0k"},
-            {"size": 4004, "caption": "cookie_modal_dialog.cc 4.0k"},
-            {"size": 3990, "caption": "autocomplete_history_manager.cc 4.0k"},
-            {"size": 3776, "caption": "browsing_data_appcache_helper.cc 3.8k"},
+            {"size": 5718, "id": "intranet_redirect_detector.cc 5.7k"},
+            {"size": 5691, "id": "shell_integration.cc 5.7k"},
+            {"size": 5247, "id": "fav_icon_helper.cc 5.2k"},
+            {"size": 5058, "id": "wrench_menu_model.cc 5.1k"},
+            {"size": 5047, "id": "language_combobox_model.cc 5.0k"},
+            {"size": 5027, "id": "back_forward_menu_model.cc 5.0k"},
+            {"size": 4871, "id": "utility_process_host.cc 4.9k"},
+            {"size": 4835, "id": "jankometer.cc 4.8k"},
+            {"size": 4743, "id": "browser_child_process_host.cc 4.7k"},
+            {"size": 4497, "id": "message_box_handler.cc 4.5k"},
+            {"size": 4314, "id": "browsing_instance.cc 4.3k"},
+            {"size": 4208, "id": "cert_store.cc 4.2k"},
+            {"size": 4205, "id": "toolbar_model.cc 4.2k"},
+            {"size": 4050, "id": "chrome_plugin_browsing_context.cc 4.0k"},
+            {"size": 4004, "id": "cookie_modal_dialog.cc 4.0k"},
+            {"size": 3990, "id": "autocomplete_history_manager.cc 4.0k"},
+            {"size": 3776, "id": "browsing_data_appcache_helper.cc 3.8k"},
             {
               "size": 3768,
-              "caption": "service 3.8k",
+              "id": "service 3.8k",
               "children": [
-                {"size": 3175, "caption": "service_process_control.cc 3.2k"}, {
+                {"size": 3175, "id": "service_process_control.cc 3.2k"}, {
                   "size": 593,
-                  "caption": "service_process_control_manager.cc 593"
+                  "id": "service_process_control_manager.cc 593"
                 }
               ]
             },
-            {"size": 3688, "caption": "browser_main_posix.cc 3.7k"},
+            {"size": 3688, "id": "browser_main_posix.cc 3.7k"},
             {
               "size": 3604,
-              "caption": "web_applications 3.6k",
-              "children": [{"size": 3604, "caption": "web_app.cc 3.6k"}]
+              "id": "web_applications 3.6k",
+              "children": [{"size": 3604, "id": "web_app.cc 3.6k"}]
             },
-            {"size": 3452, "caption": "profile_manager.cc 3.5k"},
+            {"size": 3452, "id": "profile_manager.cc 3.5k"},
             {
               "size": 3451,
-              "caption": "nacl_host 3.5k",
+              "id": "nacl_host 3.5k",
               "children":
-                  [{"size": 3451, "caption": "nacl_process_host.cc 3.5k"}]
+                  [{"size": 3451, "id": "nacl_process_host.cc 3.5k"}]
             },
-            {"size": 3368, "caption": "content_setting_bubble_model.cc 3.4k"},
-            {"size": 3313, "caption": "user_style_sheet_watcher.cc 3.3k"},
-            {"size": 3281, "caption": "icon_manager.cc 3.3k"},
-            {"size": 3278, "caption": "cookie_modal_dialog_gtk.cc 3.3k"},
-            {"size": 3189, "caption": "host_zoom_map.cc 3.2k"},
-            {"size": 3110, "caption": "background_mode_manager.cc 3.1k"},
-            {"size": 3042, "caption": "accessibility_events.cc 3.0k"},
-            {"size": 2990, "caption": "upgrade_detector.cc 3.0k"},
-            {"size": 2906, "caption": "alternate_nav_url_fetcher.cc 2.9k"},
-            {"size": 2806, "caption": "transport_security_persister.cc 2.8k"},
-            {"size": 2578, "caption": "language_order_table_model.cc 2.6k"},
-            {"size": 2566, "caption": "content_exceptions_table_model.cc 2.6k"},
-            {"size": 2519, "caption": "command_updater.cc 2.5k"},
-            {"size": 2400, "caption": "js_modal_dialog_gtk.cc 2.4k"},
-            {"size": 2279, "caption": "encoding_menu_controller.cc 2.3k"},
-            {"size": 2224, "caption": "omnibox_search_hint.cc 2.2k"},
-            {"size": 2101, "caption": "external_protocol_handler.cc 2.1k"},
-            {"size": 2096, "caption": "child_process_launcher.cc 2.1k"},
-            {"size": 2050, "caption": "browser_url_handler.cc 2.0k"},
-            {"size": 1982, "caption": "favicon_service.cc 2.0k"},
-            {"size": 1950, "caption": "find_bar_controller.cc 1.9k"},
-            {"size": 1945, "caption": "window_sizer.cc 1.9k"},
-            {"size": 1811, "caption": "js_modal_dialog.cc 1.8k"},
+            {"size": 3368, "id": "content_setting_bubble_model.cc 3.4k"},
+            {"size": 3313, "id": "user_style_sheet_watcher.cc 3.3k"},
+            {"size": 3281, "id": "icon_manager.cc 3.3k"},
+            {"size": 3278, "id": "cookie_modal_dialog_gtk.cc 3.3k"},
+            {"size": 3189, "id": "host_zoom_map.cc 3.2k"},
+            {"size": 3110, "id": "background_mode_manager.cc 3.1k"},
+            {"size": 3042, "id": "accessibility_events.cc 3.0k"},
+            {"size": 2990, "id": "upgrade_detector.cc 3.0k"},
+            {"size": 2906, "id": "alternate_nav_url_fetcher.cc 2.9k"},
+            {"size": 2806, "id": "transport_security_persister.cc 2.8k"},
+            {"size": 2578, "id": "language_order_table_model.cc 2.6k"},
+            {"size": 2566, "id": "content_exceptions_table_model.cc 2.6k"},
+            {"size": 2519, "id": "command_updater.cc 2.5k"},
+            {"size": 2400, "id": "js_modal_dialog_gtk.cc 2.4k"},
+            {"size": 2279, "id": "encoding_menu_controller.cc 2.3k"},
+            {"size": 2224, "id": "omnibox_search_hint.cc 2.2k"},
+            {"size": 2101, "id": "external_protocol_handler.cc 2.1k"},
+            {"size": 2096, "id": "child_process_launcher.cc 2.1k"},
+            {"size": 2050, "id": "browser_url_handler.cc 2.0k"},
+            {"size": 1982, "id": "favicon_service.cc 2.0k"},
+            {"size": 1950, "id": "find_bar_controller.cc 1.9k"},
+            {"size": 1945, "id": "window_sizer.cc 1.9k"},
+            {"size": 1811, "id": "js_modal_dialog.cc 1.8k"},
             {
               "size": 1806,
-              "caption": "file_system 1.8k",
+              "id": "file_system 1.8k",
               "children": [{
                 "size": 1806,
-                "caption": "file_system_dispatcher_host.cc 1.8k"
+                "id": "file_system_dispatcher_host.cc 1.8k"
               }]
             },
-            {"size": 1804, "caption": "input_window_dialog_gtk.cc 1.8k"},
-            {"size": 1715, "caption": "cancelable_request.cc 1.7k"},
-            {"size": 1680, "caption": "power_save_blocker_common.cc 1.7k"},
-            {"size": 1639, "caption": "repost_form_warning_controller.cc 1.6k"},
-            {"size": 1584, "caption": "platform_util_linux.cc 1.6k"},
-            {"size": 1577, "caption": "google_util.cc 1.6k"},
-            {"size": 1577, "caption": "chrome_thread.cc 1.6k"},
-            {"size": 1187, "caption": "default_encoding_combo_model.cc 1.2k"},
-            {"size": 1173, "caption": "memory_purger.cc 1.2k"},
-            {"size": 1166, "caption": "gpu_process_host_ui_shim.cc 1.2k"},
+            {"size": 1804, "id": "input_window_dialog_gtk.cc 1.8k"},
+            {"size": 1715, "id": "cancelable_request.cc 1.7k"},
+            {"size": 1680, "id": "power_save_blocker_common.cc 1.7k"},
+            {"size": 1639, "id": "repost_form_warning_controller.cc 1.6k"},
+            {"size": 1584, "id": "platform_util_linux.cc 1.6k"},
+            {"size": 1577, "id": "google_util.cc 1.6k"},
+            {"size": 1577, "id": "chrome_thread.cc 1.6k"},
+            {"size": 1187, "id": "default_encoding_combo_model.cc 1.2k"},
+            {"size": 1173, "id": "memory_purger.cc 1.2k"},
+            {"size": 1166, "id": "gpu_process_host_ui_shim.cc 1.2k"},
             {
               "size": 1123,
-              "caption": "status_icons 1.1k",
+              "id": "status_icons 1.1k",
               "children": [
-                {"size": 580, "caption": "status_tray.cc 580"},
-                {"size": 543, "caption": "status_icon.cc 543"}
+                {"size": 580, "id": "status_tray.cc 580"},
+                {"size": 543, "id": "status_icon.cc 543"}
               ]
             },
-            {"size": 1096, "caption": "profile.cc 1.1k"},
-            {"size": 1096, "caption": "icon_loader_linux.cc 1.1k"},
-            {"size": 1092, "caption": "blocked_plugin_manager.cc 1.1k"},
-            {"size": 1091, "caption": "content_setting_image_model.cc 1.1k"},
-            {"size": 1088, "caption": "platform_util_common_linux.cc 1.1k"},
-            {"size": 1068, "caption": "google_update_settings_posix.cc 1.1k"},
-            {"size": 1056, "caption": "blocked_popup_container.cc 1.1k"},
-            {"size": 1056, "caption": "modal_html_dialog_delegate.cc 1.1k"},
-            {"size": 849, "caption": "app_modal_dialog.cc 849"},
-            {"size": 827, "caption": "dock_info_gtk.cc 827"},
-            {"size": 800, "caption": "content_setting_combo_model.cc 800"},
-            {"size": 746, "caption": "dock_info.cc 746"},
-            {"size": 734, "caption": "visitedlink_event_listener.cc 734"},
-            {"size": 700, "caption": "app_modal_dialog_queue.cc 700"},
-            {"size": 695, "caption": "icon_loader.cc 695"},
-            {"size": 635, "caption": "resources_util.cc 635"},
-            {"size": 557, "caption": "app_modal_dialog_gtk.cc 557"},
-            {"size": 467, "caption": "ntp_background_util.cc 467"},
-            {"size": 435, "caption": "crash_handler_host_linux_stub.cc 435"},
-            {"size": 379, "caption": "cross_site_request_manager.cc 379"},
-            {"size": 334, "caption": "location_bar_util.cc 334"},
-            {"size": 328, "caption": "tab_menu_model.cc 328"},
-            {"size": 282, "caption": "browser_process_sub_thread.cc 282"},
-            {"size": 273, "caption": "browser_list_gtk.cc 273"},
-            {"size": 252, "caption": "options_page_base.cc 252"},
-            {"size": 223, "caption": "options_util.cc 223"},
-            {"size": 188, "caption": "spellchecker_linux.cc 188"},
-            {"size": 177, "caption": "find_bar_state.cc 177"},
-            {"size": 107, "caption": "renderer_preferences_util.cc 107"},
-            {"size": 104, "caption": "certificate_viewer.cc 104"},
-            {"size": 81, "caption": "browser_main_gtk.cc 81"},
-            {"size": 81, "caption": "login_prompt_gtk.cc 81"},
-            {"size": 52, "caption": "idle_linux.cc 52"},
-            {"size": 47, "caption": "window_sizer_linux.cc 47"},
-            {"size": 37, "caption": "icon_manager_linux.cc 37"},
-            {"size": 34, "caption": "ui_thread_helpers_linux.cc 34"},
-            {"size": 30, "caption": "browser_process.cc 30"},
-            {"size": 26, "caption": "tab_closeable_state_watcher.cc 26"},
-            {"size": 5, "caption": "power_save_blocker_stub.cc 5"}
+            {"size": 1096, "id": "profile.cc 1.1k"},
+            {"size": 1096, "id": "icon_loader_linux.cc 1.1k"},
+            {"size": 1092, "id": "blocked_plugin_manager.cc 1.1k"},
+            {"size": 1091, "id": "content_setting_image_model.cc 1.1k"},
+            {"size": 1088, "id": "platform_util_common_linux.cc 1.1k"},
+            {"size": 1068, "id": "google_update_settings_posix.cc 1.1k"},
+            {"size": 1056, "id": "blocked_popup_container.cc 1.1k"},
+            {"size": 1056, "id": "modal_html_dialog_delegate.cc 1.1k"},
+            {"size": 849, "id": "app_modal_dialog.cc 849"},
+            {"size": 827, "id": "dock_info_gtk.cc 827"},
+            {"size": 800, "id": "content_setting_combo_model.cc 800"},
+            {"size": 746, "id": "dock_info.cc 746"},
+            {"size": 734, "id": "visitedlink_event_listener.cc 734"},
+            {"size": 700, "id": "app_modal_dialog_queue.cc 700"},
+            {"size": 695, "id": "icon_loader.cc 695"},
+            {"size": 635, "id": "resources_util.cc 635"},
+            {"size": 557, "id": "app_modal_dialog_gtk.cc 557"},
+            {"size": 467, "id": "ntp_background_util.cc 467"},
+            {"size": 435, "id": "crash_handler_host_linux_stub.cc 435"},
+            {"size": 379, "id": "cross_site_request_manager.cc 379"},
+            {"size": 334, "id": "location_bar_util.cc 334"},
+            {"size": 328, "id": "tab_menu_model.cc 328"},
+            {"size": 282, "id": "browser_process_sub_thread.cc 282"},
+            {"size": 273, "id": "browser_list_gtk.cc 273"},
+            {"size": 252, "id": "options_page_base.cc 252"},
+            {"size": 223, "id": "options_util.cc 223"},
+            {"size": 188, "id": "spellchecker_linux.cc 188"},
+            {"size": 177, "id": "find_bar_state.cc 177"},
+            {"size": 107, "id": "renderer_preferences_util.cc 107"},
+            {"size": 104, "id": "certificate_viewer.cc 104"},
+            {"size": 81, "id": "browser_main_gtk.cc 81"},
+            {"size": 81, "id": "login_prompt_gtk.cc 81"},
+            {"size": 52, "id": "idle_linux.cc 52"},
+            {"size": 47, "id": "window_sizer_linux.cc 47"},
+            {"size": 37, "id": "icon_manager_linux.cc 37"},
+            {"size": 34, "id": "ui_thread_helpers_linux.cc 34"},
+            {"size": 30, "id": "browser_process.cc 30"},
+            {"size": 26, "id": "tab_closeable_state_watcher.cc 26"},
+            {"size": 5, "id": "power_save_blocker_stub.cc 5"}
           ]
         },
         {
           "size": 541106,
-          "caption": "renderer 541.1k",
+          "id": "renderer 541.1k",
           "children": [
-            {"size": 178778, "caption": "render_view.cc 178.8k"},
+            {"size": 178778, "id": "render_view.cc 178.8k"},
             {
               "size": 34080,
-              "caption": "extensions 34.1k",
+              "id": "extensions 34.1k",
               "children": [
                 {
                   "size": 16150,
-                  "caption": "extension_process_bindings.cc 16.1k"
+                  "id": "extension_process_bindings.cc 16.1k"
                 },
                 {
                   "size": 7749,
-                  "caption": "renderer_extension_bindings.cc 7.7k"
+                  "id": "renderer_extension_bindings.cc 7.7k"
                 },
-                {"size": 7550, "caption": "event_bindings.cc 7.5k"},
-                {"size": 2286, "caption": "bindings_utils.cc 2.3k"},
-                {"size": 345, "caption": "js_only_v8_extensions.cc 345"}
+                {"size": 7550, "id": "event_bindings.cc 7.5k"},
+                {"size": 2286, "id": "bindings_utils.cc 2.3k"},
+                {"size": 345, "id": "js_only_v8_extensions.cc 345"}
               ]
             },
-            {"size": 22809, "caption": "render_thread.cc 22.8k"},
-            {"size": 20454, "caption": "webplugin_delegate_proxy.cc 20.5k"},
-            {"size": 20236, "caption": "form_manager.cc 20.2k"},
+            {"size": 22809, "id": "render_thread.cc 22.8k"},
+            {"size": 20454, "id": "webplugin_delegate_proxy.cc 20.5k"},
+            {"size": 20236, "id": "form_manager.cc 20.2k"},
             {
               "size": 18973,
-              "caption": "media 19.0k",
+              "id": "media 19.0k",
               "children": [
-                {"size": 8890, "caption": "ipc_video_decoder.cc 8.9k"},
-                {"size": 6795, "caption": "audio_renderer_impl.cc 6.8k"},
-                {"size": 3288, "caption": "ipc_video_renderer.cc 3.3k"}
+                {"size": 8890, "id": "ipc_video_decoder.cc 8.9k"},
+                {"size": 6795, "id": "audio_renderer_impl.cc 6.8k"},
+                {"size": 3288, "id": "ipc_video_renderer.cc 3.3k"}
               ]
             },
-            {"size": 17847, "caption": "render_widget.cc 17.8k"},
-            {"size": 17228, "caption": "webplugin_delegate_pepper.cc 17.2k"},
-            {"size": 13642, "caption": "user_script_slave.cc 13.6k"},
+            {"size": 17847, "id": "render_widget.cc 17.8k"},
+            {"size": 17228, "id": "webplugin_delegate_pepper.cc 17.2k"},
+            {"size": 13642, "id": "user_script_slave.cc 13.6k"},
             {
               "size": 11420,
-              "caption": "webgraphicscontext3d_command_buffer_impl.cc 11.4k"
+              "id": "webgraphicscontext3d_command_buffer_impl.cc 11.4k"
             },
-            {"size": 9867, "caption": "autofill_helper.cc 9.9k"},
-            {"size": 9256, "caption": "indexed_db_dispatcher.cc 9.3k"},
-            {"size": 8755, "caption": "renderer_webkitclient_impl.cc 8.8k"},
-            {"size": 8371, "caption": "pepper_plugin_delegate_impl.cc 8.4k"},
-            {"size": 7935, "caption": "localized_error.cc 7.9k"},
-            {"size": 7469, "caption": "command_buffer_proxy.cc 7.5k"},
-            {"size": 7230, "caption": "translate_helper.cc 7.2k"},
-            {"size": 7096, "caption": "notification_provider.cc 7.1k"},
+            {"size": 9867, "id": "autofill_helper.cc 9.9k"},
+            {"size": 9256, "id": "indexed_db_dispatcher.cc 9.3k"},
+            {"size": 8755, "id": "renderer_webkitclient_impl.cc 8.8k"},
+            {"size": 8371, "id": "pepper_plugin_delegate_impl.cc 8.4k"},
+            {"size": 7935, "id": "localized_error.cc 7.9k"},
+            {"size": 7469, "id": "command_buffer_proxy.cc 7.5k"},
+            {"size": 7230, "id": "translate_helper.cc 7.2k"},
+            {"size": 7096, "id": "notification_provider.cc 7.1k"},
             {
               "size": 6249,
-              "caption": "spellchecker 6.2k",
+              "id": "spellchecker 6.2k",
               "children": [
-                {"size": 3135, "caption": "spellcheck_worditerator.cc 3.1k"},
-                {"size": 3114, "caption": "spellcheck.cc 3.1k"}
+                {"size": 3135, "id": "spellcheck_worditerator.cc 3.1k"},
+                {"size": 3114, "id": "spellcheck.cc 3.1k"}
               ]
             },
             {
               "size": 5876,
-              "caption": "net 5.9k",
+              "id": "net 5.9k",
               "children": [
-                {"size": 3168, "caption": "renderer_net_predictor.cc 3.2k"},
-                {"size": 2708, "caption": "predictor_queue.cc 2.7k"}
+                {"size": 3168, "id": "renderer_net_predictor.cc 3.2k"},
+                {"size": 2708, "id": "predictor_queue.cc 2.7k"}
               ]
             },
-            {"size": 5162, "caption": "geolocation_dispatcher.cc 5.2k"},
-            {"size": 5099, "caption": "gpu_video_decoder_host.cc 5.1k"},
-            {"size": 4797, "caption": "pepper_widget.cc 4.8k"},
-            {"size": 4455, "caption": "render_process_impl.cc 4.5k"},
-            {"size": 4250, "caption": "devtools_agent.cc 4.2k"},
-            {"size": 4170, "caption": "pepper_devices.cc 4.2k"},
-            {"size": 4083, "caption": "paint_aggregator.cc 4.1k"},
-            {"size": 3781, "caption": "blocked_plugin.cc 3.8k"},
-            {"size": 3770, "caption": "external_host_bindings.cc 3.8k"},
-            {"size": 3587, "caption": "webworker_proxy.cc 3.6k"},
-            {"size": 3374, "caption": "renderer_main.cc 3.4k"},
-            {"size": 3373, "caption": "renderer_webcookiejar_impl.cc 3.4k"},
-            {"size": 2929, "caption": "plugin_channel_host.cc 2.9k"},
+            {"size": 5162, "id": "geolocation_dispatcher.cc 5.2k"},
+            {"size": 5099, "id": "gpu_video_decoder_host.cc 5.1k"},
+            {"size": 4797, "id": "pepper_widget.cc 4.8k"},
+            {"size": 4455, "id": "render_process_impl.cc 4.5k"},
+            {"size": 4250, "id": "devtools_agent.cc 4.2k"},
+            {"size": 4170, "id": "pepper_devices.cc 4.2k"},
+            {"size": 4083, "id": "paint_aggregator.cc 4.1k"},
+            {"size": 3781, "id": "blocked_plugin.cc 3.8k"},
+            {"size": 3770, "id": "external_host_bindings.cc 3.8k"},
+            {"size": 3587, "id": "webworker_proxy.cc 3.6k"},
+            {"size": 3374, "id": "renderer_main.cc 3.4k"},
+            {"size": 3373, "id": "renderer_webcookiejar_impl.cc 3.4k"},
+            {"size": 2929, "id": "plugin_channel_host.cc 2.9k"},
             {
               "size": 2857,
-              "caption": "ggl 2.9k",
-              "children": [{"size": 2857, "caption": "ggl.cc 2.9k"}]
+              "id": "ggl 2.9k",
+              "children": [{"size": 2857, "id": "ggl.cc 2.9k"}]
             },
-            {"size": 2830, "caption": "pepper_scrollbar_widget.cc 2.8k"},
-            {"size": 2790, "caption": "renderer_glue.cc 2.8k"},
-            {"size": 2686, "caption": "print_web_view_helper_linux.cc 2.7k"},
-            {"size": 2653, "caption": "gpu_channel_host.cc 2.7k"},
-            {"size": 2633, "caption": "audio_message_filter.cc 2.6k"},
-            {"size": 2605, "caption": "renderer_webstoragearea_impl.cc 2.6k"},
-            {"size": 2598, "caption": "renderer_webidbdatabase_impl.cc 2.6k"},
+            {"size": 2830, "id": "pepper_scrollbar_widget.cc 2.8k"},
+            {"size": 2790, "id": "renderer_glue.cc 2.8k"},
+            {"size": 2686, "id": "print_web_view_helper_linux.cc 2.7k"},
+            {"size": 2653, "id": "gpu_channel_host.cc 2.7k"},
+            {"size": 2633, "id": "audio_message_filter.cc 2.6k"},
+            {"size": 2605, "id": "renderer_webstoragearea_impl.cc 2.6k"},
+            {"size": 2598, "id": "renderer_webidbdatabase_impl.cc 2.6k"},
             {
               "size": 2512,
-              "caption": "renderer_webidbobjectstore_impl.cc 2.5k"
+              "id": "renderer_webidbobjectstore_impl.cc 2.5k"
             },
-            {"size": 2310, "caption": "devtools_client.cc 2.3k"},
-            {"size": 2195, "caption": "renderer_sandbox_support_linux.cc 2.2k"},
-            {"size": 1939, "caption": "webworker_base.cc 1.9k"},
-            {"size": 1870, "caption": "renderer_histogram_snapshots.cc 1.9k"},
+            {"size": 2310, "id": "devtools_client.cc 2.3k"},
+            {"size": 2195, "id": "renderer_sandbox_support_linux.cc 2.2k"},
+            {"size": 1939, "id": "webworker_base.cc 1.9k"},
+            {"size": 1870, "id": "renderer_histogram_snapshots.cc 1.9k"},
             {
               "size": 1736,
-              "caption": "automation 1.7k",
+              "id": "automation 1.7k",
               "children": [
-                {"size": 1621, "caption": "dom_automation_controller.cc 1.6k"},
+                {"size": 1621, "id": "dom_automation_controller.cc 1.6k"},
                 {
                   "size": 115,
-                  "caption": "dom_automation_v8_extension.cc 115"
+                  "id": "dom_automation_v8_extension.cc 115"
                 }
               ]
             },
-            {"size": 1736, "caption": "print_web_view_helper.cc 1.7k"},
-            {"size": 1697, "caption": "websharedworker_proxy.cc 1.7k"},
-            {"size": 1505, "caption": "dom_ui_bindings.cc 1.5k"},
-            {"size": 1373, "caption": "devtools_agent_filter.cc 1.4k"},
-            {"size": 1352, "caption": "external_extension.cc 1.4k"},
-            {"size": 1070, "caption": "gpu_video_service_host.cc 1.1k"},
-            {"size": 1011, "caption": "render_widget_fullscreen.cc 1.0k"},
-            {"size": 973, "caption": "renderer_webidbcursor_impl.cc 973"},
-            {"size": 827, "caption": "speech_input_dispatcher.cc 827"},
-            {"size": 805, "caption": "device_orientation_dispatcher.cc 805"},
-            {"size": 785, "caption": "renderer_webidbfactory_impl.cc 785"},
-            {"size": 770, "caption": "password_autocomplete_manager.cc 770"},
-            {"size": 742, "caption": "webgles2context_impl.cc 742"},
-            {"size": 723, "caption": "renderer_webidbtransaction_impl.cc 723"},
-            {"size": 690, "caption": "visitedlink_slave.cc 690"},
-            {"size": 670, "caption": "renderer_webidbindex_impl.cc 670"},
-            {"size": 620, "caption": "user_script_idle_scheduler.cc 620"},
-            {"size": 577, "caption": "about_handler.cc 577"},
-            {"size": 576, "caption": "render_view_linux.cc 576"},
+            {"size": 1736, "id": "print_web_view_helper.cc 1.7k"},
+            {"size": 1697, "id": "websharedworker_proxy.cc 1.7k"},
+            {"size": 1505, "id": "dom_ui_bindings.cc 1.5k"},
+            {"size": 1373, "id": "devtools_agent_filter.cc 1.4k"},
+            {"size": 1352, "id": "external_extension.cc 1.4k"},
+            {"size": 1070, "id": "gpu_video_service_host.cc 1.1k"},
+            {"size": 1011, "id": "render_widget_fullscreen.cc 1.0k"},
+            {"size": 973, "id": "renderer_webidbcursor_impl.cc 973"},
+            {"size": 827, "id": "speech_input_dispatcher.cc 827"},
+            {"size": 805, "id": "device_orientation_dispatcher.cc 805"},
+            {"size": 785, "id": "renderer_webidbfactory_impl.cc 785"},
+            {"size": 770, "id": "password_autocomplete_manager.cc 770"},
+            {"size": 742, "id": "webgles2context_impl.cc 742"},
+            {"size": 723, "id": "renderer_webidbtransaction_impl.cc 723"},
+            {"size": 690, "id": "visitedlink_slave.cc 690"},
+            {"size": 670, "id": "renderer_webidbindex_impl.cc 670"},
+            {"size": 620, "id": "user_script_idle_scheduler.cc 620"},
+            {"size": 577, "id": "about_handler.cc 577"},
+            {"size": 576, "id": "render_view_linux.cc 576"},
             {
               "size": 506,
-              "caption": "renderer_webapplicationcachehost_impl.cc 506"
+              "id": "renderer_webapplicationcachehost_impl.cc 506"
             },
-            {"size": 474, "caption": "websharedworkerrepository_impl.cc 474"},
+            {"size": 474, "id": "websharedworkerrepository_impl.cc 474"},
             {
               "size": 390,
-              "caption": "renderer_webstoragenamespace_impl.cc 390"
+              "id": "renderer_webstoragenamespace_impl.cc 390"
             },
-            {"size": 233, "caption": "nacl_desc_wrapper_chrome.cc 233"},
-            {"size": 218, "caption": "cookie_message_filter.cc 218"},
+            {"size": 233, "id": "nacl_desc_wrapper_chrome.cc 233"},
+            {"size": 218, "id": "cookie_message_filter.cc 218"},
             {
               "size": 96,
-              "caption": "renderer_main_platform_delegate_linux.cc 96"
+              "id": "renderer_main_platform_delegate_linux.cc 96"
             },
-            {"size": 72, "caption": "loadtimes_extension_bindings.cc 72"}
+            {"size": 72, "id": "loadtimes_extension_bindings.cc 72"}
           ]
         },
         {
           "size": 385818,
-          "caption": "common 385.8k",
+          "id": "common 385.8k",
           "children": [
             {
               "size": 110612,
-              "caption": "extensions 110.6k",
+              "id": "extensions 110.6k",
               "children": [
-                {"size": 46187, "caption": "extension.cc 46.2k"},
-                {"size": 12104, "caption": "extension_message_bundle.cc 12.1k"},
-                {"size": 10554, "caption": "extension_file_util.cc 10.6k"},
-                {"size": 7421, "caption": "extension_l10n_util.cc 7.4k"},
-                {"size": 6631, "caption": "user_script.cc 6.6k"},
-                {"size": 6562, "caption": "extension_unpacker.cc 6.6k"},
-                {"size": 6139, "caption": "extension_action.cc 6.1k"},
-                {"size": 5043, "caption": "url_pattern.cc 5.0k"},
-                {"size": 4808, "caption": "update_manifest.cc 4.8k"}, {
+                {"size": 46187, "id": "extension.cc 46.2k"},
+                {"size": 12104, "id": "extension_message_bundle.cc 12.1k"},
+                {"size": 10554, "id": "extension_file_util.cc 10.6k"},
+                {"size": 7421, "id": "extension_l10n_util.cc 7.4k"},
+                {"size": 6631, "id": "user_script.cc 6.6k"},
+                {"size": 6562, "id": "extension_unpacker.cc 6.6k"},
+                {"size": 6139, "id": "extension_action.cc 6.1k"},
+                {"size": 5043, "id": "url_pattern.cc 5.0k"},
+                {"size": 4808, "id": "update_manifest.cc 4.8k"}, {
                   "size": 2929,
-                  "caption": "extension_localization_peer.cc 2.9k"
+                  "id": "extension_localization_peer.cc 2.9k"
                 },
-                {"size": 823, "caption": "extension_error_utils.cc 823"},
-                {"size": 707, "caption": "extension_resource.cc 707"},
-                {"size": 704, "caption": "extension_extent.cc 704"}
+                {"size": 823, "id": "extension_error_utils.cc 823"},
+                {"size": 707, "id": "extension_resource.cc 707"},
+                {"size": 704, "id": "extension_extent.cc 704"}
               ]
             },
-            {"size": 43097, "caption": "render_messages_internal.h 43.1k"},
+            {"size": 43097, "id": "render_messages_internal.h 43.1k"},
             {
               "size": 39791,
-              "caption": "net 39.8k",
+              "id": "net 39.8k",
               "children": [
                 {
                   "size": 23698,
-                  "caption": "gaia 23.7k",
+                  "id": "gaia 23.7k",
                   "children": [
-                    {"size": 16249, "caption": "gaia_authenticator.cc 16.2k"},
-                    {"size": 7449, "caption": "gaia_authenticator2.cc 7.4k"}
+                    {"size": 16249, "id": "gaia_authenticator.cc 16.2k"},
+                    {"size": 7449, "id": "gaia_authenticator2.cc 7.4k"}
                   ]
                 },
-                {"size": 6347, "caption": "url_fetcher.cc 6.3k"},
-                {"size": 4639, "caption": "url_request_intercept_job.cc 4.6k"},
-                {"size": 2767, "caption": "url_fetcher_protect.cc 2.8k"},
-                {"size": 1997, "caption": "net_resource_provider.cc 2.0k"},
-                {"size": 343, "caption": "url_request_context_getter.cc 343"}
+                {"size": 6347, "id": "url_fetcher.cc 6.3k"},
+                {"size": 4639, "id": "url_request_intercept_job.cc 4.6k"},
+                {"size": 2767, "id": "url_fetcher_protect.cc 2.8k"},
+                {"size": 1997, "id": "net_resource_provider.cc 2.0k"},
+                {"size": 343, "id": "url_request_context_getter.cc 343"}
               ]
             },
-            {"size": 15020, "caption": "render_messages.cc 15.0k"},
-            {"size": 13375, "caption": "resource_dispatcher.cc 13.4k"},
-            {"size": 12338, "caption": "render_messages_params.cc 12.3k"},
-            {"size": 10682, "caption": "metrics_helpers.cc 10.7k"},
-            {"size": 10328, "caption": "webmessageportchannel_impl.cc 10.3k"},
-            {"size": 9705, "caption": "plugin_group.cc 9.7k"},
-            {"size": 8923, "caption": "pepper_plugin_registry.cc 8.9k"},
-            {"size": 7200, "caption": "plugin_messages_internal.h 7.2k"},
-            {"size": 6148, "caption": "common_param_traits.cc 6.1k"},
-            {"size": 5754, "caption": "notification_service.cc 5.8k"},
-            {"size": 4939, "caption": "time_format.cc 4.9k"},
-            {"size": 4824, "caption": "chrome_plugin_util.cc 4.8k"},
-            {"size": 4626, "caption": "sqlite_utils.cc 4.6k"},
-            {"size": 4152, "caption": "child_thread.cc 4.2k"},
+            {"size": 15020, "id": "render_messages.cc 15.0k"},
+            {"size": 13375, "id": "resource_dispatcher.cc 13.4k"},
+            {"size": 12338, "id": "render_messages_params.cc 12.3k"},
+            {"size": 10682, "id": "metrics_helpers.cc 10.7k"},
+            {"size": 10328, "id": "webmessageportchannel_impl.cc 10.3k"},
+            {"size": 9705, "id": "plugin_group.cc 9.7k"},
+            {"size": 8923, "id": "pepper_plugin_registry.cc 8.9k"},
+            {"size": 7200, "id": "plugin_messages_internal.h 7.2k"},
+            {"size": 6148, "id": "common_param_traits.cc 6.1k"},
+            {"size": 5754, "id": "notification_service.cc 5.8k"},
+            {"size": 4939, "id": "time_format.cc 4.9k"},
+            {"size": 4824, "id": "chrome_plugin_util.cc 4.8k"},
+            {"size": 4626, "id": "sqlite_utils.cc 4.6k"},
+            {"size": 4152, "id": "child_thread.cc 4.2k"},
             {
               "size": 3993,
-              "caption": "file_system 4.0k",
+              "id": "file_system 4.0k",
               "children": [
-                {"size": 3590, "caption": "file_system_dispatcher.cc 3.6k"},
-                {"size": 403, "caption": "webfilesystem_impl.cc 403"}
+                {"size": 3590, "id": "file_system_dispatcher.cc 3.6k"},
+                {"size": 403, "id": "webfilesystem_impl.cc 403"}
               ]
             },
-            {"size": 3909, "caption": "chrome_plugin_lib.cc 3.9k"},
-            {"size": 3880, "caption": "zip.cc 3.9k"},
-            {"size": 3639, "caption": "socket_stream_dispatcher.cc 3.6k"},
-            {"size": 3545, "caption": "gpu_messages_internal.h 3.5k"},
-            {"size": 3120, "caption": "security_filter_peer.cc 3.1k"},
-            {"size": 2902, "caption": "important_file_writer.cc 2.9k"},
-            {"size": 2385, "caption": "logging_chrome.cc 2.4k"},
-            {"size": 2309, "caption": "spellcheck_common.cc 2.3k"},
+            {"size": 3909, "id": "chrome_plugin_lib.cc 3.9k"},
+            {"size": 3880, "id": "zip.cc 3.9k"},
+            {"size": 3639, "id": "socket_stream_dispatcher.cc 3.6k"},
+            {"size": 3545, "id": "gpu_messages_internal.h 3.5k"},
+            {"size": 3120, "id": "security_filter_peer.cc 3.1k"},
+            {"size": 2902, "id": "important_file_writer.cc 2.9k"},
+            {"size": 2385, "id": "logging_chrome.cc 2.4k"},
+            {"size": 2309, "id": "spellcheck_common.cc 2.3k"},
             {
               "size": 2296,
-              "caption": "appcache 2.3k",
+              "id": "appcache 2.3k",
               "children": [
-                {"size": 1460, "caption": "appcache_dispatcher.cc 1.5k"},
-                {"size": 836, "caption": "appcache_backend_proxy.cc 836"}
+                {"size": 1460, "id": "appcache_dispatcher.cc 1.5k"},
+                {"size": 836, "id": "appcache_backend_proxy.cc 836"}
               ]
             },
-            {"size": 1970, "caption": "child_process.cc 2.0k"},
-            {"size": 1969, "caption": "libxml_utils.cc 2.0k"},
-            {"size": 1903, "caption": "chrome_paths.cc 1.9k"},
-            {"size": 1843, "caption": "child_process_info.cc 1.8k"},
-            {"size": 1826, "caption": "web_database_observer_impl.cc 1.8k"},
-            {"size": 1816, "caption": "worker_messages_internal.h 1.8k"},
+            {"size": 1970, "id": "child_process.cc 2.0k"},
+            {"size": 1969, "id": "libxml_utils.cc 2.0k"},
+            {"size": 1903, "id": "chrome_paths.cc 1.9k"},
+            {"size": 1843, "id": "child_process_info.cc 1.8k"},
+            {"size": 1826, "id": "web_database_observer_impl.cc 1.8k"},
+            {"size": 1816, "id": "worker_messages_internal.h 1.8k"},
             {
               "size": 1728,
-              "caption": "desktop_notifications 1.7k",
+              "id": "desktop_notifications 1.7k",
               "children": [{
                 "size": 1728,
-                "caption": "active_notification_tracker.cc 1.7k"
+                "id": "active_notification_tracker.cc 1.7k"
               }]
             },
-            {"size": 1700, "caption": "jstemplate_builder.cc 1.7k"},
-            {"size": 1670, "caption": "child_process_host.cc 1.7k"},
-            {"size": 1433, "caption": "gpu_video_common.cc 1.4k"},
-            {"size": 1363, "caption": "utility_messages_internal.h 1.4k"},
-            {"size": 1360, "caption": "notification_registrar.cc 1.4k"},
-            {"size": 1126, "caption": "webkit_param_traits.cc 1.1k"},
-            {"size": 1114, "caption": "message_router.cc 1.1k"},
-            {"size": 1104, "caption": "database_util.cc 1.1k"},
-            {"size": 1090, "caption": "json_pref_store.cc 1.1k"},
-            {"size": 1060, "caption": "sqlite_compiled_statement.cc 1.1k"},
-            {"size": 1043, "caption": "content_settings_helper.cc 1.0k"},
-            {"size": 950, "caption": "db_message_filter.cc 950"},
-            {"size": 934, "caption": "json_value_serializer.cc 934"},
-            {"size": 916, "caption": "chrome_paths_linux.cc 916"},
-            {"size": 824, "caption": "common_glue.cc 824"},
-            {"size": 823, "caption": "devtools_messages_internal.h 823"},
-            {"size": 772, "caption": "default_plugin.cc 772"},
-            {"size": 705, "caption": "gpu_plugin.cc 705"},
-            {"size": 699, "caption": "property_bag.cc 699"},
-            {"size": 669, "caption": "visitedlink_common.cc 669"},
-            {"size": 645, "caption": "service_process_util.cc 645"},
-            {"size": 627, "caption": "indexed_db_key.cc 627"},
-            {"size": 618, "caption": "gpu_messages.cc 618"},
-            {"size": 587, "caption": "child_process_logging_linux.cc 587"},
-            {"size": 505, "caption": "about_handler.cc 505"},
-            {"size": 499, "caption": "window_container_type.cc 499"},
-            {"size": 494, "caption": "chrome_counters.cc 494"},
-            {"size": 467, "caption": "serialized_script_value.cc 467"},
-            {"size": 436, "caption": "property_bag.h 436"},
-            {"size": 422, "caption": "process_watcher_posix.cc 422"},
-            {"size": 420, "caption": "thumbnail_score.cc 420"},
-            {"size": 302, "caption": "geoposition.cc 302"},
-            {"size": 296, "caption": "nacl_cmd_line.cc 296"},
-            {"size": 239, "caption": "chrome_switches.cc 239"},
-            {"size": 231, "caption": "gpu_info.cc 231"},
-            {"size": 228, "caption": "native_web_keyboard_event_linux.cc 228"},
+            {"size": 1700, "id": "jstemplate_builder.cc 1.7k"},
+            {"size": 1670, "id": "child_process_host.cc 1.7k"},
+            {"size": 1433, "id": "gpu_video_common.cc 1.4k"},
+            {"size": 1363, "id": "utility_messages_internal.h 1.4k"},
+            {"size": 1360, "id": "notification_registrar.cc 1.4k"},
+            {"size": 1126, "id": "webkit_param_traits.cc 1.1k"},
+            {"size": 1114, "id": "message_router.cc 1.1k"},
+            {"size": 1104, "id": "database_util.cc 1.1k"},
+            {"size": 1090, "id": "json_pref_store.cc 1.1k"},
+            {"size": 1060, "id": "sqlite_compiled_statement.cc 1.1k"},
+            {"size": 1043, "id": "content_settings_helper.cc 1.0k"},
+            {"size": 950, "id": "db_message_filter.cc 950"},
+            {"size": 934, "id": "json_value_serializer.cc 934"},
+            {"size": 916, "id": "chrome_paths_linux.cc 916"},
+            {"size": 824, "id": "common_glue.cc 824"},
+            {"size": 823, "id": "devtools_messages_internal.h 823"},
+            {"size": 772, "id": "default_plugin.cc 772"},
+            {"size": 705, "id": "gpu_plugin.cc 705"},
+            {"size": 699, "id": "property_bag.cc 699"},
+            {"size": 669, "id": "visitedlink_common.cc 669"},
+            {"size": 645, "id": "service_process_util.cc 645"},
+            {"size": 627, "id": "indexed_db_key.cc 627"},
+            {"size": 618, "id": "gpu_messages.cc 618"},
+            {"size": 587, "id": "child_process_logging_linux.cc 587"},
+            {"size": 505, "id": "about_handler.cc 505"},
+            {"size": 499, "id": "window_container_type.cc 499"},
+            {"size": 494, "id": "chrome_counters.cc 494"},
+            {"size": 467, "id": "serialized_script_value.cc 467"},
+            {"size": 436, "id": "property_bag.h 436"},
+            {"size": 422, "id": "process_watcher_posix.cc 422"},
+            {"size": 420, "id": "thumbnail_score.cc 420"},
+            {"size": 302, "id": "geoposition.cc 302"},
+            {"size": 296, "id": "nacl_cmd_line.cc 296"},
+            {"size": 239, "id": "chrome_switches.cc 239"},
+            {"size": 231, "id": "gpu_info.cc 231"},
+            {"size": 228, "id": "native_web_keyboard_event_linux.cc 228"},
             {
               "size": 227,
-              "caption": "web_resource 227",
+              "id": "web_resource 227",
               "children":
-                  [{"size": 227, "caption": "web_resource_unpacker.cc 227"}]
+                  [{"size": 227, "id": "web_resource_unpacker.cc 227"}]
             },
-            {"size": 184, "caption": "page_transition_types.cc 184"},
-            {"size": 111, "caption": "service_messages_internal.h 111"},
-            {"size": 99, "caption": "nacl_messages_internal.h 99"},
-            {"size": 61, "caption": "chrome_plugin_util.h 61"},
-            {"size": 60, "caption": "url_constants.cc 60"},
-            {"size": 53, "caption": "notification_source.cc 53"},
-            {"size": 53, "caption": "notification_details.cc 53"},
-            {"size": 26, "caption": "chrome_version_info.cc 26"},
-            {"size": 16, "caption": "content_settings.cc 16"},
-            {"size": 10, "caption": "sandbox_init_wrapper_linux.cc 10"}
+            {"size": 184, "id": "page_transition_types.cc 184"},
+            {"size": 111, "id": "service_messages_internal.h 111"},
+            {"size": 99, "id": "nacl_messages_internal.h 99"},
+            {"size": 61, "id": "chrome_plugin_util.h 61"},
+            {"size": 60, "id": "url_constants.cc 60"},
+            {"size": 53, "id": "notification_source.cc 53"},
+            {"size": 53, "id": "notification_details.cc 53"},
+            {"size": 26, "id": "chrome_version_info.cc 26"},
+            {"size": 16, "id": "content_settings.cc 16"},
+            {"size": 10, "id": "sandbox_init_wrapper_linux.cc 10"}
           ]
         },
         {
           "size": 68875,
-          "caption": "plugin 68.9k",
+          "id": "plugin 68.9k",
           "children": [
-            {"size": 14126, "caption": "chrome_plugin_host.cc 14.1k"},
-            {"size": 10012, "caption": "plugin_channel_base.cc 10.0k"},
-            {"size": 9606, "caption": "npobject_stub.cc 9.6k"},
-            {"size": 8746, "caption": "webplugin_proxy.cc 8.7k"},
-            {"size": 6570, "caption": "webplugin_delegate_stub.cc 6.6k"},
-            {"size": 6048, "caption": "npobject_proxy.cc 6.0k"},
-            {"size": 5581, "caption": "plugin_channel.cc 5.6k"},
-            {"size": 3267, "caption": "command_buffer_stub.cc 3.3k"},
-            {"size": 2675, "caption": "plugin_thread.cc 2.7k"},
-            {"size": 1651, "caption": "npobject_util.cc 1.7k"},
-            {"size": 593, "caption": "plugin_main.cc 593"}
+            {"size": 14126, "id": "chrome_plugin_host.cc 14.1k"},
+            {"size": 10012, "id": "plugin_channel_base.cc 10.0k"},
+            {"size": 9606, "id": "npobject_stub.cc 9.6k"},
+            {"size": 8746, "id": "webplugin_proxy.cc 8.7k"},
+            {"size": 6570, "id": "webplugin_delegate_stub.cc 6.6k"},
+            {"size": 6048, "id": "npobject_proxy.cc 6.0k"},
+            {"size": 5581, "id": "plugin_channel.cc 5.6k"},
+            {"size": 3267, "id": "command_buffer_stub.cc 3.3k"},
+            {"size": 2675, "id": "plugin_thread.cc 2.7k"},
+            {"size": 1651, "id": "npobject_util.cc 1.7k"},
+            {"size": 593, "id": "plugin_main.cc 593"}
           ]
         },
         {
           "size": 64089,
-          "caption": "service 64.1k",
+          "id": "service 64.1k",
           "children": [
             {
               "size": 49966,
-              "caption": "cloud_print 50.0k",
+              "id": "cloud_print 50.0k",
               "children": [
-                {"size": 16442, "caption": "printer_job_handler.cc 16.4k"}, {
+                {"size": 16442, "id": "printer_job_handler.cc 16.4k"}, {
                   "size": 13508,
-                  "caption": "cloud_print_proxy_backend.cc 13.5k"
+                  "id": "cloud_print_proxy_backend.cc 13.5k"
                 },
-                {"size": 9854, "caption": "print_system_cups.cc 9.9k"},
-                {"size": 6285, "caption": "cloud_print_helpers.cc 6.3k"},
-                {"size": 2530, "caption": "cloud_print_proxy.cc 2.5k"},
-                {"size": 1347, "caption": "job_status_updater.cc 1.3k"}
+                {"size": 9854, "id": "print_system_cups.cc 9.9k"},
+                {"size": 6285, "id": "cloud_print_helpers.cc 6.3k"},
+                {"size": 2530, "id": "cloud_print_proxy.cc 2.5k"},
+                {"size": 1347, "id": "job_status_updater.cc 1.3k"}
               ]
             },
-            {"size": 5571, "caption": "service_process.cc 5.6k"}, {
+            {"size": 5571, "id": "service_process.cc 5.6k"}, {
               "size": 2701,
-              "caption": "remoting 2.7k",
+              "id": "remoting 2.7k",
               "children": [{
                 "size": 2701,
-                "caption": "remoting_directory_service.cc 2.7k"
+                "id": "remoting_directory_service.cc 2.7k"
               }]
             },
-            {"size": 1922, "caption": "service_ipc_server.cc 1.9k"}, {
+            {"size": 1922, "id": "service_ipc_server.cc 1.9k"}, {
               "size": 1841,
-              "caption": "gaia 1.8k",
+              "id": "gaia 1.8k",
               "children": [{
                 "size": 1841,
-                "caption": "service_gaia_authenticator.cc 1.8k"
+                "id": "service_gaia_authenticator.cc 1.8k"
               }]
             },
             {
               "size": 1293,
-              "caption": "net 1.3k",
+              "id": "net 1.3k",
               "children": [{
                 "size": 1293,
-                "caption": "service_url_request_context.cc 1.3k"
+                "id": "service_url_request_context.cc 1.3k"
               }]
             },
-            {"size": 795, "caption": "service_main.cc 795"}
+            {"size": 795, "id": "service_main.cc 795"}
           ]
         },
         {
           "size": 27238,
-          "caption": "gpu 27.2k",
+          "id": "gpu 27.2k",
           "children": [
-            {"size": 6604, "caption": "gpu_channel.cc 6.6k"},
-            {"size": 4630, "caption": "gpu_video_decoder.cc 4.6k"},
-            {"size": 3522, "caption": "gpu_command_buffer_stub.cc 3.5k"},
-            {"size": 3089, "caption": "gpu_video_layer_glx.cc 3.1k"},
-            {"size": 2845, "caption": "gpu_thread.cc 2.8k"},
-            {"size": 2192, "caption": "gpu_backing_store_glx.cc 2.2k"},
-            {"size": 1581, "caption": "gpu_backing_store_glx_context.cc 1.6k"},
-            {"size": 1212, "caption": "gpu_view_x.cc 1.2k"},
-            {"size": 1004, "caption": "gpu_video_service.cc 1.0k"},
-            {"size": 440, "caption": "gpu_main.cc 440"},
-            {"size": 91, "caption": "gpu_process.cc 91"},
-            {"size": 18, "caption": "x_util.cc 18"},
-            {"size": 10, "caption": "gpu_info_collector_linux.cc 10"}
+            {"size": 6604, "id": "gpu_channel.cc 6.6k"},
+            {"size": 4630, "id": "gpu_video_decoder.cc 4.6k"},
+            {"size": 3522, "id": "gpu_command_buffer_stub.cc 3.5k"},
+            {"size": 3089, "id": "gpu_video_layer_glx.cc 3.1k"},
+            {"size": 2845, "id": "gpu_thread.cc 2.8k"},
+            {"size": 2192, "id": "gpu_backing_store_glx.cc 2.2k"},
+            {"size": 1581, "id": "gpu_backing_store_glx_context.cc 1.6k"},
+            {"size": 1212, "id": "gpu_view_x.cc 1.2k"},
+            {"size": 1004, "id": "gpu_video_service.cc 1.0k"},
+            {"size": 440, "id": "gpu_main.cc 440"},
+            {"size": 91, "id": "gpu_process.cc 91"},
+            {"size": 18, "id": "x_util.cc 18"},
+            {"size": 10, "id": "gpu_info_collector_linux.cc 10"}
           ]
         },
         {
           "size": 22170,
-          "caption": "third_party 22.2k",
+          "id": "third_party 22.2k",
           "children": [{
             "size": 22170,
-            "caption": "mozilla_security_manager 22.2k",
+            "id": "mozilla_security_manager 22.2k",
             "children": [
-              {"size": 21626, "caption": "nsNSSCertHelper.cpp 21.6k"},
-              {"size": 281, "caption": "nsUsageArrayHelper.cpp 281"},
-              {"size": 263, "caption": "nsNSSCertificate.cpp 263"}
+              {"size": 21626, "id": "nsNSSCertHelper.cpp 21.6k"},
+              {"size": 281, "id": "nsUsageArrayHelper.cpp 281"},
+              {"size": 263, "id": "nsNSSCertificate.cpp 263"}
             ]
           }]
         },
         {
           "size": 13875,
-          "caption": "worker 13.9k",
+          "id": "worker 13.9k",
           "children": [
-            {"size": 2821, "caption": "worker_thread.cc 2.8k"},
-            {"size": 2787, "caption": "webworkerclient_proxy.cc 2.8k"},
-            {"size": 2205, "caption": "worker_webkitclient_impl.cc 2.2k"},
-            {"size": 2074, "caption": "webworker_stub.cc 2.1k"},
-            {"size": 1499, "caption": "websharedworker_stub.cc 1.5k"},
-            {"size": 985, "caption": "nativewebworker_impl.cc 985"},
-            {"size": 766, "caption": "webworker_stub_base.cc 766"},
-            {"size": 558, "caption": "worker_main.cc 558"}, {
+            {"size": 2821, "id": "worker_thread.cc 2.8k"},
+            {"size": 2787, "id": "webworkerclient_proxy.cc 2.8k"},
+            {"size": 2205, "id": "worker_webkitclient_impl.cc 2.2k"},
+            {"size": 2074, "id": "webworker_stub.cc 2.1k"},
+            {"size": 1499, "id": "websharedworker_stub.cc 1.5k"},
+            {"size": 985, "id": "nativewebworker_impl.cc 985"},
+            {"size": 766, "id": "webworker_stub_base.cc 766"},
+            {"size": 558, "id": "worker_main.cc 558"}, {
               "size": 133,
-              "caption": "worker_webapplicationcachehost_impl.cc 133"
+              "id": "worker_webapplicationcachehost_impl.cc 133"
             },
-            {"size": 47, "caption": "nativewebworker_stub.cc 47"}
+            {"size": 47, "id": "nativewebworker_stub.cc 47"}
           ]
         },
         {
           "size": 9898,
-          "caption": "app 9.9k",
+          "id": "app 9.9k",
           "children": [
-            {"size": 9834, "caption": "chrome_dll_main.cc 9.8k"},
-            {"size": 64, "caption": "chrome_exe_main_gtk.cc 64"}
+            {"size": 9834, "id": "chrome_dll_main.cc 9.8k"},
+            {"size": 64, "id": "chrome_exe_main_gtk.cc 64"}
           ]
         },
         {
           "size": 3751,
-          "caption": "utility 3.8k",
+          "id": "utility 3.8k",
           "children": [
-            {"size": 3100, "caption": "utility_thread.cc 3.1k"},
-            {"size": 651, "caption": "utility_main.cc 651"}
+            {"size": 3100, "id": "utility_thread.cc 3.1k"},
+            {"size": 651, "id": "utility_main.cc 651"}
           ]
         },
         {
           "size": 3288,
-          "caption": "installer 3.3k",
+          "id": "installer 3.3k",
           "children": [{
             "size": 3288,
-            "caption": "util 3.3k",
+            "id": "util 3.3k",
             "children": [
-              {"size": 2139, "caption": "master_preferences.cc 2.1k"},
-              {"size": 1149, "caption": "version.cc 1.1k"}
+              {"size": 2139, "id": "master_preferences.cc 2.1k"},
+              {"size": 1149, "id": "version.cc 1.1k"}
             ]
           }]
         },
         {
           "size": 2805,
-          "caption": "default_plugin 2.8k",
+          "id": "default_plugin 2.8k",
           "children": [
-            {"size": 2010, "caption": "plugin_main.cc 2.0k"},
-            {"size": 795, "caption": "plugin_impl_gtk.cc 795"}
+            {"size": 2010, "id": "plugin_main.cc 2.0k"},
+            {"size": 795, "id": "plugin_impl_gtk.cc 795"}
           ]
         },
         {
           "size": 1509,
-          "caption": "nacl 1.5k",
+          "id": "nacl 1.5k",
           "children": [
-            {"size": 769, "caption": "nacl_main.cc 769"},
-            {"size": 642, "caption": "nacl_thread.cc 642"}, {
+            {"size": 769, "id": "nacl_main.cc 769"},
+            {"size": 642, "id": "nacl_thread.cc 642"}, {
               "size": 98,
-              "caption": "nacl_main_platform_delegate_linux.cc 98"
+              "id": "nacl_main_platform_delegate_linux.cc 98"
             }
           ]
         },
         {
           "size": 1026,
-          "caption": "test 1.0k",
+          "id": "test 1.0k",
           "children": [{
             "size": 1026,
-            "caption": "automation 1.0k",
+            "id": "automation 1.0k",
             "children": [{
               "size": 1026,
-              "caption": "automation_messages_internal.h 1.0k"
+              "id": "automation_messages_internal.h 1.0k"
             }]
           }]
         }
@@ -6314,362 +6314,362 @@ export default {
     },
     {
       "size": 1869390,
-      "caption": "/out 1.9m",
+      "id": "/out 1.9m",
       "children": [{
         "size": 1869390,
-        "caption": "Release 1.9m",
+        "id": "Release 1.9m",
         "children": [
           {
             "size": 1810272,
-            "caption": "obj 1.8m",
+            "id": "obj 1.8m",
             "children": [{
               "size": 1810272,
-              "caption": "gen 1.8m",
+              "id": "gen 1.8m",
               "children": [
                 {
                   "size": 1464261,
-                  "caption": "webcore 1.5m",
+                  "id": "webcore 1.5m",
                   "children": [
                     {
                       "size": 1107184,
-                      "caption": "bindings 1.1m",
+                      "id": "bindings 1.1m",
                       "children": [
-                        {"size": 72290, "caption": "V8DOMWindow.cpp 72.3k"},
-                        {"size": 66345, "caption": "V8Document.cpp 66.3k"},
+                        {"size": 72290, "id": "V8DOMWindow.cpp 72.3k"},
+                        {"size": 66345, "id": "V8Document.cpp 66.3k"},
                         {
                           "size": 52689,
-                          "caption": "V8WebGLRenderingContext.cpp 52.7k"
+                          "id": "V8WebGLRenderingContext.cpp 52.7k"
                         },
-                        {"size": 50814, "caption": "V8Element.cpp 50.8k"},
+                        {"size": 50814, "id": "V8Element.cpp 50.8k"},
                         {
                           "size": 35311,
-                          "caption": "V8CanvasRenderingContext2D.cpp 35.3k"
+                          "id": "V8CanvasRenderingContext2D.cpp 35.3k"
                         },
                         {
                           "size": 22265,
-                          "caption": "V8SVGElementInstance.cpp 22.3k"
+                          "id": "V8SVGElementInstance.cpp 22.3k"
                         },
                         {
                           "size": 13251,
-                          "caption": "V8SVGPathElement.cpp 13.3k"
+                          "id": "V8SVGPathElement.cpp 13.3k"
                         },
-                        {"size": 12771, "caption": "V8SVGSVGElement.cpp 12.8k"},
+                        {"size": 12771, "id": "V8SVGSVGElement.cpp 12.8k"},
                         {
                           "size": 11938,
-                          "caption": "V8HTMLBodyElement.cpp 11.9k"
+                          "id": "V8HTMLBodyElement.cpp 11.9k"
                         },
                         {
                           "size": 10789,
-                          "caption": "V8XMLHttpRequest.cpp 10.8k"
+                          "id": "V8XMLHttpRequest.cpp 10.8k"
                         },
                         {
                           "size": 10700,
-                          "caption": "V8DOMApplicationCache.cpp 10.7k"
+                          "id": "V8DOMApplicationCache.cpp 10.7k"
                         },
-                        {"size": 10522, "caption": "V8Range.cpp 10.5k"},
+                        {"size": 10522, "id": "V8Range.cpp 10.5k"},
                         {
                           "size": 8558,
-                          "caption": "V8HTMLFrameSetElement.cpp 8.6k"
+                          "id": "V8HTMLFrameSetElement.cpp 8.6k"
                         },
-                        {"size": 7473, "caption": "V8WorkerContext.cpp 7.5k"},
-                        {"size": 7338, "caption": "V8Node.cpp 7.3k"},
+                        {"size": 7473, "id": "V8WorkerContext.cpp 7.5k"},
+                        {"size": 7338, "id": "V8Node.cpp 7.3k"},
                         {
                           "size": 7332,
-                          "caption": "V8XMLHttpRequestUpload.cpp 7.3k"
+                          "id": "V8XMLHttpRequestUpload.cpp 7.3k"
                         },
-                        {"size": 7063, "caption": "V8WebSocket.cpp 7.1k"},
-                        {"size": 6741, "caption": "V8FileReader.cpp 6.7k"},
-                        {"size": 6566, "caption": "V8DOMSelection.cpp 6.6k"},
+                        {"size": 7063, "id": "V8WebSocket.cpp 7.1k"},
+                        {"size": 6741, "id": "V8FileReader.cpp 6.7k"},
+                        {"size": 6566, "id": "V8DOMSelection.cpp 6.6k"},
                         {
                           "size": 6400,
-                          "caption": "V8HTMLInputElement.cpp 6.4k"
+                          "id": "V8HTMLInputElement.cpp 6.4k"
                         },
-                        {"size": 6284, "caption": "V8SVGMatrix.cpp 6.3k"},
-                        {"size": 6038, "caption": "V8IDBTransaction.cpp 6.0k"},
-                        {"size": 5899, "caption": "V8WebKitCSSMatrix.cpp 5.9k"},
-                        {"size": 5640, "caption": "V8IDBObjectStore.cpp 5.6k"},
-                        {"size": 5604, "caption": "V8EventSource.cpp 5.6k"},
-                        {"size": 5497, "caption": "V8SVGAElement.cpp 5.5k"},
-                        {"size": 5461, "caption": "V8SVGImageElement.cpp 5.5k"},
-                        {"size": 5143, "caption": "V8HTMLElement.cpp 5.1k"},
+                        {"size": 6284, "id": "V8SVGMatrix.cpp 6.3k"},
+                        {"size": 6038, "id": "V8IDBTransaction.cpp 6.0k"},
+                        {"size": 5899, "id": "V8WebKitCSSMatrix.cpp 5.9k"},
+                        {"size": 5640, "id": "V8IDBObjectStore.cpp 5.6k"},
+                        {"size": 5604, "id": "V8EventSource.cpp 5.6k"},
+                        {"size": 5497, "id": "V8SVGAElement.cpp 5.5k"},
+                        {"size": 5461, "id": "V8SVGImageElement.cpp 5.5k"},
+                        {"size": 5143, "id": "V8HTMLElement.cpp 5.1k"},
                         {
                           "size": 5112,
-                          "caption": "V8SVGTransformList.cpp 5.1k"
+                          "id": "V8SVGTransformList.cpp 5.1k"
                         },
                         {
                           "size": 5086,
-                          "caption": "V8SVGMarkerElement.cpp 5.1k"
+                          "id": "V8SVGMarkerElement.cpp 5.1k"
                         },
                         {
                           "size": 5031,
-                          "caption": "V8SVGTextContentElement.cpp 5.0k"
+                          "id": "V8SVGTextContentElement.cpp 5.0k"
                         },
-                        {"size": 4998, "caption": "V8SVGUseElement.cpp 5.0k"},
-                        {"size": 4968, "caption": "V8SVGRectElement.cpp 5.0k"},
-                        {"size": 4878, "caption": "V8Notification.cpp 4.9k"},
-                        {"size": 4830, "caption": "V8SVGPathSegList.cpp 4.8k"},
-                        {"size": 4791, "caption": "V8Database.cpp 4.8k"},
+                        {"size": 4998, "id": "V8SVGUseElement.cpp 5.0k"},
+                        {"size": 4968, "id": "V8SVGRectElement.cpp 5.0k"},
+                        {"size": 4878, "id": "V8Notification.cpp 4.9k"},
+                        {"size": 4830, "id": "V8SVGPathSegList.cpp 4.8k"},
+                        {"size": 4791, "id": "V8Database.cpp 4.8k"},
                         {
                           "size": 4788,
-                          "caption": "V8SVGClipPathElement.cpp 4.8k"
+                          "id": "V8SVGClipPathElement.cpp 4.8k"
                         },
-                        {"size": 4787, "caption": "V8SVGLengthList.cpp 4.8k"},
-                        {"size": 4755, "caption": "V8SVGStringList.cpp 4.8k"},
+                        {"size": 4787, "id": "V8SVGLengthList.cpp 4.8k"},
+                        {"size": 4755, "id": "V8SVGStringList.cpp 4.8k"},
                         {
                           "size": 4724,
-                          "caption": "V8SVGEllipseElement.cpp 4.7k"
+                          "id": "V8SVGEllipseElement.cpp 4.7k"
                         },
-                        {"size": 4719, "caption": "V8IDBRequest.cpp 4.7k"},
-                        {"size": 4684, "caption": "V8SVGLineElement.cpp 4.7k"},
+                        {"size": 4719, "id": "V8IDBRequest.cpp 4.7k"},
+                        {"size": 4684, "id": "V8SVGLineElement.cpp 4.7k"},
                         {
                           "size": 4684,
-                          "caption": "V8SVGForeignObjectElement.cpp 4.7k"
+                          "id": "V8SVGForeignObjectElement.cpp 4.7k"
                         },
                         {
                           "size": 4542,
-                          "caption": "V8SVGCircleElement.cpp 4.5k"
+                          "id": "V8SVGCircleElement.cpp 4.5k"
                         },
                         {
                           "size": 4536,
-                          "caption": "V8CSSStyleDeclaration.cpp 4.5k"
+                          "id": "V8CSSStyleDeclaration.cpp 4.5k"
                         },
                         {
                           "size": 4517,
-                          "caption": "V8HTMLSelectElement.cpp 4.5k"
+                          "id": "V8HTMLSelectElement.cpp 4.5k"
                         },
                         {
                           "size": 4408,
-                          "caption": "V8HTMLTextAreaElement.cpp 4.4k"
+                          "id": "V8HTMLTextAreaElement.cpp 4.4k"
                         },
                         {
                           "size": 4391,
-                          "caption": "V8SVGPolylineElement.cpp 4.4k"
+                          "id": "V8SVGPolylineElement.cpp 4.4k"
                         },
                         {
                           "size": 4363,
-                          "caption": "V8SVGPolygonElement.cpp 4.4k"
+                          "id": "V8SVGPolygonElement.cpp 4.4k"
                         },
                         {
                           "size": 4307,
-                          "caption": "V8HTMLAnchorElement.cpp 4.3k"
+                          "id": "V8HTMLAnchorElement.cpp 4.3k"
                         },
-                        {"size": 4188, "caption": "V8Console.cpp 4.2k"},
+                        {"size": 4188, "id": "V8Console.cpp 4.2k"},
                         {
                           "size": 4186,
-                          "caption": "V8HTMLMediaElement.cpp 4.2k"
+                          "id": "V8HTMLMediaElement.cpp 4.2k"
                         },
-                        {"size": 4165, "caption": "V8SVGPointList.cpp 4.2k"},
-                        {"size": 4151, "caption": "V8SVGGElement.cpp 4.2k"},
-                        {"size": 4126, "caption": "V8SVGDefsElement.cpp 4.1k"},
+                        {"size": 4165, "id": "V8SVGPointList.cpp 4.2k"},
+                        {"size": 4151, "id": "V8SVGGElement.cpp 4.2k"},
+                        {"size": 4126, "id": "V8SVGDefsElement.cpp 4.1k"},
                         {
                           "size": 4116,
-                          "caption": "V8SVGSwitchElement.cpp 4.1k"
+                          "id": "V8SVGSwitchElement.cpp 4.1k"
                         },
-                        {"size": 4100, "caption": "V8IDBDatabase.cpp 4.1k"},
-                        {"size": 4088, "caption": "V8SVGNumberList.cpp 4.1k"},
-                        {"size": 4074, "caption": "V8SVGTransform.cpp 4.1k"},
+                        {"size": 4100, "id": "V8IDBDatabase.cpp 4.1k"},
+                        {"size": 4088, "id": "V8SVGNumberList.cpp 4.1k"},
+                        {"size": 4074, "id": "V8SVGTransform.cpp 4.1k"},
                         {
                           "size": 4018,
-                          "caption": "V8SVGPatternElement.cpp 4.0k"
+                          "id": "V8SVGPatternElement.cpp 4.0k"
                         },
                         {
                           "size": 4002,
-                          "caption": "V8SVGAnimatedPreserveAspectRatio.cpp 4.0k"
+                          "id": "V8SVGAnimatedPreserveAspectRatio.cpp 4.0k"
                         },
                         {
                           "size": 4002,
-                          "caption": "V8SVGAnimatedAngle.cpp 4.0k"
+                          "id": "V8SVGAnimatedAngle.cpp 4.0k"
                         },
-                        {"size": 4002, "caption": "V8SVGAnimatedRect.cpp 4.0k"},
+                        {"size": 4002, "id": "V8SVGAnimatedRect.cpp 4.0k"},
                         {
                           "size": 4002,
-                          "caption": "V8SVGAnimatedLength.cpp 4.0k"
+                          "id": "V8SVGAnimatedLength.cpp 4.0k"
                         },
-                        {"size": 3988, "caption": "V8NamedNodeMap.cpp 4.0k"},
-                        {"size": 3811, "caption": "V8MouseEvent.cpp 3.8k"},
+                        {"size": 3988, "id": "V8NamedNodeMap.cpp 4.0k"},
+                        {"size": 3811, "id": "V8MouseEvent.cpp 3.8k"},
                         {
                           "size": 3779,
-                          "caption": "V8SVGFEConvolveMatrixElement.cpp 3.8k"
+                          "id": "V8SVGFEConvolveMatrixElement.cpp 3.8k"
                         },
                         {
                           "size": 3743,
-                          "caption": "V8DOMImplementation.cpp 3.7k"
+                          "id": "V8DOMImplementation.cpp 3.7k"
                         },
-                        {"size": 3738, "caption": "V8HTMLDocument.cpp 3.7k"},
+                        {"size": 3738, "id": "V8HTMLDocument.cpp 3.7k"},
                         {
                           "size": 3507,
-                          "caption": "V8SVGFilterElement.cpp 3.5k"
+                          "id": "V8SVGFilterElement.cpp 3.5k"
                         },
-                        {"size": 3467, "caption": "V8SVGMaskElement.cpp 3.5k"},
+                        {"size": 3467, "id": "V8SVGMaskElement.cpp 3.5k"},
                         {
                           "size": 3459,
-                          "caption": "V8SVGFETurbulenceElement.cpp 3.5k"
+                          "id": "V8SVGFETurbulenceElement.cpp 3.5k"
                         },
-                        {"size": 3357, "caption": "V8Navigator.cpp 3.4k"},
-                        {"size": 3293, "caption": "V8MessagePort.cpp 3.3k"},
+                        {"size": 3357, "id": "V8Navigator.cpp 3.4k"},
+                        {"size": 3293, "id": "V8MessagePort.cpp 3.3k"},
                         {
                           "size": 3275,
-                          "caption": "V8SVGSymbolElement.cpp 3.3k"
+                          "id": "V8SVGSymbolElement.cpp 3.3k"
                         },
                         {
                           "size": 3271,
-                          "caption": "V8HTMLTableElement.cpp 3.3k"
+                          "id": "V8HTMLTableElement.cpp 3.3k"
                         },
-                        {"size": 3269, "caption": "V8IDBKeyRange.cpp 3.3k"},
-                        {"size": 3202, "caption": "V8TouchEvent.cpp 3.2k"},
-                        {"size": 3118, "caption": "V8XPathEvaluator.cpp 3.1k"},
+                        {"size": 3269, "id": "V8IDBKeyRange.cpp 3.3k"},
+                        {"size": 3202, "id": "V8TouchEvent.cpp 3.2k"},
+                        {"size": 3118, "id": "V8XPathEvaluator.cpp 3.1k"},
                         {
                           "size": 3094,
-                          "caption": "V8HTMLObjectElement.cpp 3.1k"
+                          "id": "V8HTMLObjectElement.cpp 3.1k"
                         },
                         {
                           "size": 3075,
-                          "caption": "V8CSSVariablesDeclaration.cpp 3.1k"
+                          "id": "V8CSSVariablesDeclaration.cpp 3.1k"
                         },
                         {
                           "size": 3069,
-                          "caption": "V8SVGFECompositeElement.cpp 3.1k"
+                          "id": "V8SVGFECompositeElement.cpp 3.1k"
                         },
-                        {"size": 3002, "caption": "V8WheelEvent.cpp 3.0k"},
-                        {"size": 2964, "caption": "V8CharacterData.cpp 3.0k"},
-                        {"size": 2962, "caption": "V8SVGAngle.cpp 3.0k"},
+                        {"size": 3002, "id": "V8WheelEvent.cpp 3.0k"},
+                        {"size": 2964, "id": "V8CharacterData.cpp 3.0k"},
+                        {"size": 2962, "id": "V8SVGAngle.cpp 3.0k"},
                         {
                           "size": 2958,
-                          "caption": "V8SVGFEImageElement.cpp 3.0k"
+                          "id": "V8SVGFEImageElement.cpp 3.0k"
                         },
                         {
                           "size": 2956,
-                          "caption": "V8HTMLImageElement.cpp 3.0k"
+                          "id": "V8HTMLImageElement.cpp 3.0k"
                         },
                         {
                           "size": 2918,
-                          "caption": "V8SVGFEMorphologyElement.cpp 2.9k"
+                          "id": "V8SVGFEMorphologyElement.cpp 2.9k"
                         },
-                        {"size": 2882, "caption": "V8AbstractWorker.cpp 2.9k"},
-                        {"size": 2876, "caption": "V8CSSStyleSheet.cpp 2.9k"},
-                        {"size": 2874, "caption": "V8Storage.cpp 2.9k"},
-                        {"size": 2864, "caption": "V8History.cpp 2.9k"},
+                        {"size": 2882, "id": "V8AbstractWorker.cpp 2.9k"},
+                        {"size": 2876, "id": "V8CSSStyleSheet.cpp 2.9k"},
+                        {"size": 2874, "id": "V8Storage.cpp 2.9k"},
+                        {"size": 2864, "id": "V8History.cpp 2.9k"},
                         {
                           "size": 2857,
-                          "caption": "V8InspectorFrontendHost.cpp 2.9k"
+                          "id": "V8InspectorFrontendHost.cpp 2.9k"
                         },
-                        {"size": 2855, "caption": "V8HTMLAreaElement.cpp 2.9k"},
-                        {"size": 2846, "caption": "V8Location.cpp 2.8k"},
+                        {"size": 2855, "id": "V8HTMLAreaElement.cpp 2.9k"},
+                        {"size": 2846, "id": "V8Location.cpp 2.8k"},
                         {
                           "size": 2821,
-                          "caption": "V8SVGFEDisplacementMapElement.cpp 2.8k"
+                          "id": "V8SVGFEDisplacementMapElement.cpp 2.8k"
                         },
-                        {"size": 2787, "caption": "V8DatabaseSync.cpp 2.8k"},
-                        {"size": 2786, "caption": "V8TreeWalker.cpp 2.8k"},
+                        {"size": 2787, "id": "V8DatabaseSync.cpp 2.8k"},
+                        {"size": 2786, "id": "V8TreeWalker.cpp 2.8k"},
                         {
                           "size": 2754,
-                          "caption": "V8SVGFEDiffuseLightingElement.cpp 2.8k"
+                          "id": "V8SVGFEDiffuseLightingElement.cpp 2.8k"
                         },
                         {
                           "size": 2732,
-                          "caption": "V8SVGFEGaussianBlurElement.cpp 2.7k"
+                          "id": "V8SVGFEGaussianBlurElement.cpp 2.7k"
                         },
-                        {"size": 2715, "caption": "V8KeyboardEvent.cpp 2.7k"},
-                        {"size": 2697, "caption": "V8MutationEvent.cpp 2.7k"},
-                        {"size": 2690, "caption": "V8StorageEvent.cpp 2.7k"},
-                        {"size": 2654, "caption": "V8BlobBuilder.cpp 2.7k"},
+                        {"size": 2715, "id": "V8KeyboardEvent.cpp 2.7k"},
+                        {"size": 2697, "id": "V8MutationEvent.cpp 2.7k"},
+                        {"size": 2690, "id": "V8StorageEvent.cpp 2.7k"},
+                        {"size": 2654, "id": "V8BlobBuilder.cpp 2.7k"},
                         {
                           "size": 2648,
-                          "caption": "V8SVGFESpecularLightingElement.cpp 2.6k"
+                          "id": "V8SVGFESpecularLightingElement.cpp 2.6k"
                         },
                         {
                           "size": 2506,
-                          "caption": "V8SVGFEOffsetElement.cpp 2.5k"
+                          "id": "V8SVGFEOffsetElement.cpp 2.5k"
                         },
                         {
                           "size": 2501,
-                          "caption": "V8SVGFEColorMatrixElement.cpp 2.5k"
+                          "id": "V8SVGFEColorMatrixElement.cpp 2.5k"
                         },
                         {
                           "size": 2501,
-                          "caption": "V8SVGFEBlendElement.cpp 2.5k"
+                          "id": "V8SVGFEBlendElement.cpp 2.5k"
                         },
                         {
                           "size": 2496,
-                          "caption": "V8HTMLButtonElement.cpp 2.5k"
+                          "id": "V8HTMLButtonElement.cpp 2.5k"
                         },
                         {
                           "size": 2489,
-                          "caption": "V8SVGAnimationElement.cpp 2.5k"
+                          "id": "V8SVGAnimationElement.cpp 2.5k"
                         },
-                        {"size": 2480, "caption": "V8SVGColor.cpp 2.5k"},
+                        {"size": 2480, "id": "V8SVGColor.cpp 2.5k"},
                         {
                           "size": 2450,
-                          "caption": "V8CSSPrimitiveValue.cpp 2.5k"
+                          "id": "V8CSSPrimitiveValue.cpp 2.5k"
                         },
-                        {"size": 2411, "caption": "V8WorkerLocation.cpp 2.4k"},
-                        {"size": 2399, "caption": "V8HTMLFormElement.cpp 2.4k"},
+                        {"size": 2411, "id": "V8WorkerLocation.cpp 2.4k"},
+                        {"size": 2399, "id": "V8HTMLFormElement.cpp 2.4k"},
                         {
                           "size": 2364,
-                          "caption": "V8HTMLFrameElement.cpp 2.4k"
+                          "id": "V8HTMLFrameElement.cpp 2.4k"
                         },
-                        {"size": 2289, "caption": "V8SVGTextElement.cpp 2.3k"},
-                        {"size": 2236, "caption": "V8SVGLength.cpp 2.2k"},
+                        {"size": 2289, "id": "V8SVGTextElement.cpp 2.3k"},
+                        {"size": 2236, "id": "V8SVGLength.cpp 2.2k"},
                         {
                           "size": 2222,
-                          "caption": "V8SVGFETileElement.cpp 2.2k"
+                          "id": "V8SVGFETileElement.cpp 2.2k"
                         },
                         {
                           "size": 2217,
-                          "caption": "V8SVGFEComponentTransferElement.cpp 2.2k"
+                          "id": "V8SVGFEComponentTransferElement.cpp 2.2k"
                         },
-                        {"size": 2125, "caption": "V8SVGStyleElement.cpp 2.1k"},
-                        {"size": 2114, "caption": "V8UIEvent.cpp 2.1k"},
-                        {"size": 2107, "caption": "V8Event.cpp 2.1k"},
-                        {"size": 2080, "caption": "V8SVGPaint.cpp 2.1k"},
+                        {"size": 2125, "id": "V8SVGStyleElement.cpp 2.1k"},
+                        {"size": 2114, "id": "V8UIEvent.cpp 2.1k"},
+                        {"size": 2107, "id": "V8Event.cpp 2.1k"},
+                        {"size": 2080, "id": "V8SVGPaint.cpp 2.1k"},
                         {
                           "size": 2076,
-                          "caption": "V8HTMLTableCellElement.cpp 2.1k"
+                          "id": "V8HTMLTableCellElement.cpp 2.1k"
                         },
                         {
                           "size": 2075,
-                          "caption": "V8SVGFEFloodElement.cpp 2.1k"
+                          "id": "V8SVGFEFloodElement.cpp 2.1k"
                         },
                         {
                           "size": 2075,
-                          "caption": "V8SVGFEMergeElement.cpp 2.1k"
+                          "id": "V8SVGFEMergeElement.cpp 2.1k"
                         },
-                        {"size": 2070, "caption": "V8Timing.cpp 2.1k"},
+                        {"size": 2070, "id": "V8Timing.cpp 2.1k"},
                         {
                           "size": 2044,
-                          "caption": "V8HTMLOptionElement.cpp 2.0k"
+                          "id": "V8HTMLOptionElement.cpp 2.0k"
                         },
                         {
                           "size": 2039,
-                          "caption": "V8HTMLIFrameElement.cpp 2.0k"
+                          "id": "V8HTMLIFrameElement.cpp 2.0k"
                         },
-                        {"size": 2026, "caption": "V8XPathResult.cpp 2.0k"},
+                        {"size": 2026, "id": "V8XPathResult.cpp 2.0k"},
                         {
                           "size": 2016,
-                          "caption": "V8SVGCursorElement.cpp 2.0k"
+                          "id": "V8SVGCursorElement.cpp 2.0k"
                         },
                         {
                           "size": 1998,
-                          "caption": "V8WebKitCSSKeyframesRule.cpp 2.0k"
+                          "id": "V8WebKitCSSKeyframesRule.cpp 2.0k"
                         },
                         {
                           "size": 1993,
-                          "caption": "V8HTMLVideoElement.cpp 2.0k"
+                          "id": "V8HTMLVideoElement.cpp 2.0k"
                         },
-                        {"size": 1981, "caption": "V8DOMPlugin.cpp 2.0k"},
-                        {"size": 1963, "caption": "V8IDBCursor.cpp 2.0k"},
+                        {"size": 1981, "id": "V8DOMPlugin.cpp 2.0k"},
+                        {"size": 1963, "id": "V8IDBCursor.cpp 2.0k"},
                         {
                           "size": 1935,
-                          "caption":
+                          "id":
                               "V8SVGComponentTransferFunctionElement.cpp 1.9k"
                         },
                         {
                           "size": 1933,
-                          "caption": "V8HTMLTableRowElement.cpp 1.9k"
+                          "id": "V8HTMLTableRowElement.cpp 1.9k"
                         },
                         {
                           "size": 1913,
-                          "caption": "V8SVGFESpotLightElement.cpp 1.9k"
+                          "id": "V8SVGFESpotLightElement.cpp 1.9k"
                         },
                         {"size": 1904, "caption": "V8MediaList.cpp 1.9k"},
                         {
