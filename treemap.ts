@@ -171,10 +171,11 @@ export class TreeMap {
       const height = sum / space;
       const heightPx = height / scale;
       for (let i = start; i < end; i++) {
-        const size = children[i].size;
+        const child = children[i];
+        const size = child.size;
         const width = size / height;
         const widthPx = width / scale;
-        const dom = this.createDOM(children[i]);
+        const dom = child.dom || this.createDOM(child);
         dom.style.left = px(x);
         dom.style.width = px(widthPx - spacing);
         dom.style.top = px(y);
@@ -182,7 +183,7 @@ export class TreeMap {
         container.appendChild(dom);
 
         // We lose 2px due to the border.
-        this.layout(dom, children[i], level + 1, widthPx - 2, heightPx - 2);
+        this.layout(dom, child, level + 1, widthPx - 2, heightPx - 2);
 
         x += widthPx;
       }
@@ -202,7 +203,6 @@ export class TreeMap {
         if (!node) return;
       }
       let address = this.getAddress(node);
-      console.log(address);
       this.zoom(address);
     };
     dom.style.width = width + 'px';
@@ -234,22 +234,26 @@ export class TreeMap {
 
   zoom(address: number[]) {
     let data = this.node;
-    let x1 = 0,
-      y1 = 0,
-      x2 = data.dom!.offsetWidth,
-      y2 = data.dom!.offsetHeight;
-    for (const index of address) {
-      const padding = this.options.padding;
-      y1 += padding[0];
-      x2 -= padding[1];
-      y2 -= padding[2];
-      x1 += padding[3];
+    const [padTop, padRight, padBottom, padLeft] = this.options.padding;
 
-      data = data.children![index];
-      data.dom!.style.left = px(x1);
-      data.dom!.style.width = px(x2 - x1);
-      data.dom!.style.top = px(y1);
-      data.dom!.style.height = px(y2 - y1);
+    let width = data.dom!.offsetWidth;
+    let height = data.dom!.offsetHeight;
+    for (const index of address) {
+      width -= padLeft + padRight + 2;
+      height -= padTop + padBottom + 2;
+
+      if (!data.children) throw new Error('bad address');
+      for (const c of data.children) {
+        if (c.dom) c.dom.style.zIndex = '0';
+      }
+      data = data.children[index];
+      const style = data.dom!.style;
+      style.zIndex = '1';
+      style.left = px(padLeft);
+      style.width = px(width);
+      style.top = px(padTop);
+      style.height = px(height);
     }
+    this.layout(data.dom!, data, 0, width, height);
   }
 }
