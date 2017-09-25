@@ -45,5 +45,7 @@ function init() {
   for (const control of controls) {
     control.onchange = update;
   }
+  update();
 }
-update();
+
+init();
