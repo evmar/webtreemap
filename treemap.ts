@@ -134,14 +134,7 @@ export class TreeMap {
     return {end, sum};
   }
 
-  private layout(
-    container: HTMLElement,
-    data: Node,
-    level: number,
-    width: number,
-    height: number
-  ) {
-    data.dom = container;
+  private layout(data: Node, level: number, width: number, height: number) {
     const total: number = data.size;
     const children = data.children;
     if (!children) return;
@@ -158,45 +151,57 @@ export class TreeMap {
     y2 -= padding[2];
     x1 += padding[3];
 
-    if (x2 - x1 < 40) return;
-    if (y2 - y1 < 100) return;
-    const scale = Math.sqrt(total / ((x2 - x1) * (y2 - y1)));
-    var x = x1,
-      y = y1;
-    for (let start = 0; start < children.length; ) {
-      x = x1;
-      const space = scale * (x2 - x1);
-      const {end, sum} = this.selectSpan(children, space, start);
-      if (sum / total < 0.1) break;
-      const height = sum / space;
-      const heightPx = height / scale;
-      for (let i = start; i < end; i++) {
-        const child = children[i];
-        const size = child.size;
-        const width = size / height;
-        const widthPx = width / scale;
-        const dom = child.dom || this.createDOM(child);
-        dom.style.left = px(x);
-        dom.style.width = px(widthPx - spacing);
-        dom.style.top = px(y);
-        dom.style.height = px(heightPx - spacing);
-        container.appendChild(dom);
+    let i: number = 0;
+    if (x2 - x1 > 40 && y2 - y1 > 100) {
+      const scale = Math.sqrt(total / ((x2 - x1) * (y2 - y1)));
+      var x = x1,
+        y = y1;
+      for (let start = 0; start < children.length; ) {
+        x = x1;
+        const space = scale * (x2 - x1);
+        const {end, sum} = this.selectSpan(children, space, start);
+        if (sum / total < 0.1) break;
+        const height = sum / space;
+        const heightPx = height / scale;
+        for (i = start; i < end; i++) {
+          const child = children[i];
+          const size = child.size;
+          const width = size / height;
+          const widthPx = width / scale;
+          const dom = child.dom || this.createDOM(child);
+          const style = dom.style;
+          style.left = px(x);
+          style.width = px(widthPx - spacing);
+          style.top = px(y);
+          style.height = px(heightPx - spacing);
+          if (!child.dom) {
+            child.dom = dom;
+            data.dom!.appendChild(child.dom);
+          }
 
-        // We lose 2px due to the border.
-        this.layout(dom, child, level + 1, widthPx - 2, heightPx - 2);
+          // We lose 2px due to the border.
+          this.layout(child, level + 1, widthPx - 2, heightPx - 2);
 
-        x += widthPx;
+          x += widthPx;
+        }
+        y += heightPx;
+        start = end;
       }
-      y += heightPx;
-      start = end;
+    }
+    // Remove the DOM for any children we didn't visit.
+    // These can be created if we zoomed in then out.
+    for (; i < children.length; i++) {
+      if (!children[i].dom) break;
+      children[i].dom!.parentNode!.removeChild(children[i].dom!);
+      children[i].dom = undefined;
     }
   }
 
   render(container: HTMLElement) {
-    const dom = this.createDOM(this.node);
+    this.node.dom = this.createDOM(this.node);
     const width = container.offsetWidth;
     const height = container.offsetHeight;
-    dom.onclick = e => {
+    this.node.dom.onclick = e => {
       let node: HTMLElement | null = e.target as HTMLElement;
       while (!isDOMNode(node)) {
         node = node.parentElement;
@@ -205,10 +210,10 @@ export class TreeMap {
       let address = this.getAddress(node);
       this.zoom(address);
     };
-    dom.style.width = width + 'px';
-    dom.style.height = height + 'px';
-    container.appendChild(dom);
-    this.layout(dom, this.node, 0, width, height);
+    this.node.dom.style.width = width + 'px';
+    this.node.dom.style.height = height + 'px';
+    container.appendChild(this.node.dom);
+    this.layout(this.node, 0, width, height);
   }
 
   getAddress(node: HTMLElement): number[] {
@@ -254,6 +259,6 @@ export class TreeMap {
       style.top = px(padTop);
       style.height = px(height);
     }
-    this.layout(data.dom!, data, 0, width, height);
+    this.layout(data, 0, width, height);
   }
 }
