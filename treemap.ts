@@ -27,7 +27,8 @@ export function isDOMNode(e: Element): boolean {
  */
 export interface Options {
   padding: [number, number, number, number];
-  caption?(data: Node): string;
+  caption?(node: Node): string;
+  showChildren(node: Node, width: number, height: number): boolean;
 }
 
 /**
@@ -56,6 +57,9 @@ export class TreeMap {
     this.options = {
       padding: options.padding || [options.caption ? 14 : 0, 0, 0, 0],
       caption: options.caption,
+      showChildren(node: Node, width: number, height: number): boolean {
+        return width > 40 && height > 40;
+      },
     };
   }
 
@@ -134,9 +138,9 @@ export class TreeMap {
     return {end, sum};
   }
 
-  private layout(data: Node, level: number, width: number, height: number) {
-    const total: number = data.size;
-    const children = data.children;
+  private layout(node: Node, level: number, width: number, height: number) {
+    const total: number = node.size;
+    const children = node.children;
     if (!children) return;
 
     let x1 = 0,
@@ -152,7 +156,7 @@ export class TreeMap {
     x1 += padding[3];
 
     let i: number = 0;
-    if (x2 - x1 > 40 && y2 - y1 > 100) {
+    if (this.options.showChildren(node, x2 - x1, y2 - y1)) {
       const scale = Math.sqrt(total / ((x2 - x1) * (y2 - y1)));
       var x = x1,
         y = y1;
@@ -176,7 +180,7 @@ export class TreeMap {
           style.height = px(heightPx - spacing);
           if (!child.dom) {
             child.dom = dom;
-            data.dom!.appendChild(child.dom);
+            node.dom!.appendChild(child.dom);
           }
 
           // We lose 2px due to the border.
