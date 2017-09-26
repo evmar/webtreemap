@@ -28,6 +28,7 @@ export function isDOMNode(e: Element): boolean {
 export interface Options {
   padding: [number, number, number, number];
   caption?(node: Node): string;
+  showNode(node: Node, width: number, height: number): boolean;
   showChildren(node: Node, width: number, height: number): boolean;
 }
 
@@ -52,15 +53,19 @@ function px(x: number) {
 }
 
 export class TreeMap {
-  private options: Options;
+  private readonly options: Options;
   constructor(private node: Node, options: Partial<Options>) {
-    this.options = {
-      padding: options.padding || [options.caption ? 14 : 0, 0, 0, 0],
+    const fullOptions = {
+      padding: options.padding || [options.caption ? 14 : 2, 2, 2, 2],
       caption: options.caption,
+      showNode(node: Node, width: number, height: number): boolean {
+        return width > 20 && height >= fullOptions.padding[0];
+      },
       showChildren(node: Node, width: number, height: number): boolean {
         return width > 40 && height > 40;
       },
     };
+    this.options = fullOptions;
   }
 
   createDOM(node: Node): HTMLElement {
@@ -160,6 +165,7 @@ export class TreeMap {
       const scale = Math.sqrt(total / ((x2 - x1) * (y2 - y1)));
       var x = x1,
         y = y1;
+children:
       for (let start = 0; start < children.length; ) {
         x = x1;
         const space = scale * (x2 - x1);
@@ -172,6 +178,9 @@ export class TreeMap {
           const size = child.size;
           const width = size / height;
           const widthPx = Math.round(width / scale);
+          if (!this.options.showNode(child, widthPx - spacing, heightPx - spacing)) {
+            break children;
+          }
           const dom = child.dom || this.createDOM(child);
           const style = dom.style;
           style.left = px(x);
