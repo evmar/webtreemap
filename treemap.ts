@@ -167,7 +167,7 @@ export class TreeMap {
           const child = children[i];
           const size = child.size;
           const width = size / height;
-          const widthPx = width / scale;
+          const widthPx = Math.round(width / scale);
           const dom = child.dom || this.createDOM(child);
           const style = dom.style;
           style.left = px(x);
@@ -182,9 +182,11 @@ export class TreeMap {
           // We lose 2px due to the border.
           this.layout(child, level + 1, widthPx - 2, heightPx - 2);
 
-          x += widthPx;
+          // -1 so inner borders overlap.
+          x += widthPx - 1;
         }
-        y += heightPx;
+        // -1 so inner borders overlap.
+        y += heightPx - 1;
         start = end;
       }
     }
