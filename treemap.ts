@@ -71,7 +71,26 @@ function getNodeIndex(target: Element): number {
   return index;
 }
 
-function px(x: number) {
+/**
+ * Given a DOM node, compute its address: an array of indexes
+ * into the Node tree.  An address [a1,a2,...] refers to
+ * tree.chldren[a1].children[a2].children[...].
+ */
+export function getAddress(el: Element): number[] {
+  let address: number[] = [];
+  let n: Element | null = el;
+  while (n && isDOMNode(n)) {
+    address.unshift(getNodeIndex(n));
+    n = n.parentElement;
+  }
+  address.shift(); // The first element will be the root, index 0.
+  return address;
+}
+
+/**
+ * Converts a number to a CSS pixel string.
+ */
+function px(x: number): string {
   // Rounding when computing pixel coordinates makes the box edges touch
   // better than letting the browser do it, because the browser has lots of
   // heuristics around handling non-integer pixel coordinates.
@@ -97,12 +116,14 @@ function defaultOptions(options: Partial<Options>): Options {
 }
 
 export class TreeMap {
-  private readonly options: Options;
-  constructor(private node: Node, options: Partial<Options>) {
+  readonly options: Options;
+  constructor(public node: Node, options: Partial<Options>) {
     this.options = defaultOptions(options);
   }
 
-  createDOM(node: Node): HTMLElement {
+  /** Creates the DOM for a single node if it doesn't have one already. */
+  ensureDOM(node: Node): HTMLElement {
+    if (node.dom) return node.dom;
     const dom = document.createElement('div');
     dom.className = NODE_CSS_CLASS;
     if (this.options.caption) {
@@ -111,6 +132,7 @@ export class TreeMap {
       caption.innerText = this.options.caption(node);
       dom.appendChild(caption);
     }
+    node.dom = dom;
     return dom;
   }
 
@@ -177,11 +199,16 @@ export class TreeMap {
     return {end, sum};
   }
 
-  private layout(node: Node, level: number, width: number, height: number) {
+  /** Creates and positions child DOM for a node. */
+  private layoutChildren(
+    node: Node,
+    level: number,
+    width: number,
+    height: number
+  ) {
     const total: number = node.size;
     const children = node.children;
     if (!children) return;
-
     // We use box-sizing: border-box so CSS 'width' etc include the border.
     // With 0 padding we want children to perfectly overlap their parent,
     // so we start with offsets of -1 (to start at the same point as the
@@ -222,18 +249,18 @@ export class TreeMap {
           ) {
             break children;
           }
-          const dom = child.dom || this.createDOM(child);
+          const needsAppend = child.dom == null;
+          const dom = this.ensureDOM(child);
           const style = dom.style;
           style.left = px(x);
           style.width = px(widthPx - spacing);
           style.top = px(y);
           style.height = px(heightPx - spacing);
-          if (!child.dom) {
-            child.dom = dom;
-            node.dom!.appendChild(child.dom);
+          if (needsAppend) {
+            node.dom!.appendChild(dom);
           }
 
-          this.layout(child, level + 1, widthPx, heightPx);
+          this.layoutChildren(child, level + 1, widthPx, heightPx);
 
           // -1 so inner borders overlap.
           x += widthPx - 1;
@@ -252,62 +279,49 @@ export class TreeMap {
     }
   }
 
+  /**
+   * Creates the full treemap in a container element.
+   * The treemap is sized to the size of the container.
+   */
   render(container: HTMLElement) {
-    this.node.dom = this.createDOM(this.node);
+    const dom = this.ensureDOM(this.node);
     const width = container.offsetWidth;
     const height = container.offsetHeight;
-    this.node.dom.onclick = e => {
-      let node: HTMLElement | null = e.target as HTMLElement;
+    dom.onclick = e => {
+      let node: Element | null = e.target as Element;
       while (!isDOMNode(node)) {
         node = node.parentElement;
         if (!node) return;
       }
-      let address = this.getAddress(node);
+      let address = getAddress(node);
       this.zoom(address);
     };
-    this.node.dom.style.width = width + 'px';
-    this.node.dom.style.height = height + 'px';
-    container.appendChild(this.node.dom);
-    this.layout(this.node, 0, width, height);
+    dom.style.width = width + 'px';
+    dom.style.height = height + 'px';
+    container.appendChild(dom);
+    this.layoutChildren(this.node, 0, width, height);
   }
 
-  getAddress(node: HTMLElement): number[] {
-    let address: number[] = [];
-    let n: HTMLElement | null = node;
-    while (n && isDOMNode(n)) {
-      address.unshift(getNodeIndex(n));
-      n = n.parentElement;
-    }
-    address.shift(); // The first element will be the root, index 0.
-    return address;
-  }
-
-  getNodeByAddress(address: number[]): Node[] {
-    let data = this.node;
-    const datas: Node[] = [data];
-    for (const i of address) {
-      data = data.children![i];
-      datas.push(data);
-    }
-    return datas;
-  }
-
+  /**
+   * Zooms the treemap to display a specific node.
+   * See getAddress() for a discussion of what address means.
+   */
   zoom(address: number[]) {
-    let data = this.node;
+    let node = this.node;
     const [padTop, padRight, padBottom, padLeft] = this.options.padding;
 
-    let width = data.dom!.offsetWidth;
-    let height = data.dom!.offsetHeight;
+    let width = node.dom!.offsetWidth;
+    let height = node.dom!.offsetHeight;
     for (const index of address) {
       width -= padLeft + padRight;
       height -= padTop + padBottom;
 
-      if (!data.children) throw new Error('bad address');
-      for (const c of data.children) {
+      if (!node.children) throw new Error('bad address');
+      for (const c of node.children) {
         if (c.dom) c.dom.style.zIndex = '0';
       }
-      data = data.children[index];
-      const style = data.dom!.style;
+      node = node.children[index];
+      const style = node.dom!.style;
       style.zIndex = '1';
       // See discussion in layout() about positioning.
       style.left = px(padLeft - 1);
@@ -315,6 +329,6 @@ export class TreeMap {
       style.top = px(padTop - 1);
       style.height = px(height);
     }
-    this.layout(data, 0, width, height);
+    this.layoutChildren(node, 0, width, height);
   }
 }

@@ -8,6 +8,15 @@ const controls = {
   breadcrumbs: document.getElementById('breadcrumbs'),
 };
 
+function getNodesByAddress(node: treemap.Node, address: number[]): treemap.Node[] {
+  const nodes: treemap.Node[] = [node];
+  for (const i of address) {
+    node = node.children![i];
+    nodes.push(node);
+  }
+  return nodes;
+}
+
 function hover(this: HTMLElement, e: MouseEvent) {
   let dom: HTMLElement | null = e.target as HTMLElement;
   while (!treemap.isDOMNode(dom)) {
@@ -16,9 +25,8 @@ function hover(this: HTMLElement, e: MouseEvent) {
   if (!dom) return;
 
   let breadcrumbsDiv = document.getElementById('breadcrumbs')!;
-  let address = tm.getAddress(dom);
-  breadcrumbsDiv.innerText = tm
-    .getNodeByAddress(address)
+  let address = treemap.getAddress(dom);
+  breadcrumbsDiv.innerText = getNodesByAddress(tm.node, address)
     .map(d => d.id)
     .join(' > ');
   e.stopPropagation();
