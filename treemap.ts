@@ -82,12 +82,16 @@ function defaultOptions(options: Partial<Options>): Options {
   const opts = {
     padding: options.padding || [options.caption ? 14 : 2, 2, 2, 2],
     caption: options.caption,
-    showNode(node: Node, width: number, height: number): boolean {
-      return width > 20 && height >= opts.padding[0];
-    },
-    showChildren(node: Node, width: number, height: number): boolean {
-      return width > 40 && height > 40;
-    },
+    showNode:
+      options.showNode ||
+      ((node: Node, width: number, height: number): boolean => {
+        return width > 20 && height >= opts.padding[0];
+      }),
+    showChildren:
+      options.showChildren ||
+      ((node: Node, width: number, height: number): boolean => {
+        return width > 40 && height > 40;
+      }),
   };
   return opts;
 }
@@ -195,8 +199,7 @@ export class TreeMap {
       const scale = Math.sqrt(total / ((x2 - x1) * (y2 - y1)));
       var x = x1,
         y = y1;
-children:
-      for (let start = 0; start < children.length; ) {
+      children: for (let start = 0; start < children.length; ) {
         x = x1;
         const space = scale * (x2 - x1);
         const {end, sum} = this.selectSpan(children, space, start);
@@ -208,7 +211,9 @@ children:
           const size = child.size;
           const width = size / height;
           const widthPx = Math.round(width / scale);
-          if (!this.options.showNode(child, widthPx - spacing, heightPx - spacing)) {
+          if (
+            !this.options.showNode(child, widthPx - spacing, heightPx - spacing)
+          ) {
             break children;
           }
           const dom = child.dom || this.createDOM(child);
