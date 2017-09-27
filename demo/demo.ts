@@ -39,6 +39,7 @@ function update() {
 }
 
 function init() {
+  treemap.addCSS(document.head);
   const controls = (document.getElementsByClassName(
     'control'
   ) as any) as HTMLElement[];
