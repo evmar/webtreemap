@@ -182,10 +182,16 @@ export class TreeMap {
     const children = node.children;
     if (!children) return;
 
-    let x1 = 0,
-      y1 = 0,
-      x2 = width,
-      y2 = height;
+    // We use box-sizing: border-box so CSS 'width' etc include the border.
+    // With 0 padding we want children to perfectly overlap their parent,
+    // so we start with offsets of -1 (to start at the same point as the
+    // parent) and create each box 1px larger than necessary (to make
+    // adjoining borders overlap).
+
+    let x1 = -1,
+      y1 = -1,
+      x2 = width - 1,
+      y2 = height - 1;
 
     const spacing = 0; // TODO: this.options.spacing;
     const padding = this.options.padding;
@@ -205,12 +211,12 @@ export class TreeMap {
         const {end, sum} = this.selectSpan(children, space, start);
         if (sum / total < 0.1) break;
         const height = sum / space;
-        const heightPx = height / scale;
+        const heightPx = Math.round(height / scale) + 1;
         for (i = start; i < end; i++) {
           const child = children[i];
           const size = child.size;
           const width = size / height;
-          const widthPx = Math.round(width / scale);
+          const widthPx = Math.round(width / scale) + 1;
           if (
             !this.options.showNode(child, widthPx - spacing, heightPx - spacing)
           ) {
@@ -227,8 +233,7 @@ export class TreeMap {
             node.dom!.appendChild(child.dom);
           }
 
-          // We lose 2px due to the border.
-          this.layout(child, level + 1, widthPx - 2, heightPx - 2);
+          this.layout(child, level + 1, widthPx, heightPx);
 
           // -1 so inner borders overlap.
           x += widthPx - 1;
@@ -294,8 +299,8 @@ export class TreeMap {
     let width = data.dom!.offsetWidth;
     let height = data.dom!.offsetHeight;
     for (const index of address) {
-      width -= padLeft + padRight + 2;
-      height -= padTop + padBottom + 2;
+      width -= padLeft + padRight;
+      height -= padTop + padBottom;
 
       if (!data.children) throw new Error('bad address');
       for (const c of data.children) {
@@ -304,9 +309,10 @@ export class TreeMap {
       data = data.children[index];
       const style = data.dom!.style;
       style.zIndex = '1';
-      style.left = px(padLeft);
+      // See discussion in layout() about positioning.
+      style.left = px(padLeft - 1);
       style.width = px(width);
-      style.top = px(padTop);
+      style.top = px(padTop - 1);
       style.height = px(height);
     }
     this.layout(data, 0, width, height);

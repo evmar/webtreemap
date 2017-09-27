@@ -29,7 +29,9 @@ function update() {
     .checked;
   let dom = document.getElementById('tree')!;
   dom.innerHTML = '';
-  let options: Partial<treemap.Options> = {};
+  let options: Partial<treemap.Options> = {
+    padding: [14, 0, 0, 0],
+  };
   if (captions) {
     options.caption = node => node.id;
   }
