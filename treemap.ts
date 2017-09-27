@@ -78,20 +78,24 @@ function px(x: number) {
   return Math.round(x) + 'px';
 }
 
+function defaultOptions(options: Partial<Options>): Options {
+  const opts = {
+    padding: options.padding || [options.caption ? 14 : 2, 2, 2, 2],
+    caption: options.caption,
+    showNode(node: Node, width: number, height: number): boolean {
+      return width > 20 && height >= opts.padding[0];
+    },
+    showChildren(node: Node, width: number, height: number): boolean {
+      return width > 40 && height > 40;
+    },
+  };
+  return opts;
+}
+
 export class TreeMap {
   private readonly options: Options;
   constructor(private node: Node, options: Partial<Options>) {
-    const fullOptions = {
-      padding: options.padding || [options.caption ? 14 : 2, 2, 2, 2],
-      caption: options.caption,
-      showNode(node: Node, width: number, height: number): boolean {
-        return width > 20 && height >= fullOptions.padding[0];
-      },
-      showChildren(node: Node, width: number, height: number): boolean {
-        return width > 40 && height > 40;
-      },
-    };
-    this.options = fullOptions;
+    this.options = defaultOptions(options);
   }
 
   createDOM(node: Node): HTMLElement {
