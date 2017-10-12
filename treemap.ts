@@ -1,24 +1,9 @@
-/**
- * Node is the expected shape of input data.
- */
-export interface Node {
-  /**
-   * id is optional but can be used to identify each node.
-   * It should be unique among nodes at the same level.
-   */
-  id?: string;
-  /** size should be >= the sum of the children's size. */
-  size: number;
-  /** children should be sorted by size in descending order. */
-  children?: Node[];
-  /** dom node will be created and associated with the data. */
-  dom?: HTMLElement;
-}
+import {Node} from './tree';
 
 const CSS_PREFIX = 'webtreemap-';
 const NODE_CSS_CLASS = CSS_PREFIX + 'node';
 
-const DEFAULT_CSS = `	
+const DEFAULT_CSS = `
 .webtreemap-node {
   cursor: pointer;
   position: absolute;
@@ -38,7 +23,8 @@ const DEFAULT_CSS = `
   text-align: center;
 }
 `;
-export function addCSS(parent: HTMLElement) {
+
+function addCSS(parent: HTMLElement) {
   const style = document.createElement('style');
   style.innerText = DEFAULT_CSS;
   parent.appendChild(style);
@@ -99,8 +85,8 @@ function px(x: number): string {
 
 function defaultOptions(options: Partial<Options>): Options {
   const opts = {
-    padding: options.padding || [options.caption ? 14 : 2, 2, 2, 2],
-    caption: options.caption,
+    padding: options.padding || [14, 3, 3, 3],
+    caption: options.caption || ((node: Node) => node.id || ''),
     showNode:
       options.showNode ||
       ((node: Node, width: number, height: number): boolean => {
@@ -223,7 +209,11 @@ export class TreeMap {
     const spacing = 0; // TODO: this.options.spacing;
     const padding = this.options.padding;
     y1 += padding[0];
-    x2 -= padding[1];
+    if (padding[1]) {
+      // If there's any right-padding, subtract an extra pixel to allow for the
+      // boxes being one pixel wider than necessary.
+      x2 -= padding[1] + 1;
+    }
     y2 -= padding[2];
     x1 += padding[3];
 
@@ -284,6 +274,7 @@ export class TreeMap {
    * The treemap is sized to the size of the container.
    */
   render(container: HTMLElement) {
+    addCSS(container);
     const dom = this.ensureDOM(this.node);
     const width = container.offsetWidth;
     const height = container.offsetHeight;

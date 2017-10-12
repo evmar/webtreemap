@@ -1,4 +1,19 @@
-import {Node} from './treemap';
+/**
+ * Node is the expected shape of input data.
+ */
+export interface Node {
+  /**
+   * id is optional but can be used to identify each node.
+   * It should be unique among nodes at the same level.
+   */
+  id?: string;
+  /** size should be >= the sum of the children's size. */
+  size: number;
+  /** children should be sorted by size in descending order. */
+  children?: Node[];
+  /** dom node will be created and associated with the data. */
+  dom?: HTMLElement;
+}
 
 /**
  * treeify converts an array of [path, size] pairs into a tree.
@@ -7,24 +22,45 @@ import {Node} from './treemap';
 export function treeify(data: Array<[string, number]>): Node {
   const tree: Node = {size: 0};
   for (const [path, size] of data) {
-    const parts = path.split('/');
+    const parts = path.replace(/\/$/, '').split('/');
     let t = tree;
     while (parts.length > 0) {
       const id = parts.shift();
       if (!t.children) t.children = [];
       let child = t.children.find(c => c.id === id);
       if (!child) {
-        child = {id: id, size: 0};
+        child = {id, size: 0};
         t.children.push(child);
-      } else {
-        if (parts.length === 0) {
-          throw new Error(`duplicate path ${path}`);
+      }
+      if (parts.length === 0) {
+        if (child.size !== 0) {
+          throw new Error(`duplicate path ${path} ${child.size}`);
         }
+        child.size = size;
       }
       t = child;
     }
   }
   return tree;
+}
+
+/**
+ * flatten flattens nodes that have only one child.
+ * @param join If given, a function that joins the names of the parent and
+ * child.
+ */
+export function flatten(
+    n: Node, join = (parent: string, child: string) => `${parent}/${child}`) {
+  if (n.children) {
+    for (const c of n.children) {
+      flatten(c, join);
+    }
+    if (n.children.length === 1) {
+      const child = n.children[0];
+      n.id += '/' + child.id;
+      n.children = child.children;
+    }
+  }
 }
 
 /**

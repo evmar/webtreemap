@@ -1,3 +1,4 @@
+import {Node} from './tree';
 import * as treemap from './treemap';
 
 /**
@@ -13,7 +14,7 @@ export interface OldData {
 }
 
 /** transform transforms the old data format to the new one. */
-export function transform(old: OldData): treemap.Node {
+export function transform(old: OldData): Node {
   return {
     id: old.name,
     size: old.data['$area'],

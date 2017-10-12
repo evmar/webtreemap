@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "description": "treemap visualization",
   "main": "treemap.js",
+  "bin": {
+    "webtreemap": "cli.js"
+  },
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^8.0.34",
     "prettier": "^1.7.0",
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.2",

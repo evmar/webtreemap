@@ -18,6 +18,7 @@ module.exports = {
     extensions: ['.ts'],
   },
   output: {
+    library: 'webtreemap',
     libraryTarget: 'window',
     path: path.resolve(__dirname, 'dist'),
     filename: '[name]',

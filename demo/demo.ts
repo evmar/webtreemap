@@ -1,3 +1,4 @@
+import {Node} from '../tree';
 import * as treemap from '../treemap';
 import demoData from './data/states';
 
@@ -8,8 +9,8 @@ const controls = {
   breadcrumbs: document.getElementById('breadcrumbs'),
 };
 
-function getNodesByAddress(node: treemap.Node, address: number[]): treemap.Node[] {
-  const nodes: treemap.Node[] = [node];
+function getNodesByAddress(node: Node, address: number[]): Node[] {
+  const nodes: Node[] = [node];
   for (const i of address) {
     node = node.children![i];
     nodes.push(node);
@@ -49,7 +50,6 @@ function update() {
 }
 
 function init() {
-  treemap.addCSS(document.head);
   const controls = (document.getElementsByClassName(
     'control'
   ) as any) as HTMLElement[];
