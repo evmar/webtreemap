@@ -6,15 +6,15 @@
   "dependencies": {},
   "devDependencies": {
     "prettier": "^1.7.0",
-    "rollup": "^0.36.3",
+    "ts-loader": "^2.3.7",
     "typescript": "^2.5.2",
-    "uglify-js": "^2.7.4"
+    "webpack": "^3.7.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fmt": "prettier --write *.ts demo/*.ts",
-    "dev": "tsc --watch --module system --outFile demo/demo.js demo/demo.ts",
-    "build": "tsc && rollup -f iife build/oldapi-main.js | uglifyjs --screw-ie8 > build/webtreemap.js"
+    "dev": "webpack --watch",
+    "build": "webpack --optimize-minimize"
   },
   "repository": {
     "type": "git",

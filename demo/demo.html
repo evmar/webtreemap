@@ -1,53 +1,38 @@
 <!doctype html>
 <style>
-	body {
-		font-family: sans-serif;
-	}
-	
-	h2 {
-		font-weight: normal;
-	}
-	
-	main {
-		display: flex;
-	}
-	
-	#tree {
-		width: 600px;
-		height: 400px;
-		position: relative;
-	}
-	
-	#controls {
-		padding-left: 4ex;
-	}
+  body {
+    font-family: sans-serif;
+  }
+
+  h2 {
+    font-weight: normal;
+  }
+
+  main {
+    display: flex;
+  }
+
+  #tree {
+    width: 600px;
+    height: 400px;
+    position: relative;
+  }
+
+  #controls {
+    padding-left: 4ex;
+  }
 </style>
 
 <main>
   <div>
-  	<div id='tree'></div>
+    <div id='tree'></div>
     <div id='breadcrumbs'></div>
   </div>
-	<div id='controls'>
-		<h2>controls</h2>
-		<label><input type="checkbox" id='captions' class='control' checked> captions</label>
-	</div>
+  <div id='controls'>
+    <h2>controls</h2>
+    <label>
+      <input type="checkbox" id='captions' class='control' checked> captions</label>
+  </div>
 </main>
 
-<script>
-// minimal system.js loader.
-var System = {
-    mods: {},
-    register: function(module, deps, init) {
-        System.mods[module] = {};
-        var res = init(function(name, val) {
-            System.mods[module][name] = val;
-        });
-        for (var i = 0; i < deps.length; i++) {
-            res.setters[i](System.mods[deps[i]]);
-        }
-        res.execute();
-    }
-};
-</script>
-<script src='demo.js'></script>
+<script src='../dist/demo.js'></script>
