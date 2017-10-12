@@ -19,7 +19,7 @@ function getNodesByAddress(node: treemap.Node, address: number[]): treemap.Node[
 
 function hover(this: HTMLElement, e: MouseEvent) {
   let dom: HTMLElement | null = e.target as HTMLElement;
-  while (!treemap.isDOMNode(dom)) {
+  while (dom && !treemap.isDOMNode(dom)) {
     dom = dom.parentElement;
   }
   if (!dom) return;
@@ -41,7 +41,7 @@ function update() {
     padding: [14, 0, 0, 0],
   };
   if (captions) {
-    options.caption = node => node.id;
+    options.caption = node => node.id || '';
   }
   tm = new treemap.TreeMap(demoData, options);
   tm.render(dom);
