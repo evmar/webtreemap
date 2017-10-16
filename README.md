@@ -1,5 +1,11 @@
 # webtreemap
 
+> **New 2017-Oct-16**: master is now webtreemap v2, a complete rewrite with
+bug fixes, more features, and a different (simpler) API.  If you're looking
+for the old webtreemap, see the [v1] branch.
+
+[v1]: https://github.com/evmar/webtreemap/tree/v1
+
 A simple treemap implementation using web technologies (DOM nodes, CSS styling
 and transitions) rather than a big canvas/svg/plugin.  It's usable as a library
 as part of a larger web app, but it also includes a command-line app that dumps
