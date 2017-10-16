@@ -69,7 +69,7 @@ function humanSizeCaption(n: tree.Node): string {
   let units = ['', 'k', 'm', 'g'];
   let unit = 0;
   let size = n.size;
-  while (size > 1024) {
+  while (size > 1024 && unit < units.length - 1) {
     size = size / 1024;
     unit++;
   }
