@@ -1,13 +1,10 @@
-import * as treemap from './treemap';
-import * as tree from './tree';
+/**
+ * Public webtreemap API.
+ * All of these end up on window.webtreemap.
+ */
 
-export * from './tree';
+/** Tree data type and manipulation functions. */
+export {Node, flatten, rollup, sort, treeify} from './tree';
 
-export function render(
-  container: HTMLElement,
-  node: tree.Node,
-  options: Partial<treemap.Options>
-) {
-  const tm = new treemap.TreeMap(node, options);
-  tm.render(container);
-}
+/** Web rendering of tree data. */
+export {Options, render} from './treemap';

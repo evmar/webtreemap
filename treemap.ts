@@ -323,3 +323,12 @@ export class TreeMap {
     this.layoutChildren(node, 0, width, height);
   }
 }
+
+/** Main entry point; renders a tree into an HTML container. */
+export function render(
+  container: HTMLElement,
+  node: Node,
+  options: Partial<Options>
+) {
+  new TreeMap(node, options).render(container);
+}
