@@ -21,7 +21,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "fmt": "prettier --write *.ts demo/*.ts",
     "dev": "webpack --watch",
-    "build": "webpack --optimize-minimize"
+    "build": "webpack --optimize-minimize",
+    "demo": "du -ab node_modules/ | node build/cli.js --title 'node_modules for webtreemap' > demo.html"
   },
   "repository": {
     "type": "git",
