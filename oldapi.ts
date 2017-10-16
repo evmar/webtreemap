@@ -8,7 +8,7 @@ import * as treemap from './treemap';
 
 /** OldData is the shape of the old data format. */
 export interface OldData {
-  data: {$area: number;};
+  data: {$area: number};
   name: string;
   children?: OldData[];
 }

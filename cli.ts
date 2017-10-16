@@ -9,7 +9,7 @@ async function readLines() {
   return new Promise<string[]>((resolve, reject) => {
     const rl = readline.createInterface({input: process.stdin});
     const lines: string[] = [];
-    rl.on('line', (line) => {
+    rl.on('line', line => {
       lines.push(line);
     });
     rl.on('close', () => {
@@ -80,15 +80,17 @@ function humanSizeCaption(n: tree.Node): string {
 
 async function main() {
   const args = commander
-                   .description(`Generate web-based treemaps.
+    .description(
+      `Generate web-based treemaps.
 
   Reads a series of
     size path
   lines from stdin, splits path on '/' and outputs HTML for a treemap.
-`)
-                   .option('-o, --output [path]', 'output to file, not stdout')
-                   .option('--title [string]', 'title of output HTML')
-                   .parse(process.argv);
+`
+    )
+    .option('-o, --output [path]', 'output to file, not stdout')
+    .option('--title [string]', 'title of output HTML')
+    .parse(process.argv);
   const node = treeFromLines(await readLines());
   const treemapJS = await readFile('dist/webtreemap.js');
   const title = args.title || 'webtreemap';

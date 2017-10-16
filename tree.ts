@@ -50,7 +50,9 @@ export function treeify(data: Array<[string, number]>): Node {
  * child.
  */
 export function flatten(
-    n: Node, join = (parent: string, child: string) => `${parent}/${child}`) {
+  n: Node,
+  join = (parent: string, child: string) => `${parent}/${child}`
+) {
   if (n.children) {
     for (const c of n.children) {
       flatten(c, join);
