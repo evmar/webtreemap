@@ -1,19 +1,8 @@
+import * as commander from 'commander';
 import * as fs from 'fs';
 import * as readline from 'readline';
-import * as tree from './tree';
 
-const template = `<!doctype html>
-<style>
-body {
-  font-family: sans-serif;
-}
-#treemap {
-  width: 800px;
-  height: 600px;
-}
-</style>
-<div id='treemap'></div>
-`;
+import * as tree from './tree';
 
 /** Reads stdin into an array of lines. */
 async function readLines() {
@@ -25,6 +14,19 @@ async function readLines() {
     });
     rl.on('close', () => {
       resolve(lines);
+    });
+  });
+}
+
+/** Reads a file to a string. */
+async function readFile(path: string) {
+  return new Promise<string>((resolve, reject) => {
+    fs.readFile(path, {encoding: 'utf-8'}, (err, data) => {
+      if (err) {
+        reject(err);
+        return;
+      }
+      resolve(data);
     });
   });
 }
@@ -77,14 +79,43 @@ function humanSizeCaption(n: tree.Node): string {
 }
 
 async function main() {
+  const args = commander
+                   .description(`Generate web-based treemaps.
+
+  Reads a series of
+    size path
+  lines from stdin, splits path on '/' and outputs HTML for a treemap.
+`)
+                   .option('-o, --output [path]', 'output to file, not stdout')
+                   .option('--title [string]', 'title of output HTML')
+                   .parse(process.argv);
   const node = treeFromLines(await readLines());
-  console.log(template);
-  console.log(`<script>const data = ${JSON.stringify(node)}</script>`);
-  console.log('<script>' + fs.readFileSync('dist/webtreemap.js') + '</script>');
-  console.log(
-      `<script>webtreemap.render(document.getElementById("treemap"), data, {
+  const treemapJS = await readFile('dist/webtreemap.js');
+  const title = args.title || 'webtreemap';
+
+  let output = `<!doctype html>
+<title>${title}</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+#treemap {
+  width: 800px;
+  height: 600px;
+}
+</style>
+<div id='treemap'></div>
+<script>const data = ${JSON.stringify(node)}</script>
+<script>${treemapJS}</script>
+<script>webtreemap.render(document.getElementById("treemap"), data, {
   caption: ${humanSizeCaption},
-});</script>`);
+});</script>
+`;
+  if (args.output) {
+    fs.writeFileSync(args.output, output, {encoding: 'utf-8'});
+  } else {
+    console.log(output);
+  }
 }
 
 main().catch(err => {

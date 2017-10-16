@@ -6,8 +6,11 @@
   "bin": {
     "webtreemap": "cli.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "commander": "^2.11.0"
+  },
   "devDependencies": {
+    "@types/commander": "^2.11.0",
     "@types/node": "^8.0.34",
     "prettier": "^1.7.0",
     "ts-loader": "^2.3.7",
