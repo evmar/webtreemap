@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import * as commander from 'commander';
 import * as fs from 'fs';
 import * as readline from 'readline';
@@ -35,10 +37,12 @@ async function readFile(path: string) {
 function treeFromLines(lines: string[]): tree.Node {
   const data: Array<[string, number]> = [];
   for (const line of lines) {
-    const [sizeStr, path] = line.split(/\s+/);
+    let [sizeStr, path] = line.split(/\s+/);
+    path = path || '';
     const size = Number(sizeStr);
     data.push([path, size]);
   }
+  console.log(data);
   let node = tree.treeify(data);
 
   // If there's a common empty parent, skip it.
@@ -92,7 +96,7 @@ async function main() {
     .option('--title [string]', 'title of output HTML')
     .parse(process.argv);
   const node = treeFromLines(await readLines());
-  const treemapJS = await readFile('dist/webtreemap.js');
+  const treemapJS = await readFile(__dirname + '/../dist/webtreemap.js');
   const title = args.title || 'webtreemap';
 
   let output = `<!doctype html>
