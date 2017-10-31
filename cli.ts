@@ -42,7 +42,6 @@ function treeFromLines(lines: string[]): tree.Node {
     const size = Number(sizeStr);
     data.push([path, size]);
   }
-  console.log(data);
   let node = tree.treeify(data);
 
   // If there's a common empty parent, skip it.
