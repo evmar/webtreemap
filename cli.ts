@@ -56,6 +56,7 @@ function treeFromLines(lines: string[]): tree.Node {
     }
   }
 
+  tree.rollup(node);
   tree.sort(node);
   tree.flatten(node);
 

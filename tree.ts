@@ -73,11 +73,13 @@ export function flatten(
  */
 export function rollup(n: Node) {
   if (!n.children) return;
-  n.size = 0;
+  let total = 0;
   for (const c of n.children) {
     rollup(c);
-    n.size += c.size;
+    total += c.size;
   }
+
+  if (total > n.size) n.size = total;
 }
 
 /**
