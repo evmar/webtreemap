@@ -1,6 +1,6 @@
 {
   "name": "webtreemap",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "treemap visualization",
   "main": "treemap.js",
   "bin": {
@@ -24,6 +24,11 @@
     "build": "webpack --optimize-minimize",
     "demo": "du -ab node_modules/ | node build/cli.js --title 'node_modules for webtreemap' > docs/demo.html"
   },
+  "files": [
+    "build/*.js",
+    "build/*.d.ts",
+    "dist/webtreemap.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/evmar/webtreemap.git"
