@@ -13,7 +13,7 @@ a self-contained HTML file that displays a map.
 
 Play with a [demo].
 
-[demo]: http://evmar.github.io/webtreemap/demo.html
+[demo]: http://evmar.github.io/webtreemap/
 
 ## Usage
 
