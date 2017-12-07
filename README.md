@@ -65,3 +65,16 @@ Use `tsc -w` to keep the npm-compatible JS up to date, then run e.g.:
 ```
 $ du -ab node_modules/ | node build/cli.js --title 'node_modules usage' -o demo.html
 ```
+
+## Dependencies
+
+Requires TypeScript compiler (`tsc`) and `node` which are available from your favorite package manager.
+
+Example instructions for Mac:
+```
+brew install node
+cd webtreemap
+npm install
+tsc cli # it shows errors, you can ignore them.
+du -ab some_path | node cli.js -o out.html
+```
