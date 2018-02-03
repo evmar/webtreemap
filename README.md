@@ -65,3 +65,8 @@ Use `tsc -w` to keep the npm-compatible JS up to date, then run e.g.:
 ```
 $ du -ab node_modules/ | node build/cli.js --title 'node_modules usage' -o demo.html
 ```
+
+## License
+
+webtreemap is licensed under the Apache License v2.0. See `LICENSE.txt` for the
+complete license text.
