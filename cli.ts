@@ -37,8 +37,8 @@ async function readFile(path: string) {
 function treeFromLines(lines: string[]): tree.Node {
   const data: Array<[string, number]> = [];
   for (const line of lines) {
-    let [sizeStr, path] = line.split(/\s+/);
-    path = path || '';
+    let [sizeStr, ...rest] = line.split(/\s+/);
+    let path = (rest || []).join(' ');
     const size = Number(sizeStr);
     data.push([path, size]);
   }
