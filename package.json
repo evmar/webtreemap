@@ -4,7 +4,7 @@
   "description": "treemap visualization",
   "main": "treemap.js",
   "bin": {
-    "webtreemap": "build/cli.js"
+    "webtreemap": "build/src/cli.js"
   },
   "dependencies": {
     "commander": "^2.11.0"
@@ -19,10 +19,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fmt": "prettier --write *.ts demo/*.ts",
+    "fmt": "prettier --write src/*.ts demo/*.ts",
     "dev": "webpack --watch",
     "build": "webpack --optimize-minimize",
-    "demo": "du -ab node_modules/ | node build/cli.js --title 'node_modules for webtreemap' > docs/demo.html"
+    "demo": "du -ab node_modules/ | node build/src/cli.js --title 'node_modules for webtreemap' > docs/demo.html"
   },
   "files": [
     "build/*.js",

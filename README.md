@@ -22,7 +22,7 @@ Play with a [demo].
 The data format is a tree of `Node`, where each node is an object in the shape
 described at the top of [tree.ts].
 
-[tree.ts]: https://github.com/evmar/webtreemap/blob/master/tree.ts
+[tree.ts]: https://github.com/evmar/webtreemap/blob/master/src/tree.ts
 
 ```html
 <script src='webtreemap.js'></script>

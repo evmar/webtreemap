@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    'webtreemap.js': './webtreemap.ts',
+    'webtreemap.js': './src/webtreemap.ts',
     'demo.js': './demo/demo.ts',
   },
   module: {
