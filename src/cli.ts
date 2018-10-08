@@ -96,7 +96,7 @@ async function main() {
     .option('--title [string]', 'title of output HTML')
     .parse(process.argv);
   const node = treeFromLines(await readLines());
-  const treemapJS = await readFile(__dirname + '/../../dist/webtreemap.js');
+  const treemapJS = await readFile(__dirname + '/../webtreemap.js');
   const title = args.title || 'webtreemap';
 
   let output = `<!doctype html>
