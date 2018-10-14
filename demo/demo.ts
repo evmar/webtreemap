@@ -18,7 +18,7 @@ function getNodesByAddress(node: Node, address: number[]): Node[] {
   return nodes;
 }
 
-function hover(this: HTMLElement, e: MouseEvent) {
+function hover(e: MouseEvent) {
   let dom: HTMLElement | null = e.target as HTMLElement;
   while (dom && !treemap.isDOMNode(dom)) {
     dom = dom.parentElement;
