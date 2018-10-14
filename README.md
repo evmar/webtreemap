@@ -53,13 +53,22 @@ just uses slash as a nesting delimiter.
 ## Development
 
 The modules of webtreemap can be used both from the web and from the command
-line.  The basic flow is:
+line, so the build has two layers.  The command line app embeds the output
+of the build into its output so it's a bit confusing.
+
+To build everything, run `yarn run build`.
+
+### Build layout
+
+To hack on webtreemap, the pieces of the build are:
 
 1.  `yarn run tsc` builds all the `.ts` files;
 2.  `yarn run webpack` builds the UMD web version from JS of the above.
 
-Note that the command line embeds the web version in its output, so you need
-to run step 2 before running the output of step 1.
+Because command line embeds the web version in its output, you need to
+run step 2 before running the output of step 1.  Also note we
+intentionally don't use webpack's ts-loader because we want the
+TypeScript output for the command-line app.
 
 ### Command line app
 

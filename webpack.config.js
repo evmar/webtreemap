@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    'webtreemap.js': './build/src/webtreemap.js',
-    //'demo.js': './demo/demo.ts',
+    'webtreemap.js': './build/src/index.js',
+    'demo.js': './build/demo/demo.js',
   },
   output: {
     library: 'webtreemap',

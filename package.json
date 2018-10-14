@@ -19,8 +19,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fmt": "prettier --write src/*.ts demo/*.ts",
-    "dev": "tsc --watch",
-    "webpack": "webpack --optimize-minimize",
+    "build": "tsc && webpack -p",
     "demo": "du -ab node_modules/ | node build/src/cli.js --title 'node_modules for webtreemap' > docs/index.html"
   },
   "files": [

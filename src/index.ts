@@ -7,4 +7,4 @@
 export {Node, flatten, rollup, sort, treeify} from './tree';
 
 /** Web rendering of tree data. */
-export {Options, render} from './treemap';
+export {TreeMap, Options, isDOMNode, getAddress, render} from './treemap';
