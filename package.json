@@ -2,7 +2,7 @@
   "name": "webtreemap",
   "version": "2.0.1",
   "description": "treemap visualization",
-  "main": "treemap.js",
+  "main": "build/src/index.js",
   "bin": {
     "webtreemap": "build/src/cli.js"
   },
