@@ -171,8 +171,8 @@ export class TreeMap {
       // Take the larger of these two ratios as the measure of the
       // worst non-squarenesss.
       const score = Math.max(
-        smax * space * space / (nextSum * nextSum),
-        nextSum * nextSum / (smin * space * space)
+        (smax * space * space) / (nextSum * nextSum),
+        (nextSum * nextSum) / (smin * space * space)
       );
       if (lastScore && score > lastScore) {
         // Including this additional rectangle produces worse squareness than
