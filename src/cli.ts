@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import * as commander from 'commander';
+import commander from 'commander';
 import * as fs from 'fs';
 import * as readline from 'readline';
 
