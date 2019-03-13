@@ -102,12 +102,13 @@ async function main() {
   let output = `<!doctype html>
 <title>${title}</title>
 <style>
-body {
+html, body {
+  height: 100%;
   font-family: sans-serif;
 }
 #treemap {
-  width: 800px;
-  height: 600px;
+  height: 100%;
+  width: 100%;
 }
 </style>
 <div id='treemap'></div>
