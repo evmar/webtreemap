@@ -50,7 +50,8 @@ $ webtreemap -o output_file < my_data
 Input data format is space-separated lines of "size path", where size
 is a number and path is a '/'-delimited path. For example:
 
-```$ cat my_data
+```sh
+$ cat my_data
 100 all
 50 all/thing1
 25 all/thing2
@@ -89,7 +90,7 @@ TypeScript output for the command-line app.
 
 Use `yarn run tsc -w` to keep the npm-compatible JS up to date, then run e.g.:
 
-```
+```sh
 $ du -ab node_modules/ | node build/src/cli.js --title 'node_modules usage' -o demo.html
 ```
 
