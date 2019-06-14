@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import commander from 'commander';
+import {Command} from 'commander';
 import * as fs from 'fs';
 import * as readline from 'readline';
 
@@ -96,18 +96,16 @@ function humanSizeCaption(n: tree.Node): string {
 }
 
 async function main() {
-  const args = commander
-    .description(
-      `Generate web-based treemaps.
+  const args = new Command()
+                   .description(`Generate web-based treemaps.
 
   Reads a series of
     size path
   lines from stdin, splits path on '/' and outputs HTML for a treemap.
-`
-    )
-    .option('-o, --output [path]', 'output to file, not stdout')
-    .option('--title [string]', 'title of output HTML')
-    .parse(process.argv);
+`)
+                   .option('-o, --output [path]', 'output to file, not stdout')
+                   .option('--title [string]', 'title of output HTML')
+                   .parse(process.argv);
   const node = treeFromLines(await readLines());
   const treemapJS = await readFile(__dirname + '/../webtreemap.js');
   const title = args.title || 'webtreemap';
