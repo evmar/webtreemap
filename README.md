@@ -33,6 +33,27 @@ const container = document.getElementById('myContainer');
 webtreemap.render(container, data, options);
 ```
 
+#### Options
+| Option | Type | Default |
+| ------------- |:-------------:| -----:|
+| padding | [number, number, number, number] | [14, 3, 3, 3] | 
+| lowerBound | number |  0.1 | 
+| applyMutations | (node: Node) => void | () => void | 
+| caption | (node: Node) => string | (node) => node.id || '') | 
+| showNode | (node: Node, width: number, height: number) => boolean | (_, width, height) => (width > 20) && (height >= options.padding[0]) | 
+| showChildren | (node: Node, width: number, height: number) => boolean  |  (_, width, height) => (width > 40) && (height > 40) | 
+
+
+| Option | Description |
+| ------------- |:-------------:|
+| padding | In order: padding-top, padding-right, padding-bottom, padding-left of each node
+| lowerBound | Lower bound of ratio that determines how many children can be displayed inside of a node. Example with a lower bound of 0.1: the total area taken up by displaying child nodes of any given node cannot be less than 10% of the area of its parent node. 
+| applyMutations | A function that exposes a node as an argument after it's dom element has been assigned. Use this to add inline styles and classes. Example: (node) => { node.dom.style.color = 'blue' }
+| caption | A function that takes a node as an argument and returns a string that is used to display as the caption for the node passed in.
+| showNode | A function that takes a node, its width, and its height, and returns a boolean that determines if that node should be displayed. Fires after showChildren.
+| showChildren | A function that takes a node, its width, and its height, and returns a boolean that determines if that node's children should be displayed. Fires before showNode.
+
+
 ### Command line
 
 Install with
