@@ -55,7 +55,9 @@ export function isDOMNode(e: Element): boolean {
  */
 export interface Options {
   padding: [number, number, number, number];
-  caption?(node: Node): string;
+  lowerBound: number;
+  applyMutations(node: Node): void,
+  caption(node: Node): string;
   showNode(node: Node, width: number, height: number): boolean;
   showChildren(node: Node, width: number, height: number): boolean;
 }
@@ -102,6 +104,8 @@ function px(x: number): string {
 function defaultOptions(options: Partial<Options>): Options {
   const opts = {
     padding: options.padding || [14, 3, 3, 3],
+    lowerBound: options.lowerBound === undefined ? 0.1 : options.lowerBound,
+    applyMutations: options.applyMutations || (() => null),
     caption: options.caption || ((node: Node) => node.id || ''),
     showNode:
       options.showNode ||
@@ -135,6 +139,7 @@ export class TreeMap {
       dom.appendChild(caption);
     }
     node.dom = dom;
+    this.options.applyMutations(node);
     return dom;
   }
 
@@ -242,7 +247,7 @@ export class TreeMap {
         x = x1;
         const space = scale * (x2 - x1);
         const {end, sum} = this.selectSpan(children, space, start);
-        if (sum / total < 0.1) break;
+        if (sum / total < this.options.lowerBound) break;
         const height = sum / space;
         const heightPx = Math.round(height / scale) + 1;
         for (i = start; i < end; i++) {
