@@ -158,7 +158,8 @@ export class TreeMap {
   ): {end: number; sum: number} {
     // Add rectangles one by one, stopping when aspect ratios begin to go
     // bad.  Result is [start,end) covering the best run for this span.
-    // http://scholar.google.com/scholar?cluster=5972512107845615474
+    // See: Bruls, et al. "Squarified treemaps." (2000)
+    // https://scholar.google.com/scholar?cluster=16156845309181182620&hl=en&as_sdt=2005&sciodt=0,5
     let smin = children[start].size; // Smallest seen child so far.
     let smax = smin; // Largest child.
     let sum = 0; // Sum of children in this span.
