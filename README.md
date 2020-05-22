@@ -56,16 +56,18 @@ webtreemap.render(container, data, options);
 
 ### Command line
 
-Install with
+Install globally and run with
+
+```sh
+$ npm i -g webtreemap
+$ webtreemap -o output_file < my_data
+```
+
+Or install locally run with:
 
 ```sh
 $ npm i webtreemap
-```
-
-Then run with:
-
-```sh
-$ webtreemap -o output_file < my_data
+$ ./node_modules/.bin/webtreemap -o output_file < my_data
 ```
 
 Input data format is space-separated lines of "size path", where size
