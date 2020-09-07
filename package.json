@@ -23,7 +23,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "fmt": "prettier --write src/*.ts demo/*.ts *.md",
     "build": "tsc && webpack -p",
-    "demo": "du -a node_modules/ | awk '{print $1*512 \"\t\" $2}' | node build/src/cli.js --title 'node_modules for webtreemap'"
+    "demo": "du -a node_modules/ | awk '{print $1*512 \"\t\" $2}' | node build/src/cli.js --title 'node_modules for webtreemap'",
+    "demo-tsc": "tsc --listFiles | node build/src/cli.js --title 'tsc --listFiles'"
   },
   "files": [
     "build/*.js",
