@@ -55,7 +55,7 @@ function parseLine(line: string): [string, number] {
   // Match (number)(whitespace)(path)
   let m = line.match(/(\S+)\s+(.*)/);
   if (m) {
-    const [, sizeStr, path] = m
+    const [, sizeStr, path] = m;
     const size = Number(sizeStr);
     if (isNaN(size)) {
       throw new Error(`Unable to parse ${size} as a number in line: "${line}"`);
@@ -98,13 +98,17 @@ function humanSizeCaption(n: tree.Node): string {
     size = size / 1024;
     unit++;
   }
-  return `${n.id || ''} (${size.toFixed(1)}${units[unit]})`;
+  const numFmt =
+    unit === 0 && size === Math.floor(size)
+      ? '' + size  // Prefer "1" to "1.0"
+      : size.toFixed(1) + units[unit];
+  return `${n.id || ''} (${numFmt})`;
 }
 
 /** Write contents (utf-8 encoded) to a temp file, returning the path to the file. */
 async function writeToTempFile(contents: string): Promise<string> {
   const filename = tmp.tmpNameSync({prefix: 'webtreemap', postfix: '.html'});
-  await fs.writeFile(filename, contents, { encoding: 'utf-8' });
+  await fs.writeFile(filename, contents, {encoding: 'utf-8'});
   return filename;
 }
 
@@ -122,7 +126,8 @@ async function main() {
     .option('--title [string]', 'title of output HTML')
     .parse(process.argv);
 
-  const lines = args.args.length > 0 ? readLinesFromFiles(args.args) : readLines();
+  const lines =
+    args.args.length > 0 ? readLinesFromFiles(args.args) : readLines();
 
   const node = treeFromLines(await lines);
   const treemapJS = await fs.readFile(__dirname + '/../webtreemap.js', 'utf-8');
