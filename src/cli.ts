@@ -100,7 +100,7 @@ function humanSizeCaption(n: tree.Node): string {
   }
   const numFmt =
     unit === 0 && size === Math.floor(size)
-      ? '' + size  // Prefer "1" to "1.0"
+      ? '' + size // Prefer "1" to "1.0"
       : size.toFixed(1) + units[unit];
   return `${n.id || ''} (${numFmt})`;
 }
