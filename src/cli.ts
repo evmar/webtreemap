@@ -98,7 +98,8 @@ function humanSizeCaption(n: tree.Node): string {
 }
 
 function writeToTempFile(contents: string): string {
-  const filename = tmp.tmpNameSync();
+  const filename = tmp.tmpNameSync({prefix: 'webtreemap', postfix: '.html'});
+  console.log(filename);
   fs.writeFileSync(filename, contents, { encoding: 'utf-8' });
   return filename;
 }
