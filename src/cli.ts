@@ -16,7 +16,9 @@
 
 import {Command} from 'commander';
 import * as fs from 'fs';
+import open from 'open';
 import * as readline from 'readline';
+import * as tmp from 'tmp';
 
 import * as tree from './tree';
 
@@ -95,6 +97,12 @@ function humanSizeCaption(n: tree.Node): string {
   return `${n.id || ''} (${size.toFixed(1)}${units[unit]})`;
 }
 
+function writeToTempFile(contents: string): string {
+  const filename = tmp.tmpNameSync();
+  fs.writeFileSync(filename, contents, { encoding: 'utf-8' });
+  return filename;
+}
+
 async function main() {
   const args = new Command()
     .description(
@@ -141,8 +149,10 @@ body {
 `;
   if (args.output) {
     fs.writeFileSync(args.output, output, {encoding: 'utf-8'});
-  } else {
+  } else if (!process.stdout.isTTY) {
     console.log(output);
+  } else {
+    open(writeToTempFile(output));
   }
 }
 
