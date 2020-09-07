@@ -20,7 +20,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "fmt": "prettier --write src/*.ts demo/*.ts *.md",
     "build": "tsc && webpack -p",
-    "demo": "du -ab node_modules/ | node build/src/cli.js --title 'node_modules for webtreemap' > docs/index.html"
+    "demo": "du -a node_modules/ | awk '{print $1*512 \"\t\" $2}' | node build/src/cli.js --title 'node_modules for webtreemap' > docs/index.html"
   },
   "files": [
     "build/*.js",
