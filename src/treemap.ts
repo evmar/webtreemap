@@ -56,7 +56,7 @@ export function isDOMNode(e: Element): boolean {
 export interface Options {
   padding: [number, number, number, number];
   lowerBound: number;
-  applyMutations(node: Node): void,
+  applyMutations(node: Node): void;
   caption(node: Node): string;
   showNode(node: Node, width: number, height: number): boolean;
   showChildren(node: Node, width: number, height: number): boolean;
