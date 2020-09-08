@@ -19,3 +19,4 @@
 !.vscode/extensions.json
 
 .DS_STORE
+*.log
