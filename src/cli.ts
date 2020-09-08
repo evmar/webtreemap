@@ -156,9 +156,15 @@ body {
 <div id='treemap'></div>
 <script>const data = ${JSON.stringify(node)}</script>
 <script>${treemapJS}</script>
-<script>webtreemap.render(document.getElementById("treemap"), data, {
-  caption: ${humanSizeCaption},
-});</script>
+<script>
+function render() {
+  webtreemap.render(document.getElementById("treemap"), data, {
+    caption: ${humanSizeCaption},
+  });
+}
+window.addEventListener('resize', render);
+render();
+</script>
 `;
   if (args.output) {
     await fs.writeFile(args.output, output, {encoding: 'utf-8'});
