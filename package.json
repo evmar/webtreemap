@@ -1,6 +1,6 @@
 {
-  "name": "webtreemap",
-  "version": "2.0.1",
+  "name": "webtreemap-cli",
+  "version": "2.1.0",
   "description": "treemap visualization",
   "main": "build/src/index.js",
   "bin": {
@@ -41,12 +41,15 @@
     "treemap",
     "visualization"
   ],
-  "author": "Evan Martin <evan.martin@gmail.com>",
+  "authors": [
+    "Evan Martin <evan.martin@gmail.com>",
+    "Dan Vanderkam <danvdk@gmail.com>"
+  ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/evmar/webtreemap/issues"
+    "url": "https://github.com/danvk/webtreemap/issues"
   },
-  "homepage": "https://github.com/evmar/webtreemap#readme",
+  "homepage": "https://github.com/danvk/webtreemap",
   "prettier": {
     "singleQuote": true,
     "trailingComma": "es5",
