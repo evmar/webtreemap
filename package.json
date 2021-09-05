@@ -1,6 +1,6 @@
 {
   "name": "webtreemap-cli",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "treemap visualization",
   "main": "build/src/index.js",
   "bin": {
@@ -29,13 +29,13 @@
     "demo-tsc": "tsc --listFiles | node build/src/cli.js --title 'tsc --listFiles'"
   },
   "files": [
-    "build/*.js",
-    "build/*.d.ts",
+    "build/**/*.js",
+    "build/**/*.d.ts",
     "dist/webtreemap.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evmar/webtreemap.git"
+    "url": "git+https://github.com/danvk/webtreemap.git"
   },
   "keywords": [
     "treemap",
