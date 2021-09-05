@@ -2,10 +2,10 @@
   "name": "webtreemap-cli",
   "version": "2.2.0",
   "description": "treemap visualization",
-  "main": "build/src/index.js",
+  "main": "build/index.js",
   "bin": {
-    "webtreemap": "build/src/cli.js",
-    "treemap": "build/src/cli.js"
+    "webtreemap": "build/cli.js",
+    "treemap": "build/cli.js"
   },
   "dependencies": {
     "commander": "^8.1.0",
@@ -17,6 +17,7 @@
     "@types/moo": "^0.5.5",
     "@types/node": "^14.6.4",
     "@types/tmp": "^0.2.0",
+    "concurrently": "^6.2.1",
     "prettier": "^2.3.2",
     "typescript": "^4.4.2",
     "webpack": "^5.52.0",
@@ -24,11 +25,13 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fmt": "prettier --write src/*.ts demo/*.ts *.md",
+    "fmt": "prettier --write src/*.ts *.md",
     "build": "tsc && webpack --mode=production",
-    "demo": "du -a node_modules/ | awk '{print $1*512 \"\t\" $2}' | node build/src/cli.js --title 'node_modules for webtreemap'",
-    "demo:tsc": "tsc --listFiles | node build/src/cli.js --title 'tsc --listFiles'",
-    "demo:json": "node build/src/cli.js json-space package.json"
+    "watch": "concurrently 'tsc --watch' 'webpack --watch --mode=development'",
+    "demo": "node build/cli.js du .",
+    "demo:tsc": "tsc --listFiles | node build/cli.js --title 'tsc --listFiles'",
+    "demo:find": "find . -type f | node build/cli.js",
+    "demo:json": "node build/cli.js du:json package.json"
   },
   "files": [
     "build/**/*.js",

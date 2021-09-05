@@ -19,35 +19,11 @@
 import {Command, Option} from 'commander';
 import {promises as fs} from 'fs';
 import open from 'open';
-import * as readline from 'readline';
-import * as tmp from 'tmp';
+import { processDir } from './processors/du';
 
 import {processJsonSpaceUsage} from './processors/json';
 import * as tree from './tree';
-
-/** Reads stdin into an array of lines. */
-async function readLines() {
-  return new Promise<string[]>((resolve, reject) => {
-    const rl = readline.createInterface({input: process.stdin});
-    const lines: string[] = [];
-    rl.on('line', line => {
-      lines.push(line);
-    });
-    rl.on('close', () => {
-      resolve(lines);
-    });
-  });
-}
-
-/** Read an array of lines from a list of files */
-async function readLinesFromFiles(files: string[]) {
-  let lines: string[] = [];
-  for (const file of files) {
-    const contents = await fs.readFile(file, 'utf-8');
-    lines = lines.concat(contents.split('\n'));
-  }
-  return lines;
-}
+import { collectInputFromArgs, ProcessorFn, writeToTempFile } from './util';
 
 function parseLine(line: string): [string, number] {
   if (line.match(/^\s*$/)) {
@@ -93,8 +69,9 @@ function treeFromRows(rows: readonly [string, number][]): tree.Node {
   return node;
 }
 
-function processSizePathPairs(lines: readonly string[]): [string, number][] {
-  return lines.map(parseLine);
+const processSizePathPairs: ProcessorFn = async args => {
+  const text = await collectInputFromArgs(args);
+  return text.split('\n').map(parseLine);
 }
 
 function humanSizeCaption(n: tree.Node): string {
@@ -110,13 +87,6 @@ function humanSizeCaption(n: tree.Node): string {
       ? '' + size // Prefer "1" to "1.0"
       : size.toFixed(1) + units[unit];
   return `${n.id || ''} (${numFmt})`;
-}
-
-/** Write contents (utf-8 encoded) to a temp file, returning the path to the file. */
-async function writeToTempFile(contents: string): Promise<string> {
-  const filename = tmp.tmpNameSync({prefix: 'webtreemap', postfix: '.html'});
-  await fs.writeFile(filename, contents, {encoding: 'utf-8'});
-  return filename;
 }
 
 function formatText(rootNode: tree.Node): string {
@@ -155,18 +125,18 @@ async function main() {
 
   const args = program.opts();
   let processor = processSizePathPairs;
-  if (program.args[0] === 'json-space') {
+  const arg0 = program.args[0];
+  if (arg0 === 'du') {
+    processor = processDir;
+    program.args.shift();
+  } else if (arg0 === 'du:json') {
     processor = processJsonSpaceUsage;
     program.args.shift();
   }
 
-  const lines = await (program.args.length > 0
-    ? readLinesFromFiles(program.args)
-    : readLines());
-
-  const rows = processor(lines);
+  const rows = await processor(program.args);
   const node = treeFromRows(rows);
-  const treemapJS = await fs.readFile(__dirname + '/../webtreemap.js', 'utf-8');
+  const treemapJS = await fs.readFile(__dirname + '/webtreemap.js', 'utf-8');
   const title = args.title || 'webtreemap';
 
   let outputFormat = args.format as OutputFormat | undefined;

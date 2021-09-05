@@ -1,5 +1,5 @@
-import * as fs from 'fs';
 import moo from 'moo';
+import { collectInputFromArgs, ProcessorFn } from '../util';
 
 declare module 'moo' {
   // It's convenient to expose this
@@ -155,8 +155,9 @@ export function leafify(counts: FileSizeMap): FileSizeMap {
   return counts;
 }
 
-export function processJsonSpaceUsage(lines: readonly string[]): [string, number][] {
-  lexer.reset(lines.join('\n'));
+export const processJsonSpaceUsage: ProcessorFn = async args => {
+  const text = await collectInputFromArgs(args);
+  lexer.reset(text);
   parseValue(nextSkipWhitepace(lexer), lexer);
   leafify(sizes);
   return Object.entries(sizes);
