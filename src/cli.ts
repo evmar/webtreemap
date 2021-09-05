@@ -113,7 +113,7 @@ async function writeToTempFile(contents: string): Promise<string> {
 }
 
 async function main() {
-  const args = new Command()
+  const program = new Command()
     .description(
       `Generate web-based treemaps.
 
@@ -126,8 +126,9 @@ async function main() {
     .option('--title [string]', 'title of output HTML')
     .parse(process.argv);
 
+  const args = program.opts();
   const lines =
-    args.args.length > 0 ? readLinesFromFiles(args.args) : readLines();
+    program.args.length > 0 ? readLinesFromFiles(program.args) : readLines();
 
   const node = treeFromLines(await lines);
   const treemapJS = await fs.readFile(__dirname + '/../webtreemap.js', 'utf-8');
