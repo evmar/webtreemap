@@ -16,12 +16,13 @@
  * limitations under the License.
  */
 
-import {Command} from 'commander';
+import {Command, Option} from 'commander';
 import {promises as fs} from 'fs';
 import open from 'open';
 import * as readline from 'readline';
 import * as tmp from 'tmp';
 
+import {processJsonSpaceUsage} from './processors/json';
 import * as tree from './tree';
 
 /** Reads stdin into an array of lines. */
@@ -69,9 +70,9 @@ function parseLine(line: string): [string, number] {
   return [line, 1];
 }
 
-/** Constructs a tree from an array of lines. */
-function treeFromLines(lines: string[]): tree.Node {
-  let node = tree.treeify(lines.map(parseLine));
+/** Constructs a tree from an array of path / size pairs. */
+function treeFromRows(rows: readonly [string, number][]): tree.Node {
+  let node = tree.treeify(rows);
 
   // If there's a common empty parent, skip it.
   if (node.id === undefined && node.children && node.children.length === 1) {
@@ -90,6 +91,10 @@ function treeFromLines(lines: string[]): tree.Node {
   tree.flatten(node);
 
   return node;
+}
+
+function processSizePathPairs(lines: readonly string[]): [string, number][] {
+  return lines.map(parseLine);
 }
 
 function humanSizeCaption(n: tree.Node): string {
@@ -114,6 +119,19 @@ async function writeToTempFile(contents: string): Promise<string> {
   return filename;
 }
 
+function formatText(rootNode: tree.Node): string {
+  const lines: string[] = [];
+  const help = (node: tree.Node, prefix: string) => {
+    const path = prefix + (node.id ?? '');
+    lines.push(`${node.size}\t${path}`);
+    node.children?.forEach(child => help(child, path + '/'));
+  };
+  help(rootNode, '');
+  return lines.join('\n');
+}
+
+type OutputFormat = 'html' | 'json' | 'text';
+
 async function main() {
   const program = new Command()
     .description(
@@ -125,18 +143,45 @@ async function main() {
 `
     )
     .option('-o, --output [path]', 'output to file, not stdout')
+    .addOption(
+      new Option('-f, --format [format]', 'Set output format').choices([
+        'html',
+        'json',
+        'text',
+      ])
+    )
     .option('--title [string]', 'title of output HTML')
     .parse(process.argv);
 
   const args = program.opts();
-  const lines =
-    program.args.length > 0 ? readLinesFromFiles(program.args) : readLines();
+  let processor = processSizePathPairs;
+  if (program.args[0] === 'json-space') {
+    processor = processJsonSpaceUsage;
+    program.args.shift();
+  }
 
-  const node = treeFromLines(await lines);
+  const lines = await (program.args.length > 0
+    ? readLinesFromFiles(program.args)
+    : readLines());
+
+  const rows = processor(lines);
+  const node = treeFromRows(rows);
   const treemapJS = await fs.readFile(__dirname + '/../webtreemap.js', 'utf-8');
   const title = args.title || 'webtreemap';
 
-  let output = `<!doctype html>
+  let outputFormat = args.format as OutputFormat | undefined;
+  if (!outputFormat) {
+    const output = args.output as string | undefined;
+    outputFormat = output?.endsWith('.json')
+      ? 'json'
+      : output?.endsWith('.txt')
+      ? 'text'
+      : 'html';
+  }
+
+  let output: string;
+  if (outputFormat === 'html') {
+    output = `<!doctype html>
 <title>${title}</title>
 <style>
 html, body {
@@ -169,9 +214,19 @@ window.addEventListener('resize', render);
 render();
 </script>
 `;
+  } else if (outputFormat === 'json') {
+    output = JSON.stringify(node, null, 2);
+  } else if (outputFormat === 'text') {
+    output = formatText(node);
+  } else {
+    throw new Error(
+      `Unknown output format: ${outputFormat}, expected "html" or "json".`
+    );
+  }
+
   if (args.output) {
     await fs.writeFile(args.output, output, {encoding: 'utf-8'});
-  } else if (!process.stdout.isTTY) {
+  } else if (!process.stdout.isTTY || outputFormat !== 'html') {
     console.log(output);
   } else {
     open(await writeToTempFile(output));

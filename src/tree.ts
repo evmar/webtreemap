@@ -35,7 +35,7 @@ export interface Node {
  * treeify converts an array of [path, size] pairs into a tree.
  * Paths are /-delimited ids.
  */
-export function treeify(data: Array<[string, number]>): Node {
+export function treeify(data: readonly [string, number][]): Node {
   const tree: Node = {size: 0};
   for (const [path, size] of data) {
     const parts = path.replace(/\/$/, '').split('/');
